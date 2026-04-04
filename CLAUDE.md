@@ -65,6 +65,21 @@ FASE 5: ANÁLISE → Anubis (métricas)
 - SEMPRE registre cada ação em `canais/{canal}/_config/pipeline.log` com timestamp
 - NUNCA publique como `public` sem confirmação — Caronte sempre faz upload como `private`
 - Use linguagem direta e objetiva
+- SEMPRE gere output em formato **PDF** (nunca .md ou .txt como entrega final)
+- SEMPRE faça upload do PDF para a VPS e forneça o link HTTP para Snayder
+- SEMPRE sincronize arquivos gerados com a VPS via paramiko/sftp
+
+### Entrega de Output (OBRIGATÓRIO para TODOS os agentes)
+Todo agente DEVE seguir este fluxo ao finalizar seu trabalho:
+1. Gerar o arquivo PDF com visual da agência (cores: vermelho #8B0000, dourado #C5A355)
+2. Salvar localmente em `canais/{canal}/videos/video-NNN-{slug}/{pasta}/`
+3. Fazer upload para VPS via sftp (paramiko)
+4. Fornecer link HTTP: `http://31.97.165.64:3456/canais/{canal}/videos/video-NNN-{slug}/{pasta}/{arquivo}.pdf`
+5. Registrar no `pipeline.log`
+
+**URL base da VPS:** `http://31.97.165.64:3456/`
+**Caminho VPS:** `/opt/agencia/`
+**SSH:** `root@31.97.165.64` (key: `~/.ssh/id_ed25519`)
 
 ### Comandos Disponíveis
 
