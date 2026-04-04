@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  agencia:
+    build: .
+    container_name: abismo-criativo
+    restart: unless-stopped
+    ports:
+      - "3456:3456"
+    volumes:
+      - agencia-data:/app/agencia/canais
+    environment:
+      - NODE_ENV=production
+    networks:
+      - agencia-net
+    labels:
+      - "com.abismo-criativo.role=dashboard"
+      - "com.abismo-criativo.ceo=snayder"
+
+volumes:
+  agencia-data:
+    driver: local
+
+networks:
+  agencia-net:
+    driver: bridge
+    name: abismo-criativo-network

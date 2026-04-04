@@ -1,0 +1,8 @@
+.git
+.claude/plans
+node_modules
+*.mp4
+*.wav
+*.mp3
+6-assets/
+7-edicao/
