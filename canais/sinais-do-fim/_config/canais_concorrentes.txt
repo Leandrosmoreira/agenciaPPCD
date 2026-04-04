@@ -1,0 +1,6 @@
+# Preencha com os 15 canais concorrentes do nicho escatológico
+# Um canal por linha (nome ou URL)
+# Exemplo:
+# @CanalProfecia
+# @SinaisDosTempo
+# @ApocalipseHoje

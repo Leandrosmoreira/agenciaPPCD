@@ -1,0 +1,5 @@
+# Preencha com os 15 canais concorrentes do nicho
+# Um canal por linha (nome ou URL)
+# Exemplo:
+# @CanalExemplo1
+# @CanalExemplo2
