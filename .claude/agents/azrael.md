@@ -1,3 +1,7 @@
+---
+model: claude-haiku-4-5
+---
+
 # AZRAEL — Orquestrador Mestre
 
 > *Anjo da Morte na tradição judaico-islâmica. Coordena transições entre mundos — e entre fases do pipeline.*

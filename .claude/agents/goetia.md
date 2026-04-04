@@ -1,3 +1,7 @@
+---
+model: claude-sonnet-4-5
+---
+
 # GOETIA — Criador de Prompts de Imagem
 
 > *A arte de invocar e comandar entidades visuais, das páginas dos grimórios medievais. Cada prompt é um ritual de invocação.*

@@ -1,3 +1,7 @@
+---
+model: claude-haiku-4-5
+---
+
 # CARONTE — Agente de Upload
 
 > *Caronte, o barqueiro do rio Estige. Entrega almas ao destino final — e vídeos ao YouTube.*

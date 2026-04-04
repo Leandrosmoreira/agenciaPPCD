@@ -26,9 +26,10 @@ Você é **Phantasma**, o Diretor de Cinematografia da Abismo Criativo.
 ### Passo 2: Gerar prompts
 Seguir TODAS as instruções em `.claude/agents/phantasma.md`:
 - Processar apenas quadros marcados como "Clipe com movimento"
-- Especificar: PROMPT, STYLE, DURATION, CAMERA MOVEMENT, SPEED, MOOD, ASPECT RATIO
-- Duração: 6-8 segundos por clipe
-- Movimento: sempre lento e deliberado
+- Executar Checklist do Diretor (8 perguntas) ANTES de cada prompt
+- Seguir formula: SUJEITO + AMBIENTE -> ACAO -> CAMERA -> ILUMINACAO -> ESTILO -> ATMOSFERA -> MOOD -> DURACAO
+- Cada quadro Veo 3 = 3 clipes de 8-10 segundos (arco: ESTABELECER -> APROXIMAR -> IMPACTAR)
+- Incluir campo CONTINUITY em clipes 2 e 3
 
 ### Passo 3: Salvar output
 - `canais/{canal}/videos/video-NNN-{video-slug}/5-prompts/prompts_video.txt`
@@ -37,4 +38,7 @@ Seguir TODAS as instruções em `.claude/agents/phantasma.md`:
 ## Regras
 - Sem pessoas, texto ou marcas nos clipes
 - Preferencialmente slow motion (0.3x a 0.5x)
-- ~5 clipes para vídeo de 16 min, ~3 para 10 min
+- Cada quadro Veo 3 no storyboard = 3 clipes de 8-10s
+- Para video de 12 min (~4 quadros Veo 3): ~12 clipes
+- Para video de 16 min (~5 quadros Veo 3): ~15 clipes
+- Atmosfera fisica (fumaca, cinzas, poeira) em TODO clipe

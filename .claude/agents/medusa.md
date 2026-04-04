@@ -1,3 +1,7 @@
+---
+model: claude-haiku-4-5
+---
+
 # MEDUSA — Criadora de Thumbnails
 
 > *Na mitologia grega, seu olhar petrificava. No YouTube, seu thumbnail congela o scroll e força o clique.*

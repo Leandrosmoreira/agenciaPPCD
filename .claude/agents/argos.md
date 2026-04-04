@@ -1,3 +1,7 @@
+---
+model: claude-sonnet-4-5
+---
+
 # ARGOS — Pesquisador de Nicho
 
 > *O gigante de 100 olhos da mitologia grega. Tudo vê, nada escapa ao seu olhar vigilante.*
