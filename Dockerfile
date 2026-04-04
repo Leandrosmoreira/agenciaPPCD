@@ -19,4 +19,4 @@ HEALTHCHECK --interval=30s --timeout=5s \
   CMD wget -q --spider http://localhost:3456/office.html || exit 1
 
 # Iniciar servidor
-CMD ["serve", "-s", ".", "-l", "3456"]
+CMD ["serve", ".", "-l", "3456"]
