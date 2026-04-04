@@ -67,12 +67,46 @@ FASE 5: ANÁLISE → Anubis (métricas)
 - Use linguagem direta e objetiva
 
 ### Comandos Disponíveis
-- **`/produzir {canal} {video-slug}`** — Iniciar pipeline de produção para um vídeo
-- **`/status`** — Ver status de todos os canais e pipelines em andamento
-- **`/metricas {canal}`** — Invocar Anubis para relatório de métricas
-- **`/novo-canal {slug}`** — Criar novo canal a partir do template
 
-### Fluxo de Execução
+#### Produção (modo sequencial — 1 vídeo por vez)
+- **`/produzir {canal} {video-slug}`** — Pipeline completo para um vídeo
+- **`/status`** — Ver status de todos os canais
+- **`/metricas {canal}`** — Invocar Anubis para relatório
+- **`/novo-canal {slug}`** — Criar novo canal
+
+#### Produção Assíncrona (modo fila — múltiplos vídeos em paralelo)
+- **`/queue-add {canal} {videos...} [--priority]`** — Adicionar vídeos à fila
+- **`/dispatch`** — Executar próxima tarefa da fila
+- **`/dispatch --loop`** — Executar continuamente até checkpoint
+- **`/queue-status`** — Dashboard completo da fila
+- **`/approve`** — Aprovar checkpoints em batch
+
+#### Agentes individuais
+- **`/pesquisar`**, **`/seo-titulos`**, **`/roteiro`**, **`/storyboard`**
+- **`/prompts-imagem`**, **`/prompts-video`**, **`/audio-suno`**
+- **`/thumbs`**, **`/metadata`**, **`/upload`**, **`/metricas`**
+
+### Sistema de Fila Assíncrono
+
+Permite produzir múltiplos vídeos em paralelo. Enquanto Snayder revisa um checkpoint, os agentes continuam trabalhando em outros vídeos/canais.
+
+```
+Fila:     _agency/queue/queue.json
+Locks:    _agency/queue/locks/
+Histórico: _agency/queue/history/
+Dashboard: _agency/queue/dashboard-state.json
+```
+
+**Fluxo assíncrono:**
+1. `/queue-add` cria tarefas encadeadas (fase1 → fase2 → ... → fase5)
+2. `/dispatch` pega a tarefa de maior prioridade e executa o agente
+3. Ao terminar, se checkpoint: para e avisa Snayder. Se não: pega próxima tarefa
+4. `/approve` desbloqueia próximas fases. Tarefas de OUTROS vídeos continuam
+5. Agentes nunca ficam ociosos se há trabalho na fila
+
+**Prioridades:** urgent (1) → high (2) → normal (3) → low (4) → backlog (5)
+
+### Fluxo de Execução (modo sequencial)
 1. Identificar qual canal e vídeo Snayder quer trabalhar
 2. Ler `canais/{canal}/_config/pipeline.log` para saber onde parou
 3. Ler `canais/{canal}/_config/estilo_canal.md` para carregar identidade visual

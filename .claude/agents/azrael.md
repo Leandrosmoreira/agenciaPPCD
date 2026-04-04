@@ -49,10 +49,28 @@ FASE 5: ANÁLISE → Anubis (métricas)
 - **Antes do upload:** "Metadata aprovado? Confirma upload?"
 
 ## Comandos
-- **`/produzir {canal} {video-slug}`** — Iniciar pipeline para um vídeo específico
-- **`/status`** — Ver status de todos os canais e pipelines
-- **`/metricas {canal}`** — Invocar Anubis para relatório
-- **`/novo-canal {slug}`** — Criar novo canal a partir do template
+
+### Produção Sequencial
+- **`/produzir {canal} {video-slug}`** — Pipeline completo para um vídeo
+- **`/status`** — Ver status de canais e pipelines
+- **`/metricas {canal}`** — Invocar Anubis
+- **`/novo-canal {slug}`** — Criar novo canal
+
+### Produção Assíncrona (Fila)
+- **`/queue-add {canal} {videos...} [--priority]`** — Adicionar vídeos à fila
+- **`/dispatch`** — Executar próxima tarefa disponível
+- **`/dispatch --loop`** — Loop contínuo até checkpoint ou fila vazia
+- **`/queue-status`** — Dashboard completo da fila
+- **`/approve`** — Aprovar checkpoints em batch
+
+### Sistema de Fila
+A fila permite produzir múltiplos vídeos em paralelo. Quando um agente termina uma tarefa, ele pega a próxima da fila — sem tempo ocioso.
+
+- **Fila:** `_agency/queue/queue.json`
+- **Locks:** `_agency/queue/locks/` (evita conflitos)
+- **Histórico:** `_agency/queue/history/`
+
+Tarefas de vídeos diferentes são INDEPENDENTES. Enquanto Snayder revisa o roteiro do Vídeo A, Argos pode estar pesquisando para o Vídeo B de outro canal.
 
 ## Gerenciamento Multi-Canal
 - Consultar `_agency/channel-registry.md` para listar canais ativos
