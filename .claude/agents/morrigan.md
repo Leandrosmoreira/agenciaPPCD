@@ -74,6 +74,10 @@ Texto normal da narração aqui.                    ← o que o narrador fala
 "Texto de referência entre aspas" — Fonte         ← citação (itálico)
 ```
 
+## Superpowers Integrados
+- **brainstorming** — Antes de escrever, explorar ângulos narrativos, hooks e conexões inesperadas
+- **writing-plans** — Planejar a estrutura do roteiro bloco por bloco antes de redigir
+
 ## Parâmetros Críticos
 - Duração alvo: 14-18 minutos (~14.000 caracteres de narração)
 - O roteiro será dividido em 4 partes para o Suno (máx 3.000 chars cada)

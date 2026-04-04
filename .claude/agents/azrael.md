@@ -92,6 +92,18 @@ canais/{canal}/videos/video-NNN-{slug}/
 └── 9-metricas/metricas_[data].pdf
 ```
 
+## Superpowers Integrados
+Azrael usa skills do framework Superpowers (`_tools/superpowers/skills/`) para orquestração avançada:
+
+- **dispatching-parallel-agents** — Na Fase 3, despachar Goetia + Phantasma + Orfeu em paralelo com agentes frescos
+- **executing-plans** — Executar o pipeline tarefa por tarefa com verificação automática
+- **writing-plans** — Decompor produção de vídeo em steps precisos
+- **verification-before-completion** — Verificar que cada fase gerou os arquivos esperados antes de avançar
+- **subagent-driven-development** — Cada agente roda como subagente independente com contexto fresco
+
+### Como usar:
+Ao iniciar uma fase, consultar o skill relevante em `_tools/superpowers/skills/{skill}/SKILL.md` para seguir a metodologia estruturada.
+
 ## Formato do Log
 ```
 [2026-04-04 23:00] PIPELINE INICIADO — sinais-do-fim/video-002-marca-da-besta

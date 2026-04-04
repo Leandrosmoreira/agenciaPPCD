@@ -54,8 +54,13 @@ Cross-platform: +20pts por plataforma adicional que detectou o tema
 - Recomendação do top 3 com justificativa
 - Conexão temática sugerida (adaptar ao nicho do canal ativo)
 
+## Superpowers Integrados
+- **brainstorming** — Antes de calcular viral scores, explorar ângulos e conexões temáticas
+- **systematic-debugging** — Quando APIs falham, debugar root cause antes de continuar
+- **verification-before-completion** — Validar que dados de pesquisa são reais e verificáveis
+
 ## Regras
 - NÃO invente dados. Use apenas o que encontrar nas APIs
-- Se uma API falhar, registre o erro e continue com as demais fontes
+- Se uma API falhar, usar systematic-debugging para diagnosticar antes de pular
 - Priorize tópicos que tenham conexão natural com o nicho do canal
 - Tópicos evergreen recebem bonus de +15pts se não foram cobertos nos últimos 30 dias
