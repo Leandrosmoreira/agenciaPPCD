@@ -57,6 +57,7 @@ canais/*/videos/*/8-publicacao/thumbs*.png
 # ─── Logs e temporários ───
 *.log.tmp
 render.log
+_agency/cron_logs/
 temp_*.m4a
 temp_*.mp3
 temp_*.wav
