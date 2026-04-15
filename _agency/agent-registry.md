@@ -8,12 +8,13 @@
 | **Morrigan** | Criadora de Roteiro | canal-específico | `morrigan.md` | 2 |
 | **Nyx** | Criadora de Storyboard | canal-específico | `nyx.md` | 2 |
 | **Goetia** | Prompts de Imagem (Banana 2.0) | canal-específico | `goetia.md` | 3 |
-| **Phantasma** | Prompts de Vídeo (Veo 3) | canal-específico | `phantasma.md` | 3 |
+| **Phantasma** | Editor Cinematográfico (MoviePy) | canal-específico | `phantasma.md` | 3.5 |
 | **Orfeu** | Locutor + Trilha (Suno) | canal-específico | `orfeu.md` | 3 |
 | **Medusa** | Criadora de Thumbnails | canal-específico | `medusa.md` | 4 |
 | **Sibila** | Metadata YouTube | compartilhado | `sibila.md` | 4 |
 | **Caronte** | Agente de Upload | compartilhado | `caronte.md` | 4 |
 | **Anubis** | Analista de Métricas | compartilhado | `anubis.md` | 5 |
+| **Midas** | Analista Financeiro | agência | `midas.md` | Transversal |
 
 ## Tipos de Agente
 - **agência**: Opera no nível da agência, acima dos canais

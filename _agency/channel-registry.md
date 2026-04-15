@@ -2,7 +2,8 @@
 
 | Slug | Nome do Canal | Nicho | Status | Vídeos | Frequência |
 |------|--------------|-------|--------|--------|------------|
-| `sinais-do-fim` | Sinais do Fim — Passagens do Apocalipse | Escatologia / Dark bíblico | ativo | 6 planejados | semanal |
+| `sinais-do-fim` | Sinais do Fim — Passagens do Apocalipse | Escatologia / Dark bíblico | ativo | 12 videos | semanal |
+| `rewound-america` | Rewound America | Nostalgia americana 70s-00s (EN) | setup | 4 planejados | 2x/semana |
 
 ## Como Adicionar Novo Canal
 1. Executar `/novo-canal {slug}` ou copiar `_templates/channel/` para `canais/{slug}/`

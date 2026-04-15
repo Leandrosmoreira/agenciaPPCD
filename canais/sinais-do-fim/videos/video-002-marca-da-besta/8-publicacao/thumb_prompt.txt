@@ -1,0 +1,39 @@
+MEDUSA — PROMPT DE THUMBNAIL
+Canal: Sinais do Fim | Video: video-002-marca-da-besta
+Data: 2026-04-08
+Ferramenta: Midjourney v7
+
+================================================================================
+PROMPT PRINCIPAL (Midjourney v7 — /imagine)
+================================================================================
+
+/imagine prompt: colorful vivid robed prophet holding a glowing crimson hand bearing the number 666 in golden fire, dramatic chiaroscuro lighting, foreground figure in rich ochre crimson and gold, black and white desaturated modern cityscape with surveillance cameras and digital payment terminals in background, floating ash embers and fire particles, strong contrast vibrant biblical subject versus monochrome modern world, 35mm film grain, anamorphic lens flares, space for text overlay on right third, epic surreal prophetic apocalyptic atmosphere, YouTube thumbnail composition --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847250 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+================================================================================
+VARIACAO A — Foco no chip/mao (mais tecnologico)
+================================================================================
+
+/imagine prompt: colorful vivid medieval angel with sorrowful expression watching a human hand receiving a glowing microchip implant, foreground in rich crimson and gold tones, black and white desaturated background with rows of people in a cashless payment line, holographic QR codes, fire glow and floating embers, chiaroscuro dramatic lighting from above, strong vibrant foreground versus monochrome background contrast, 35mm film grain, space for text overlay right side, apocalyptic prophetic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847251 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+================================================================================
+VARIACAO B — Foco no 666/simbolo (mais impactante)
+================================================================================
+
+/imagine prompt: colorful vivid prophet in crimson robes holding open ancient scroll with glowing 666 symbol radiating golden fire, shocked expression, foreground richly colored biblical figure, black and white desaturated modern parliament building and bank towers in background, fire embers floating, dramatic side lighting, ornate decorative borders, aged parchment texture, 35mm film grain, anamorphic lens flares, space for bold text overlay on right side --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847252 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+================================================================================
+NEGATIVE PROMPT (adicionar em todas)
+================================================================================
+
+--no text, watermark, logo, anime, cartoon, cheerful, bright colors in foreground,
+blurry, low quality, deformed hands, extra fingers, modern clothing on biblical figure
+
+================================================================================
+RECOMENDACAO MEDUSA
+================================================================================
+
+Usar PROMPT PRINCIPAL para thumbnail definitiva.
+Variacao A como fallback se o prompt principal nao gerar boa expressao facial.
+Variacao B se Snayder preferir centralizar o simbolo 666 como elemento dominante.
+
+Apos gerar no MJ: escolher a imagem com melhor espaco no lado direito para o texto overlay.

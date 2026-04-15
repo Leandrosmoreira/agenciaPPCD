@@ -1,0 +1,493 @@
+STORYBOARD — VIDEO-008 — SINAIS FÍSICOS DO APOCALIPSE
+Título: "SINAIS FÍSICOS DO APOCALIPSE? Céu Vermelho, Corvos e Chuva de Sangue"
+Canal: Sinais do Fim — Passagens do Apocalipse
+Duração: 10-12 minutos | 50 imagens MJ (10 por parte Suno) + 4 telas texto
+Agente: Nyx | Data: 2026-04-11
+
+PADRÃO FIXO:
+  10 imagens Midjourney por parte Suno
+  Todas as imagens = estáticas (Midjourney) → Phantasma anima via MoviePy
+  Phantasma color grades: biblical | apocalypse | revelation
+  Seeds: 847200–847249 (sequencial)
+
+ASSINATURA VISUAL:
+  Foreground: figura bíblica/medieval COLORIDA (carmesim, dourado, ocre)
+  Background: cenário moderno P&B (desaturado)
+  Elementos fixos: brasas flutuantes, chiaroscuro, textura 35mm
+  Parâmetros MJ: --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20
+  --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750
+
+================================================================================
+PARTE SUNO 1 — 10 imagens [0:00 – ~2:30]
+Cobre: GANCHO + CONTEXTO (eventos mundiais)
+================================================================================
+
+[TELA INICIAL — não MJ]
+TIPO: Tela preta (Phantasma) | DURAÇÃO: 3s | TRANSIÇÃO: smash_cut
+NOTA: Abertura. Silêncio absoluto. Zero elementos.
+
+---
+
+Q01 — seed 847200
+CENA: Vista aérea de Tel Aviv P&B. Milhares de corvos formando nuvem densa. Profeta medieval carmesim de costas, observando. Brasas caindo.
+NARRAÇÃO: "Numa semana de outubro, em Tel Aviv, milhares de corvos pousaram juntos. Em silêncio."
+PHANTASMA | 8s | apocalypse | fade_black(2s desde preto)
+NOTA: Ken Burns zoom_in. Primeiro impacto — imagem mais forte do gancho.
+
+Q02 — seed 847201
+CENA: Chuva avermelhada sobre cidade europeia P&B. Anjo dourado/carmesim com taça vertendo vermelho. Poças vermelhas no asfalto.
+NARRAÇÃO: "Na mesma semana. Chuvas vermelhas foram registradas em três países diferentes."
+PHANTASMA | 7s | revelation | smash_cut
+NOTA: Ken Burns zoom_out. Revelar escala da chuva.
+
+Q03 — seed 847202
+CENA: Céu do interior do Brasil P&B — completamente vermelho sangue. Fazenda/sertão desaturado ao fundo. Profeta medieval em ocre/dourado olhando para cima.
+NARRAÇÃO: "Na mesma semana. O céu do interior do Brasil ficou cor de sangue por quatro horas."
+PHANTASMA | 7s | apocalypse | crossfade(0.8s)
+NOTA: Ken Burns pan esq→dir. Extensão total do céu vermelho.
+
+Q04 — seed 847203
+CENA: Floresta amazônica P&B coberta por escuridão avermelhada. Sol quase invisível. Profeta em manto escarlate apontando para o céu.
+NARRAÇÃO: "Em setembro de 2019, o estado do Amazonas amanheceu coberto por uma escuridão avermelhada. 'O dia que o sol sangrou.'"
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_out revelador.
+
+Q05 — seed 847204
+CENA: Skyline californiana P&B sob céu laranja profundo. Cavaleiro do Apocalipse em vermelho vívido sobre cavalo, espada erguida.
+NARRAÇÃO: "Em 2020, os céus da Califórnia ficaram de um laranja profundo por dias inteiros."
+PHANTASMA | 10s | apocalypse | smash_cut
+NOTA: Ken Burns zoom_in no céu laranja. Cavaleiro colorido domina.
+
+Q06 — seed 847205
+CENA: Tempestade de areia vermelha engolindo cidade do Oriente Médio P&B. Anjo dourado de costas, asas abertas contra a tempestade.
+NARRAÇÃO: "Em 2022, países do Oriente Médio. Tempestades de areia pintaram o horizonte de vermelho sangue."
+PHANTASMA | 10s | revelation | crossfade(1.0s)
+NOTA: Ken Burns zoom_out para escala total da tempestade.
+
+Q07 — seed 847206
+CENA: Vista de Lisboa/Portugal P&B com chuva avermelhada fina. Ruas molhadas com reflexo vermelho. Monge medieval em carmesim no centro.
+NARRAÇÃO: "Em 2023, partes da Europa registraram chuvas que deixaram marcas avermelhadas no asfalto."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nas poças vermelhas. Detalhe visceral.
+
+Q08 — seed 847207
+CENA: Laboratório científico P&B com telas de dados atmosféricos. Profeta medieval em âmbar segurando pergaminho aberto. Contraste ciência vs profecia.
+NARRAÇÃO: "A ciência explica cada um separadamente. Queimadas. Partículas. Poeira do Saara. Refração da luz solar."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns pan sutil. Câmera "hesita" no pergaminho.
+
+Q09 — seed 847208
+CENA: Sala de servidores/data center P&B com hologramas de mapas atmosféricos. Profeta medieval em dourado tocando as telas de dados como se fossem profecias.
+NARRAÇÃO: "Explicação científica, completa, documentada, verificável."
+PHANTASMA | 8s | apocalypse | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nas telas. Profeta colorido vs tecnologia P&B.
+
+Q10 — seed 847209
+CENA: Close em dois lados: esquerda — cientista P&B analisando dados; direita — profeta colorido com pergaminho. Divisão diagonal no centro da imagem.
+NARRAÇÃO: "Mas existe uma pergunta que a ciência não faz."
+PHANTASMA | 6s | revelation | fade_black(0.5s)
+NOTA: Ken Burns pan direita→esquerda lento. Setup para a tela de texto que segue.
+
+[TEXTO PIVÔ — Phantasma TextClip]
+TIPO: Texto (cor #C5A355 dourado) sobre preto | DURAÇÃO: 6s | TRANSIÇÃO: fade_black
+TEXTO: "MAS EXISTE UMA PERGUNTA QUE A CIÊNCIA NÃO FAZ"
+NOTA: fadein 0.5s. Fica sozinho 3s. SYNC BEAT.
+
+================================================================================
+PARTE SUNO 2 — 10 imagens [~2:30 – ~5:00]
+Cobre: CONTEXTO (Joel / as 3 perguntas) + DESENVOLVIMENTO início (Sinal 1: Céu Vermelho)
+================================================================================
+
+Q11 — seed 847210
+CENA: Profeta Joel em manto azul real com bordas douradas. Pergaminho luminoso aberto. Fundo P&B com colunas de fogo, fumaça e sangue no céu.
+NARRAÇÃO: "Por que esses fenômenos se intensificaram precisamente neste período? Por que acontecem simultaneamente em continentes diferentes?"
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in lento no pergaminho. Revelar o profeta gradualmente.
+
+Q12 — seed 847211
+CENA: Manuscrito bíblico antigo P&B com texto hebraico visível. Mão do profeta escrevendo. Luz divina iluminando a página. Brasas flutuando.
+NARRAÇÃO: "E por que um profeta judeu, oitocentos anos antes de Cristo, descreveu essa sequência exata com detalhe cirúrgico?"
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in na escrita. Solene.
+
+Q13 — seed 847212
+CENA: Joel de frente, sério, com pergaminho luminoso aberto, versículos brilhando. Quatro símbolos ao fundo P&B (sangue, fogo, fumaça, trevas). Luz chiaroscuro.
+NARRAÇÃO: "'Mostrarei prodígios no céu e na terra: sangue, fogo e colunas de fumaça. O sol em trevas e a lua em sangue.' — Joel 2:30-31"
+PHANTASMA | 12s | biblical | fade_black(0.5s) | OVERLAY: "Joel 2:30-31" em dourado
+NOTA: Ken Burns zoom_in no pergaminho. Momento mais reverente da parte 2.
+
+Q14 — seed 847213
+CENA: Quatro painéis/vitrais medievais representando: sangue (vermelho), fogo (laranja), fumaça (cinza vívido), trevas (negro profundo). Anjo dourado no centro conectando os quatro.
+NARRAÇÃO: "Sangue no céu. Fogo. Fumaça. Trevas."
+PHANTASMA | 8s | apocalypse | smash_cut
+NOTA: Ken Burns zoom_in progressivo nos vitrais. Frases curtas = ritmo rápido.
+
+Q15 — seed 847214
+CENA: Vista de satélite simulada — mapa-múndi P&B com manchas vermelhas nos exatos locais: Amazônia 2019, Califórnia 2020, Oriente Médio 2022, Europa 2023. Profeta colorido "lendo" o mapa.
+NARRAÇÃO: "Você não leu isso em um jornal de profecias. Você leu em imagens de satélite dos últimos cinco anos."
+PHANTASMA | 10s | revelation | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nos pontos vermelhos do mapa.
+
+Q16 — seed 847215
+CENA: Horizonte de Jerusalém P&B com céu vermelho intenso. Jesus medieval em branco puro e azul celeste, olhando para cima. Luz dourada descendo.
+NARRAÇÃO: "O primeiro sinal: o céu vermelho. Em linguagem bíblica, o sangue no céu não é metáfora. É um sinal físico que antecede julgamento."
+PHANTASMA | 10s | biblical | dissolve_slow(1.2s)
+NOTA: Ken Burns zoom_out para revelar Jerusalém. Transição suave para novo sinal.
+
+Q17 — seed 847216
+CENA: Grupo de fariseus P&B ao fundo, expressões questionadoras. Jesus colorido no centro, mão erguida, céu vermelho ao fundo. Composição clássica.
+NARRAÇÃO: "Jesus foi questionado pelos fariseus sobre um sinal do céu. Sua resposta foi direta."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no gesto de Jesus. Fariseus desfocados ao fundo.
+
+Q18 — seed 847217
+CENA: Céu ao amanhecer, vermelho vívido, sobre vilarejo medieval P&B. Jesus de costas, observando. Citação de Mateus 16 gravada em pedra ao fundo.
+NARRAÇÃO: "'Quando amanhece e o céu está vermelho, vai fazer mau tempo.' Jesus reconheceu que a cor do céu carrega significado. Não foi figurativo. Foi literal."
+PHANTASMA | 10s | biblical | crossfade(0.8s) | OVERLAY: "Mateus 16:2-3" em dourado
+NOTA: Ken Burns zoom_out revelando extensão do céu vermelho.
+
+Q19 — seed 847218
+CENA: Pergaminho de Joel ampliado — versículo 2:30-31 visível. Profeta medieval apontando para quatro fenômenos físicos em sequência: sangue, fogo, fumaça, trevas. Luz épica.
+NARRAÇÃO: "E o que Joel profetizou não foi visão poética distante. Foi descrição física de fenômenos visíveis a olho nu. Quatro elementos. Todos verificáveis na última década."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nos quatro elementos. Setup para transição ao sinal dos corvos.
+
+Q20 — seed 847219
+CENA: Céu do entardecer P&B com silhuetas de pássaros no horizonte, começando a aparecer. Profeta medieval em dourado, de perfil, esperando. Transição visual entre o céu vermelho e os corvos.
+NARRAÇÃO: [transição narrativa — sem fala explícita neste momento]
+PHANTASMA | 8s | apocalypse | fade_black(0.5s)
+NOTA: Ken Burns zoom_out. Quadro de transição. Cria expectativa para o sinal dos corvos.
+
+================================================================================
+PARTE SUNO 3 — 10 imagens [~5:00 – ~7:30]
+Cobre: DESENVOLVIMENTO (Sinal 2: Corvos + Sinal 3: Chuva de Sangue + Padrão Egito)
+================================================================================
+
+Q21 — seed 847220
+CENA: Revoada de corvos P&B sobre floresta. Um único corvo VÍVIDO (preto metálico brilhante) em primeiro plano. Profeta medieval observando de longe.
+NARRAÇÃO: "O segundo sinal: os corvos. Na Bíblia, o corvo aparece em momentos precisos de transição histórica."
+PHANTASMA | 10s | revelation | smash_cut
+NOTA: Ken Burns zoom_in no corvo individual. Pássaro domina quadro.
+
+Q22 — seed 847221
+CENA: Arca de Noé P&B no oceano devastado pós-dilúvio. Corvo VÍVIDO (preto corvino) solitário em primeiro plano, pousado em madeira flutuante. Céu carregado.
+NARRAÇÃO: "Noé enviou um corvo após o dilúvio. O corvo não voltou."
+PHANTASMA | 10s | apocalypse | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no corvo sobre a madeira. Simbologia clara.
+
+Q23 — seed 847222
+CENA: Oceano P&B com destroços flutuantes, madeiras, corpos estilizados. Corvo VÍVIDO voando sobre a cena. Escuridão profunda. Composição sombria.
+NARRAÇÃO: "A interpretação rabínica é sombria. Onde havia morte suficiente, o corvo ficou. Corpos. Destroços. Morte."
+PHANTASMA | 10s | revelation | crossfade(0.8s)
+NOTA: Ken Burns zoom_out para escala total do oceano devastado.
+
+Q24 — seed 847223
+CENA: Dois corvos VÍVIDOS em destaque. Um pousado sobre pedra com ossos ao fundo (morte). Outro em voo, com luz dourada atrás (provisão). Divididos na composição.
+NARRAÇÃO: "Mas existe outro registro de corvos na Bíblia. E este muda tudo."
+PHANTASMA | 8s | biblical | fade_black(0.5s)
+NOTA: Ken Burns pan esq→dir (morte → provisão). Prepara a virada de Q25.
+
+Q25 — seed 847224
+CENA: Deserto de Querite P&B com ravina rochosa. Profeta Elias em manto carmesim/ocre, ajoelhado em posição de oração. Dois corvos VÍVIDOS pousando nos braços.
+NARRAÇÃO: "O profeta Elias, no momento mais crítico de sua vida, escondido no deserto de Querite, foi sustentado por corvos."
+PHANTASMA | 12s | biblical | fade_black(0.5s)
+NOTA: Ken Burns zoom_in no momento do encontro. VIRADA — câmera aproxima.
+
+Q26 — seed 847225
+CENA: Close em Elias recebendo pão dos corvos. Mãos abertas. Pão dourado e carne visíveis. Luz dourada divina descendo de cima. Expressão de paz e surpresa.
+NARRAÇÃO: "'Os corvos lhe traziam pão e carne de manhã, e pão e carne à tarde' — 1 Reis 17:6"
+PHANTASMA | 12s | biblical | fade_black(0.5s) | OVERLAY: "1 Reis 17:6" em dourado
+NOTA: Ken Burns zoom_in nas mãos e no pão. VIRADA VISUAL DO VÍDEO. Mais lento de todo o bloco.
+
+Q27 — seed 847226
+CENA: Profeta dourado segurando dois pergaminhos/díptico: esquerda (corvo P&B sobre destroços do dilúvio) vs direita (corvo vívido trazendo pão a Elias). Luz dividida ao meio.
+NARRAÇÃO: "O mesmo animal símbolo de morte no dilúvio. Torna-se instrumento de provisão divina. Isso não é coincidência literária. É teologia deliberada."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns pan esq→dir (juízo → provisão). Movimento intencional e lento.
+
+Q28 — seed 847227
+CENA: Vista europeia (Lisboa, Paris) P&B com chuva avermelhada. Poças de vermelho no asfalto. Anjo medieval em branco e dourado, taça invertida, derramando. Guarda-chuvas P&B ao fundo.
+NARRAÇÃO: "O terceiro sinal: a chuva de sangue. Entre 2021 e 2023, precipitações avermelhadas em Portugal, Espanha, França, Índia e Brasil."
+PHANTASMA | 10s | apocalypse | smash_cut
+NOTA: Ken Burns zoom_in nas poças. Detalhe físico e visceral.
+
+Q29 — seed 847228
+CENA: Jornal P&B com manchete sobre chuva colorida. Cientista P&B analisando amostra avermelhada. Profeta medieval em vermelho atrás, apontando para o jornal como se fosse profecia.
+NARRAÇÃO: "A explicação científica é consistente: poeira do Saara transportada pelas correntes de ar. Verificável. Documentado. Real."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in na manchete do jornal.
+
+Q30 — seed 847229
+CENA: Panorâmica do Rio Nilo P&B transformado em sangue. Moisés medieval em branco e ocre, cajado erguido. Faraó miniaturizado P&B ao fundo. Ondas vermelhas intensas.
+NARRAÇÃO: "E existe um padrão histórico. As pragas do Egito foram o modelo original. O Apocalipse não criou um padrão novo. Retomou um padrão antigo. Em escala global."
+PHANTASMA | 10s | revelation | crossfade(1.0s) | OVERLAY: "Êxodo 7" em dourado
+NOTA: Ken Burns zoom_out para revelar extensão total do Nilo vermelho. Grandiosidade épica.
+
+================================================================================
+PARTE SUNO 4 — 10 imagens [~7:30 – ~10:00]
+Cobre: CONEXÃO COM O PRESENTE (Selos / Taças / Virada emocional)
+================================================================================
+
+[TEXTO PIVÔ — Phantasma TextClip]
+TIPO: Texto branco sobre preto | DURAÇÃO: 6s | TRANSIÇÃO: smash_cut
+TEXTO: "E SE JÁ TIVER COMEÇADO?"
+NOTA: Aparece letra por letra (typewriter). Fica 3s. SYNC BEAT máximo.
+
+Q31 — seed 847230
+CENA: Sentinela bíblica medieval em torre de vigia, colorida em carmesim, observando horizonte. Cidade moderna P&B ao fundo. Névoa e brasas na atmosfera.
+NARRAÇÃO: "Não como o fim. Mas como os primeiros avisos de sentinela."
+PHANTASMA | 10s | biblical | fade_black(0.5s)
+NOTA: Ken Burns zoom_out para revelar a cidade P&B ao fundo. Tensão crescente.
+
+Q32 — seed 847231
+CENA: João apóstolo medieval em branco envelhecido, escrevendo em pergaminho. Sol negro P&B intenso ao fundo. Lua vermelha enorme no céu. Rochas e terremoto implícito.
+NARRAÇÃO: "'Houve um grande terremoto, o sol tornou-se negro como saco de crina, e a lua tornou-se como sangue.' — Apocalipse 6:12"
+PHANTASMA | 12s | revelation | fade_black(0.5s) | OVERLAY: "Apocalipse 6:12" em dourado
+NOTA: Ken Burns zoom_in na lua de sangue ao fundo. Solenidade máxima.
+
+Q33 — seed 847232
+CENA: Anjo medieval colorido (branco/dourado) derramando taça sobre oceano representado em P&B. Oceano ficando vermelho. Composição épica de cima para baixo.
+NARRAÇÃO: "'O segundo anjo derramou a sua taça sobre o mar, e este se tornou como sangue de morto.' — Apocalipse 16:3"
+PHANTASMA | 12s | apocalypse | crossfade(0.8s) | OVERLAY: "Apocalipse 16:3" em dourado
+NOTA: Ken Burns zoom_out para revelar escala total do oceano vermelho.
+
+Q34 — seed 847233
+CENA: Notícias em tela P&B (TV, celular, jornal) com manchetes de eventos climáticos extremos. Profeta colorido em carmesim "lendo" as notícias como se fossem profecias.
+NARRAÇÃO: "A questão não é se esses eventos vão acontecer. Eles estão acontecendo. Em versão reduzida, localizada, mensurável."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nas telas de notícias.
+
+Q35 — seed 847234
+CENA: Profeta medieval em dourado, de frente para o espectador, gesticulando direto. Olhos serenos mas intensos. Fundo P&B com elementos de todas as pragas (corvos, céu, chuva).
+NARRAÇÃO: "A questão é: o que isso significa para você?"
+PHANTASMA | 8s | revelation | smash_cut
+NOTA: Ken Burns zoom_in no rosto do profeta. Pergunta direta ao espectador.
+
+Q36 — seed 847235
+CENA: Tel Aviv P&B ao entardecer. Revoada de corvos densa e escura. Um único corvo VÍVIDO em primeiro plano. Céu alaranjado visível. ECO VISUAL do Q01.
+NARRAÇÃO: "Voltemos ao corvo de Tel Aviv. Milhares de corvos em silêncio. A ciência chama de coincidência atmosférica."
+PHANTASMA | 10s | apocalypse | dissolve_slow(1.2s)
+NOTA: Ken Burns zoom_in no corvo individual. Arco visual fechando (eco de Q01).
+
+Q37 — seed 847236
+CENA: Livro bíblico aberto P&B com versículos iluminados em dourado. Profeta colorido apontando para o texto. Comparação: manchete de jornal P&B vs versículo iluminado.
+NARRAÇÃO: "A Bíblia chama de sinal."
+PHANTASMA | 7s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no texto iluminado. Frase curta — ritmo de impacto.
+
+Q38 — seed 847237
+CENA: Elias de frente, rosto sereno e iluminado, corvo no ombro. Ao fundo P&B: cidade moderna em ruínas, explosões, caos. Contraste máximo paz vs destruição.
+NARRAÇÃO: "E aqui o padrão muda de direção. O mesmo Deus que enviou os corvos a Elias. Que transformou o símbolo de morte em instrumento de provisão. Esse Deus não mudou."
+PHANTASMA | 12s | biblical | fade_black(0.5s)
+NOTA: Ken Burns zoom_in no rosto de Elias. VIRADA EMOCIONAL FINAL. Câmera no humano.
+
+Q39 — seed 847238
+CENA: Multidão de figuras bíblicas medievais coloridas (povo de Deus) marchando em direção a luz dourada no horizonte. Ao fundo P&B: caos, explosões, desastres.
+NARRAÇÃO: "Os sinais de juízo e os sinais de provisão vêm do mesmo lugar. Em tempos de julgamento, o povo de Deus não é abandonado. É provido."
+PHANTASMA | 10s | biblical | crossfade(1.0s)
+NOTA: Ken Burns zoom_out grandioso. Multidão colorida vs caos P&B.
+
+Q40 — seed 847239
+CENA: Pergaminho antigo com linha do tempo: Noé (corvo de morte) → Elias (corvo de provisão) → Selos do Apocalipse. Profeta dourado traçando a linha com o dedo.
+NARRAÇÃO: "É o padrão escrito desde o princípio. Desde o corvo de Noé até o corvo de Elias. Desde o sangue do Egito até o sangue do Apocalipse."
+PHANTASMA | 10s | biblical | dissolve_slow(1.2s)
+NOTA: Ken Burns pan esquerda→direita seguindo a linha do tempo.
+
+================================================================================
+PARTE SUNO 5 — 10 imagens [~10:00 – ~12:00]
+Cobre: ENCERRAMENTO + CTA
+================================================================================
+
+Q41 — seed 847240
+CENA: Figura humana P&B (pessoa comum, não bíblica) observando céu avermelhado pela janela. No reflexo do vidro: profeta medieval em carmesim. Luz quente do pôr do sol.
+NARRAÇÃO: "Você já viu o céu mudar de cor na sua cidade? Já sentiu que algo estava diferente no ar?"
+PHANTASMA | 12s | biblical | dissolve_slow(1.5s)
+NOTA: Ken Burns zoom_in lento no reflexo do profeta. Momento mais íntimo do vídeo.
+
+Q42 — seed 847241
+CENA: Close no rosto de pessoa P&B olhando para cima, expressão de questionamento e reconhecimento. Reflexo de céu vermelho nos olhos. Atmosfera noturna.
+NARRAÇÃO: "Uma sensação que você não consegue explicar com palavras. Mas que ficou."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in nos olhos com reflexo. Empatia máxima.
+
+Q43 — seed 847242
+CENA: Joel medieval escrevendo ao lampião, noite P&B. Pergaminho iluminado. Expressão de responsabilidade, não medo. Luz suave, íntima.
+NARRAÇÃO: "Os profetas não escreveram para assustar. Escreveram para preparar."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in na mão escrevendo. Intenção do profeta fica clara.
+
+Q44 — seed 847243
+CENA: Joel de frente, sério, direto ao espectador, mão aberta (gesto de oferta/instrução). Fundo P&B com elementos dos três sinais (corvos, céu, chuva). Luz chiaroscuro.
+NARRAÇÃO: "Joel não descreveu o Dia do Senhor para gerar desespero. Descreveu para que, quando os sinais chegassem, o povo de Deus reconhecesse."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no gesto de mão aberta. Tom de instrução, não de ameaça.
+
+Q45 — seed 847244
+CENA: Pessoa comum P&B em praça, olhando app de notícias no celular. Profeta colorido ao lado apontando para o mesmo celular. Conexão entre passado e presente.
+NARRAÇÃO: "E reconhecendo — soubesse o que fazer."
+PHANTASMA | 8s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no celular. Conexão profecia-presente.
+
+Q46 — seed 847245
+CENA: Mapa do Brasil P&B com pontos de luz espalhados pelos estados. Profeta colorido "ouvindo" os pontos como se fossem vozes. Composição de comunidade.
+NARRAÇÃO: "Escreve aqui nos comentários: de qual estado você é? Eu quero saber se algum desses sinais já chegou perto de você."
+PHANTASMA | 12s | biblical | dissolve_slow(1.2s)
+NOTA: Ken Burns zoom_out para o mapa inteiro. CTA de engajamento local.
+
+Q47 — seed 847246
+CENA: Duas mãos (um bíblico colorido + um moderno P&B) se estendendo uma para a outra, sem se tocar ainda. Luz dourada entre elas. Gesto de compartilhar.
+NARRAÇÃO: "Se este estudo trouxe algo que você precisava ouvir, encaminha para alguém cheio de perguntas. Não como alarmismo. Como um gesto de cuidado."
+PHANTASMA | 12s | biblical | dissolve_slow(1.5s)
+NOTA: Ken Burns zoom_in no espaço entre as mãos. Intimidade do gesto.
+
+Q48 — seed 847247
+CENA: Pergaminho moderno P&B com símbolo de sino/notificação em destaque, iluminado em dourado. Profeta medieval segurando o pergaminho como se fosse um canal do YouTube.
+NARRAÇÃO: "Clica no like. Inscreve no canal. Ativa o sininho. Porque continuaremos aprofundando esses estudos com a seriedade que o texto bíblico merece."
+PHANTASMA | 10s | biblical | crossfade(0.8s)
+NOTA: Ken Burns zoom_in no símbolo de sino iluminado.
+
+Q49 — seed 847248
+CENA: Pergaminho antigo com texto visível em dourado: "OS SINAIS ESTÃO ESCRITOS. O PADRÃO ESTÁ VISÍVEL." Profeta dourado segurando. Luz épica, composição final.
+NARRAÇÃO: "Os sinais estão escritos. O padrão está visível."
+PHANTASMA | 10s | biblical | fade_black(0.5s)
+NOTA: Ken Burns zoom_in no texto do pergaminho. Setup para a pergunta final.
+
+Q50 — seed 847249
+CENA: Divisão visual: metade esquerda — multidão bíblica colorida recebendo sinais (luz dourada); metade direita — multidão P&B ignorando (distante, de costas). Profeta no centro.
+NARRAÇÃO: "A pergunta que fica: Você está do lado de quem recebe os sinais. Ou de quem os ignora?"
+PHANTASMA | 12s | revelation | dissolve_slow(1.5s)
+NOTA: Ken Burns zoom_out para revelar toda a divisão. Última imagem antes do logo.
+
+[LOGO CTA — Phantasma TextClip]
+TIPO: Logo + Texto (Phantasma) | DURAÇÃO: 30s | TRANSIÇÃO: dissolve_slow(1.5s)
+CONTEÚDO: Logo "SINAIS DO FIM" + "INSCREVA-SE · SINO ATIVADO · COMENTÁRIO ABAIXO"
+NOTA: Logo fadein 1s. CTA aparece aos 5s em dourado #C5A355. Fade to black nos últimos 5s.
+
+================================================================================
+INSTRUÇÕES PHANTASMA — SCRIPT MOVIEPY
+================================================================================
+
+Arquivo a gerar: _tools/edicao_sinais-do-fim_video-008-sinais-fisicos.py
+
+CONFIGURAÇÃO:
+  Resolução: 1920x1080 | FPS: 30
+  Imagens: canais/sinais-do-fim/videos/video-008-sinais-fisicos/6-assets/imagens/
+  Áudio: canais/sinais-do-fim/videos/video-008-sinais-fisicos/6-assets/audio_suno/
+  Output: canais/sinais-do-fim/videos/video-008-sinais-fisicos/7-edicao/video_cinematografico.mp4
+
+MIXAGEM:
+  Narração Suno: volume 1.0
+  Trilha Suno: volume 0.22 | fade in 3s | fade out 5s
+  Sequência: parte1.mp3 → parte2.mp3 → parte3.mp3 → parte4.mp3 → parte5.mp3
+
+SEQUÊNCIA COMPLETA (imagem | duração | grade | transição):
+  PARTE 1:
+  tela_preta     | 3s  | —          | smash_cut
+  img_Q01.png    | 8s  | apocalypse | fade_black(2s)
+  img_Q02.png    | 7s  | revelation | smash_cut
+  img_Q03.png    | 7s  | apocalypse | crossfade(0.8s)
+  img_Q04.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q05.png    | 10s | apocalypse | smash_cut
+  img_Q06.png    | 10s | revelation | crossfade(1.0s)
+  img_Q07.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q08.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q09.png    | 8s  | apocalypse | crossfade(0.8s)
+  img_Q10.png    | 6s  | revelation | fade_black(0.5s)
+  texto_Q10b     | 6s  | —          | fade_black
+
+  PARTE 2:
+  img_Q11.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q12.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q13.png    | 12s | biblical   | fade_black(0.5s)
+  img_Q14.png    | 8s  | apocalypse | smash_cut
+  img_Q15.png    | 10s | revelation | crossfade(0.8s)
+  img_Q16.png    | 10s | biblical   | dissolve_slow(1.2s)
+  img_Q17.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q18.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q19.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q20.png    | 8s  | apocalypse | fade_black(0.5s)
+
+  PARTE 3:
+  img_Q21.png    | 10s | revelation | smash_cut
+  img_Q22.png    | 10s | apocalypse | crossfade(0.8s)
+  img_Q23.png    | 10s | revelation | crossfade(0.8s)
+  img_Q24.png    | 8s  | biblical   | fade_black(0.5s)
+  img_Q25.png    | 12s | biblical   | fade_black(0.5s)
+  img_Q26.png    | 12s | biblical   | fade_black(0.5s)
+  img_Q27.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q28.png    | 10s | apocalypse | smash_cut
+  img_Q29.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q30.png    | 10s | revelation | crossfade(1.0s)
+
+  PARTE 4:
+  texto_Q31      | 6s  | —          | smash_cut
+  img_Q31.png    | 10s | biblical   | fade_black(0.5s)
+  img_Q32.png    | 12s | revelation | fade_black(0.5s)
+  img_Q33.png    | 12s | apocalypse | crossfade(0.8s)
+  img_Q34.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q35.png    | 8s  | revelation | smash_cut
+  img_Q36.png    | 10s | apocalypse | dissolve_slow(1.2s)
+  img_Q37.png    | 7s  | biblical   | crossfade(0.8s)
+  img_Q38.png    | 12s | biblical   | fade_black(0.5s)
+  img_Q39.png    | 10s | biblical   | crossfade(1.0s)
+  img_Q40.png    | 10s | biblical   | dissolve_slow(1.2s)
+
+  PARTE 5:
+  img_Q41.png    | 12s | biblical   | dissolve_slow(1.5s)
+  img_Q42.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q43.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q44.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q45.png    | 8s  | biblical   | crossfade(0.8s)
+  img_Q46.png    | 12s | biblical   | dissolve_slow(1.2s)
+  img_Q47.png    | 12s | biblical   | dissolve_slow(1.5s)
+  img_Q48.png    | 10s | biblical   | crossfade(0.8s)
+  img_Q49.png    | 10s | biblical   | fade_black(0.5s)
+  img_Q50.png    | 12s | revelation | dissolve_slow(1.5s)
+  logo_cta       | 30s | —          | dissolve_slow(1.5s)
+
+OVERLAYS CITAÇÕES BÍBLICAS (cor #C5A355, posição 82% vertical):
+  img_Q13.png → "Joel 2:30-31"   | start +2s | duração 4s
+  img_Q18.png → "Mateus 16:2-3"  | start +2s | duração 3s
+  img_Q26.png → "1 Reis 17:6"    | start +2s | duração 3s
+  img_Q30.png → "Êxodo 7"        | start +2s | duração 3s
+  img_Q32.png → "Apocalipse 6:12"| start +2s | duração 3s
+  img_Q33.png → "Apocalipse 16:3"| start +2s | duração 3s
+
+================================================================================
+LISTA DE ASSETS — GOETIA (50 prompts MJ)
+================================================================================
+
+PARTE 1 (10): Q01–Q10 | seeds 847200–847209
+PARTE 2 (10): Q11–Q20 | seeds 847210–847219
+PARTE 3 (10): Q21–Q30 | seeds 847220–847229
+PARTE 4 (10): Q31–Q40 | seeds 847230–847239
+PARTE 5 (10): Q41–Q50 | seeds 847240–847249
+
+PHANTASMA TEXTOS (4):
+  texto_Q10b → "MAS EXISTE UMA PERGUNTA QUE A CIÊNCIA NÃO FAZ"
+  texto_Q31  → "E SE JÁ TIVER COMEÇADO?"
+  logo_cta   → Logo + CTA
+
+ORFEU (5 partes Suno):
+  parte1.mp3 | parte2.mp3 | parte3.mp3 | parte4.mp3 | parte5.mp3
+
+================================================================================
+VALIDAÇÃO
+================================================================================
+
+Imagens Midjourney total: 50 ✓ (10 por parte Suno)
+Telas texto Phantasma: 3 + 1 logo = 4 ✓
+Tela preta inicial: 1 ✓
+
+Variedade de planos (50 imagens):
+  Wide shots: Q01, Q03, Q05, Q06, Q22, Q23, Q30, Q39, Q46, Q50
+  Medium shots: Q02, Q04, Q07, Q08, Q11, Q13, Q16, Q20, Q28, Q31, Q36, Q43, Q44
+  Close-ups: Q09, Q10, Q12, Q15, Q24, Q25, Q26, Q27, Q35, Q37, Q38, Q41, Q42, Q49
+  Detalhes: Q14, Q17, Q18, Q19, Q29, Q32, Q33, Q34, Q40, Q45, Q47, Q48
+
+Composição sem repetição consecutiva: ✓
+Viradas emocionais: Q25-Q26 (Elias/provisão) + Q38 (mesmo Deus) ✓
+Eco visual Q01→Q36 (corvos Tel Aviv): ✓
+Overlays citações: 6 momentos ✓
+Color grades variados (não repetindo >3x consecutivos): ✓
+Instruções Phantasma MoviePy completas: ✓

@@ -1,0 +1,40 @@
+================================================================================
+TESTE A/B/C — THUMBNAILS ROSTO REAL CHORANDO
+Canal: Sinais do Fim | Video: video-001-armagedom
+Conceito: Rosto humano real em close-up como âncora emocional (alta clicabilidade)
+Texto sugerido em todas: "ARMAGEDOM" + "JÁ COMEÇOU?" ou "VOCÊ ESTÁ PRONTO?"
+Espaço para texto: lado direito em todas as variações
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIAÇÃO A — "LÁGRIMA E FÉ"
+Conceito: Rosto feminino olhando para cima, lágrima real, luz divina dourada
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0 (A):
+Extreme close-up of a real woman's face, aged 35-50, eyes wide open and filled with tears, looking upward with an expression of profound fear and awe. A single tear streams down her cheek, catching a beam of dramatic golden light (#C5A355) descending from above. Her skin is photorealistic, pores visible, the emotion raw and overwhelming. The left two-thirds of the frame is dominated by her face in warm golden and amber tones. The right third of the frame — behind and beside her — shows a completely desaturated black and white apocalyptic sky: dark storm clouds churning, faint silhouettes of burning buildings, embers drifting. The golden divine light from above creates a sharp rim on her forehead and cheekbone, isolating her in warmth against the cold B&W destruction. Cinematic photography style, ultra-high resolution, shallow depth of field, 35mm film grain. Deeply emotional, sacred, visceral mood. No text, no watermarks. Aspect ratio 16:9, space for bold text overlay on right side.
+
+NEGATIVE PROMPT (A):
+cartoon, anime, illustration, painting, text, watermark, cheerful expression, smile, fake tears, plastic skin, CGI face, low quality, blurry, cluttered, multiple faces, symmetrical, white background, bright colors on right side
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIAÇÃO B — "DESESPERO E GUERRA"
+Conceito: Homem em close, olhos vermelhos de choro, explosão P&B ao fundo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0 (B):
+Dramatic close-up of a real man's face, aged 45-60, expression of deep anguish and terror — eyes wide, red from crying, tears streaming freely, jaw slightly open in silent despair. His face occupies the left 60% of the frame, lit from the left by a cold harsh white light (as if from an explosion). Skin photorealistic, stubble visible, veins on his temples. Behind him and to the right, a fully desaturated black and white scene of apocalyptic devastation: a massive nuclear-style explosion mushroom cloud rising over a city skyline, buildings silhouetted in collapse. The contrast is brutal — his vivid flesh tones against the cold B&W destruction consuming the background. Deep red (#8B0000) glow from the explosion reflects on the right side of his face like hellfire. Ultra-cinematic, photojournalism meets surrealism, 35mm grain, extreme emotional impact. No text, no watermarks. Aspect ratio 16:9, space for bold text overlay on right side.
+
+NEGATIVE PROMPT (B):
+cartoon, anime, illustration, painting, text, watermark, calm expression, smile, fake tears, CGI face, low quality, blurry, multiple people, symmetrical, white background, colorful explosion, pastel colors
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIAÇÃO C — "OLHO QUE VÊ O FIM"
+Conceito: Extreme close-up de olho com reflexo do cavaleiro apocalíptico na pupila
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0 (C):
+Extreme macro close-up of a single human eye filling 70% of the frame on the left side. The eye belongs to a real person — iris dark brown with amber flecks, sclera slightly reddened from crying, lower eyelid glistening with a forming tear. Inside the pupil, perfectly reflected in the curved mirror of the cornea: a vivid full-color miniature scene of the Four Horsemen of the Apocalypse galloping across a burning landscape — white, red, black and pale horses in rich medieval illustration color, tiny but razor sharp in the reflection. The eye itself is lit by dramatic golden rim light from above. Around the eye on the right two-thirds of the frame: complete black void with faint ember particles drifting, leaving ample space for text overlay. The tear beginning to form at the lower lid catches golden light like a prism. Ultra-macro photography, photorealistic, 35mm macro grain, shallow depth of field with the pupil reflection in absolute sharp focus. Transcendent, prophetic, unforgettable visual. No text, no watermarks. Aspect ratio 16:9, space for bold text overlay on right side.
+
+NEGATIVE PROMPT (C):
+cartoon, anime, illustration, painting, text, watermark, multiple eyes, full face visible, CGI eye, low quality, blurry pupil reflection, symmetrical, white background, no reflection in pupil, colorful background

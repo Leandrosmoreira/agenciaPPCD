@@ -1,0 +1,7 @@
+VIDEO_ID: tlQMToRLywU
+URL: https://youtube.com/watch?v=tlQMToRLywU
+STATUS: private
+UPLOAD_TIME: 2026-04-14 18:49:47
+THUMBNAIL: OK
+CHAPTERS: OK
+NOTA: Aguardando aprovacao de Snayder para tornar publico

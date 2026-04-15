@@ -1,0 +1,7 @@
+VIDEO_ID: wEJELnPzP-I
+URL: https://youtube.com/watch?v=wEJELnPzP-I
+STATUS: private
+UPLOAD_TIME: 2026-04-14 17:18:55
+THUMBNAIL: OK
+CHAPTERS: OK
+NOTA: Aguardando aprovacao de Snayder para tornar publico

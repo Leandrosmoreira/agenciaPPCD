@@ -1,0 +1,96 @@
+================================================================================
+SUNO AUDIO COMPLETO -- video-002-marca-da-besta
+Agente: Orfeu | Abismo Criativo | Sinais do Fim
+Gerado: 2026-04-06 17:10
+================================================================================
+
+================================================================================
+PARTE 1 -- TRILHA INSTRUMENTAL
+Suno > Create > Custom mode (NAO usar aba Sounds)
+================================================================================
+
+INSTRUCOES:
+- Suno > Create > Custom mode
+- Preencher os campos abaixo
+- Gerar 2 versoes e escolher a melhor
+- No CapCut: volume 10-15%, loopado por todo o video
+
+STYLE OF MUSIC:
+dark ambient cinematic, deep orchestral drones, low cello sustained notes, ancient strings, distant haunting choir pads, ominous reverb, slow tempo 60 BPM, prophetic biblical atmosphere, no percussion, no beats, cinematic tension, documentary score, instrumental only
+
+TITLE:
+Sinais do Fim -- Trilha Fundo
+
+LYRICS (copiar exatamente):
+[Instrumental]
+[No vocals]
+[No lyrics]
+[Dark ambient orchestral]
+[Deep drone sustained]
+[Low cello]
+[Ancient choir distant]
+[Prophetic atmosphere]
+[Slow build]
+[Cinematic tension]
+
+================================================================================
+PARTE 2 -- LOOPS DE ATMOSFERA
+Suno > Sounds > Type: LOOP (nao One-Shot)
+================================================================================
+
+INSTRUCOES:
+- Suno > Sounds > Type: LOOP
+- Colar cada prompt no campo 'Describe the sound you want'
+- Gerar 2 variacoes de cada e escolher a melhor
+- BPM: Auto | Key: Any
+
+--------------------------------------------------------------------------------
+LOOP 1 -- DRONE BASE
+Usar: Video inteiro como camada base | Volume CapCut: 8%
+--------------------------------------------------------------------------------
+dark ambient drone loop, deep ominous low frequency hum, sub-bass rumble, prophetic tension atmosphere, no melody, no rhythm, pure sustained drone, apocalyptic dread, 60 seconds seamless loop
+
+--------------------------------------------------------------------------------
+LOOP 2 -- CATEDRAL
+Usar: Cenas biblicas medievais Q01-Q12 | Volume CapCut: 12%
+--------------------------------------------------------------------------------
+ancient stone cathedral reverb ambience loop, distant echoing silence, faint stone drip, cold air resonance, gothic atmosphere, sacred and ominous, no music, pure environmental sound, seamless loop
+
+--------------------------------------------------------------------------------
+LOOP 3 -- TEMPESTADE
+Usar: Cenas de besta e apocalipse | Volume CapCut: 15%
+--------------------------------------------------------------------------------
+distant thunder rumble loop, deep low rolling thunder, wind howling through ruins, storm approaching ambience, no rain yet, ominous weather tension, prophetic storm atmosphere, seamless loop
+
+--------------------------------------------------------------------------------
+LOOP 4 -- FOGO
+Usar: Cenas de julgamento e fogo | Volume CapCut: 12%
+--------------------------------------------------------------------------------
+fire crackling ambience loop, embers and ash soundscape, burning wood distant, warm crackling texture, apocalyptic fire atmosphere, no wind, steady burn, seamless loop
+
+--------------------------------------------------------------------------------
+LOOP 5 -- DIGITAL
+Usar: Cenas CBDC, chip, vigilancia Q19-Q32 | Volume CapCut: 10%
+--------------------------------------------------------------------------------
+digital tension ambience loop, low electronic hum, server room distant buzz, surveillance atmosphere, cold mechanical drone, dystopian technology soundscape, seamless loop
+
+================================================================================
+GUIA DE USO NO CAPCUT
+================================================================================
+
+TRILHAS DE AUDIO (ordem de cima para baixo):
+  TRILHA 1: Narracao Suno (partes 1-9) -- volume 100%
+  TRILHA 2: Trilha Instrumental -- volume 10-15%, loop todo o video
+  TRILHA 3: Loop atmosfera por secao (conforme tabela abaixo)
+
+MAPA DE LOOPS POR SECAO:
+  [00:00 - 02:00]  Loop 2 (Catedral)    -- Introducao + base biblica
+  [02:00 - 04:00]  Loop 3 (Tempestade)  -- Besta + contexto historico
+  [04:00 - 08:00]  Loop 5 (Digital)     -- CBDC + chip + vigilancia
+  [08:00 - 11:00]  Loop 3 (Tempestade)  -- Exclusao + controle global
+  [11:00 - 13:30]  Loop 4 (Fogo)        -- Conclusao + julgamento + CTA
+  Loop 1 (Drone)   camada base em TODO o video no volume 8%
+
+================================================================================
+ORFEU | ABISMO CRIATIVO | video-002-marca-da-besta
+================================================================================

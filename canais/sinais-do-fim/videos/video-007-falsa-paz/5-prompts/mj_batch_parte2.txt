@@ -1,0 +1,76 @@
+GOETIA — PROMPTS MIDJOURNEY v7
+Canal: sinais-do-fim | Vídeo: video-007-falsa-paz | PARTE 2
+Seeds: 847211 a 847220
+Gerado: 2026-04-09
+──────────────────────────────────────────────────────────────────────────
+
+CENA 01 — Oslo 1993: o aperto de mão que enganou o mundo
+Momento narrativo: "o mundo assistiu às câmeras transmitindo ao vivo o aperto de mão entre Yasser Arafat e Yitzhak Rabin na Casa Branca"
+
+/imagine prompt: colorful vivid ancient bearded prophet in crimson and ochre robes extending his hand in a gesture of false peace in foreground, black and white desaturated White House facade with jubilant crowd and press cameras in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847211 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 02 — A imprensa proclama a paz
+Momento narrativo: "A imprensa chamou de o dia em que a paz chegou ao Oriente Médio"
+
+/imagine prompt: colorful vivid triumphant angel in gold and ochre armor raising a broken trumpet skyward in foreground, black and white desaturated newspaper printing press rolling headlines and broadcast studio screens in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847212 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 03 — O assassinato de Rabin
+Momento narrativo: "Dois anos depois, Rabin estava morto, assassinado por um extremista israelense"
+
+/imagine prompt: colorful vivid crimson-robed prophet clutching a shattered golden scroll to his chest as it crumbles to ash in foreground, black and white desaturated empty plaza with fallen flowers and candlelight memorial in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847213 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 04 — Acordos de Abraão 2020
+Momento narrativo: "Em dois mil e vinte, os chamados Acordos de Abraão foram assinados com grande celebração"
+
+/imagine prompt: colorful vivid medieval scribe in gold and ochre robes pressing a wax seal onto an ornate parchment that already shows cracks spreading from the seal in foreground, black and white desaturated diplomatic ceremony with flags and suited figures at a long table in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847214 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 05 — Gaza em chamas
+Momento narrativo: "Quatro anos depois, Gaza estava em chamas"
+
+/imagine prompt: colorful vivid apocalyptic horseman on a crimson and ochre horse rearing above smoldering ruins in foreground, black and white desaturated obliterated city skyline with collapsed buildings and rising smoke columns in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847215 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 06 — O Líbano em guerra
+Momento narrativo: "O Líbano em guerra"
+
+/imagine prompt: colorful vivid war-angel in crimson armor with a cracked golden shield standing over a cedar tree being consumed by flames in foreground, black and white desaturated Beirut skyline with airstrikes and anti-aircraft fire in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847216 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 07 — O Irã com mais influência do que nunca
+Momento narrativo: "o Irã com mais influência na região do que nunca"
+
+/imagine prompt: colorful vivid ancient serpent-beast with seven heads in ochre and crimson scales coiling across a crumbling map in foreground, black and white desaturated Middle East satellite view with military convoys and missile launch sites in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847217 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 08 — O padrão que se repete
+Momento narrativo: "Existe um padrão. Cada acordo de paz não encerrou o conflito. Ele apenas reorganizou os lados"
+
+/imagine prompt: colorful vivid prophet Daniel in gold and ochre robes pointing at a repeating cycle carved into a stone tablet with crumbling edges in foreground, black and white desaturated collage of identical handshake scenes across different decades repeated in the background architecture in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847218 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 09 — A janela antes da próxima explosão
+Momento narrativo: "Criou uma janela. Uma pausa antes da próxima explosão"
+
+/imagine prompt: colorful vivid robed prophet in crimson standing before a cracked hourglass filled with falling golden embers instead of sand in foreground, black and white desaturated war-torn city frozen in eerie silence with smoke hanging motionless over ruins in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847219 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+
+CENA 10 — Desta vez a escala é diferente, as armas são outras
+Momento narrativo: "Só que desta vez, a escala é diferente. Porque desta vez, as armas são outras"
+
+/imagine prompt: colorful vivid archangel in crimson and gold armor holding an ancient sword that crumbles while a nuclear glow rises behind him in foreground, black and white desaturated missile silos opening and nuclear warheads launching into a darkened sky in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, strong contrast vibrant foreground versus monochrome background, 35mm film grain, anamorphic lens flares, epic surreal prophetic apocalyptic atmosphere --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847220 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, anime, cartoon, cheerful, modern colors in foreground, blurry
+
+──────────────────────────────────────────────────────────────────────────
+FIM — 10 prompts | Seeds 847211–847220 | PARTE 2

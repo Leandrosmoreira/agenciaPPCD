@@ -1,0 +1,103 @@
+===============================================================
+MEDUSA — Prompts de Thumbnail | video-008-sinais-fisicos
+Canal: Sinais do Fim
+Titulo aprovado: SINAIS FISICOS DO APOCALIPSE? Ceu Vermelho, Corvos e Chuva de Sangue
+Formato: 1280x720px | 16:9 | Banana 2.0
+Gerado: 2026-04-11
+===============================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIACAO A — "O Profeta e os Corvos" (PRINCIPAL — maior CTR esperado)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0:
+colorful vivid medieval prophet in vibrant crimson and gold robes standing center-left,
+arms slightly raised, face turned upward in awe and warning,
+massive flock of iridescent black ravens filling the blood-red sky behind him,
+black and white desaturated modern cityscape crumbling in the background,
+crimson rain drops falling like blood across the entire scene,
+chiaroscuro dramatic lighting from above casting deep shadows,
+fire glow and floating ash embers in foreground,
+aged parchment texture overlay, 35mm film grain, anamorphic lens flares,
+strong contrast between vibrant medieval figure and monochrome modern destruction,
+space for text overlay on right third of image,
+YouTube thumbnail composition, epic surreal prophetic apocalyptic atmosphere,
+--ar 16:9 --style raw --v 7 --q 2 --stylize 750
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, text, cheerful colors, low quality, blurry, modern colors
+on prophet, smiling, peaceful, daytime, clean sky, white background
+
+TEXTO NA THUMB: "CEU VERMELHO\nJA CHEGOU?"
+POSICAO: Terco direito
+FONTE: Bold gotica medieval, uppercase
+COR: Branco (#E8E0D0) com outline preto 4px + glow vermelho (#8B0000)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIACAO B — "O Rosto do Aviso" (teste A/B — close emocional)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0:
+extreme close-up portrait of colorful vivid ancient prophet in crimson and ochre robes,
+face filling left two-thirds of frame, intense piercing eyes looking directly at viewer,
+one hand raised pointing upward toward blood-red sky visible behind him,
+single large iridescent black raven perched on his shoulder staring at camera,
+black and white desaturated burning city visible in background through rain,
+blood-red rain drops streaking across the scene,
+chiaroscuro dramatic lighting, deep shadows under eyes creating intense expression,
+aged parchment texture, 35mm film grain, anamorphic lens flares,
+strong contrast vivid crimson foreground versus monochrome burning city background,
+space for text overlay on right side,
+YouTube thumbnail, ultra-detailed, cinematic, prophetic atmosphere
+--ar 16:9 --style raw --v 7 --q 2 --stylize 750
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, text, happy expression, peaceful, cartoon raven,
+low quality, blurry, modern fashion, cheerful lighting
+
+TEXTO NA THUMB: "VOCE VIU\nESSE SINAL?"
+POSICAO: Terco direito, alinhado ao centro vertical
+FONTE: Bold gotica, uppercase
+COR: Dourado envelhecido (#C5A355) com outline preto 3px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VARIACAO C — "Invasao dos Corvos" (variante agressiva / gancho)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0:
+massive apocalyptic swarm of hundreds of iridescent black metallic ravens
+descending from blood-red sky onto black and white desaturated modern city ruins,
+colorful vivid prophet figure in deep crimson robes standing small in lower-left foreground
+raising a glowing golden scroll toward the sky in defiance,
+blood rain falling across entire scene, floating crimson ash embers,
+massive dark stormclouds with lightning in blood-red and black sky,
+chiaroscuro dramatic lighting, deep contrasts,
+35mm film grain, anamorphic lens flares,
+strong contrast vivid figure versus monochrome destruction,
+epic bird swarm dominating upper three-quarters of frame,
+space for bold text overlay in lower-right area,
+YouTube thumbnail, ultra-wide epic composition, cinematic, prophetic apocalyptic
+--ar 16:9 --style raw --v 7 --q 2 --stylize 750
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, text, cheerful, peaceful, few birds, clear sky,
+low quality, blurry, daytime bright, pastel colors
+
+TEXTO NA THUMB: "SINAL\nDO FIM"
+POSICAO: Canto inferior direito
+FONTE: Bold gotica extra-large, uppercase, ocupar ~35% da largura
+COR: Vermelho sangue (#8B0000) com outline branco 3px + sombra preta densa
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECOMENDACAO DE TESTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Principal (upload): VARIACAO A — profeta + corvos + ceu vermelho
+Mais emocional: VARIACAO B — close rosto + corvo no ombro
+Mais agressiva: VARIACAO C — swarm de corvos dominando o ceu
+
+Testar CTR via YouTube Studio 48h apos publicacao.
+Trocar para B ou C se CTR < 3.5% nas primeiras 24h.
+
+*Gerado por MEDUSA — Designer de Thumbnails / Abismo Criativo*
+*2026-04-11*

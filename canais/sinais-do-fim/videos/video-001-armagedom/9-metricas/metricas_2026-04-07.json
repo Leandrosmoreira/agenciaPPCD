@@ -1,0 +1,160 @@
+{
+  "canal": "sinais-do-fim",
+  "video": "video-001-armagedom",
+  "titulo": "Armagedom: O Fim Comecou? Profecias Biblicas...",
+  "duracao_segundos": 401,
+  "duracao_fmt": "6:41",
+  "publicado_em": "2026-04-06",
+  "coleta_em": "2026-04-07",
+  "periodo": "desde_publicacao",
+
+  "metricas_totais": {
+    "visualizacoes": 8,
+    "visualizadores_unicos": 2,
+    "watch_time_horas": 0.5,
+    "watch_time_minutos": 30,
+    "inscritos_ganhos": 3,
+    "visualizacoes_48h_realtime": 15
+  },
+
+  "metricas_calculadas": {
+    "avg_view_duration_min": 3.75,
+    "avg_view_duration_fmt": "3:49",
+    "avg_view_duration_pct": 56.1,
+    "inscricao_rate_pct": 37.5,
+    "views_por_inscrito": 2.67,
+    "like_rate_pct": 100.0,
+    "dislikes": 0
+  },
+
+  "alcance": {
+    "impressoes_total": 201,
+    "ctr_pct": 2.5,
+    "visualizacoes_de_impressoes": 8,
+    "nota_ctr": "CTR esperado para canal novo: 2-5%. 2.5% esta dentro do range normal.",
+    "fontes_impressoes": [
+      {
+        "fonte": "Pagina inicial e feed de inscricoes",
+        "impressoes": 46,
+        "impressoes_pct": 22.9,
+        "ctr_pct": 0.0,
+        "nota": "97.8% das impressoes do YouTube recomendado — sem cliques ainda (canal novo sem historico)"
+      },
+      {
+        "fonte": "Externo (Creator Studio + WhatsApp)",
+        "impressoes_pct": 15.4,
+        "sub_fontes": [
+          {"fonte": "Creator Studio", "pct_do_externo": 50.0},
+          {"fonte": "WhatsApp", "pct_do_externo": 50.0}
+        ],
+        "nota": "Trafego inicial via compartilhamento manual — sinal positivo de engajamento do criador"
+      }
+    ]
+  },
+
+  "engajamento": {
+    "watch_time_horas": 0.5,
+    "avg_duration_fmt": "3:49",
+    "avg_duration_pct": 56.1,
+    "hype_points": 0,
+    "like_rate_pct": 100.0,
+    "dislikes": 0,
+    "comentarios": 0,
+    "retencao_disponivel": false,
+    "nota_retencao": "Grafico de retencao ainda processando — disponivel em 48h"
+  },
+
+  "publico": {
+    "visualizadores_unicos": 2,
+    "inscritos_ganhos": 3,
+    "inscricao_rate_pct": 150.0,
+    "nota_inscricao": "3 inscritos com apenas 2 visualizadores unicos — alguem inscreveu sem contar como view unica (possivel app mobile)",
+    "dispositivos": [
+      {"dispositivo": "Mobile", "pct": 64.0},
+      {"dispositivo": "TV", "pct": 17.6},
+      {"dispositivo": "Computador", "pct": 17.6},
+      {"dispositivo": "Tablet", "pct": 0.0}
+    ],
+    "legendas_cc": {
+      "cc_usado_pct": 0.0,
+      "nota": "100% assistiu sem legenda — audiencia nativa em portugues confirmada"
+    }
+  },
+
+  "fontes_de_trafego": [
+    {
+      "fonte": "Videos sugeridos",
+      "pct": 33.3,
+      "views_estimados": 3
+    },
+    {
+      "fonte": "Pesquisa do YouTube",
+      "pct": 20.0,
+      "views_estimados": 2
+    },
+    {
+      "fonte": "Origem direta/desconhecida",
+      "pct": 13.3,
+      "views_estimados": 1
+    },
+    {
+      "fonte": "Recursos de navegacao",
+      "pct": 13.3,
+      "views_estimados": 1
+    },
+    {
+      "fonte": "Externa (WhatsApp + Creator Studio)",
+      "pct": 13.3,
+      "views_estimados": 1
+    }
+  ],
+
+  "historico_diario": [
+    {
+      "data": "2026-04-06",
+      "dia": 1,
+      "views": 8,
+      "watch_time_min": 30,
+      "inscritos": 3,
+      "impressoes": 201,
+      "ctr_pct": 2.5,
+      "nota": "Dia de publicacao — dados completos coletados"
+    },
+    {
+      "data": "2026-04-07",
+      "dia": 2,
+      "views_realtime_48h": 15,
+      "nota": "Realtime 48h inclui dia 1+2 — tendencia positiva"
+    }
+  ],
+
+  "status_processamento": {
+    "retencao_disponivel": false,
+    "ctr_disponivel": true,
+    "impressoes_disponivel": true,
+    "dispositivos_disponivel": true,
+    "nota": "Dados de retencao ainda processando. Todos os outros dados completos."
+  },
+
+  "sinais_positivos": [
+    "56% de retencao media — acima da media do YouTube (40-50%) para canal novo",
+    "100% de like rate — zero dislikes",
+    "3 inscritos com 2 viewers — taxa de conversao excepcional (150%)",
+    "64% mobile — alinhado com audiencia brasileira evangelical",
+    "2.5% CTR — dentro do range esperado para canal sem historico",
+    "Videos sugeridos ja responsaveis por 33% das views — algoritmo reconheceu o conteudo"
+  ],
+
+  "alertas": [
+    "CTR 0% das 46 impressoes na pagina inicial — thumbnail pode precisar de ajuste (teste A/B pendente)",
+    "201 impressoes em 24h — volume baixo, mas esperado para dia 1 de canal novo",
+    "0 hype points — feature nova do YouTube, monitorar nas proximas semanas"
+  ],
+
+  "recomendacoes_proximos_passos": [
+    "Publicar video-002 dentro de 7 dias para manter algoritmo aquecido",
+    "Monitorar CTR da pagina inicial: se permanecer 0% apos 500 impressoes, refazer thumbnail",
+    "WhatsApp como trafego externo: criar grupo/lista de transmissao para divulgacao organica",
+    "Topico Nephilim/Engenharia Genetica aprovado para video-003 — alta busca, baixa concorrencia"
+  ]
+}

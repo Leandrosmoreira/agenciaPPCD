@@ -52,11 +52,32 @@ Janela:         <24h=100 · 1-3d=70 · 3-7d=40 · evergreen=20
 Cross-platform: +20pts por plataforma adicional que detectou o tema
 ```
 
+## Etapa Obrigatória — Transcrições de Concorrentes (SEMPRE executar)
+
+Após definir o ângulo vencedor, executar AUTOMATICAMENTE:
+
+```bash
+python _tools/argos_transcricoes.py \
+  --canal {canal} \
+  --video {video-NNN-slug} \
+  --tema "{palavras-chave do tema aprovado}" \
+  --max 5
+```
+
+Isso gera em `canais/{canal}/videos/{video}/1-pesquisa/`:
+- `transcricoes_concorrentes.json` — dados brutos das 5 transcrições
+- `base_roteiro_concorrentes.md` — hooks, power words, estrutura, CTAs validados (para Morrigan)
+- `analise_profunda.md` — análise detalhada: semelhanças, camadas, ritmo, arco emocional (para Hermes)
+
+**A Hermes DEVE carregar `analise_profunda.md` para extrair power words validados ao criar títulos.**
+**A Morrigan DEVE carregar `base_roteiro_concorrentes.md` antes de escrever o roteiro.**
+
 ## Output — pesquisa.pdf deve conter:
 - Top 10 tópicos rankeados por viral score
 - Para cada: resumo (3 linhas), fontes detectadas, score breakdown, janela temporal
 - Recomendação do top 3 com justificativa
 - Conexão temática sugerida (adaptar ao nicho do canal ativo)
+- Confirmação de que `base_roteiro_concorrentes.md` foi gerado
 
 ## Superpowers Integrados
 - **brainstorming** — Antes de calcular viral scores, explorar ângulos e conexões temáticas

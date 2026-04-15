@@ -1,0 +1,62 @@
+MEDUSA — THUMBNAIL
+Canal: Sinais do Fim | Vídeo: video-007-falsa-paz
+Título aprovado: A PAZ ANTES DA DESTRUIÇÃO — Profecia se Cumpre HOJE
+Data: 2026-04-10
+IMAGEM BASE: aprovada por Snayder (homem 50+ anos, close-up, fundo fogo vermelho/laranja)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANÁLISE DA IMAGEM APROVADA:
+✅ Rosto 60% esquerda — expressão de medo solene (L5 visual)
+✅ Olhos levemente desviados para cima-direita — transmite "sabe algo grave"
+✅ Iluminação lateral quente (vermelho/laranja) — perfeita para o canal
+✅ Fundo desfocado (fogo) — espaço limpo no lado direito para texto
+✅ Paleta: vermelho #8B0000 + laranja + sombra escura = DNA visual do canal
+
+TEXTO DA THUMBNAIL (opção recomendada):
+┌─────────────────────────────────────────┐
+│  A PAZ É                                │
+│  MENTIRA                                │
+└─────────────────────────────────────────┘
+Fonte: Bold gótica/medieval
+Cor: BRANCO (#FFFFFF) com outline preto grosso (4-5px) + glow vermelho (#8B0000)
+Posição: canto direito, ~820-1200px horizontal, centralizado verticalmente (280-440px)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROMPT BANANA 2.0 (sem texto — versão multilíngue PT/EN/ES):
+
+Close-up portrait of a weathered 55-year-old man with intense solemn expression, dramatic side lighting in deep reds and oranges, eyes slightly averted upward — occupying left 60% of frame. On the right side: a white dove descending into flames, wings catching fire, rendered in vivid crimson and gold tones against a dark stormy sky. Background: apocalyptic fire and smoke, deep red atmosphere. Composition: face left, burning dove right — two elements balanced, telling the full story without words. Photorealistic, cinematic, ultra-detailed, high contrast, dark biblical mood, dramatic depth of field.
+Aspect ratio: 16:9, 1280x720px, YouTube thumbnail, no text, no watermark.
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, text, logos, cheerful colors, pastel colors, low quality, blurry, smiling, happy expression, white background, flat lighting, empty right side, plain background
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMPOSIÇÃO (specs para CapCut/Canva):
+- Canvas: 1280 × 720 px
+- Camada 1 (fundo): imagem gerada pelo Banana 2.0
+- Camada 2 (texto principal):
+    Linha 1: "A PAZ É"       — fonte Impact ou gótica bold, 120px, branco #FFFFFF, outline preto 4px
+    Linha 2: "MENTIRA"       — fonte Impact ou gótica bold, 140px, branco #FFFFFF, outline vermelho #8B0000 4px + glow
+    Posição: canto direito, ~850px do esquerdo, centralizado verticalmente
+- Camada 3 (destaque cor):
+    Linha 2 com sombra projetada dourada sutil (#C5A355, 30% opacidade)
+- Camada 4 (logo):
+    "SINAIS DO FIM" — fonte pequena, branco 60% opacidade, canto inferior esquerdo, 20px margem
+
+ESTRATÉGIA: SEM TEXTO NA THUMBNAIL (decisão Snayder 10/04)
+Motivo: mesma imagem serve PT + EN + ES (expansão multilíngue futura)
+A imagem comunica sozinha via rosto + símbolo visual
+
+ELEMENTO DIREITO RECOMENDADO (espaço direito da imagem):
+  → Pomba branca caindo em chamas — contraste simbólico direto (paz destruída)
+
+VARIAÇÕES PARA TESTE A/B:
+  A: Rosto + pomba branca caindo em chamas (recomendado)
+  B: Rosto + horizonte com exércitos em chamas
+  C: Rosto + livro bíblico aberto com luz dourada saindo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MEDUSA — Thumbnail gerada | 2026-04-10

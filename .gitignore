@@ -1,20 +1,90 @@
-# Secrets
+# ═══════════════════════════════════════
+# ABISMO CRIATIVO — gitignore
+# ═══════════════════════════════════════
+
+# ─── Secrets (NUNCA committar) ───
 .env
 *.env
+!.env.template
+*.key
+*.pem
+*_oauth*.json
+*_token*.pickle
+*credentials*.json
 
-# Assets grandes
+# ─── Assets pesados de produção ───
 6-assets/
 7-edicao/*.mp4
+8-publicacao/*.mp4
 *.mp4
+*.mov
+*.avi
+*.mkv
 *.wav
 *.mp3
+*.m4a
+*.aac
+*.flac
 
-# OS
+# ─── Imagens grandes (MJ + audios + renders) ───
+*.psd
+canais/*/videos/*/6-assets/
+canais/*/videos/*/5-audio/
+canais/*/videos/*/4-prompts-imagem/imagens/
+canais/*/videos/*/7-imagens/
+canais/*/videos/*/7-edicao/
+canais/*/videos/*/8-render/*.mp4
+canais/*/videos/*/8-publicacao/thumb*.png
+canais/*/videos/*/8-publicacao/thumb*.jpg
+canais/*/videos/*/8-publicacao/thumbs*.png
+
+# ─── Binários grandes no geral ───
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+!channel.md.pdf
+# permitir logos pequenos só no root de canal
+!canais/*/logo*.png
+
+# ─── Logs e temporários ───
+*.log.tmp
+render.log
+temp_*.m4a
+temp_*.mp3
+temp_*.wav
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+*.pyo
+
+# ─── Claude Code local ───
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/*.lock
+
+# ─── OS ───
 Thumbs.db
 .DS_Store
+desktop.ini
 
-# Node
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+
+# ─── Node ───
 node_modules/
 
-# Logs temporários
-*.log.tmp
+# ─── Python venv ───
+venv/
+.venv/
+env/

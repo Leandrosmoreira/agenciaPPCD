@@ -1,0 +1,1104 @@
+STORYBOARD — A MARCA DA BESTA JÁ ESTÁ SENDO IMPLEMENTADA — APOCALIPSE 13
+Canal: Sinais do Fim — Passagens do Apocalipse
+Agência: Abismo Criativo | Agente: Nyx
+Vídeo: video-002-marca-da-besta
+Duração: 15:30 min
+Total de Quadros: 93 (56 IMAGE + 37 VIDEO)
+Data: 2026-04-06
+
+================================================================================
+INTRODUÇÃO — 0:00 → 1:45
+================================================================================
+
+QUADRO 01 — Abertura: Agência
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 0:00 → 0:08
+DESCRIÇÃO VISUAL: Tela negra (#0A0A0A). Letras douradas (#C5A355) surgem letra por letra: "ABISMO CRIATIVO". Abaixo, vermelho (#8B0000): "SINAIS DO FIM — Passagens do Apocalipse". Faíscas e cinzas flutuando ao fundo. Fade in dramático.
+NARRAÇÃO: [silêncio — música dark ambient inicia]
+EMOÇÃO: Solenidade, expectativa
+TRANSIÇÃO: Dissolve para Q02
+
+---
+
+QUADRO 02 — João em Patmos — Estabelecendo cena
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 0:08 → 0:18
+DESCRIÇÃO VISUAL: Câmera revela João curvado sobre pergaminho em caverna iluminada por tocha — COLORIDO VIBRANTE, vestes medievais ricas em azul e ocre. Fundo: panorâmica de cidade moderna em P&B com câmeras de vigilância. Fumaça sobe lentamente. Movimento de câmera: zoom out revelador.
+NARRAÇÃO: No ano 95 depois de Cristo...
+EMOÇÃO: Mistério, peso histórico
+TRANSIÇÃO: Corte direto para Q03
+
+---
+
+QUADRO 03 — João em Patmos — Ilha rochosa
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 0:18 → 0:26
+DESCRIÇÃO VISUAL: João sentado em penhasco sobre mar revolto — COLORIDO. Robes ocre e marrom, barba branca. Mar com ondas dramáticas. Fundo: skyline urbana moderna em P&B desfocada. Ken Burns: zoom in lento no rosto do ancião.
+NARRAÇÃO: um homem exilado em uma ilha rochosa teve uma visão.
+EMOÇÃO: Solidão, revelação
+TRANSIÇÃO: Fade para Q04
+
+---
+
+QUADRO 04 — Rosto do ancião em close
+TIPO: IMAGE
+DURAÇÃO: 6s
+TIMESTAMP: 0:26 → 0:32
+DESCRIÇÃO VISUAL: Close no rosto de João — olhos arregalados mirando o horizonte. Expressão de terror sagrado. Luz de tocha dourada iluminando metade do rosto. Fundo completamente escuro. Ken Burns: leve movimento lateral.
+NARRAÇÃO: Ele não era jovem. Ele não era poderoso. Era um ancião solitário, sem exército, sem poder político.
+EMOÇÃO: Vulnerabilidade, espanto
+TRANSIÇÃO: Corte para Q05
+
+---
+
+QUADRO 05 — Visão de João: a besta emerge
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 0:32 → 0:40
+DESCRIÇÃO VISUAL: Mão de João aponta para o horizonte. No horizonte, besta de 7 cabeças emergindo de oceano de dados/código em P&B. João em primeiro plano COLORIDO. Movimento: câmera passa pelo ombro de João revelando a visão.
+NARRAÇÃO: E ele viu algo que o aterrorizou.
+EMOÇÃO: Terror, revelação
+TRANSIÇÃO: Zoom in acelerado para Q06
+
+---
+
+QUADRO 06 — Sistema de controle — conceito visual
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 0:40 → 0:48
+DESCRIÇÃO VISUAL: Representação medieval de um "sistema" — rede de correntes douradas conectando figuras humanas ajoelhadas. Cores: dourado e vermelho. Fundo: circuito eletrônico P&B. Ken Burns: zoom lento no centro da rede.
+NARRAÇÃO: Viu um sistema. Um sistema onde ninguém — absolutamente ninguém — poderia comprar ou vender... sem uma marca de identificação.
+EMOÇÃO: Opressão, inevitabilidade
+TRANSIÇÃO: Dissolve para Q07
+
+---
+
+QUADRO 07 — Frase viral 1 — Card de impacto
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 0:48 → 0:54
+DESCRIÇÃO VISUAL: Tela escura. Texto em dourado surge com efeito de digitação: "João escreveu isso no século I." Linha vermelha divisória. Segunda linha branca: "A tecnologia para cumprir só chegou agora." Cinzas animadas ao fundo.
+NARRAÇÃO: "João escreveu isso no século I. A tecnologia para cumprir só chegou agora."
+EMOÇÃO: Impacto, epifania
+TRANSIÇÃO: Corte brusco para Q08
+
+---
+
+QUADRO 08 — Mapa-múndi com dados digitais
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 0:54 → 1:04
+DESCRIÇÃO VISUAL: Mapa-múndi em P&B com linhas de dados digitais luminosos conectando países — semelhante a um circuito elétrico. Pulsos de luz percorrem as linhas. Câmera: rotação lenta do globo. Visual frio e tecnológico.
+NARRAÇÃO: Hoje, os governos do mundo têm um nome para esse sistema. Chamam de CBDC. Moeda Digital de Banco Central.
+EMOÇÃO: Frieza institucional, escala global
+TRANSIÇÃO: Dissolve para Q09
+
+---
+
+QUADRO 09 — 134 países — infográfico bíblico
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 1:04 → 1:14
+DESCRIÇÃO VISUAL: Mapa-múndi estilizado em azul escuro. 134 países iluminados em vermelho sangue (#8B0000). Número "134" em dourado gigante sobreposto. Fundo: texto de Apocalipse 13 em pergaminho P&B. Ken Burns: zoom in gradual no mapa.
+NARRAÇÃO: 134 países estão construindo esse sistema agora. Representam 98% do PIB do planeta.
+EMOÇÃO: Escala esmagadora, urgência
+TRANSIÇÃO: Corte para Q10
+
+---
+
+QUADRO 10 — Frase viral 2 — Card de impacto
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 1:14 → 1:22
+DESCRIÇÃO VISUAL: Fundo negro. Texto aparece em vermelho: "134 países já desenvolvem a moeda que..." pausa... "pode te proibir de comprar comida." Tremor leve na câmera. Efeito de ruído analógico.
+NARRAÇÃO: "134 países já desenvolvem a moeda que pode te proibir de comprar comida."
+EMOÇÃO: Alarme, realidade concreta
+TRANSIÇÃO: Fade para Q11
+
+---
+
+QUADRO 11 — Convite ao vídeo
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 1:22 → 1:30
+DESCRIÇÃO VISUAL: João segurando pergaminho aberto com texto bíblico — COLORIDO. À direita, representação de smartphone com app de moeda digital — P&B. Os dois elementos lado a lado na mesma composição. Linha de fogo vermelha os separa. Ken Burns: recuo leve.
+NARRAÇÃO: Neste vídeo, vamos olhar para o que João realmente escreveu. Vamos olhar para o que está acontecendo hoje. E vamos deixar você tirar suas próprias conclusões.
+EMOÇÃO: Promessa, curiosidade
+TRANSIÇÃO: Dissolve para Q12
+
+---
+
+QUADRO 12 — Encerramento da introdução
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 1:30 → 1:40
+DESCRIÇÃO VISUAL: Tabuleiro de xadrez medievalizado com peças representando tecnologias (CBDC, chip, câmera) em P&B e peças bíblicas (anjos, bestas) em cores. Mão descendo peça em posição estratégica. Ken Burns: zoom lento de cima para baixo.
+NARRAÇÃO: Não vamos afirmar que o fim é amanhã. Vamos mostrar que as peças estão no tabuleiro.
+EMOÇÃO: Inteligência, tensão estratégica
+TRANSIÇÃO: Corte para título do ATO 1
+
+---
+
+================================================================================
+ATO 1 — BASE BÍBLICA — 1:40 → 5:10
+================================================================================
+
+QUADRO 13 — Título do Ato 1
+TIPO: VIDEO
+DURAÇÃO: 5s
+TIMESTAMP: 1:40 → 1:45
+DESCRIÇÃO VISUAL: Tela escura. Texto dourado aparece: "ATO I" / "O QUE JOÃO REALMENTE ESCREVEU". Efeito de selo de cera vermelho sendo pressionado sob o texto.
+NARRAÇÃO: [pausa — música aumenta brevemente]
+EMOÇÃO: Solenidade, transição narrativa
+TRANSIÇÃO: Dissolve para Q14
+
+---
+
+QUADRO 14 — Pergaminho de Apocalipse 13
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 1:45 → 1:55
+DESCRIÇÃO VISUAL: Pergaminho antigo aberto — COLORIDO em tons ocre e marrom. Texto grego de Apocalipse 13 visível. Fundo: templo romano em P&B com colunas imponentes. Luz de vela iluminando o texto. Ken Burns: zoom in no pergaminho.
+NARRAÇÃO: Apocalipse, capítulo 13, versículos 16 a 18. Leitura na Almeida Revista e Atualizada:
+EMOÇÃO: Sagrado, peso histórico
+TRANSIÇÃO: Fade para Q15
+
+---
+
+QUADRO 15 — Leitura do versículo — pequenos e grandes
+TIPO: IMAGE
+DURAÇÃO: 12s
+TIMESTAMP: 1:55 → 2:07
+DESCRIÇÃO VISUAL: Iluminura medieval mostrando pessoas de todas as classes — reis (coroas douradas), mendigos (andrajos), soldados, crianças — todos ajoelhados diante de uma figura sombria. COLORIDO com cores ricas. Fundo de multidão moderna em P&B. Ken Burns: panorâmica da esquerda para direita.
+NARRAÇÃO: "E ela faz que a todos, aos pequenos e aos grandes, aos ricos e aos pobres, aos livres e aos escravos, se lhes ponha uma marca na mão direita ou na fronte."
+EMOÇÃO: Universalidade, coerção total
+TRANSIÇÃO: Dissolve para Q16
+
+---
+
+QUADRO 16 — Ninguém pode comprar ou vender
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:07 → 2:17
+DESCRIÇÃO VISUAL: Mercado medieval COLORIDO com barracas cheias de pão, frutas. Uma figura com marca vermelha na mão compra livremente. Outra figura sem marca é impedida por guardas medievais. Barreira de luz vermelha entre eles. Fundo: supermercado moderno P&B. Ken Burns: plano médio estático.
+NARRAÇÃO: "E que ninguém possa comprar ou vender, senão aquele que tiver a marca, o nome da besta, ou o número do seu nome."
+EMOÇÃO: Exclusão, injustiça, medo
+TRANSIÇÃO: Corte para Q17
+
+---
+
+QUADRO 17 — 666 — sabedoria e cálculo
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:17 → 2:27
+DESCRIÇÃO VISUAL: Sábio medieval COLORIDO — robes violeta e dourado — segurando tábua com números. No centro da tábua, o número 666 em dourado brilhante. Fundo: calculadoras e computadores P&B. Expressão de gravidade no rosto. Ken Burns: zoom in no número.
+NARRAÇÃO: "Aqui está a sabedoria. Aquele que tem entendimento, calcule o número da besta. Porque é o número de um homem. E o seu número é seiscentos e sessenta e seis."
+EMOÇÃO: Mistério, inteligência necessária
+TRANSIÇÃO: Fade para Q18
+
+---
+
+QUADRO 18 — Palavra CHARAGMA destacada
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:27 → 2:37
+DESCRIÇÃO VISUAL: Close em texto grego antigo em pergaminho COLORIDO. A palavra CHARAGMA (ΧΑΡΑΓΜΑ) destaca-se em dourado (#C5A355) brilhante com leve halo. Resto do texto em sépia escuro. Fundo: tela de computador com código P&B. Ken Burns: zoom in na palavra.
+NARRAÇÃO: João não usou uma palavra qualquer para "marca." Ele usou a palavra grega "charagma."
+EMOÇÃO: Precisão linguística, descoberta
+TRANSIÇÃO: Dissolve para Q19
+
+---
+
+QUADRO 19 — Charagma: marcas imperiais romanas
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:37 → 2:47
+DESCRIÇÃO VISUAL: Colagem medieval: lacre imperial romano em cera vermelha COLORIDO sobre documento; marca na pele de escravo; animal marcado a ferro. Três elementos em composição triangular. Fundo: arquivo de dados digital P&B. Ken Burns: panorâmica revelando os três elementos.
+NARRAÇÃO: Charagma significava: incisão, gravação, carimbo. Era o mesmo termo usado para marcas imperiais romanas. Marcas em documentos oficiais. Marcas na pele de escravos. Marcas em animais de propriedade do Império.
+EMOÇÃO: Desumanização, propriedade
+TRANSIÇÃO: Corte para Q20
+
+---
+
+QUADRO 20 — Tefilim: sinal de Deus
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:47 → 2:57
+DESCRIÇÃO VISUAL: Homem judeu em oração COLORIDO — vestes ricas azul e branco, filactérios (tefilim) amarrados na mão direita e na testa. Luz dourada emana dos filactérios. Fundo: sinagoga moderna P&B. Ken Burns: zoom in nos tefilim na mão.
+NARRAÇÃO: A localização não é acidental. No livro de Deuteronômio, capítulo 6, versículo 8, Deus manda o povo de Israel amarrar Sua lei como sinal na mão. E como frontal entre os olhos.
+EMOÇÃO: Sagrado, contraste divino/profano
+TRANSIÇÃO: Dissolve para Q21
+
+---
+
+QUADRO 21 — Contrafação da marca divina
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 2:57 → 3:07
+DESCRIÇÃO VISUAL: Imagem dividida verticalmente: esquerda — tefilim em mão direita (luz dourada, COLORIDO). Direita — chip implantado em mão direita (fria, P&B com leve vermelho). Linha de fogo vermelha dividindo as duas realidades. Ken Burns: zoom out revelando o contraste.
+NARRAÇÃO: Os judeus chamam esses objetos de tefilim. São caixinhas com pergaminhos das Escrituras, usadas na mão direita e na testa durante a oração. A Marca da Besta não é uma invenção aleatória. É a contrafação exata do sinal de Deus.
+EMOÇÃO: Profanação, inversão simbólica
+TRANSIÇÃO: Corte para Q22
+
+---
+
+QUADRO 22 — Exclusão econômica — frase viral
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 3:07 → 3:15
+DESCRIÇÃO VISUAL: Animação: porta de supermercado moderno P&B fechando. Mão (sem marca) bate na porta. Texto vermelho aparece: "NÃO COME." / "NÃO PAGA ALUGUEL." / "NÃO EXISTE." Sequência rápida de textos com efeito de queda.
+NARRAÇÃO: Não é uma ameaça de violência física. É uma exclusão econômica. Quem não tiver a marca... não come. Não paga aluguel. Não recebe salário. Não existe dentro do sistema.
+EMOÇÃO: Desespero, concretude da ameaça
+TRANSIÇÃO: Flash branco para Q23
+
+---
+
+QUADRO 23 — Frase viral 4 — Card impacto
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 3:15 → 3:21
+DESCRIÇÃO VISUAL: Fundo preto. Texto vermelho: "O Anticristo não vai precisar de exércitos." Pausa. Texto dourado: "Vai precisar de um servidor." Ícone de servidor piscando abaixo. Efeito de eco/reverb visual.
+NARRAÇÃO: "O Anticristo não vai precisar de exércitos. Vai precisar de um servidor."
+EMOÇÃO: Impacto conceitual, modernidade
+TRANSIÇÃO: Dissolve para Q24
+
+---
+
+QUADRO 24 — As quatro escolas: mapa de caminhos
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 3:21 → 3:31
+DESCRIÇÃO VISUAL: Mapa medieval iluminado COLORIDO mostrando quatro caminhos divergindo de um cruzamento central. Cada caminho tem um símbolo: I — Coliseu (Preterismo); II — Igreja (Historicismo); III — Símbolo atemporal (Idealismo); IV — Olho que tudo vê (Futurismo). Dourado e vermelho dominam. Ken Burns: zoom out do centro para revelar os quatro caminhos.
+NARRAÇÃO: Há quatro maneiras principais de interpretar Apocalipse 13.
+EMOÇÃO: Intelectualidade, multiplicidade
+TRANSIÇÃO: Corte para Q25
+
+---
+
+QUADRO 25 — Preterismo: Nero no Coliseu
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 3:31 → 3:39
+DESCRIÇÃO VISUAL: Nero em trono COLORIDO — toga vermelha, coroa de louros dourada. Fundo: Coliseu romano em P&B com fumaça. Expressão arrogante. Moeda com seu rosto na mão. Ken Burns: zoom lento em Nero.
+NARRAÇÃO: O preterismo diz que tudo se cumpriu no século I. A Besta seria Nero ou Domiciano.
+EMOÇÃO: Poder humano, arrogância temporal
+TRANSIÇÃO: Dissolve para Q26
+
+---
+
+QUADRO 26 — Historicismo: Lutero vs. Roma
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 3:39 → 3:47
+DESCRIÇÃO VISUAL: Martinho Lutero COLORIDO — robes monásticos pretos, semblante determinado — pregando com Bíblia aberta. Fundo: basílica de São Pedro em P&B. Iluminação dramática de vitral colorido caindo sobre Lutero. Ken Burns: plano médio.
+NARRAÇÃO: O historicismo foi a posição dos Reformadores. Lutero e Calvino viam o papado romano como o sistema da Besta.
+EMOÇÃO: Coragem reformatória, conflito institucional
+TRANSIÇÃO: Corte para Q27
+
+---
+
+QUADRO 27 — Idealismo: símbolo atemporal
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 3:47 → 3:55
+DESCRIÇÃO VISUAL: Ampulheta medieval dourada no centro — símbolo atemporal. Ao redor, em espiral, imagens de sistemas de coerção de diferentes épocas (P&B): faraó egípcio, inquisição, gulag soviético, câmeras modernas. A ampulheta permanece COLORIDA no centro. Ken Burns: rotação lenta.
+NARRAÇÃO: O idealismo vê símbolos atemporais. Qualquer sistema de coerção e idolatria em qualquer época.
+EMOÇÃO: Universalidade, padrão recorrente
+TRANSIÇÃO: Dissolve para Q28
+
+---
+
+QUADRO 28 — Futurismo: Darby e o cumprimento futuro
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 3:55 → 4:03
+DESCRIÇÃO VISUAL: Calendário profético medieval COLORIDO com linha do tempo de eventos futuros — selos, trombetas, taças. Últimas cenas do calendário apontam para futuro aberto/não revelado (área escura). Fundo: jornal atual P&B. Ken Burns: panorâmica da esquerda (passado) para direita (futuro).
+NARRAÇÃO: O futurismo espera um cumprimento literal ainda no futuro. Foi sistematizado em 1830 por John Nelson Darby. É a posição dominante no evangelicalismo brasileiro hoje.
+EMOÇÃO: Antecipação, certeza futura
+TRANSIÇÃO: Corte para Q29
+
+---
+
+QUADRO 29 — Posição do canal
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 4:03 → 4:13
+DESCRIÇÃO VISUAL: Os quatro caminhos do Q24, mas agora um deles (Futurismo — caminho IV) iluminado em dourado mais brilhante, com seta dourada indicando direção. Os outros três caminhos em penumbra mas visíveis. Ken Burns: zoom no caminho iluminado.
+NARRAÇÃO: Neste canal, trabalhamos com o futurismo como lente principal. Sem descartar os outros ângulos.
+EMOÇÃO: Clareza posicional, abertura intelectual
+TRANSIÇÃO: Fade para título do ATO 2
+
+---
+
+================================================================================
+ATO 2 — CONTEXTO HISTÓRICO — 4:13 → 6:53
+================================================================================
+
+QUADRO 30 — Título do Ato 2
+TIPO: VIDEO
+DURAÇÃO: 5s
+TIMESTAMP: 4:13 → 4:18
+DESCRIÇÃO VISUAL: Tela escura. Texto dourado: "ATO II" / "ROMA JÁ TENTOU ISSO". Moeda romana animada gira e pousa abaixo do texto. Efeito metálico.
+NARRAÇÃO: [pausa — transição musical]
+EMOÇÃO: Peso histórico, paralelo
+TRANSIÇÃO: Dissolve para Q31
+
+---
+
+QUADRO 31 — Domiciano em trono
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 4:18 → 4:28
+DESCRIÇÃO VISUAL: Domiciano sentado em trono imperial COLORIDO — toga púrpura e dourada, coroa de louros, expressão divina arrogante. Ao redor, súditos ajoelhados oferecendo tributo. Fundo: Coliseu e Roma em P&B. Luz divina falsa emanando de Domiciano. Ken Burns: zoom lento de trás do trono em direção ao imperador.
+NARRAÇÃO: O imperador Domiciano governou Roma de 81 a 96 d.C. Ele exigiu ser tratado como "Dominus et Deus." Senhor e Deus.
+EMOÇÃO: Blasfêmia, megalomania
+TRANSIÇÃO: Corte para Q32
+
+---
+
+QUADRO 32 — Libellus: certificado de lealdade
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 4:28 → 4:38
+DESCRIÇÃO VISUAL: Documento romano antigo COLORIDO — papel amarelado com selos vermelhos imperiais. Um escriba entregando o libellus a um cidadão. No fundo, mercado romano em P&B. Texto legível no documento: "LIBELLUS — Certificado Imperial de Lealdade". Ken Burns: zoom in no documento.
+NARRAÇÃO: Toda transação comercial na Roma imperial requeria participação nos sacrifícios ao Imperador. Ou um documento chamado libellus — um certificado de lealdade ao poder romano.
+EMOÇÃO: Burocracia opressora, precedente histórico
+TRANSIÇÃO: Dissolve para Q33
+
+---
+
+QUADRO 33 — Cristãos expulsos das guildas
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 4:38 → 4:48
+DESCRIÇÃO VISUAL: Cristão medieval COLORIDO — vestes simples, símbolo de peixe (ichthus) na túnica — sendo empurrado para fora de mercado romano por guardas. Porta do mercado fechada com corrente. Fundo: centro comercial moderno P&B vazio. Expressão de desamparo. Ken Burns: zoom no ichthus do cristão.
+NARRAÇÃO: Cristãos que recusavam esse sistema... eram expulsos das guildas comerciais. Perdiam acesso a trabalho. Perdiam acesso ao mercado. Literalmente, não podiam comprar nem vender.
+EMOÇÃO: Perseguição, exclusão, coragem
+TRANSIÇÃO: Corte para Q34
+
+---
+
+QUADRO 34 — Projeção histórica de João
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 4:48 → 4:56
+DESCRIÇÃO VISUAL: João em Patmos novamente COLORIDO — desta vez olhando para horizonte com expressão profética. No horizonte (P&B): Roma do século I se transforma gradualmente em cidade moderna. Sobreposição sutil de épocas. Ken Burns: zoom lento em direção ao horizonte.
+NARRAÇÃO: Isso é o que João estava descrevendo para sua geração. E projetando para o futuro.
+EMOÇÃO: Conexão temporal, profecia viva
+TRANSIÇÃO: Dissolve para Q35
+
+---
+
+QUADRO 35 — Gematria: Nero e 666
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 4:56 → 5:06
+DESCRIÇÃO VISUAL: Pergaminho com letras hebraicas COLORIDO — cada letra com seu valor numérico em dourado. "NRWN QSR" destacado. Somas parciais em vermelho. Total "666" em dourado brilhante ao final. Fundo: calculadora digital P&B. Ken Burns: panorâmica de cima para baixo seguindo o cálculo.
+NARRAÇÃO: O número 666 tem uma história. Na tradição judaica, cada letra tem um valor numérico. É a prática chamada de gematria. Nero César, escrito em hebraico como "nrwn qsr", soma exatamente 666.
+EMOÇÃO: Descoberta intelectual, conexão histórica
+TRANSIÇÃO: Corte para Q36
+
+---
+
+QUADRO 36 — Detalhamento do cálculo
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 5:06 → 5:14
+DESCRIÇÃO VISUAL: Tábua de pedra medieval COLORIDA — letras hebraicas esculpidas com valores numéricos ao lado. Soma final: 666. Estilo de inscrição antiga. Fundo: tela de computador P&B com código. Ken Burns: zoom in na soma final.
+NARRAÇÃO: Nun, Resh, Waw, Nun: 50, 200, 6, 50. Qoph, Samekh, Resh: 100, 60, 200. Total: seiscentos e sessenta e seis.
+EMOÇÃO: Precisão, revelação matemática
+TRANSIÇÃO: Dissolve para Q37
+
+---
+
+QUADRO 37 — Papiro 115 de Oxyrhynchus
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 5:14 → 5:22
+DESCRIÇÃO VISUAL: Fragmento de papiro antigo COLORIDO em tons ocre — visível texto grego fragmentado. Número "616" destacado em vermelho num trecho. Fundo: museu arqueológico P&B com vitrines. Ken Burns: zoom in no número 616.
+NARRAÇÃO: Há manuscritos antigos, como o Papiro 115 de Oxyrhynchus, que trazem o número como 616 — a variação latina do nome de Nero, sem o "n" final.
+EMOÇÃO: Rigor histórico, camadas de profundidade
+TRANSIÇÃO: Corte para Q38
+
+---
+
+QUADRO 38 — Nero: padrão vs. cumprimento final
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 5:22 → 5:30
+DESCRIÇÃO VISUAL: Nero em miniatura no canto esquerdo da imagem COLORIDO — pequeno, histórico. À direita, silhueta sombria maior de figura futura (sem rosto definido) — em tons vermelhos escuros. Seta conectando os dois: "PADRÃO → CUMPRIMENTO". Fundo escuro. Ken Burns: zoom out revelando ambas as figuras.
+NARRAÇÃO: Os preteristas usam isso para dizer que o texto se encerrou no século I. Os futuristas respondem: Nero foi o padrão. O cumprimento final ainda está por vir.
+EMOÇÃO: Tensão interpretativa, antecipação
+TRANSIÇÃO: Dissolve para Q39
+
+---
+
+QUADRO 39 — Lutero e o papa como Anticristo
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 5:30 → 5:38
+DESCRIÇÃO VISUAL: Lutero pregando com vigor COLORIDO, Bíblia aberta, dedo apontado acusatoriamente. Fundo: gravura de Igreja Católica medieval em P&B. Expressão determinada e corajosa. Luz de vitral colorindo apenas Lutero. Ken Burns: plano médio com leve recuo.
+NARRAÇÃO: Quando Martinho Lutero pregou contra Roma em 1517... ele não estava apenas falando de doutrina. Lutero afirmou publicamente: o papa é o Anticristo. Calvino concordava.
+EMOÇÃO: Confronto histórico, coragem reformatória
+TRANSIÇÃO: Corte para Q40
+
+---
+
+QUADRO 40 — Cada geração aponta para algo maior
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 5:38 → 5:46
+DESCRIÇÃO VISUAL: Animação de linha do tempo: Nero (séc. I) → Papa medieval → Sistema industrial (séc. XIX) → Tecnologia digital (séc. XXI). Cada ponto iluminado brevemente em vermelho. Seta apontando para futuro aberto. Fundo escuro com estrelas.
+NARRAÇÃO: Isso mostra que cada geração viu em seu tempo a estrutura que o texto descreve. Cada geração estava parcialmente certa. E cada geração apontava para algo maior.
+EMOÇÃO: Continuidade profética, padrão cósmico
+TRANSIÇÃO: Fade para título do ATO 3
+
+---
+
+================================================================================
+ATO 3 — PARALELOS MODERNOS I: CBDC + CHIP — 5:46 → 10:01
+================================================================================
+
+QUADRO 41 — Título do Ato 3
+TIPO: VIDEO
+DURAÇÃO: 5s
+TIMESTAMP: 5:46 → 5:51
+DESCRIÇÃO VISUAL: Tela escura. Texto dourado: "ATO III" / "O DINHEIRO QUE O GOVERNO CONTROLA". Ícone de moeda digital pulsando abaixo. Efeito digital/glitch.
+NARRAÇÃO: [pausa — música tecnológica sombria]
+EMOÇÃO: Modernidade, frieza tecnológica
+TRANSIÇÃO: Dissolve para Q42
+
+---
+
+QUADRO 42 — Mapa CBDC — 134 países iluminados
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 5:51 → 6:01
+DESCRIÇÃO VISUAL: Mapa-múndi digital animado — países acendendo em vermelho um a um, rapidamente. Dinheiro digital (fluxos de luz) fluindo entre pontos de controle. Final: 134 países iluminados. Número "134" aparece em dourado gigante. Fundo escuro digital.
+NARRAÇÃO: Voltemos ao presente. Em outubro de 2020, Agustín Carstens falou. Ele é o diretor-geral do BIS — o Banco de Compensações Internacionais. O banco dos bancos centrais do mundo.
+EMOÇÃO: Escala global, inevitabilidade
+TRANSIÇÃO: Corte para Q43
+
+---
+
+QUADRO 43 — Carstens: "controle absoluto"
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 6:01 → 6:11
+DESCRIÇÃO VISUAL: Representação medieval de banqueiro/administrador COLORIDO — robes sombrios, expressão calculista, cofre dourado à direita. Fundo: sede do BIS em Basileia P&B. Texto sobreposto em vermelho: "CONTROLE ABSOLUTO". Ken Burns: zoom in na figura do banqueiro.
+NARRAÇÃO: Ele disse, com todas as letras, no BIS Innovation Summit: "Com o dinheiro físico, não sabemos quem está usando cem dólares hoje. Com CBDC, o banco central terá controle absoluto sobre as regras que determinarão o uso do dinheiro."
+EMOÇÃO: Alarme, confirmação institucional
+TRANSIÇÃO: Flash vermelho para Q44
+
+---
+
+QUADRO 44 — Frase viral 3 — Card impacto
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 6:11 → 6:17
+DESCRIÇÃO VISUAL: Fundo vermelho escuro (#8B0000). Texto branco: "O BIS admitiu:" em tamanho médio. Abaixo, texto dourado em destaque: "CONTROLE ABSOLUTO sobre cada centavo seu." Tremor de câmera sutil.
+NARRAÇÃO: "O BIS admitiu: com CBDC, teremos controle absoluto sobre cada centavo seu."
+EMOÇÃO: Indignação, confirmação do pior
+TRANSIÇÃO: Dissolve para Q45
+
+---
+
+QUADRO 45 — e-Yuan da China com prazo de validade
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 6:17 → 6:27
+DESCRIÇÃO VISUAL: Moeda digital chinesa (e-Yuan) estilizada em estilo medieval COLORIDO — dragão dourado na moeda. Ao lado, ampulheta com areia acabando — prazo de validade. Fundo: Olímpíadas de Inverno de Pequim 2022 P&B. Ken Burns: zoom in na ampulheta.
+NARRAÇÃO: A China já lançou o e-Yuan — o yuan digital. Foi testado nas Olimpíadas de Inverno de 2022. O e-Yuan pode ter prazo de validade. Dinheiro que expira se você não gastar quando o governo quer.
+EMOÇÃO: Absurdo, controle temporal do dinheiro
+TRANSIÇÃO: Corte para Q46
+
+---
+
+QUADRO 46 — Drex: dinheiro programável do Brasil
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 6:27 → 6:37
+DESCRIÇÃO VISUAL: Representação do DREX — moeda digital brasileira estilizada medievalmente COLORIDA com verde/amarelo. Ao lado, grade de controle com checkboxes: "onde gastar", "como gastar", "quando gastar". Fundo: sede do Banco Central do Brasil P&B. Ken Burns: zoom in na grade de controle.
+NARRAÇÃO: O Brasil tem o Drex. É a CBDC do Banco Central do Brasil. Permite "dinheiro programável." O governo pode definir onde e como o dinheiro pode ser gasto.
+EMOÇÃO: Proximidade da ameaça, Brasil no radar
+TRANSIÇÃO: Dissolve para Q47
+
+---
+
+QUADRO 47 — Frase viral 5 — PIX
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 6:37 → 6:43
+DESCRIÇÃO VISUAL: Ícone do PIX animado em P&B. Texto vermelho aparece: "Você usa Pix?" Pausa. Texto dourado: "Você já está no sistema." Pausa. Texto branco: "A questão é: qual será o próximo passo?" Fundo escuro.
+NARRAÇÃO: "Você usa Pix? Você já está no sistema. A questão é: qual será o próximo passo?"
+EMOÇÃO: Identificação pessoal, despertar
+TRANSIÇÃO: Corte para Q48
+
+---
+
+QUADRO 48 — FedNow e infraestrutura americana
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 6:43 → 6:51
+DESCRIÇÃO VISUAL: Prédio do Federal Reserve estilizado como fortaleza medieval COLORIDO — pedras cinzas, bandeiras vermelhas e douradas. Ao redor, rede de pagamentos digitais se expandindo em linhas de luz. Fundo: skyline de Washington D.C. em P&B. Ken Burns: zoom out revelando a rede.
+NARRAÇÃO: Os Estados Unidos lançaram o FedNow em julho de 2023. É a infraestrutura de pagamentos instantâneos. O primeiro bloco do sistema.
+EMOÇÃO: Estrutura sendo construída, avanço inevitável
+TRANSIÇÃO: Dissolve para Q49
+
+---
+
+QUADRO 49 — Retorno ao versículo 17
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 6:51 → 7:01
+DESCRIÇÃO VISUAL: Pergaminho de Apocalipse 13:17 em destaque COLORIDO — versículo em dourado brilhante sobre fundo escuro de pergaminho. Ao redor, ícones digitais modernos P&B (moeda digital, QR code, RFID, câmera) orbitando o texto bíblico. Ken Burns: zoom lento no versículo.
+NARRAÇÃO: Agora leia novamente o versículo 17 de Apocalipse 13. "Ninguém possa comprar ou vender senão aquele que tiver a marca." A tecnologia para isso não existia em 1990. Em 2024, está em piloto em dezenas de países.
+EMOÇÃO: Conexão bíblica-tecnológica, epifania
+TRANSIÇÃO: Corte para Q50
+
+---
+
+QUADRO 50 — Epicenter: chip na Suécia
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 7:01 → 7:11
+DESCRIÇÃO VISUAL: Mão humana em close COLORIDA recebendo implante de chip — seringa com microagulha, chip minúsculo visível. Ao fundo: laboratório moderno P&B com técnicos. Leve brilho digital verde no chip inserido. Ken Burns: extreme close-up na mão.
+NARRAÇÃO: Em 2015, uma empresa sueca chamada Epicenter começou a implantar chips RFID nas mãos de funcionários. Voluntariamente. Com festa e celebração.
+EMOÇÃO: Invasão corporal normalizada, perturbação
+TRANSIÇÃO: Dissolve para Q51
+
+---
+
+QUADRO 51 — 6.000 pessoas com chips
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 7:11 → 7:19
+DESCRIÇÃO VISUAL: Animação: número começa em 1 e sobe rapidamente até 6.000. Cada número representa uma silhueta humana que se ilumina. No final: 6.000 silhuetas iluminadas em vermelho. Fundo escuro. Número "6.000" em destaque dourado.
+NARRAÇÃO: Até 2023, mais de 6.000 pessoas tinham chips implantados na mão. O chip abre portas. Paga contas. Guarda informações médicas. Identifica o portador em segundos.
+EMOÇÃO: Escala crescente, normalização
+TRANSIÇÃO: Corte para Q52
+
+---
+
+QUADRO 52 — FDA aprova VeriChip (2004)
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 7:19 → 7:27
+DESCRIÇÃO VISUAL: Documento oficial estilizado como pergaminho medieval COLORIDO com selos vermelhos e dourados do governo americano. Texto legível: "VeriChip — APROVADO — FDA 2004". Fundo: prédio do FDA em Washington P&B. Ken Burns: zoom in no selo de aprovação.
+NARRAÇÃO: Em 2004, o FDA dos Estados Unidos aprovou o VeriChip — o primeiro chip implantável humano para uso médico.
+EMOÇÃO: Legitimação institucional, precedente legal
+TRANSIÇÃO: Dissolve para Q53
+
+---
+
+QUADRO 53 — Three Square Market: mão direita
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 7:27 → 7:37
+DESCRIÇÃO VISUAL: Funcionário de escritório moderno (P&B) com leve colorização na mão direita — onde o chip foi implantado. Mão se aproxima de leitor de acesso — porta se abre. Balcão de cantina P&B. Sutil highlight dourado na mão direita. Ken Burns: zoom no momento de acesso pelo chip.
+NARRAÇÃO: Em 2017, uma empresa americana chamada Three Square Market ofereceu chips voluntários a seus funcionários. Para acessar o escritório. Para fazer pagamentos na cantina. Na mão direita.
+EMOÇÃO: Normalização gradual, detalhe da mão direita
+TRANSIÇÃO: Corte para Q54
+
+---
+
+QUADRO 54 — Chip NFC: pagamentos pelo corpo
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 7:37 → 7:45
+DESCRIÇÃO VISUAL: Mão COLORIDA se aproximando de terminal de pagamento POS em P&B. Ícone de NFC piscando. Terminal aprova. Sem cartão, sem celular. Texto aparece: "APENAS A MÃO." Zoom dramático na mão no momento do pagamento.
+NARRAÇÃO: Chips NFC implantados já permitem pagamentos por aproximação. Diretamente pelo corpo. Sem cartão. Sem celular. Apenas a mão.
+EMOÇÃO: Tecnologia integrada ao corpo, limite rompido
+TRANSIÇÃO: Flash dourado para Q55
+
+---
+
+QUADRO 55 — Frase viral: debate sobre escala
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 7:45 → 7:51
+DESCRIÇÃO VISUAL: Fundo escuro. Texto em vermelho: "A tecnologia já funciona." Linha divisória dourada. Texto em branco: "O debate agora é sobre escala." Ícone de gráfico de crescimento exponencial em vermelho.
+NARRAÇÃO: "A tecnologia já funciona. O debate agora é sobre escala."
+EMOÇÃO: Urgência, linha cruzada
+TRANSIÇÃO: Dissolve para Q56
+
+---
+
+QUADRO 56 — Não é ficção científica
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 7:51 → 7:59
+DESCRIÇÃO VISUAL: Vitrine de produto comercial em P&B — kit de implante de chip com embalagem e instruções. Ao lado esquerdo COLORIDO: João em Patmos aponta para a vitrine com expressão solene. Composição colagem surrealista. Ken Burns: zoom lento na vitrine.
+NARRAÇÃO: Não estamos falando de ficção científica. Estamos falando de produto comercial disponível hoje.
+EMOÇÃO: Aterrissagem na realidade, sobrieda
+TRANSIÇÃO: Fade para título do ATO 4
+
+---
+
+================================================================================
+ATO 4 — PARALELOS MODERNOS II: VIGILÂNCIA + ID DIGITAL — 7:59 → 11:44
+================================================================================
+
+QUADRO 57 — Título do Ato 4
+TIPO: VIDEO
+DURAÇÃO: 5s
+TIMESTAMP: 7:59 → 8:04
+DESCRIÇÃO VISUAL: Tela escura. Texto dourado: "ATO IV" / "QUANDO O ESTADO SABE TUDO". Olho digital piscando abaixo — estilo medieval colorido no íris. Efeito de câmera de vigilância (linhas de scan).
+NARRAÇÃO: [pausa — música de vigilância]
+EMOÇÃO: Paranoia, onisciência estatal
+TRANSIÇÃO: Dissolve para Q58
+
+---
+
+QUADRO 58 — Câmeras da Besta — floresta de câmeras
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 8:04 → 8:14
+DESCRIÇÃO VISUAL: Floresta densa de câmeras de vigilância em P&B com olho medieval da Besta COLORIDO no centro — íris vermelho, pupila que tudo vê. Câmeras apontadas em todas as direções. Leve névoa digital ao fundo. Ken Burns: zoom in no olho central.
+NARRAÇÃO: A China começou a testar seu sistema de crédito social em 2014. Expandiu em 2018.
+EMOÇÃO: Vigilância total, Big Brother moderno
+TRANSIÇÃO: Corte para Q59
+
+---
+
+QUADRO 59 — 23 milhões de viagens bloqueadas
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 8:14 → 8:24
+DESCRIÇÃO VISUAL: Aeroporto P&B. Figura medieval COLORIDA (cidadão) se aproxima de portão de embarque. Tela de check-in mostra "ACESSO NEGADO — PONTUAÇÃO INSUFICIENTE" em vermelho. Figura recua, expressão de desamparo. Número "23.000.000" aparece em vermelho.
+NARRAÇÃO: Os números do Supremo Tribunal Popular da China, de 2019: vinte e três milhões de viagens de avião bloqueadas. Cinco milhões e meio de viagens de trem negadas. Tudo por "pontuação baixa" no sistema estatal.
+EMOÇÃO: Opressão concreta, realidade distópica
+TRANSIÇÃO: Flash para Q60
+
+---
+
+QUADRO 60 — Comportamento, não crime
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 8:24 → 8:32
+DESCRIÇÃO VISUAL: Balança da Justiça medieval COLORIDA — mas em vez de crime vs. inocência, os pratos pesam "COMPORTAMENTO APROVADO" vs. "PENSAMENTO LIVRE". Prato do comportamento aprovado pesando mais. Fundo: tribunal P&B. Ken Burns: foco nos pratos da balança.
+NARRAÇÃO: Não é crime. É comportamento não aprovado pelo Estado.
+EMOÇÃO: Distinção perturbadora, liberdade ameaçada
+TRANSIÇÃO: Dissolve para Q61
+
+---
+
+QUADRO 61 — Frase viral 6 — China e Brasil
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 8:32 → 8:38
+DESCRIÇÃO VISUAL: Fundo escuro. Texto vermelho: "A China já bloqueou 23 milhões de viagens." Linha divisória. Texto dourado com ponto de interrogação: "O que acontece quando isso chegar ao Brasil?" Mapa do Brasil pulsando em vermelho ao fundo.
+NARRAÇÃO: "A China já bloqueou 23 milhões de viagens. O que acontece quando isso chegar ao Brasil?"
+EMOÇÃO: Proximidade, identificação nacional
+TRANSIÇÃO: Corte para Q62
+
+---
+
+QUADRO 62 — 560 milhões de câmeras
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 8:38 → 8:48
+DESCRIÇÃO VISUAL: Silhueta da China em azul escuro. Câmeras de vigilância brotando como árvores por toda a superfície — primeiro 200M (2021) em P&B, depois 560M (2025) em vermelho vibrante. Ken Burns: zoom out para mostrar escala do país todo coberto.
+NARRAÇÃO: Em 2021, havia 200 milhões de câmeras de vigilância na China. A projeção para 2025: 560 milhões de câmeras. O reconhecimento facial identifica cidadãos em multidões em segundos.
+EMOÇÃO: Escala incompreensível, total surveillance
+TRANSIÇÃO: Dissolve para Q63
+
+---
+
+QUADRO 63 — Acesso negado — lista de exclusões
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 8:48 → 8:58
+DESCRIÇÃO VISUAL: Porta medieval fechada com correntes COLORIDA — dolorosamente ornamentada mas trancada. Ao lado, lista pendurada: "ESCOLAS — HOTÉIS — RESTAURANTES — VIAGENS — CARGOS PÚBLICOS" — itens riscados em vermelho. Cidadão medieval de costas olhando para a porta fechada. Ken Burns: panorâmica de cima para baixo na lista.
+NARRAÇÃO: Acesso negado a quem tem pontuação baixa: escolas particulares, hotéis, restaurantes, viagens internacionais, cargos no governo.
+EMOÇÃO: Exclusão sistemática, vida truncada
+TRANSIÇÃO: Flash vermelho para Q64
+
+---
+
+QUADRO 64 — Comparação com Apocalipse 13:17
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 8:58 → 9:06
+DESCRIÇÃO VISUAL: Tela dividida: esquerda — Apocalipse 13:17 em pergaminho COLORIDO. Direita — sistema de crédito social chinês P&B. Linhas de conexão vermelhas traçam paralelos entre os dois lados: "MARCA" = "PONTUAÇÃO" / "NÃO COMPRAR" = "ACESSO NEGADO" / "NÃO VENDER" = "BLOQUEIO DE TRANSAÇÃO".
+NARRAÇÃO: Compare com Apocalipse 13:17. Palavra por palavra.
+EMOÇÃO: Confirmação aterrorizante, convergência
+TRANSIÇÃO: Corte para Q65
+
+---
+
+QUADRO 65 — Aadhaar: 1,38 bilhão de identidades
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 9:06 → 9:16
+DESCRIÇÃO VISUAL: Representação medieval de cidadão indiano sendo "selado" por luz digital COLORIDA — raio de luz do scanner biométrico toca o rosto e mão do cidadão, deixando marca luminosa. Fundo: centro de dados da Índia P&B. Número "1.380.000.000" em vermelho. Ken Burns: zoom lento no momento do "selamento".
+NARRAÇÃO: A Índia construiu o maior sistema de identidade biométrica do mundo. Chama-se Aadhaar. Em 2024, são 1,38 bilhão de registros. Cada registro vinculado a: impressão digital, retina, rosto.
+EMOÇÃO: Escala inimaginável, identidade capturada
+TRANSIÇÃO: Dissolve para Q66
+
+---
+
+QUADRO 66 — Sem Aadhaar, você não existe
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 9:16 → 9:26
+DESCRIÇÃO VISUAL: Figura medieval COLORIDA — cidadão indiano — diante de três portas: BANCO, GOVERNO, TELECOM. Todas fechadas. Na frente das portas, guardiões com letreiro "AADHAAR NECESSÁRIO". A figura segura as mãos vazias — sem o documento. Ken Burns: zoom out revelando as três portas fechadas.
+NARRAÇÃO: Para abrir uma conta no banco na Índia: você precisa do Aadhaar. Para receber benefício do governo: Aadhaar. Para comprar um chip de celular: Aadhaar. Sem identidade digital: você não existe para o sistema.
+EMOÇÃO: Existência condicional, dependência total
+TRANSIÇÃO: Corte para Q67
+
+---
+
+QUADRO 67 — EUDI Wallet: Europa 2026
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 9:26 → 9:36
+DESCRIÇÃO VISUAL: Parlamento Europeu P&B ao fundo. No primeiro plano COLORIDO: mão segurando carteira digital brilhante em dourado com bandeira da UE. Dentro da carteira, dados visíveis: foto, biometria, documentos. Raios de luz emanando da carteira. Ken Burns: zoom in na carteira.
+NARRAÇÃO: Em março de 2024, o Parlamento Europeu aprovou a EUDI Wallet. Carteira de Identidade Digital Europeia. Todos os 27 países membros da União Europeia devem implementar até 2026.
+EMOÇÃO: Inevitabilidade institucional, prazo concreto
+TRANSIÇÃO: Dissolve para Q68
+
+---
+
+QUADRO 68 — O que a EUDI armazena
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 9:36 → 9:46
+DESCRIÇÃO VISUAL: Carteira digital aberta revelando múltiplos compartimentos COLORIDOS: passaporte, impressão digital, carteira de motorista, receita médica, diploma. Todos conectados por linhas de luz ao mesmo núcleo central — o indivíduo. Fundo escuro. Ken Burns: zoom in no núcleo central.
+NARRAÇÃO: O que a EUDI Wallet armazena: documentos de identidade, dados biométricos, carteira de motorista, receitas médicas, credenciais acadêmicas. Tudo em um único perfil digital vinculado ao indivíduo.
+EMOÇÃO: Totalidade da vida digitalizada, vulnerabilidade
+TRANSIÇÃO: Corte para Q69
+
+---
+
+QUADRO 69 — ID2020: a aliança global
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 9:46 → 9:56
+DESCRIÇÃO VISUAL: Logotipo ID2020 estilizado medievalmente COLORIDO — Microsoft como escudo, símbolo da ONU como ceptro, Rockefeller como trono, UNICEF como anjo, Gavi como serpente. Composição heráldica medieval sombria. Fundo: mapa-múndi P&B. Ken Burns: zoom out revelando toda a composição heráldica.
+NARRAÇÃO: Em 2016, uma aliança foi fundada. Chama-se ID2020. Os fundadores: Microsoft, Accenture, Fundação Rockefeller, UNICEF e Gavi — a aliança global de vacinas.
+EMOÇÃO: Coalizão de poder, conspiração visível
+TRANSIÇÃO: Dissolve para Q70
+
+---
+
+QUADRO 70 — Meta 16.9 da Agenda 2030
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 9:56 → 10:04
+DESCRIÇÃO VISUAL: Documento oficial da ONU estilizado como pergaminho COLORIDO com selos dourados. Item "16.9" destacado em vermelho: "Identidade digital para todos até 2030." Ao fundo, sede da ONU em Nova York P&B. Ken Burns: zoom in no item destacado.
+NARRAÇÃO: O objetivo declarado: dar identidade digital verificável a 1,1 bilhão de pessoas sem documentos até 2030. A ONU incluiu identidade digital para todos como meta 16.9 da Agenda 2030.
+EMOÇÃO: Agenda global, mandato internacional
+TRANSIÇÃO: Corte para Q71
+
+---
+
+QUADRO 71 — A convergência: cinco tecnologias
+TIPO: VIDEO
+DURAÇÃO: 12s
+TIMESTAMP: 10:04 → 10:16
+DESCRIÇÃO VISUAL: Cinco fluxos de luz colorida convergindo de diferentes pontos para o centro — cada fluxo com símbolo: MOEDA DIGITAL (verde), BIOMETRIA (azul), CÂMERA (vermelho), CHIP (amarelo), QR CODE (branco). No ponto de convergência: símbolo "666" formado pelas linhas de dados em vermelho vibrante. Movimento dramático de câmera de cima para baixo.
+NARRAÇÃO: Aqui está o que torna este momento diferente de todos os anteriores. Cinco tecnologias convergindo ao mesmo tempo:
+EMOÇÃO: Revelação climática, tudo se conecta
+TRANSIÇÃO: Corte para Q72
+
+---
+
+QUADRO 72 — CBDCs: controle total de transações
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 10:16 → 10:24
+DESCRIÇÃO VISUAL: Moeda de ouro medieval COLORIDA se transformando em código digital. A moeda derrete em bits. Mão que a segurava fica vazia. Fundo: servidor de banco central P&B. Ken Burns: zoom in na moeda derretendo.
+NARRAÇÃO: CBDCs — controle sobre toda transação financeira.
+EMOÇÃO: Perda da privacidade financeira
+TRANSIÇÃO: Dissolve para Q73
+
+---
+
+QUADRO 73 — Biometria: identificação inegável
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 10:24 → 10:32
+DESCRIÇÃO VISUAL: Rosto humano COLORIDO sendo escaneado — múltiplos pontos de mapeamento facial em azul/verde. Resultado: perfil único, inconfundível. Fundo: banco de dados digital P&B. Ken Burns: zoom lento no processo de escaneamento.
+NARRAÇÃO: Biometria — identificação única e inegável do indivíduo.
+EMOÇÃO: Individualidade capturada, sem anonimato
+TRANSIÇÃO: Corte para Q74
+
+---
+
+QUADRO 74 — Crédito social: comportamento controlado
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 10:32 → 10:40
+DESCRIÇÃO VISUAL: Pontuação social em placar medieval COLORIDO — números subindo e descendo baseados em ações da figura humana (P&B). Ações "aprovadas" sobem o placar (verde). Ações "desaprovadas" baixam (vermelho). Ken Burns: zoom in no placar.
+NARRAÇÃO: Crédito social — acesso condicionado ao comportamento aprovado.
+EMOÇÃO: Controle comportamental, liberdade condicionada
+TRANSIÇÃO: Dissolve para Q75
+
+---
+
+QUADRO 75 — Dinheiro programável
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 10:40 → 10:48
+DESCRIÇÃO VISUAL: Moeda digital com grade de controle COLORIDA — checkboxes: "PODE COMPRAR ✓ pão" / "NÃO PODE ✗ armas" / "NÃO PODE ✗ ouro" / "NÃO PODE ✗ fora do país". Expressão chocada de cidadão medieval olhando para a grade. Ken Burns: panorâmica na grade de restrições.
+NARRAÇÃO: Dinheiro programável — controle sobre o que você pode comprar.
+EMOÇÃO: Prisão invisível, liberdade econômica ilusória
+TRANSIÇÃO: Corte para Q76
+
+---
+
+QUADRO 76 — Identidade digital obrigatória
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 10:48 → 10:56
+DESCRIÇÃO VISUAL: Cidadão medieval COLORIDO com "passaporte digital" — documento que brilha em dourado frio. Sem ele: porta da economia fechada (P&B). Com ele: entrada permitida. Ken Burns: zoom no momento de apresentar o documento.
+NARRAÇÃO: Identidade digital obrigatória — condição para participar da economia.
+EMOÇÃO: Existência condicional, dependência estrutural
+TRANSIÇÃO: Dissolve para Q77
+
+---
+
+QUADRO 77 — Cada tecnologia existe e expande
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 10:56 → 11:04
+DESCRIÇÃO VISUAL: Os cinco ícones das tecnologias aparecem um a um com check verde: CBDC ✓, Biometria ✓, Crédito Social ✓, Dinheiro Programável ✓, ID Digital ✓. Depois, as cinco convergem novamente para o ponto central formando o símbolo. Animação dinâmica.
+NARRAÇÃO: Cada uma dessas tecnologias existe. Cada uma está em expansão agora. Nenhuma sozinha é a Marca. Mas juntas... formam exatamente o sistema descrito em Apocalipse 13:17.
+EMOÇÃO: Síntese devastadora, confirmação
+TRANSIÇÃO: Flash vermelho para Q78
+
+---
+
+QUADRO 78 — Frase viral 7 — infraestrutura pronta
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 11:04 → 11:10
+DESCRIÇÃO VISUAL: Fundo escuro. Texto dourado: "Não é questão de SE a Marca vai vir." Pausa. Vermelho: "A infraestrutura já está pronta." Gráfico de progresso aparece: 95% completo. Barra quase cheia em vermelho.
+NARRAÇÃO: "Não é questão de SE a Marca vai vir. A infraestrutura já está pronta."
+EMOÇÃO: Certeza chocante, urgência
+TRANSIÇÃO: Dissolve para Q79
+
+---
+
+QUADRO 79 — Suécia: 98% cashless
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 11:10 → 11:20
+DESCRIÇÃO VISUAL: Mapa da Suécia COLORIDO em vermelho vibrante. Ao redor, ícones de dinheiro físico riscados (X vermelho) e símbolos digitais com check verde. Pequeno comerciante sueco medieval olhando para cédula que não aceita mais. Fundo: rua de Estocolmo P&B. Ken Burns: zoom in no comerciante.
+NARRAÇÃO: "Na Suécia, você precisa de identidade digital para pagar uma pizza." A Suécia é o exemplo mais avançado. 98% das transações são cashless — sem dinheiro físico. Pequenos comércios podem legalmente recusar cédulas.
+EMOÇÃO: Exemplo concreto, isso é hoje
+TRANSIÇÃO: Fade para título da CONCLUSÃO
+
+---
+
+================================================================================
+CONCLUSÃO — 11:20 → 13:05
+================================================================================
+
+QUADRO 80 — Título da Conclusão
+TIPO: VIDEO
+DURAÇÃO: 5s
+TIMESTAMP: 11:20 → 11:25
+DESCRIÇÃO VISUAL: Tela escura. Texto dourado: "CONCLUSÃO" / "AS PEÇAS ESTÃO NO TABULEIRO". Tabuleiro de xadrez aparece brevemente com peças tecnológicas e bíblicas. Fade in solene.
+NARRAÇÃO: [pausa — música reduz ao mínimo]
+EMOÇÃO: Gravidade final, chamada à reflexão
+TRANSIÇÃO: Dissolve para Q81
+
+---
+
+QUADRO 81 — João olha para a câmera
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 11:25 → 11:35
+DESCRIÇÃO VISUAL: João em Patmos COLORIDO — desta vez olhando diretamente para a câmera. Expressa não terror, mas solenidade. Ao fundo (P&B em movimento lento): as cinco tecnologias convergindo — câmeras, chips, moedas digitais, dados biométricos. Câmera: plano médio, levíssimo zoom in no rosto de João.
+NARRAÇÃO: Não afirmamos que o Anticristo já chegou. Não afirmamos que a Marca está sendo implantada hoje.
+EMOÇÃO: Honestidade, sobriedade, credibilidade
+TRANSIÇÃO: Corte para Q82
+
+---
+
+QUADRO 82 — Peças no tabuleiro
+TIPO: IMAGE
+DURAÇÃO: 10s
+TIMESTAMP: 11:35 → 11:45
+DESCRIÇÃO VISUAL: Tabuleiro de xadrez medieval COLORIDO visto de cima. Peças representando tecnologias modernas (P&B, metálicas) avançam lentamente para posições estratégicas. Peças bíblicas (douradas e coloridas) observam do lado oposto. Mão sombria move peça tecnológica para posição-chave. Ken Burns: zoom in na posição central do tabuleiro.
+NARRAÇÃO: O que podemos dizer com certeza: as peças estão sendo colocadas no tabuleiro. Lentamente. Metodicamente. País por país. Lei por lei.
+EMOÇÃO: Estratégia, paciência do adversário
+TRANSIÇÃO: Dissolve para Q83
+
+---
+
+QUADRO 83 — João descrevendo pagamentos digitais
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 11:45 → 11:53
+DESCRIÇÃO VISUAL: Composição surrealista: João em Patmos (COLORIDO) escrevendo no pergaminho. No pergaminho: não texto antigo, mas ícones modernos — QR code, chip RFID, carteira digital. Expressão de João: perplexidade santa. Ken Burns: zoom in no pergaminho com ícones modernos.
+NARRAÇÃO: João pode ter sido o homem mais improvável do mundo para descrever um sistema de pagamentos digitais. Mas a estrutura que ele descreveu... é a estrutura que está sendo construída.
+EMOÇÃO: Maravilha profética, confirmação
+TRANSIÇÃO: Corte para Q84
+
+---
+
+QUADRO 84 — Frase viral 8 — profecia do cotidiano
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 11:53 → 11:59
+DESCRIÇÃO VISUAL: Fundo preto. Texto vermelho surgindo: "A profecia não é sobre o futuro distante." Pausa. Texto dourado: "É sobre o mundo que você usa todo dia." Ícones do cotidiano aparecem ao redor: celular, PIX, câmera, app.
+NARRAÇÃO: "A profecia não é sobre o futuro distante. É sobre o mundo que você usa todo dia."
+EMOÇÃO: Identificação pessoal, urgência íntima
+TRANSIÇÃO: Dissolve para Q85
+
+---
+
+QUADRO 85 — A pergunta que fica
+TIPO: VIDEO
+DURAÇÃO: 10s
+TIMESTAMP: 11:59 → 12:09
+DESCRIÇÃO VISUAL: Câmera lenta. Cidadão comum (P&B) parado em frente a terminal de pagamento digital — tela pedindo "IDENTIFICAÇÃO BIOMÉTRICA". Mão levantada, hesitando. Expressão de dúvida. Texto em dourado: "E você... o que fará?" Câmera fecha no rosto hesitante.
+NARRAÇÃO: Aqui está a pergunta que fica: se este sistema for implementado na sua cidade, no seu país — se um dia exigirem uma marca para comprar, para vender, para existir dentro da economia — o que você fará?
+EMOÇÃO: Confronto pessoal, decisão inevitável
+TRANSIÇÃO: Corte para Q86
+
+---
+
+QUADRO 86 — Consequências bíblicas de aceitar
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 12:09 → 12:17
+DESCRIÇÃO VISUAL: Apocalipse 14:9 — anjo medieval COLORIDO soprando trombeta com expressão de julgamento. Raios de ira divina descem. Ao fundo: silhuetas de pessoas com marca P&B sendo atingidas. Contraste dramático entre anjo COLORIDO e destino P&B. Ken Burns: zoom out revelando escala do julgamento.
+NARRAÇÃO: A Bíblia não deixa dúvida sobre as consequências de receber a Marca. Apocalipse 14:9 fala da ira de Deus sobre quem a aceitar. Essa é uma decisão que cada pessoa fará sozinha.
+EMOÇÃO: Gravidade espiritual, peso da decisão
+TRANSIÇÃO: Dissolve para Q87
+
+---
+
+QUADRO 87 — Frase viral 8 — não haverá tempo
+TIPO: VIDEO
+DURAÇÃO: 6s
+TIMESTAMP: 12:17 → 12:23
+DESCRIÇÃO VISUAL: Relógio medieval (COLORIDO) com ponteiros girando acelerado. Texto: "Quando chegar o momento..." pausa... "não haverá tempo para pesquisar." Relógio para bruscamente. Texto final: "Você já precisa saber."
+NARRAÇÃO: "Quando chegar o momento, não haverá tempo para pesquisar. Você já precisa saber."
+EMOÇÃO: Urgência máxima, call to action espiritual
+TRANSIÇÃO: Dissolve para Q88
+
+---
+
+QUADRO 88 — Inscrição no canal
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 12:23 → 12:31
+DESCRIÇÃO VISUAL: Sino medieval COLORIDO (dourado, ornamentado) oscilando e soando. Ao lado, animação de ícone de sino do YouTube. Texto: "INSCREVA-SE NO CANAL" / "ATIVE O SINO". Efeito: cada toque do sino cria ondas de som visuais.
+NARRAÇÃO: Se este conteúdo te fez pensar... se a conexão que você acabou de ver merece mais atenção — inscreva-se no canal. Ative o sino.
+EMOÇÃO: Comunidade, urgência de retorno
+TRANSIÇÃO: Corte para Q89
+
+---
+
+QUADRO 89 — Teaser do próximo vídeo: Sete Selos
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 12:31 → 12:39
+DESCRIÇÃO VISUAL: Livro com sete selos de cera vermelha COLORIDO — cada selo inquebrável, emanando luz sombria dourada. A câmera gira ao redor do livro misterioso. Texto aparece: "PRÓXIMO VÍDEO:" / "OS SETE SELOS" em dourado. Música aumenta dramaticamente.
+NARRAÇÃO: Porque o próximo vídeo vai abrir os Sete Selos. E o que está lá... é ainda mais perturbador.
+EMOÇÃO: Antecipação máxima, cliffhanger
+TRANSIÇÃO: Fade out para Q90
+
+---
+
+================================================================================
+ENCERRAMENTO — 12:39 → 13:05
+================================================================================
+
+QUADRO 90 — Logo e créditos
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 12:39 → 12:47
+DESCRIÇÃO VISUAL: Logo "SINAIS DO FIM" em dourado sobre fundo negro. Abaixo: "Passagens do Apocalipse". Cinzas flutuando. Fundo com muito leve textura de pergaminho. Extrema sobriedade visual. Ken Burns: zoom lento in no logo.
+NARRAÇÃO: [música fade out gradual]
+EMOÇÃO: Marca, identidade do canal
+TRANSIÇÃO: Dissolve para Q91
+
+---
+
+QUADRO 91 — Cards de vídeos relacionados
+TIPO: IMAGE
+DURAÇÃO: 8s
+TIMESTAMP: 12:47 → 12:55
+DESCRIÇÃO VISUAL: Dois retângulos arredondados no estilo de cards do YouTube flutuando em fundo escuro — cada um com thumbnail do estilo do canal (sujeito bíblico COLORIDO + fundo P&B). Texto em dourado: "ASSISTA TAMBÉM". Ken Burns: zoom out leve.
+NARRAÇÃO: [silêncio ou fade da música]
+EMOÇÃO: Continuidade, retenção de audiência
+TRANSIÇÃO: Dissolve para Q92
+
+---
+
+QUADRO 92 — Tela final com todos os CTAs
+TIPO: VIDEO
+DURAÇÃO: 8s
+TIMESTAMP: 12:55 → 13:03
+DESCRIÇÃO VISUAL: Tela final animada: botão INSCREVER-SE pulsando em vermelho. Sino animado (ATIVAR). Polegar para cima (LIKE). Três elementos em composição triangular sobre fundo escuro. Ícones com halo dourado. Logo do canal no centro.
+NARRAÇÃO: [música encerra]
+EMOÇÃO: Ação, engajamento
+TRANSIÇÃO: Fade out final
+
+---
+
+QUADRO 93 — Tela negra final
+TIPO: IMAGE
+DURAÇÃO: 2s
+TIMESTAMP: 13:03 → 13:05
+DESCRIÇÃO VISUAL: Tela completamente negra. Sem texto. Sem música. Silêncio visual total.
+NARRAÇÃO: [silêncio absoluto]
+EMOÇÃO: Peso do que foi dito, reflexão
+TRANSIÇÃO: FIM
+
+================================================================================
+RESUMO DO STORYBOARD — NYX | ABISMO CRIATIVO
+================================================================================
+
+TOTAL DE QUADROS: 93
+  - TIPO IMAGE: 56 quadros (60.2%)
+  - TIPO VIDEO: 37 quadros (39.8%)
+
+DURAÇÃO TOTAL: 13:05 min (sem pausas de narração) / ~15:30 min (com pausas dramáticas do roteiro)
+
+DISTRIBUIÇÃO POR ATO:
+  - Introdução (Q01-Q12): 12 quadros | 1:40 min
+  - Ato 1 — Base Bíblica (Q13-Q29): 17 quadros | 2:28 min
+  - Ato 2 — Contexto Histórico (Q30-Q40): 11 quadros | 1:28 min
+  - Ato 3 — CBDC + Chip (Q41-Q56): 16 quadros | 2:08 min
+  - Ato 4 — Vigilância + ID Digital (Q57-Q79): 23 quadros | 3:05 min
+  - Conclusão (Q80-Q93): 14 quadros | 1:26 min
+
+QUADROS VIDEO OBRIGATÓRIOS CUMPRIDOS:
+  [x] Introdução (Q01, Q02, Q07, Q08, Q10)
+  [x] Dados impactantes (Q22, Q23, Q44, Q51, Q55, Q59, Q61, Q64, Q71, Q77, Q78, Q79)
+  [x] Conclusão (Q81, Q84, Q85, Q87, Q88, Q89, Q92)
+
+PERSONAGENS VISUAIS USADOS:
+  [x] João em Patmos — Q02, Q03, Q04, Q11, Q34, Q56, Q81, Q83
+  [x] Besta do Mar — Q05
+  [x] Nero/Domiciano — Q25, Q31, Q35
+  [x] Mãos com chip — Q50, Q54
+  [x] Câmeras da Besta — Q58, Q62
+  [x] Mapa CBDC — Q09, Q42
+  [x] Cidadão bloqueado — Q59, Q63
+  [x] A Convergência — Q71, Q77
+
+FRASES VIRAIS INTEGRADAS:
+  [x] Viral 1 — Q07 (João/século I)
+  [x] Viral 2 — Q10 (134 países/comida)
+  [x] Viral 3 — Q44 (BIS/controle absoluto)
+  [x] Viral 4 — Q23 (Anticristo/servidor)
+  [x] Viral 5 — Q47 (PIX/sistema)
+  [x] Viral 6 — Q61 (China/Brasil)
+  [x] Viral 7 — Q78 (infraestrutura pronta)
+  [x] Viral 8 — Q84 (profecia cotidiano) + Q87 (não haverá tempo)
+
+================================================================================
+FIM DO STORYBOARD — NYX | ABISMO CRIATIVO
+Canal: Sinais do Fim | video-002-marca-da-besta
+================================================================================

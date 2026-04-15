@@ -1,0 +1,296 @@
+====================================================================================================
+PIPELINE COMPLETO -- video-002-marca-da-besta
+Abismo Criativa | Sinais do Fim | 1 CLIP POR CENA
+Gerado: 2026-04-06 16:21
+====================================================================================================
+
+INSTRUCOES:
+1. Para cada QUADRO: gere a IMAGEM no Midjourney com o /imagine
+2. Apos gerar a imagem, baixe/salve ela
+3. No MJ Web > Create > Animate:
+   - Upload a imagem como START FRAME
+   - Gere a imagen de END FRAME com o /imagine indicado
+   - Configure Motion e Animation Prompt
+   - Gere o clip de 10s
+
+====================================================================================================
+
+
+====================================================================================================
+QUADRO V01 -- [00:00-00:10] -- PATMOS / JOAO ESCREVENDO
+====================================================================================================
+
+Q01 -- Abertura: Joao em Patmos
+/imagine prompt: Foreground: an elderly bearded prophet (John the Apostle) in richly colored medieval illuminated manuscript style -- crimson and ochre robes, hunched over a large parchment scroll on a rocky cliffside, holding a golden quill, face etched with terror and awe. Background: black and white stormy Aegean seascape, desaturated rocky cliffs, monochrome lightning bolts, a modern city skyline in grayscale with surveillance camera poles, storm clouds swirling. Add fire glow and floating ash particles. Strong contrast: vibrant medieval prophet versus monochrome apocalyptic modern world. Cinematic dramatic lighting, glowing golden highlights on the scroll, epic prophetic atmosphere medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847201 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid elderly apostle in crimson and gold robe writing on parchment scroll on rocky clifftop foreground, black and white stormy sea of Patmos island in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847301 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide camera slowly pulling back from elderly apostle, revealing rocky island coastline, robe fabric rippling in wind, feather quill scratching parchment, dark storm waves crashing in background
+MOOD: Solitude and divine calling
+CAMERA: Slow pull back wide reveal
+
+
+====================================================================================================
+QUADRO V02 -- [00:24-00:34] -- PERGAMINHO APOCALIPTICO
+====================================================================================================
+
+Q02 -- Pergaminho com caligrafia de Ap 13
+/imagine prompt: Foreground: an ancient parchment scroll dramatically unrolled, richly colored in medieval illuminated manuscript style -- crimson and gold ink calligraphy of Apocalipse 13, ornate borders with seven-headed serpents and golden fleur-de-lis, flames licking the parchment edges in deep red, burning golden candles flanking it. Background: black and white gothic stone altar, monochrome cathedral arches, ghost-like binary code floating desaturated in the air. Strong contrast between vibrant glowing parchment and monochrome stone environment. Cinematic lighting with dramatic shadows and glowing golden highlights medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847202 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid illuminated parchment scroll unfurling slowly in foreground, ancient apocalyptic calligraphy glowing gold, black and white gothic altar with candelabras in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847303 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Parchment scroll slowly unfurling downward revealing ancient text, multiple candle flames flickering in synchrony, melted wax dripping in slow motion, candlelight casting warm shadows on gothic stonework
+MOOD: Solemn prophecy
+CAMERA: Static
+
+
+====================================================================================================
+QUADRO V03 -- [00:48-00:58] -- BESTA DO MAR
+====================================================================================================
+
+Q08 -- Besta de 7 cabecas emergindo do mar
+/imagine prompt: Foreground: a devout Jewish man in rich medieval illuminated style -- ornate gold-and-blue prayer shawl, colorful tefilim boxes bound to right hand and forehead, face illuminated in warm golden prayer light, eyes closed in reverence. Background: black and white modern environment -- monochrome synagogue fading into a sterile lab, grayscale microchip implant diagrams overlapping the tefilim straps, desaturated digital screens. Fire glow and floating ash. Strong contrast: sacred colored ritual versus cold monochrome technology. Cinematic dramatic lighting medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847208 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid seven-headed sea beast with golden and crimson scales rising from crashing ocean waves in foreground, black and white stormy tempestuous sky with lightning in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847305 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Wide camera revealing massive seven-headed beast rising from ocean, enormous waves breaking and spraying, thunderbolts illuminating black and white storm clouds in background, golden scales gleaming with crimson fire glow
+MOOD: Terrifying cosmic revelation
+CAMERA: Wide slow pull back revealing full beast scale
+
+
+====================================================================================================
+QUADRO V04 -- [01:12-01:22] -- MAO RECEBENDO A MARCA
+====================================================================================================
+
+Q19 -- Mao com marca -- secao CBDC
+/imagine prompt: Foreground: an elaborate medieval illuminated world mappamundi in vivid color -- 134 countries glowing in deep crimson and golden hues with radiating light, ornate medieval cartographic borders, sea monsters in painted oceans, biblical margin illustrations. Background: black and white digital global network -- monochrome fiber optic cables connecting the globe, desaturated satellite dishes, grayscale central bank architecture, dark network infrastructure. Strong contrast: vivid glowing medieval world map versus cold monochrome digital control grid. Cinematic dramatic lighting, pulsing crimson energy medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847219 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid human right hand palm up in extreme foreground, modern microsyringe descending in slow motion toward skin, black and white sterile laboratory with medical equipment in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847307 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Static macro close-up of hand with syringe descending in extreme slow motion, air droplets on needle tip catching light, hand skin texture revealed, background laboratory completely desaturated and blurred
+MOOD: Dread and inevitability
+CAMERA: Static close-up macro
+
+
+====================================================================================================
+QUADRO V05 -- [01:36-01:46] -- ROMA IMPERIAL
+====================================================================================================
+
+Q03 -- Roma vs Modernidade
+/imagine prompt: Foreground: ancient Rome in full vibrant color -- medieval illustration style depicting richly dressed Romans in scarlet and purple togas, golden laurel wreaths, marble columns, a centurion in gleaming bronze armor holding a Roman eagle standard, colorful market stalls. The vivid Roman scene merges with a seamless background in black and white: a modern city skyline of desaturated glass towers, highways, surveillance cameras, monochrome crowds. Fire and smoke transition between epochs. Dramatic cinematic lighting, strong contrast between vibrant antiquity and monochrome modernity. Epic surreal composition medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847203 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid Roman imperial procession in crimson and gold togas marching in foreground, black and white Colosseum ruins and Roman forum in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847309 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: High angle wide shot of Roman procession advancing toward viewer, camera slowly descending from bird's eye view to eye level, golden standards catching light, togas billowing, sandals striking stone pavement
+MOOD: Imperial authority and ancient power
+CAMERA: Slow descend from high angle
+
+
+====================================================================================================
+QUADRO V06 -- [02:00-02:10] -- LUTERO E REFORMADORES
+====================================================================================================
+
+Q13 -- Lutero -- contexto da Reforma
+/imagine prompt: Foreground: Emperor Nero in vivid medieval illuminated illustration style -- deep purple and gold toga, golden laurel crown, holding a Roman coin bearing his profile, seated on an ornate golden throne with carved lions, imperious cruel expression. Background: black and white Colosseum -- monochrome Roman amphitheater ruins, a desaturated nuclear mushroom cloud rising on the horizon, grayscale Roman legions marching, dark storm sky. Strong contrast: richly colored imperial throne versus monochrome destruction. Cinematic dramatic lighting, fire glow, epic apocalyptic scale medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847213 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid Martin Luther in black Augustinian habit preaching from cathedral steps holding Bible aloft in foreground, black and white crowd of medieval townspeople in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847311 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly pushing in toward Luther preaching, papers and pamphlets swirling in wind around his feet, dramatic sidelight on his raised Bible, crowd shifting and murmuring in desaturated background
+MOOD: Defiant spiritual courage
+CAMERA: Slow push in wide to medium
+
+
+====================================================================================================
+QUADRO V07 -- [02:24-02:34] -- MAPA CBDC / 134 PAISES
+====================================================================================================
+
+Q21 -- Mapa CBDC global
+/imagine prompt: Foreground: a powerful medieval authority figure representing global financial control -- richly detailed bishop-king in deep crimson robes with golden chain of office, holding a golden orb with interconnected rings symbolizing global banking, surrounded by golden seals and official documents, stern authoritative face. Background: black and white global banking institution -- monochrome imposing tower architecture, desaturated central bank imagery, grayscale international flags, dark institutional environment. Strong contrast: vivid golden authority figure versus cold monochrome financial institutions. Cinematic dramatic lighting medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847221 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid holographic 3D world map floating in dark digital void in foreground, countries beginning to illuminate in crimson red progressively, data streams flowing between nations, black and white server infrastructure in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847313 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly pulling back from holographic world map, countries activating in red one by one like spreading fire, golden data lines connecting central banking nodes, entire map pulsing with ominous energy
+MOOD: Global surveillance and control spreading
+CAMERA: Slow pull back
+
+
+====================================================================================================
+QUADRO V08 -- [02:48-02:58] -- CHIP IMPLANTAVEL
+====================================================================================================
+
+Q24 -- Chip e microagulha
+/imagine prompt: Foreground: an ornate medieval Brazilian-themed illuminated coin in vivid color -- large glowing gold coin with Portuguese colonial baroque motifs, a crimson serpent coiling through the currency symbol, tropical birds and ornate decorative elements, radiating golden power. Background: black and white Brazilian digital banking -- monochrome central bank architecture, desaturated digital payment interface screens, grayscale DREX currency code streams, dark fintech environment. Strong contrast: vivid golden medieval coin versus cold monochrome digital banking. Cinematic dramatic lighting medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847224 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid surgical steel tray with microsyringe and RFID microchip in foreground, gloved hand positioning needle with clinical precision, black and white sterile operating room in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847315 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Overhead camera slowly descending toward surgical tray revealing instruments one by one, gloved hand picking up microsyringe with deliberate precision, harsh surgical light creating deep shadows around tools
+MOOD: Clinical inevitability and surveillance
+CAMERA: Overhead descend
+
+
+====================================================================================================
+QUADRO V09 -- [03:12-03:22] -- TRANSACAO BLOQUEADA
+====================================================================================================
+
+Q28 -- Vigilancia e exclusao economica
+/imagine prompt: Foreground: a medieval commoner figure in vivid illuminated illustration style -- colorful ochre and crimson robes, standing before a towering crimson forbidden seal, face showing shock and desperation, chains of golden numerals binding wrists, an open ledger of deeds. Background: black and white modern Chinese city -- monochrome skyscrapers, desaturated facial recognition screens, grayscale airport departure board with denial marks, dark authoritarian architecture. Strong contrast: vivid medieval human figure versus cold monochrome surveillance state. Cinematic dramatic lighting, crimson seal glow, ominous atmosphere medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847228 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid person at supermarket checkout counter attempting payment in foreground, payment terminal screen flashing ACCESS DENIED in crimson red, person's face just beginning to register shock, black and white supermarket aisles with other shoppers in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847317 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Static wide surveillance-style shot of checkout lane, person sliding card through terminal, machine suddenly emitting red denial light that bathes the person's face, other shoppers in black and white background turning to stare
+MOOD: Social exclusion and economic exile
+CAMERA: Static wide surveillance aesthetic
+
+
+====================================================================================================
+QUADRO V10 -- [03:36-03:46] -- CAMERA DE VIGILANCIA
+====================================================================================================
+
+Q29 -- Cameras de vigilancia
+/imagine prompt: Foreground: a richly detailed medieval Indian figure in vivid illuminated style -- elaborate crimson and gold sari with ornate jewelry, right thumb raised glowing with a golden biometric seal, standing before a carved sacred archway, expression reverent and unsettled. Background: black and white modern biometric enrollment -- monochrome fingerprint scanner terminals, desaturated Aadhaar registration stations, grayscale crowds in queues, dark administrative architecture. Strong contrast: vivid golden medieval Indian figure versus cold monochrome biometric state. Cinematic dramatic lighting, golden thumb glow medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847229 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid matte black security camera in extreme foreground slowly rotating on its mount, red recording LED pulsing, black and white city street with tiny monitored citizens below in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847319 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Camera slowly orbiting around the security camera dome, surveillance device tracking smoothly on its gimbal, red LED blinking rhythmically, city below rendered in black and white scale showing full scope of monitoring
+MOOD: Omniscient surveillance state
+CAMERA: Slow orbit around surveillance camera
+
+
+====================================================================================================
+QUADRO V11 -- [04:00-04:10] -- REDE NEURAL / IA CONTROLANDO
+====================================================================================================
+
+Q30 -- IA e rede neural de controle
+/imagine prompt: Foreground: a medieval European herald in vivid illuminated illustration style -- richly detailed deep blue, gold, and crimson royal livery, holding aloft a glowing golden document wallet with seven crimson apocalyptic wax seals, EU stars rendered as golden medieval stars. Background: black and white European Parliament -- monochrome Strasbourg building, desaturated EU institutional imagery, grayscale digital ID interface screens, dark institutional architecture. Strong contrast: vivid golden medieval herald versus cold monochrome EU institution. Cinematic dramatic lighting, golden seal glow medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847230 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid vast holographic neural network expanding through digital space in foreground, crimson red pulsing nodes connected by golden data streams, surveillance camera icons and financial institution symbols at each node, black and white globe in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847321 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Wide shot slowly pulling back to reveal full scale of AI neural network spanning globe, data pulses traveling along golden connection lines at light speed, new nodes continuously activating, network growing exponentially
+MOOD: Incomprehensible scale of AI control
+CAMERA: Slow pull back revealing scale
+
+
+====================================================================================================
+QUADRO V12 -- [04:24-04:34] -- CLAMOR / TESTEMUNHO
+====================================================================================================
+
+Q33 -- Profeta e testemunho final
+/imagine prompt: Foreground: an ornate medieval chess board in vivid illuminated illustration style -- richly detailed crimson and gold pieces versus obsidian and silver pieces, a dark king piece as a seven-crowned advancing figure, golden pawns toppling around it, sacred geometric board patterns. Background: black and white modern world map as the board surface -- monochrome nation borders as grid, grayscale geopolitical markers as fallen pieces, dark global strategy environment. Strong contrast: vivid golden medieval chess game versus cold monochrome world map board. Cinematic dramatic lighting, strategic apocalyptic tension medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847233 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid prophet in crimson robe with arms raised holding apocalyptic scroll toward sky in foreground, black and white storm clouds gathering and swirling rapidly in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847323 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot craning upward slowly as prophet raises arms higher, storm clouds in background accelerating their rotation, scroll text illuminating gold in the wind, robe fabric whipping dramatically
+MOOD: Prophetic urgency and divine calling
+CAMERA: Slow crane up
+
+
+====================================================================================================
+QUADRO V13 -- [04:48-04:58] -- SELOS ABERTOS / JULGAMENTO
+====================================================================================================
+
+Q11 -- Cordeiro com 7 Selos
+/imagine prompt: Foreground: a crowd of medieval commoners in vivid illuminated illustration style -- diverse figures in colorful crimson, ochre, and deep blue robes, faces showing desperation and anguish, hands raised pleading, holding empty baskets, a medieval guard blocking a market gate with a sealed document. Background: black and white modern supermarket -- monochrome automatic checkout gates, desaturated product shelves, grayscale digital payment terminals with denied access symbols. Strong contrast: colorful desperate medieval crowd versus cold monochrome modern commerce. Cinematic dramatic lighting, emotional atmosphere, smoke and fire wisps medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847211 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid golden white Lamb of God standing on celestial altar with seven wax seals in foreground, first seal cracking and golden light exploding outward, black and white apocalyptic celestial throne room in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847325 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera slowly pushing in toward the Lamb on the altar, first seal dramatically cracking apart in slow motion, golden light burst emanating from broken seal, heavenly choir of light rays radiating outward
+MOOD: Divine judgment unleashed
+CAMERA: Slow push in
+
+
+====================================================================================================
+QUADRO V14 -- [05:12-05:22] -- CONCLUSAO / CHAMADO
+====================================================================================================
+
+Q35 -- Conclusao e chamado final
+/imagine prompt: Foreground: a magnificent archangel herald in richest medieval illuminated illustration style -- golden armor, enormous detailed wings spread wide, trumpet at lips, unfurling golden banner with Gothic lettering, deep crimson and gold with heavenly white divine light radiating outward. Background: black and white epic apocalyptic panorama -- monochrome destroyed civilization skyline, desaturated lightning-shot storm clouds, grayscale collapsing structures and smoke columns, vast dark scale. Strong contrast: magnificent glowing golden angel versus cold monochrome apocalyptic world. Cinematic dramatic lighting, golden divine radiance, epic brand atmosphere medieval illuminated manuscript style colorful vivid detailed foreground, monochrome desaturated modern world background, cinematic dramatic lighting, chiaroscuro deep shadows, fire glow and floating ash particles, strong contrast vivid foreground vs black and white background, epic surreal prophetic apocalyptic atmosphere, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --seed 847235 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --no text, watermark, logo, anime, cartoon, cute, cheerful, modern colors in foreground, clean background, digital flat art, photorealistic faces, identifiable real people, blurry, low quality, neon colors
+
+--- CLIP (00:00 - 00:10) ---
+START FRAME -> Usar a imagem gerada acima (Q01, Q02, etc)
+Upload no Midjourney Web > Create > Animate
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid golden divine light breaking through parting storm clouds and descending in radiant beams in foreground, silhouette of kneeling figure in crimson robe at center, black and white city skyline below in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847327 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly tilting upward from black and white city below to golden sky above, divine light beams breaking through clouds and intensifying, kneeling figure's crimson robe glowing warmer as light descends
+MOOD: Hope and divine invitation
+CAMERA: Slow tilt up from city to sky

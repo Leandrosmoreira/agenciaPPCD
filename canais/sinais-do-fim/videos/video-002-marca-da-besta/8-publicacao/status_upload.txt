@@ -1,0 +1,22 @@
+VIDEO_ID: 2_fCLnB4eIs
+URL: https://youtube.com/watch?v=2_fCLnB4eIs
+STATUS: private (NUNCA publica automaticamente — aguarda aprovacao de Snayder)
+UPLOAD_ANTERIOR: 8_lnvGCAShM (substituido em 2026-04-09)
+CONFIGURACAO_TIME: 2026-04-09
+
+CONFIGURACOES VIA API:
+═══════════════════════════════════════════════════
+✓ Snippet (titulo, descricao, tags, categoria): OK
+✓ Thumbnail: OK
+✓ Status (privacidade, incorporacao, COPPA): OK
+
+PROXIMO PASSO:
+═══════════════════════════════════════════════════
+Snayder deve acessar YouTube Studio para:
+1. Revisar titulo e descricao
+2. Ativar MANUALMENTE: Cards, Tela Final, Legendas (se houver)
+3. Testar reproducao
+4. Aprovar para publicacao (change to PUBLIC)
+
+IMPORTANTE: Todos os parametros obrigatorios foram preenchidos via API.
+Caronte NAO MUDA para PUBLIC automaticamente — exige confirmacao explícita.

@@ -1,0 +1,131 @@
+SIBILA — METADATA YOUTUBE
+Canal: Sinais do Fim | Video: video-002-marca-da-besta
+Data: 2026-04-08
+================================================================================
+
+TÍTULO:
+A Marca da Besta Já Está Sendo Implementada — Apocalipse 13
+
+================================================================================
+DESCRIÇÃO:
+================================================================================
+
+"Ninguém possa comprar ou vender, senão aquele que tiver a marca." — Apocalipse 13:17
+
+João escreveu isso no século I. A tecnologia para cumprir essa profecia só chegou agora.
+
+134 países estão construindo hoje o sistema de moeda digital controlada pelo governo. A Índia já tem 1,38 bilhão de pessoas cadastradas em um banco de dados biométrico único. A Suécia processa 98% das transações sem dinheiro físico. A China já bloqueou 23 milhões de viagens por "pontuação baixa" no sistema de crédito social.
+
+Neste vídeo, analisamos Apocalipse 13 palavra por palavra — o texto grego original, o contexto do Império Romano, as quatro escolas de interpretação — e depois olhamos para o que está sendo construído agora: moedas digitais programáveis, chips implantáveis, identidade biométrica obrigatória e vigilância em massa.
+
+Não afirmamos que o Anticristo chegou. Afirmamos que as peças estão no tabuleiro.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPÍTULOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+0:00 - Introdução — A Visão de João em Patmos
+1:45 - Ato 1 — O Que Apocalipse 13 Realmente Diz
+5:15 - Ato 2 — Roma, Nero e o Número 666
+7:55 - Ato 3 — CBDC, Moeda Digital e o Controle Financeiro
+12:10 - Ato 4 — Chips Implantáveis, Vigilância e Identidade Digital
+15:55 - Conclusão — As Peças Estão no Tabuleiro
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+REFERÊNCIAS CITADAS NO VÍDEO:
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bíblia Sagrada — Almeida Revista e Atualizada
+• Apocalipse 13:16-18 — A Marca da Besta
+• Apocalipse 14:9 — Consequências de receber a Marca
+• Deuteronômio 6:8 — O sinal na mão e na fronte (tefilim)
+
+Fontes históricas:
+• Papiro 115 de Oxyrhynchus — variação do número 666 para 616
+• Confissão de Westminster (1647) — posição dos Reformadores sobre o Anticristo
+• John Nelson Darby (1830) — sistematização do futurismo dispensacionalista
+
+Fontes verificáveis modernas:
+• BIS Innovation Summit 2020 — fala de Agustín Carstens sobre controle absoluto do CBDC
+• Atlantic Council CBDC Tracker — rastreador público (134 países, 2024)
+• Supremo Tribunal Popular da China (2019) — 23 milhões de viagens bloqueadas
+• Banco Central do Brasil — Drex (moeda digital programável)
+• FDA dos EUA — aprovação do VeriChip (2004), primeiro chip implantável humano
+• Parlamento Europeu — aprovação da EUDI Wallet (março de 2024)
+• ID2020 Alliance — fundadores: Microsoft, Accenture, Fundação Rockefeller, UNICEF, Gavi
+• ONU Agenda 2030 — meta 16.9 (identidade digital universal)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Se este vídeo fez você pensar, SE INSCREVA e ative o sino — o próximo episódio vai abrir os Sete Selos do Apocalipse. E o que está lá é ainda mais perturbador.
+
+PRÓXIMO VÍDEO: Os Sete Selos do Apocalipse — O Que Cada Selo Está Abrindo Hoje
+
+CANAL: Sinais do Fim — Passagens do Apocalipse
+Conteúdo bíblico sério sobre escatologia e profecias cumpridas.
+
+#SinaisDoFim #MarcaDaBesta #Apocalipse13
+
+================================================================================
+TAGS (max 500 chars):
+================================================================================
+
+marca da besta,666 bíblia,apocalipse 13,chip implantável,moeda digital,CBDC apocalipse,número da besta,microchip humanos,profecias bíblicas,sinais do fim,marca da besta hoje,fim dos tempos,666 explicado,sistema de controle global,besta apocalipse,joão apocalipse,daniel profecias,crédito social bíblia,identidade digital,cashless profecia,marca da besta chip,apocalipse hoje,profecias cumpridas,666 o número,controle financeiro bíblia,marca besta tecnologia,sinais do apocalipse
+
+================================================================================
+CONFIGURAÇÕES DO VÍDEO:
+================================================================================
+
+CATEGORIA: 27 — Educação
+IDIOMA: pt-BR
+PÚBLICO: Não definido como infantil
+VISIBILIDADE: Privado (Caronte sobe como privado — Snayder torna público)
+LICENÇA: Licença padrão do YouTube
+PERMITIR COMENTÁRIOS: Sim
+PERMITIR INCORPORAÇÃO: Sim
+
+================================================================================
+CARDS (ativar manualmente no YouTube Studio):
+================================================================================
+
+Card 1 — aos 2:00 min → Linkar video-001-armagedom
+Card 2 — aos 7:00 min → Linkar video-001-armagedom
+Card 3 — aos 13:00 min → Linkar playlist "Sinais do Fim"
+
+================================================================================
+TELA FINAL (últimos 20 segundos):
+================================================================================
+
+Elemento 1 — Melhor vídeo do canal (video-001-armagedom) → posição esquerda
+Elemento 2 — Botão de inscrição → posição direita
+Elemento 3 — Playlist "Sinais do Fim" → posição centro (opcional)
+
+================================================================================
+HASHTAGS (máximo 5 — incluir na descrição):
+================================================================================
+
+#SinaisDoFim #MarcaDaBesta #Apocalipse13 #ProfeciaBíblica #FimDosTempos
+
+================================================================================
+MINIATURAS:
+================================================================================
+
+Thumbnail principal: 8-publicacao/thumb_prompt.txt (gerar no Midjourney v7)
+Specs completas: 8-publicacao/thumb_specs.md
+
+================================================================================
+CHECKLIST PRÉ-UPLOAD (Caronte):
+================================================================================
+
+[ ] video_final.mp4 colocado em 7-edicao/
+[ ] Thumbnail gerada e salva em 8-publicacao/thumb.jpg (1280x720)
+[ ] Metadata revisado por Snayder
+[ ] Título confirmado (63 chars)
+[ ] Tags conferidas (< 500 chars)
+[ ] Descrição conferida (sem termos em inglês)
+[ ] Visibilidade: PRIVADO no upload
+[ ] Categoria: 27 - Educação
+
+================================================================================
+*Sibila | Abismo Criativo | 2026-04-08*
+================================================================================

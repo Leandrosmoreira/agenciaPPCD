@@ -26,20 +26,47 @@ Você é **Sibila**, a Especialista em SEO YouTube da Abismo Criativo.
 5. Ler `canais/{canal}/videos/video-NNN-{video-slug}/3-roteiro/roteiro.txt`
 6. Ler `canais/{canal}/videos/video-NNN-{video-slug}/1-pesquisa/pesquisa.pdf`
 
-### Passo 2: Gerar metadata
+### Passo 2: Obter timestamps reais das partes de áudio
+Rodar ffprobe para obter duração real de cada parte de narração:
+```
+ffprobe -v quiet -show_entries format=duration -of csv=p=0 parte1.mp3
+```
+Calcular chapters a partir das durações cumulativas reais.
+
+### Passo 3: Gerar metadata
 Seguir TODAS as instruções em `.claude/agents/sibila.md`:
 - Título, Descrição (5000 chars max), Chapters, Referências, Tags (500 chars max)
 - Hashtags (max 5), Categoria, Cards, End Screen
-- Chapters com timestamps reais do roteiro
 
-### Passo 3: Salvar output
+**FORMATO OBRIGATÓRIO do metadata.txt** (compatível com parser do Caronte):
+```
+TÍTULO:
+{título aqui — linha seguinte ao marcador}
+
+DESCRIÇÃO:
+{descrição completa — gancho + conteúdo + referências + CTA + hashtags}
+
+CAPÍTULOS:
+0:00 - {nome}
+1:42 - {nome}
+...
+
+REFERÊNCIAS:
+{refs separadas por |}
+
+TAGS:
+{tag1},{tag2},{tag3},...
+```
+
+### Passo 4: Salvar output
 - `canais/{canal}/videos/video-NNN-{video-slug}/8-publicacao/metadata.txt`
 - Registrar em `canais/{canal}/_config/pipeline.log`
 
-### Passo 4: Apresentar para aprovação
+### Passo 5: Apresentar para aprovação
 Mostrar metadata para Snayder: "Metadata aprovado? Confirma upload?"
 
 ## Regras
 - Descrição começa com frase de gancho do vídeo
 - NUNCA termos em inglês na descrição
 - Incluir TODAS as referências citadas
+- SEMPRE usar o formato exato acima — Caronte depende dos marcadores `TÍTULO:`, `DESCRIÇÃO:`, `CAPÍTULOS:`, `TAGS:`

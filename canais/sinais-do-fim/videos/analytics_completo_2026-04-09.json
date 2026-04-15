@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "agente": "ANUBIS",
+    "versao": "2.0",
+    "data_coleta": "2026-04-09 21:21:13",
+    "canal": "Sinais do Fim — Passagens do Apocalipse",
+    "canal_id": "UCOqy8du-ijAY9xTN6q1MQDQ",
+    "canal_url": "https://www.youtube.com/@SinaisDoFim",
+    "total_videos_publicos": 1,
+    "total_videos_privados": 1,
+    "fonte_dados": "YouTube Data API v3 + YouTube Analytics API v2",
+    "nota": "DADOS REAIS — nunca inventados. video-002 privado: apenas stats Data API disponíveis (Analytics API não retorna dados de vídeos privados)."
+  },
+
+  "videos": {
+    "video-001-armagedom": {
+      "id": "M6MKRnoXCE0",
+      "url": "https://youtube.com/watch?v=M6MKRnoXCE0",
+      "status": "PUBLIC",
+      "titulo_atual": "O Mundo Está no Armagedom? A Profecia que NINGUÉM Quer Ver",
+      "titulo_anterior": "Armagedom: O Fim Começou? Profecia Bíblica Cumprida",
+      "data_publicacao": "2026-04-07T01:05:00Z",
+      "data_troca_titulo": "2026-04-09",
+      "dias_publicado": 2,
+
+      "realtime_stats": {
+        "viewCount": 52,
+        "likeCount": 8,
+        "commentCount": 0,
+        "favoriteCount": 0,
+        "like_rate_pct": 15.38,
+        "nota": "like_rate = likes / views * 100"
+      },
+
+      "analytics_historico": {
+        "periodo": "últimos 30 dias (janela Analytics API)",
+        "rows": [
+          {
+            "day": "2026-04-05",
+            "views": 2,
+            "estimatedMinutesWatched": 6,
+            "averageViewDuration_seg": 206,
+            "averageViewPercentage": 51.47,
+            "subscribersGained": 0,
+            "likes": 0,
+            "comments": 0
+          },
+          {
+            "day": "2026-04-06",
+            "views": 5,
+            "estimatedMinutesWatched": 11,
+            "averageViewDuration_seg": 142,
+            "averageViewPercentage": 35.48,
+            "subscribersGained": 1,
+            "likes": 2,
+            "comments": 0
+          },
+          {
+            "day": "2026-04-07",
+            "views": 29,
+            "estimatedMinutesWatched": 103,
+            "averageViewDuration_seg": 213,
+            "averageViewPercentage": 53.28,
+            "subscribersGained": 5,
+            "likes": 6,
+            "comments": 0
+          }
+        ],
+        "totais_periodo": {
+          "views": 36,
+          "estimatedMinutesWatched": 120,
+          "subscribersGained": 6,
+          "likes": 8
+        },
+        "nota": "Analytics API tem lag de ~2 dias. Dados até 2026-04-07. views realtime (52) > soma histórico (36) = 16 views em 2026-04-08/09 ainda não consolidadas."
+      },
+
+      "trafego": {
+        "RELATED_VIDEO": {"views": 22, "minutos": 64, "share_pct": 61.1},
+        "YT_SEARCH": {"views": 4, "minutos": 22, "share_pct": 11.1},
+        "YT_CHANNEL": {"views": 3, "minutos": 11, "share_pct": 8.3},
+        "SUBSCRIBER": {"views": 3, "minutos": 10, "share_pct": 8.3},
+        "EXT_URL": {"views": 2, "minutos": 4, "share_pct": 5.6},
+        "NO_LINK_OTHER": {"views": 2, "minutos": 7, "share_pct": 5.6},
+        "insight": "61% das views vêm de vídeos relacionados — algoritmo já está distribuindo organicamente. Busca ainda fraca (11%) — SEO precisa ganhar tração."
+      },
+
+      "paises": {
+        "BR": {"views": 26, "minutos": 87, "subscribers": 0},
+        "nota": "Analytics consolidou apenas 26 de 36 views por país — lag parcial de dados geográficos."
+      },
+
+      "dispositivos": {
+        "MOBILE": {"views": 20, "minutos": 67, "share_pct": 55.6},
+        "TV": {"views": 10, "minutos": 31, "share_pct": 27.8},
+        "DESKTOP": {"views": 5, "minutos": 20, "share_pct": 13.9},
+        "TABLET": {"views": 1, "minutos": 1, "share_pct": 2.8},
+        "insight": "TV = 27.8% é extraordinariamente alto para canal novo — indica conteúdo sendo assistido no modo sala de estar, o que é POSITIVO para retenção e tempo assistido."
+      }
+    },
+
+    "video-002-marca-da-besta": {
+      "id": "2_fCLnB4eIs",
+      "url": "https://youtube.com/watch?v=2_fCLnB4eIs",
+      "status": "PRIVATE",
+      "titulo": "A Marca da Besta Já Está Sendo Implementada — Apocalipse 13",
+      "data_publicacao_tecnica": "2026-04-09T01:26:21Z",
+      "upload_anterior_substituido": "8_lnvGCAShM",
+
+      "realtime_stats": {
+        "viewCount": 2,
+        "likeCount": 2,
+        "commentCount": 0,
+        "favoriteCount": 0,
+        "like_rate_pct": 100.0,
+        "nota": "2 views são do próprio Snayder durante revisão (vídeo PRIVADO). Like rate de 100% não é estatisticamente relevante neste volume."
+      },
+
+      "analytics_historico": null,
+      "nota_analytics": "YouTube Analytics API não retorna dados de vídeos privados. Dados serão disponíveis após publicação."
+    }
+  },
+
+  "teste_ab_titulo_video001": {
+    "video_id": "M6MKRnoXCE0",
+    "titulo_A": {
+      "texto": "Armagedom: O Fim Começou? Profecia Bíblica Cumprida",
+      "chars": 50,
+      "periodo": "2026-04-07 a 2026-04-08",
+      "metricas_periodo": {
+        "views": 45,
+        "likes": 8,
+        "avg_view_duration_seg": "~195 (media ponderada dias 05-07)",
+        "avg_view_percentage": "~48%",
+        "fonte": "analytics_completo_2026-04-08.json"
+      },
+      "observacao": "CTR real não disponível na Analytics API (requer YouTube Studio). Estimativa baseada em views/dia."
+    },
+    "titulo_B": {
+      "texto": "O Mundo Está no Armagedom? A Profecia que NINGUÉM Quer Ver",
+      "chars": 58,
+      "alterado_em": "2026-04-09",
+      "metricas_periodo": {
+        "views_realtime_2026-04-09": 52,
+        "views_delta_vs_08": 7,
+        "likes": 8,
+        "nota": "Apenas ~24h com novo título. Ainda sem dados Analytics consolidados para 2026-04-08/09."
+      },
+      "observacao": "Volume insuficiente para conclusão estatística. Mínimo recomendado: 500 impressões por variante para CTR confiável."
+    },
+    "status_teste": "EM ANDAMENTO",
+    "conclusao_preliminar": "Ainda sem dados de CTR via API. YouTube Analytics não expõe CTR (impressions / clicks) neste endpoint. CTR real deve ser verificado manualmente no YouTube Studio > Analytics > Alcance. Aguardar 7 dias (até 2026-04-16) para avaliação com volume suficiente.",
+    "recomendacao": "Verificar no Studio: Analíticos > Alcance > Taxa de cliques por impressão antes e depois de 2026-04-09."
+  },
+
+  "comparativo_entre_videos": {
+    "nota": "Comparativo limitado: video-002 está privado e com apenas 2 views de revisão.",
+    "video001_vs_video002": {
+      "video001": {
+        "views_totais": 52,
+        "likes": 8,
+        "status": "PUBLIC",
+        "dias_publicado": 2,
+        "views_por_dia": 26.0,
+        "like_rate": "15.4%",
+        "principal_fonte_trafego": "RELATED_VIDEO (61%)",
+        "retencao_media_pct": "53% (melhor dia: 2026-04-07)",
+        "tv_share": "27.8%"
+      },
+      "video002": {
+        "views_totais": 2,
+        "likes": 2,
+        "status": "PRIVATE",
+        "dias_publicado": 0,
+        "observacao": "Vídeo privado — métricas não representativas"
+      }
+    },
+    "veredito": "Comparativo válido somente após video-002 ser publicado e acumular pelo menos 48h de dados públicos.",
+    "destaque_video001": "52 views / 8 likes em 2 dias de canal NOVO e sem promoção paga é um resultado positivo. Distribuição por vídeos relacionados (61%) indica que o algoritmo já indexou o conteúdo corretamente no nicho escatologia/profecia PT-BR."
+  },
+
+  "recomendacoes_video007_falsa_paz": {
+    "prioridade": "ALTA — janela de viralidade 48h (Score 94/100)",
+    "publicar_antes_de": "2026-04-11 (máximo)",
+    "recomendacoes": [
+      {
+        "id": "R01",
+        "area": "Título",
+        "dado_base": "Título B video-001 usa pergunta + maiúsculas + palavra emocional (NINGUÉM) — estratégia validada pelo comportamento de troca de Snayder",
+        "recomendacao": "Manter estrutura pergunta + gatilho emocional em maiúscula. Ex: 'O Cessar-Fogo FALHOU? A Profecia que Previu Tudo' — urgência + noticias reais."
+      },
+      {
+        "id": "R02",
+        "area": "Duração",
+        "dado_base": "video-001: melhor retenção no dia de pico foi 53.28% (214s avg duration). Se o vídeo tem ~6 min, isso é ~3:34 assistidos. video-002 roteiro era 15min (feedback: extenso).",
+        "recomendacao": "Manter 13-14 min conforme ajuste já registrado no log. video-007 roteiro já foi ajustado para esta duração. Confirmar com Morrigan antes de gravar."
+      },
+      {
+        "id": "R03",
+        "area": "Thumbnail",
+        "dado_base": "video-001 usa arcanjo medieval + cidade em colapso P&B — CTR ainda não medido via API. TV = 27.8% das views = telas grandes, thumbnails precisam ser legíveis em distância.",
+        "recomendacao": "Para video-007: elemento visual de TRATADO/ACORDO rasgado ou bandeiras de nações em conflito. Texto máximo 4 palavras. Faces humanas aumentam CTR em nichos de notícia/profecia."
+      },
+      {
+        "id": "R04",
+        "area": "SEO / Tags",
+        "dado_base": "YT_SEARCH = apenas 11% do tráfego de video-001. A maioria (61%) é algoritmo.",
+        "recomendacao": "Incluir termos de notícia atual nas tags: 'cessar fogo israel ira 2026', 'terceira guerra mundial 2026', 'profecia guerra oriente medio' — captura pico de busca pelo evento recente."
+      },
+      {
+        "id": "R05",
+        "area": "Mobile-first",
+        "dado_base": "55.6% das views de video-001 são mobile.",
+        "recomendacao": "Thumbnail e texto de abertura devem ser testados em preview mobile (320x180px) antes de publicar. Fonte grande, contraste alto."
+      },
+      {
+        "id": "R06",
+        "area": "Timing de publicação",
+        "dado_base": "video-001 publicado 2026-04-07 01:05 UTC (22h BRT) — pico de views no mesmo dia (29 views em 2026-04-07 consolidado).",
+        "recomendacao": "Publicar video-007 no horário nobre BRT: 19h-21h (22h-00h UTC). Janela de tráfego ainda ativa para evento cesssar-fogo Irã/Israel."
+      },
+      {
+        "id": "R07",
+        "area": "Assinantes",
+        "dado_base": "video-001 gerou 6 assinantes em 2 dias com 52 views = taxa de conversão 11.5%. Alta para canal novo.",
+        "recomendacao": "Manter o CTA verbal ao final do vídeo ('Se inscreva e ative o sino') — está funcionando. Considerar card de inscrição no minuto 3-4 (antes que a maioria saia)."
+      }
+    ]
+  },
+
+  "alertas": [
+    {
+      "nivel": "INFO",
+      "mensagem": "video-002 está PRIVADO. Publicar somente após aprovação explícita de Snayder."
+    },
+    {
+      "nivel": "INFO",
+      "mensagem": "CTR real (impressões vs. cliques) não está disponível na Analytics API — somente no YouTube Studio. Verificar manualmente para teste A/B completo."
+    },
+    {
+      "nivel": "ATENCAO",
+      "mensagem": "video-007-falsa-paz tem janela de viralidade crítica (94/100, 48h). Publicação recomendada antes de 2026-04-11."
+    },
+    {
+      "nivel": "INFO",
+      "mensagem": "Canal jovem (2 dias). Métricas de video-001 são positivas mas volume baixo — evitar otimizações agressivas antes de 500+ views."
+    }
+  ]
+}

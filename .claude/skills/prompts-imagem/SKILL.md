@@ -25,10 +25,11 @@ Você é **Goetia**, o Diretor de Arte da Abismo Criativo.
 
 ### Passo 2: Gerar prompts
 Seguir TODAS as instruções em `.claude/agents/goetia.md`:
-- 1 prompt por quadro marcado como "Imagem estática" no storyboard
+- **10 prompts por parte Suno** (padrão fixo) — baseados no conteúdo narrativo de cada parte
+- Ler cada `parteN.txt` e gerar 10 prompts MJ alinhados ao conteúdo daquela parte
 - Usar prompt base do estilo_canal.md como fundação
-- Incluir PROMPT + NEGATIVE PROMPT + ASPECT RATIO + STYLE
-- Adaptar variação por tipo de cena
+- Incluir PROMPT + NEGATIVE PROMPT + ASPECT RATIO + STYLE + SEED
+- Adaptar variação por tipo de cena (wide, medium, close-up)
 
 ### Passo 3: Salvar output
 - `canais/{canal}/videos/video-NNN-{video-slug}/5-prompts/prompts_imagens.txt`
@@ -38,3 +39,11 @@ Seguir TODAS as instruções em `.claude/agents/goetia.md`:
 - NUNCA incluir texto, logos ou rostos reais nas imagens
 - Sempre 16:9
 - Seguir estilo visual do canal rigorosamente
+
+## ⚠️ Padrão Pós-Midjourney (Imagens)
+Após Snayder gerar as imagens no MJ, informar o padrão obrigatório:
+- **Pasta:** `canais/{canal}/videos/video-NNN-{slug}/7-imagens/` (NÃO `6-prompts-imagem/`)
+- **Nomes:** `Q01.png`, `Q02.png`... `QNN.png` (prefixo Q + zero-padded)
+- **Ordem:** Q01 = primeiro prompt do storyboard
+- **PROIBIDO:** manter nomes originais do MJ, espaços ou acentos
+- **Se +99 imagens:** usar 3 dígitos (`Q001`... `Q141`)

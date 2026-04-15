@@ -2,3 +2,390 @@
 # Registre cada ação com timestamp
 [2026-04-04 00:00] CANAL CRIADO — Sinais do Fim — Passagens do Apocalipse
 [2026-04-04 00:00] ESTRUTURA — 6 vídeos planejados (video-001 a video-006)
+[2026-04-04 17:50] PIPELINE INICIADO — sinais-do-fim/video-001-armagedom
+[2026-04-04 17:50] ARGOS — Pesquisa de 10 topicos realizada (Viral Score: 87.3)
+[2026-04-04 17:50] TOPICO APROVADO — "Sinais de Guerra no Oriente Medio e Profecia de Armagedom"
+[2026-04-04 17:50] CHECKPOINT 1 — Aguardando proxima fase (SEO Titulos)
+[2026-04-04 17:52] HERMES — 5 titulos SEO gerados (CTR 7.2% - 5.9%)
+[2026-04-04 17:52] TITULO APROVADO — "Armagedom: O Fim Comecou? Profecia Biblica Cumprida"
+[2026-04-11 00:00] PIPELINE INICIADO — sinais-do-fim/video-008-sinais-fisicos
+[2026-04-11 00:00] HERMES — 5 titulos SEO gerados + 10 tags (CTR estimado: 7.5–9.2) → 2-titulos/titulos_seo.md
+[2026-04-11 00:00] CHECKPOINT — Aguardando aprovacao do titulo por Snayder
+[2026-04-11 00:15] TITULO APROVADO — "SINAIS FÍSICOS DO APOCALIPSE? Céu Vermelho, Corvos e Chuva de Sangue"
+[2026-04-11 00:20] MORRIGAN — Roteiro completo gerado (14.247 caracteres, 16 minutos)
+[2026-04-11 00:20] MORRIGAN — Validação: 25 pausas, 9 power words, 6 camadas estruturais, 6 perguntas retróricas
+[2026-04-11 00:20] MORRIGAN — 4 partes Suno: Parte 1 (3.450 chars), Parte 2 (3.620 chars), Parte 3 (3.480 chars), Parte 4 (2.750 chars)
+[2026-04-11 00:20] MORRIGAN — Output: roteiro.txt salvo em 3-roteiro/
+[2026-04-11 00:20] MORRIGAN — Hook validado (cascata de eventos simultâneos), VIRADA emocional no Bloco 3, CTA completo no Bloco 4
+[2026-04-11 00:20] CHECKPOINT — Roteiro aguardando aprovacao de Snayder antes de passar para NYX (Storyboard)
+[2026-04-12 00:00] PIPELINE INICIADO — sinais-do-fim/video-011-nefilim
+[2026-04-12 00:00] ARGOS — Pesquisa completa: NEFILIM + ENGENHARIA GENETICA (Viral Score: 91/100)
+[2026-04-12 00:00] ARGOS — 10 fatos virais, 5 conexoes versiculos, top 5 concorrentes, angulo definido
+[2026-04-12 00:00] ARGOS — Output: canais/sinais-do-fim/videos/video-011-nefilim/1-pesquisa/pesquisa.md
+[2026-04-12 00:00] CHECKPOINT 1 — Aguardando aprovacao de Snayder: topico + titulo + angulo
+[2026-04-12 00:10] HERMES — 5 titulos SEO gerados (CTR estimado: 86-94/100) + 10 tags + aviso colisao concorrentes
+[2026-04-12 00:10] HERMES — Titulo recomendado: "Nefilim: o DNA que Deus apagou foi recriado em 2018" (Score 94)
+[2026-04-12 00:10] HERMES — Output: canais/sinais-do-fim/videos/video-011-nefilim/2-titulos/titulos_seo.md
+[2026-04-12 00:10] CHECKPOINT 1 — Aguardando aprovacao de Snayder: titulo video-011-nefilim
+[2026-04-13 00:00] PIPELINE INICIADO — sinais-do-fim/video-012-ia-apocalipse
+[2026-04-13 00:00] ARGOS — Pesquisa completa: IA + APOCALIPSE + TRANSHUMANISMO MEDICO (10 angulos pesquisados, 14 fontes PT-BR verificadas)
+[2026-04-13 00:00] ARGOS — Top 5 ranqueados: #1 Neuralink+Marca Besta (94), #2 IA+Imagem Besta (91), #3 Kurzweil+Imortalidade (86), #4 CRISPR+Dias de Noe (84), #5 Harari+Falso Profeta (80)
+[2026-04-13 00:10] HERMES — SEO completo video-012-ia-apocalipse: 5 titulos gerados (Viral Score 78-93), 15 tags por titulo, framework 6 camadas aplicado
+[2026-04-13 00:10] HERMES — Titulo recomendado: "A IA JÁ FALA: Apocalipse 13:15 Cumprido" (Score 93/100)
+[2026-04-13 00:10] HERMES — Output: canais/sinais-do-fim/videos/video-012-ia-apocalipse/2-titulos/titulos_seo.md
+[2026-04-13 00:10] CHECKPOINT 1 — Aguardando aprovacao de Snayder: titulo video-012-ia-apocalipse
+[2026-04-13 00:00] ARGOS — Output: canais/sinais-do-fim/videos/video-012-ia-apocalipse/1-pesquisa/pesquisa.md
+[2026-04-13 00:00] CHECKPOINT 1 — Aguardando aprovacao de Snayder: topico + titulo video-012-ia-apocalipse
+[2026-04-13 14:00] PHANTASMA — Script MoviePy gerado: canais/sinais-do-fim/videos/video-009-anticristo/8-render/montagem_v1.py
+[2026-04-13 14:00] PHANTASMA — 90 quadros mapeados (18/parte x 5 partes) | 90 imagens .png disponiveis (1:1)
+[2026-04-13 14:00] PHANTASMA — Efeitos: Ken Burns (zoom_ratio=0.15, 5 direcoes ciclicas) | Crossfade 0.5s | Color grade dark (-10% brilho, +15% contraste) | Vinheta oval (0.55)
+[2026-04-13 14:00] PHANTASMA — Audio: PARTE1.mp3 + PARTE2.mp3 + PARTE3.mp3 + PARTE4_1.mp3 + PARTE4_2.mp3 + PARTE5_1.mp3 + PARTE5.2.mp3 concatenados
+[2026-04-13 14:00] PHANTASMA — Output esperado: 8-render/video-009-anticristo_v1.mp4 | 1920x1080 | 24fps | H.264 + AAC | ~12 min 10s
+[2026-04-13 14:00] PHANTASMA — README gerado: canais/sinais-do-fim/videos/video-009-anticristo/8-render/README.md
+[2026-04-13 14:00] CHECKPOINT FASE 3.5 — Aguardando Snayder executar script MoviePy (ver README.md para instrucoes)
+[2026-04-12 00:00] PIPELINE INICIADO — sinais-do-fim/video-009-anticristo
+[2026-04-12 00:00] TITULO APROVADO — "O Anticristo JÁ ESTÁ AQUI: Kushner, Musk e Daniel 9:27"
+[2026-04-12 00:00] MORRIGAN — Roteiro completo gerado (~11.400 chars, estimativa 10-12 min)
+[2026-04-12 00:00] MORRIGAN — Estrutura: Gancho + 5 Atos + Encerramento com CTA
+[2026-04-12 00:00] MORRIGAN — Cobertura: Kushner (7 evidencias), Musk (Neuralink/Starlink/DOGE), Macron (10 nacoes), Quadro comparativo 6 criterios biblicos
+[2026-04-12 00:00] MORRIGAN — Output: canais/sinais-do-fim/videos/video-009-anticristo/3-roteiro/roteiro_v1.md
+[2026-04-12 00:00] CHECKPOINT 2 — Roteiro aguardando aprovacao de Snayder antes de passar para NYX (Storyboard)
+[2026-04-11 00:30] MORRIGAN — Roteiro refeito novo padrao: 10-12 min (~10.800 chars), 5 partes Suno (~2.150 chars cada)
+[2026-04-11 00:30] MORRIGAN — Validacao: 25 pausas, power words presentes, 6 referencias biblicas, 5 perguntas retoricasOk
+[2026-04-11 00:30] MORRIGAN — Output atualizado: roteiro.txt em 3-roteiro/ (novo padrao 10-12 min)
+[2026-04-11 00:30] MORRIGAN — Agentes atualizados: morrigan.md + skill/roteiro/SKILL.md → novo padrao 10-12 min, partes Suno 2000-2500 chars
+[2026-04-11 00:30] CHECKPOINT — Roteiro aguardando aprovacao de Snayder
+[2026-04-11 00:45] ROTEIRO APROVADO — Snayder aprovou roteiro 10-12 min
+[2026-04-11 00:45] NYX — Storyboard gerado: 24 quadros, 10-12 min, 20 imagens MJ + 3 textos CapCut
+[2026-04-11 00:45] NYX — Timeline CapCut completa com 5 partes Suno mapeadas
+[2026-04-11 00:45] NYX — Output: storyboard.txt em 4-storyboard/
+[2026-04-11 00:45] CHECKPOINT — Storyboard aguardando aprovacao de Snayder antes de Goetia (prompts MJ)
+[2026-04-11 01:00] NYX — Storyboard refeito: 50 imagens MJ (10 por parte Suno) + 4 telas texto Phantasma
+[2026-04-11 01:00] NYX — Padrao fixo atualizado: nyx.md + skill/storyboard/SKILL.md
+[2026-04-11 01:00] NYX — estilo_canal.md: Phantasma reativado como editor MoviePy
+[2026-04-11 01:00] CHECKPOINT — Storyboard final aguardando aprovacao de Snayder
+[2026-04-11 01:15] STORYBOARD APROVADO — 50 imagens MJ (10/parte) + 4 telas Phantasma
+[2026-04-11 01:20] ORFEU — 5 arquivos de narracao gerados em 5-prompts/
+[2026-04-11 01:20] ORFEU — parte1.txt (~1.950 chars) | parte2.txt (~1.980 chars) | parte3.txt (~2.050 chars) | parte4.txt (~1.900 chars) | parte5.txt (~1.750 chars)
+[2026-04-11 01:20] ORFEU — Numeros convertidos para extenso | marcacoes tecnicas removidas | CTA na parte 5
+[2026-04-11 01:25] GOETIA — 50 prompts MJ gerados (10 por parte Suno, seeds 847200-847249)
+[2026-04-11 01:25] GOETIA — DNA visual: foreground colorido medieval + background P&B moderno + brasas + chiaroscuro + 35mm grain
+[2026-04-11 01:25] GOETIA — --sref aprovado: bf50970e | --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --sw 750
+[2026-04-11 01:25] GOETIA — Output: prompts_imagens_mj.txt salvo em 5-prompts/
+[2026-04-11 01:30] ORFEU — Partes reescritas com formato completo Suno: [Voice:] + [Background:] + [Style:] em TODAS as partes + cues de producao ([pausa Xs], [trilha cresce], [voz em citacao])
+[2026-04-11 01:30] ORFEU — orfeu.md atualizado: header completo obrigatorio em todas as partes (Suno processa cada parte independentemente)
+[2026-04-11 01:35] ORFEU — Partes reprocessadas com novo estilo dinâmico: voz 45-55 anos, ritmo investigativo, pausas curtas (0.5-1s), tom jornalismo de investigação
+[2026-04-11 02:00] PHANTASMA — Script MoviePy gerado: _tools/edicao_sinais-do-fim_video-008-sinais-fisicos.py
+[2026-04-11 02:00] PHANTASMA — 90 imagens mapeadas visualmente para Q01-Q50 | 50 clips Ken Burns | 6 overlays bíblicos | 2 textos pivô | logo CTA
+[2026-04-11 02:00] PHANTASMA — Mixagem: narração 1.0 + trilha 0.22 | fade in 2s | fade out 3s
+[2026-04-11 02:00] SKILL atualizado: prompts-video → MoviePy (Veo 3 removido)
+[2026-04-11 02:00] CHECKPOINT FASE 3.5 — Aguardando Snayder executar script MoviePy
+[2026-04-11 01:25] PROXIMO — Apos assets prontos: Phantasma (MoviePy script) → Medusa → Sibila → Caronte
+[2026-04-04 17:53] CHECKPOINT 2 — Titulo aprovado, iniciando Fase 3 (Roteiro)
+[2026-04-04 17:54] MORRIGAN — Roteiro completo gerado (9.847 caracteres, 12 minutos, evergreen)
+[2026-04-04 17:54] ROTEIRO APROVADO — Snayder aprovou roteiro evergreen
+[2026-04-04 18:10] NYX — Storyboard completo (24 quadros, 71% Banana, 17% Veo3, 12% CapCut)
+[2026-04-04 18:10] CHECKPOINT 4 — Storyboard aguardando aprovacao de Snayder
+[2026-04-04 18:25] ORFEU — Prompts Suno gerados (5 partes, 8.768 caracteres, limite respeitado)
+[2026-04-04 18:25] OUTPUT — suno_prompt.txt salvo em 5-prompts/
+[2026-04-04 18:40] PHANTASMA — Prompts Veo 3 gerados: 4 quadros (Q09, Q13, Q17, Q23) x 3 clipes = 12 prompts
+[2026-04-04 18:40] PHANTASMA — Cobertura: 120s de video AI (2 minutos) | Checklist do Diretor aplicado em todos os quadros
+[2026-04-04 18:40] OUTPUT — prompts_video.txt salvo em canais/sinais-do-fim/videos/video-001-armagedom/5-prompts/
+[2026-04-04 18:45] ORFEU — Roteiro limpo e dividido em 4 partes (texto puro, numeros em extenso, sem marcacoes tecnicas)
+[2026-04-04 18:45] ORFEU — parte1.txt: 982 caracteres | parte2.txt: 1.259 caracteres | parte3.txt: 1.814 caracteres | parte4.txt: 495 caracteres
+[2026-04-04 18:45] OUTPUT — 4 arquivos de narracao salvos em 5-prompts/ (total: 4.550 caracteres limpos)
+[2026-04-04 18:45] ORFEU — Estilo Suno exibido para Snayder copiar manualmente
+[2026-04-04 19:10] ORFEU — Formato atualizado: narração COM tags de producao embutidas ([Voice:], [Background:], [pausa Xs], [trilha cresce])
+[2026-04-04 19:10] ORFEU — 4 partes re-geradas com novo formato | parte1: 1.861 chars | parte2: 1.418 chars | parte3: 1.253 chars | parte4: 1.251 chars | Media: 1.445 chars/parte
+[2026-04-04 19:10] ORFEU — PDF suno_narracoes.pdf gerado com todas as 4 partes (formato visual da agencia)
+[2026-04-04 19:10] OUTPUT — suno_narracoes.pdf salvo em 5-prompts/ e enviado para VPS
+[2026-04-04 19:10] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/5-prompts/suno_narracoes.pdf
+[2026-04-04 19:20] ORFEU — estilo_suno.txt criado com Voice + Background tags + estilo completo em ingles para Suno AI
+[2026-04-04 19:20] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/5-prompts/estilo_suno.txt
+[2026-04-04 19:30] ORFEU — Arquivos renomeados para padrao video-NNN-slug-parteN.txt
+[2026-04-04 19:30] ORFEU — video-001-armagedom-parte1.txt | parte2 | parte3 | parte4
+[2026-04-04 19:30] ORFEU — PDF suno_narracoes.pdf atualizado e reenviado para VPS
+[2026-04-04 19:30] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/5-prompts/suno_narracoes.pdf
+[2026-04-05 00:00] MEDUSA — Iniciando criacao de assets de thumbnail para video-001-armagedom
+[2026-04-05 00:00] MEDUSA — Conceito aprovado: Arcanjo medieval colorido com espada flamejante vs. cidade moderna em colapso P&B
+[2026-04-05 00:00] MEDUSA — thumb_prompt.txt gerado (prompt Banana 2.0 + negative prompt) → 8-publicacao/
+[2026-04-05 00:00] MEDUSA — thumb_specs.md gerado (specs completas: texto, fontes, cores, composicao, CTR) → 8-publicacao/
+[2026-04-05 00:00] MEDUSA — Upload SFTP OK: thumb_prompt.txt → VPS /opt/agencia/.../8-publicacao/
+[2026-04-05 00:00] MEDUSA — Upload SFTP OK: thumb_specs.md → VPS /opt/agencia/.../8-publicacao/
+[2026-04-05 00:00] MEDUSA — LINKS — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/8-publicacao/thumb_prompt.txt
+[2026-04-05 00:00] MEDUSA — LINKS — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/8-publicacao/thumb_specs.md
+[2026-04-05 00:00] CHECKPOINT — Assets de thumbnail entregues, aguardando geracao da imagem por Snayder no Banana 2.0
+[2026-04-05 21:25] SIBILA — Metadata gerado para video-001-armagedom (título, descrição, chapters, tags, referências bíblicas)
+[2026-04-05 21:25] SIBILA — OUTPUT: metadata.txt salvo em 8-publicacao/
+[2026-04-05 21:25] SIBILA — UPLOAD: metadata.txt enviado para VPS via SFTP (paramiko)
+[2026-04-05 21:25] SIBILA — LINK: http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/8-publicacao/metadata.txt
+[2026-04-05 21:31] MEDUSA — Teste A/B/C gerado — 3 variações com rosto real chorando (A: lágrima+fé, B: desespero+guerra, C: olho com reflexo dos cavaleiros)
+[2026-04-06 10:00] PIPELINE INICIADO — sinais-do-fim/video-002-marca-da-besta
+[2026-04-06 10:00] ARGOS — Pesquisa completa executada: Marca da Besta (Ap 13), base biblica + historico + paralelos modernos verificaveis
+[2026-04-06 10:00] ARGOS — 6 secoes: base biblica (Ap 13/14/19/Dn 7), 4 escolas escatologicas, 6 tecnologias modernas (CBDC/microchip/credito social/biometria/ID2020/cashless), angulo narrativo
+[2026-04-06 10:00] ARGOS — Dados verificaveis: 134 paises com CBDC (BIS/Atlantic Council 2024), 10k-50k chips implantados no mundo (BBC/Wired), Suecia 98% cashless (Riksbank 2023), 1,38bi biometricos Aadhaar India, 23M viagens bloqueadas China
+[2026-04-06 10:00] ARGOS — OUTPUT: pesquisa.txt salvo em canais/sinais-do-fim/videos/video-002-marca-da-besta/1-pesquisa/
+[2026-04-06 10:00] CHECKPOINT 1 — Aguardando aprovacao de Snayder para avancar para Hermes (SEO + Titulos)
+[2026-04-06 10:00] HERMES — Análise SEO completa: 24 keywords mapeadas (5 primárias, 9 secundárias, 10 cauda longa), análise de concorrência YouTube PT-BR, 5 lacunas identificadas
+[2026-04-06 10:00] HERMES — 10 títulos gerados (T01–T10), CTR estimado por opção
+[2026-04-06 10:00] HERMES — Título recomendado: "A Marca da Besta Já Está Sendo Implementada — Apocalipse 13" (63 chars)
+[2026-04-06 10:00] HERMES — 27 tags geradas (broad + específicas + long-tail + brand), ~410 chars — dentro do limite YouTube
+[2026-04-06 10:00] HERMES — OUTPUT: titulos_seo.txt salvo em canais/sinais-do-fim/videos/video-002-marca-da-besta/2-titulos/
+[2026-04-06 10:00] CHECKPOINT — Aguardando aprovação de Snayder para título e SEO antes da Fase 2 (Roteiro)
+[2026-04-06 14:30] CHECKPOINT 1 — TÍTULO APROVADO
+[2026-04-06 14:30] Título: "A Marca da Besta Já Está Sendo Implementada — Apocalipse 13"
+[2026-04-06 14:30] Status: Passando para FASE 2 (Morrigan — Roteiro)
+[2026-04-06 16:45] MORRIGAN — Roteiro completo gerado (12.847 caracteres, 15:30 minutos, 5 atos estruturados)
+[2026-04-06 16:45] MORRIGAN — roteiro.txt salvo em 3-roteiro/ | roteiro_resumido.txt salvo também
+[2026-04-06 16:45] MORRIGAN — 8 personagens visuais sugeridos (João/Besta/CBDCs/Chip/Câmeras/Crédito Social/Convergência/Apocalipse)
+[2026-04-06 16:45] MORRIGAN — 8 frases virais para cards (máximo impacto narrativo)
+[2026-04-06 16:45] MORRIGAN — Dados verificáveis: 134 países CBDC, Carstens/BIS, Suécia 6k chips, China 23M bloqueados, Aadhaar 1.38B, EUDI 2024
+[2026-04-06 16:45] CHECKPOINT 2 — Aguardando aprovacao de Snayder para avançar para Fase 3 (Nyx — Storyboard)
+[2026-04-06 17:00] ARGOS — Script PDF gerado: _tools/argos_pesquisa_002.py (ReportLab + SFTP paramiko)
+[2026-04-06 17:00] ARGOS — Pesquisa compilada: 4 seções (base bíblica Ap13+6 textos, 4 escolas escatológicas, 6 tecnologias modernas verificáveis, ângulo narrativo)
+[2026-04-06 17:00] ARGOS — Dados verificáveis incluídos: 134 países CBDC (Atlantic Council 2024), Carstens/BIS 2020, Suécia 6k chips (BBC), China 23M bloqueados, Aadhaar 1.38B, EUDI mar/2024, Drex Brasil
+[2026-04-06 17:00] ARGOS — 8 frases de impacto viral + 8 personagens visuais para Nyx/Goetia + gancho de abertura para Morrigan
+[2026-04-06 17:00] ARGOS — Potencial de viralidade: 91/100
+[2026-04-06 17:00] ARGOS — AGUARDANDO: executar _tools/argos_pesquisa_002.py para gerar PDF e fazer upload VPS
+[2026-04-06 17:00] ARGOS — URL esperada: http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/1-pesquisa/pesquisa.pdf
+[2026-04-06 17:30] HERMES — Análise SEO completa re-entregue com PDF visual da agência para video-002-marca-da-besta
+[2026-04-06 17:30] HERMES — Keywords: 5 primárias | 8 secundárias | 10 cauda longa | 5 keywords de risco sinalizadas
+[2026-04-06 17:30] HERMES — Análise concorrência: padrões título/thumbnail/duração + 5 lacunas identificadas para Sinais do Fim
+[2026-04-06 17:30] HERMES — 10 títulos (T01–T10), CTR estimado 6.2% a 7.8% | Título T01 CONFIRMADO (melhor da lista)
+[2026-04-06 17:30] HERMES — Título CONFIRMADO: "A Marca da Besta Já Está Sendo Implementada — Apocalipse 13" (63 chars, CTR 7.8%)
+[2026-04-06 17:30] HERMES — 27 tags otimizadas (~415 chars, dentro do limite 500 do YouTube)
+[2026-04-06 17:30] HERMES — OUTPUT: titulos_seo.txt salvo em canais/sinais-do-fim/videos/video-002-marca-da-besta/2-titulos/
+[2026-04-06 17:30] HERMES — SCRIPT PDF+VPS: _tools/hermes_pdf_upload.py gerado — executar para gerar titulos_seo.pdf e enviar para VPS
+[2026-04-06 17:30] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/2-titulos/titulos_seo.pdf
+[2026-04-06 10:41] ARGOS — Pesquisa concluída → pesquisa.pdf gerado e enviado para VPS
+[2026-04-06 10:41] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/1-pesquisa/pesquisa.pdf
+
+[2026-04-06 10:54] MORRIGAN — Roteiro concluido (15:30 min est., 20743 chars, 26 KB PDF) → roteiro.pdf enviado para VPS
+[2026-04-06 10:54] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/3-roteiro/roteiro.pdf
+[2026-04-06 10:54] CHECKPOINT — Aguardando aprovacao do roteiro por Snayder
+[2026-04-06 15:00] CHECKPOINT 2 — ROTEIRO APROVADO por Snayder
+[2026-04-06 15:00] Iniciando FASE 3 — Nyx + Goetia + Phantasma + Orfeu em paralelo
+[2026-04-06 18:00] ORFEU — 9 partes de narracao geradas (texto limpo, numeros por extenso, siglas soletradas, sem marcacoes tecnicas)
+[2026-04-06 18:00] ORFEU — parte1: 1247 chars | parte2: 1598 chars | parte3: 1421 chars | parte4: 1487 chars | parte5: 1473 chars
+[2026-04-06 18:00] ORFEU — parte6: 1692 chars | parte7: 1679 chars | parte8: 1751 chars | parte9: 1499 chars
+[2026-04-06 18:00] ORFEU — Total: 13847 chars em 9 partes | todas dentro do limite de 1.800 chars/parte
+[2026-04-06 18:00] ORFEU — estilo_suno.txt gerado com Voice + Background + Style tags em ingles
+[2026-04-06 18:00] ORFEU — Script PDF+VPS gerado: _tools/orfeu_narracoes_002.py (ReportLab + SFTP paramiko)
+[2026-04-06 18:00] ORFEU — AGUARDANDO: executar _tools/orfeu_narracoes_002.py para gerar suno_narracoes.pdf e enviar para VPS
+[2026-04-06 18:00] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/suno_narracoes.pdf
+[2026-04-06 11:09] ORFEU — 9 partes de narracao geradas (13847 chars totais) → suno_narracoes.pdf na VPS
+[2026-04-06 11:09] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/suno_narracoes.pdf
+[2026-04-06 18:30] NYX — Storyboard concluído (93 quadros, 56 IMAGE, 37 VIDEO) → storyboard.txt salvo em 4-storyboard/
+[2026-04-06 18:30] NYX — Script PDF+VPS gerado: _tools/nyx_storyboard_002.py (ReportLab + SFTP paramiko)
+[2026-04-06 18:30] NYX — AGUARDANDO: executar _tools/nyx_storyboard_002.py para gerar storyboard.pdf e enviar para VPS
+[2026-04-06 18:30] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/4-storyboard/storyboard.pdf
+[2026-04-06 18:45] PHANTASMA — 14 quadros VIDEO, 42 clipes Veo 3 gerados (arco V01–V14, 3 clipes × 8s = 336s de material bruto)
+[2026-04-06 18:45] PHANTASMA — Estilo: foreground bíblico COLORIDO / background moderno P&B | 35mm grain | sem texto em tela
+[2026-04-06 18:45] PHANTASMA — prompts_video.txt salvo em 5-prompts/ | Script PDF+VPS: _tools/phantasma_video_002.py
+[2026-04-06 18:45] PHANTASMA — AGUARDANDO: executar _tools/phantasma_video_002.py para gerar prompts_video.pdf e enviar para VPS
+[2026-04-06 18:45] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_video.pdf
+[2026-04-06 11:10] NYX — Storyboard concluído (93 quadros, 56 IMAGE, 37 VIDEO) → storyboard.pdf OK
+[2026-04-06 11:10] NYX -- Storyboard concluido (93 quadros: 56 IMAGE + 37 VIDEO) -> storyboard.pdf na VPS
+[2026-04-06 11:10] LINK -- http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/4-storyboard/storyboard.pdf
+[2026-04-06 19:00] GOETIA — 35 prompts de imagem gerados (Q01-Q35, todos 16:9, estilo medieval colorido vs. mundo P&B) → 5-prompts/prompts_imagens.txt
+[2026-04-06 19:00] GOETIA — Distribuicao: Q01-Q04 Introducao | Q05-Q12 Base Biblica | Q13-Q18 Historico | Q19-Q26 CBDC+Chip | Q27-Q32 Vigilancia | Q33-Q35 Conclusao
+[2026-04-06 19:00] GOETIA — Script PDF+VPS gerado: _tools/goetia_imagens_002.py (ReportLab + SFTP paramiko)
+[2026-04-06 19:00] GOETIA — AGUARDANDO: executar _tools/goetia_imagens_002.py para gerar prompts_imagens.pdf e enviar para VPS
+[2026-04-06 19:00] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 19:00] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+
+[2026-04-06 11:11] GOETIA — 35 prompts de imagem gerados → 5-prompts/prompts_imagens.txt
+[2026-04-06 11:11] GOETIA — PDF gerado → 5-prompts/prompts_imagens.pdf
+[2026-04-06 11:11] GOETIA — Upload VPS OK → http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 11:11] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+[2026-04-06 11:19] PHANTASMA — 14 quadros VIDEO, 42 clipes Veo 3 gerados → prompts_video.pdf
+[2026-04-06 11:19] LINK — http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_video.pdf
+[2026-04-06 12:10] CHECKPOINT 3 -- Assets aprovados por Snayder
+[2026-04-06 12:10] FEEDBACK SUNO -- Narração executada com sucesso no Suno
+[2026-04-06 12:10] FEEDBACK ROTEIRO -- Video ficou extenso + repeticao de assunto
+[2026-04-06 12:10] AJUSTE PROXIMO VIDEO -- Duracao alvo: 13-14 min (era 15-16 min)
+[2026-04-06 12:10] AJUSTE PROXIMO VIDEO -- Morrigan: evitar repeticao tematica entre atos
+[2026-04-06 12:10] STATUS -- video-002 em fase de EDICAO MANUAL (CapCut)
+
+[2026-04-06 12:15] GOETIA — 35 prompts de imagem gerados → 5-prompts/prompts_imagens.txt
+[2026-04-06 12:15] GOETIA — PDF gerado → 5-prompts/prompts_imagens.pdf
+[2026-04-06 12:15] GOETIA — Upload VPS OK → http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 12:15] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+
+[2026-04-06 12:35] GOETIA — 35 prompts de imagem gerados → 5-prompts/prompts_imagens.txt
+[2026-04-06 12:35] GOETIA — PDF gerado → 5-prompts/prompts_imagens.pdf
+[2026-04-06 12:35] GOETIA — Upload VPS OK → http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 12:35] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+
+[2026-04-06 13:15] GOETIA — 35 prompts de imagem gerados → 5-prompts/prompts_imagens.txt
+[2026-04-06 13:15] GOETIA — PDF gerado → 5-prompts/prompts_imagens.pdf
+[2026-04-06 13:15] GOETIA — Upload VPS OK → http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 13:15] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+
+[2026-04-06 13:20] GOETIA — 35 prompts de imagem gerados → 5-prompts/prompts_imagens.txt
+[2026-04-06 13:20] GOETIA — PDF gerado → 5-prompts/prompts_imagens.pdf
+[2026-04-06 13:20] GOETIA — Upload VPS OK → http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens.pdf
+[2026-04-06 13:20] CHECKPOINT — Aguardando aprovacao dos prompts de imagem por Snayder
+[2026-04-06 13:29] GOETIA — prompts_imagens_flat.txt gerado e upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens_flat.txt
+[2026-04-06 14:38] GOETIA -- prompts_imagens_mj.txt (Midjourney v7 cmds) gerado, upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens_mj.txt
+[2026-04-06 15:00] GOETIA -- prompts_imagens_mj.txt (Midjourney v7 cmds) gerado, upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_imagens_mj.txt
+[2026-04-06 15:12] PHANTASMA -- prompts_video_mj.txt gerado (14 quadros x 2 clips = 28 instrucoes Midjourney Animate), upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/prompts_video_mj.txt
+[2026-04-06 17:01] CONFIG -- Phantasma DESATIVADO para canal sinais-do-fim (decisao Snayder)
+[2026-04-06 17:01] CONFIG -- Nyx instruida a gerar 100% imagens estaticas (sem quadros de video)
+[2026-04-06 17:01] CONFIG -- Pipeline ajustado: Goetia e o unico agente visual ativo
+[2026-04-06 17:10] ORFEU -- suno_audio_completo.txt gerado (1 trilha + 5 loops), upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/5-prompts/suno_audio_completo.txt
+[2026-04-07 21:33] ANUBIS -- metricas_2026-04-07.json atualizado (dados completos), upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-001-armagedom/9-metricas/metricas_2026-04-07.json
+[2026-04-08 15:45] MEDUSA -- thumb_prompt.txt + thumb_specs.md gerados, upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/8-publicacao/thumb_prompt.txt
+[2026-04-08 15:45] SIBILA -- metadata.txt gerado, upload OK -> http://31.97.165.64:3456/canais/sinais-do-fim/videos/video-002-marca-da-besta/8-publicacao/metadata.txt
+[2026-04-08 15:45] CHECKPOINT -- Fase 4 concluida. Aguardando: (1) thumbnail gerada no MJ (2) video_final.mp4 em 7-edicao/ (3) aprovacao de Snayder para upload
+[2026-04-08 17:48] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 17:49] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 17:54] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 18:02:09] CARONTE -- Video upload OK (PRIVATE) -> 8_lnvGCAShM
+[2026-04-08 18:02:09] CHECKPOINT -- Aguardando aprovacao de Snayder para tornar publico
+[2026-04-08 18:00] CARONTE -- VIDEO-002 UPLOAD SUCESSO! Video ID: 8_lnvGCAShM (PRIVADO)
+[2026-04-08 18:00] CHECKPOINT -- Aguardando aprovacao de Snayder para publicar (tornar PUBLIC)
+[2026-04-08 18:07:43] CARONTE UPDATE -- Atualizacao de metadata para 8_lnvGCAShM
+[2026-04-08 18:07:43] THUMBNAIL: OK | CHAPTERS: OK
+[2026-04-08 18:08:37] CARONTE FULL CONFIG -- 8_lnvGCAShM
+[2026-04-08 18:08:37] Snippet: OK | Thumbnail: OK
+[2026-04-08 18:08] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 18:09] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 21:38] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 21:42] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 21:46] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-08.json
+[2026-04-08 22:00] PIPELINE INICIADO — sinais-do-fim/video-007-falsa-paz
+[2026-04-08 22:00] ARGOS — Pesquisa completa executada: FALSA PAZ — A Profecia Que o Mundo Está Vivendo Agora
+[2026-04-08 22:00] ARGOS — Gancho: EUA anuncia cessar-fogo Israel/Irã (terça) + Irã desmente (quarta) | Evento em tempo real
+[2026-04-08 22:00] ARGOS — Base biblica: 5 versiculos (1 Ts 5:3, Dn 8:25, Ez 38:11, Ap 6:2, 1 Rs 22) + contexto completo
+[2026-04-08 22:00] ARGOS — Historico: 3 acordos falhados (Oslo 1993, Camp David 1978, Acordos de Abraao 2020)
+[2026-04-08 22:00] ARGOS — Twitter BR: "guerra Iran Israel" = 46 | "terceira guerra mundial" = 34 | "apocalipse guerra" = 16
+[2026-04-08 22:00] ARGOS — Score de Viralidade: 94/100 | Janela: 48h
+[2026-04-08 22:00] ARGOS — OUTPUT: pesquisa.md salvo em canais/sinais-do-fim/videos/video-007-falsa-paz/1-pesquisa/
+[2026-04-08 22:00] CHECKPOINT 1 — Aguardando aprovacao de Snayder para avancar para Hermes (SEO + Titulos)
+[2026-04-08 22:15] MORRIGAN — Roteiro completo gerado (5 atos, 18 quadros visuais, 13-14 min estimados)
+[2026-04-08 22:15] MORRIGAN — Gancho: cessar-fogo EUA/Ira de duas semanas + colapso em 24h (notícias 08-09/abr/2026)
+[2026-04-08 22:15] MORRIGAN — Versículos: 1 Ts 5:3 | Dn 8:25 | Ez 38:11 | Ap 6:2 — todos contextualizados
+[2026-04-08 22:15] MORRIGAN — Palavras exatas: "cessar-fogo de duas semanas", "Estreito de Ormuz", "à beira do colapso", "quase todos os objetivos de guerra foram alcançados", "violações comprometem o processo de paz"
+[2026-04-08 22:15] MORRIGAN — Anti-repetição: 5 atos cobrem ângulos únicos sem sobreposição temática
+[2026-04-08 22:15] MORRIGAN — OUTPUT: roteiro.md salvo em 3-roteiro/ | roteiro.txt (narração limpa) salvo em 3-roteiro/
+[2026-04-08 22:15] CHECKPOINT 2 — Aguardando aprovacao do roteiro por Snayder
+[2026-04-09] CARONTE -- Video-002 re-upload por Snayder. Novo ID: 2_fCLnB4eIs (anterior: 8_lnvGCAShM). Titulo/descricao/dados atualizados manualmente no Studio.
+[2026-04-08 22:30] GOETIA — 18 prompts de imagem gerados para video-007-falsa-paz (Q01–Q18, seeds 847200–847217)
+[2026-04-08 22:30] GOETIA — Distribuicao: Q01-Q04 Abertura/Tratado | Q05-Q08 Profecia/Vigilancia | Q09-Q12 Conflito/Alerta | Q13-Q16 Revelacao/Oracao | Q17-Q18 Trombeta/Cordeiro
+[2026-04-08 22:30] GOETIA — Estilo: foreground biblico COLORIDO (crimson/gold/ochre/sapphire) vs. background moderno P&B — DNA visual aprovado
+[2026-04-08 22:30] GOETIA — Parametros: --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --chaos 20 --sref aprovado 2026-04-06 --sw 750
+[2026-04-08 22:30] GOETIA — OUTPUT: prompts_imagens.txt salvo em canais/sinais-do-fim/videos/video-007-falsa-paz/5-prompts/
+[2026-04-08 22:30] CHECKPOINT — Aguardando aprovacao dos prompts por Snayder para gerar imagens no Midjourney
+[2026-04-08 22:45] ORFEU — Narração dividida em 7 partes para Suno (max 2.000 chars cada)
+[2026-04-08 22:45] ORFEU — Estilo fixo aplicado em todas as partes: deep aged male narrator, 55-65y, gravelly radio voice, PT-BR, dramatic suspense
+[2026-04-08 22:45] ORFEU — Trilha instrumental gerada: dark ambient, drones, low cello, choir pads, ~14min loop, no lyrics
+[2026-04-08 22:45] ORFEU — OUTPUT: suno_prompt.txt salvo em canais/sinais-do-fim/videos/video-007-falsa-paz/5-prompts/
+[2026-04-08 23:10] NYX — Storyboard completo gerado: 18 quadros (Q01–Q18) para video-007-falsa-paz
+[2026-04-08 23:10] NYX — Distribuicao: Ato1 Q01-Q03 (0:00-1:30) | Ato2 Q04-Q06 (1:30-4:00) | Ato3 Q07-Q10 (4:00-7:00) | Ato4 Q11-Q14 (7:00-11:00) | Ato5 Q15-Q18 (11:00-13:30)
+[2026-04-08 23:10] NYX — Tipo: 100% Imagens estáticas (Ken Burns no CapCut) — NUNCA Video/Clipe
+[2026-04-08 23:10] NYX — Movimentos: 9x Zoom in | 5x Zoom out | 4x Pan — seeds 847201 a 847218
+[2026-04-08 23:10] NYX — Transicoes: Cross dissolve (principal) | Fade (encerramentos de ato)
+[2026-04-08 23:10] NYX — OUTPUT: storyboard.md salvo em canais/sinais-do-fim/videos/video-007-falsa-paz/4-storyboard/
+[2026-04-08 23:10] CHECKPOINT 3 — Aguardando aprovacao do storyboard por Snayder para avancar para Fase 3 (Assets)
+[2026-04-09] TESTE A/B TÍTULO — video-001-armagedom
+  Título ANTERIOR: "ARMAGEDOM: Os 5 Sinais que Provam que a Batalha Final Está Próxima"
+  Título NOVO:     "O Mundo Está no Armagedom? A Profecia que NINGUÉM Quer Ver"
+  Alterado por: Snayder (manualmente no YouTube Studio)
+  Objetivo: aumentar CTR com pergunta + maiúsculas + "NINGUÉM"
+  Baseline CTR: verificar Anubis antes desta data
+  ACOMPANHAR: CTR em 48h, 7d, 14d após alteração
+[2026-04-09 21:21] ANUBIS -- Analytics coletados via Data API v3 + Analytics API v2
+[2026-04-09 21:21] ANUBIS -- video-001 (M6MKRnoXCE0): 52 views | 8 likes | avg retention 53.28% | tráfego: 61% related video
+[2026-04-09 21:21] ANUBIS -- video-001 troca de título em 09/04: baseline anterior 45 views (título A). Novo título B: 52 views. CTR real: verificar YouTube Studio (API não expõe impressões)
+[2026-04-09 21:21] ANUBIS -- video-002 (2_fCLnB4eIs): PRIVADO — apenas 2 views de revisão. Analytics indisponível até publicação.
+[2026-04-09 21:21] ANUBIS -- 7 recomendações geradas para video-007-falsa-paz (janela 48h, score 94/100)
+[2026-04-09 21:21] ANUBIS -- RELATÓRIO CONSOLIDADO -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-09.json
+[2026-04-09] ANUBIS — Analytics manual video-001 (YouTube Studio screenshot)
+  Views totais: 45 | Watch time: 2.6h | Inscritos: +5
+  Views últimas 48h: 22 (em tempo real)
+  Retenção média: 49.4% | Duração média: 3:18 / 6:41
+  Fontes: Vídeos sugeridos 59.1% | Direto 9.1% | Navegação 9.1% | Busca YT 9.1% | Externa 9.1%
+  Título atual (desde 09/04): "O Mundo Está no Armagedom? A Profecia que NINGUÉM Quer Ver"
+  MONITORAR CTR em 7 dias (2026-04-16) — comparar com período anterior
+[2026-04-10 13:35] PROMETHEUS — Montagem automática concluída → 7-edicao/video_montagem.mp4 (102 imgs, 747s, 1920x1080)
+[2026-04-10 13:48] PROMETHEUS — Montagem automática concluída → 7-edicao/video_montagem.mp4 (102 imgs, 747s, 1920x1080)
+[2026-04-10 14:13] PROMETHEUS — Montagem automática concluída → 7-edicao/video_montagem.mp4 (102 imgs, 747s, 1920x1080)
+[2026-04-10 15:30] PROMETHEUS-MV concluido -> video_montagem_mv.mp4 (731s, transicao: random)
+[2026-04-10 16:13] PROMETHEUS-MV concluido -> video_montagem_mv_v2.mp4 (869s, 2498MB, transicao:random)
+
+[2026-04-10 19:00] TÍTULOS ATUALIZADOS MANUALMENTE POR SNAYDER
+[2026-04-10 19:00] video-001-armagedom → 'ARMAGEDOM É ASSUSTADOR... E Já Está Acontecendo' (Fórmula B, ⭐⭐⭐⭐⭐)
+[2026-04-10 19:00] video-002-marca-da-besta → 'A Marca da Besta Já Está Sendo Implementada — E Poucos Perceberam' (L1+L2+L6, ⭐⭐⭐⭐⭐)
+[2026-04-10 19:05] ANUBIS — analytics_completo_2026-04-10.json atualizado com títulos reais e views
+[2026-04-10 19:05] video-001: 53 views | 8 likes (3 dias público)
+[2026-04-10 19:05] video-002: 12 views | 5 likes (publicado hoje)
+[2026-04-10 20:32] PROMETHEUS-MV — 7 partes geradas com yuv420p (compatível todos os players)
+[2026-04-10 20:32] PROMETHEUS-MV — partes: 181+234+191+211+238+244+308 MB = ~1.6GB total
+[2026-04-10 20:32] HERMES — Título aprovado por Snayder: 'A PAZ ANTES DA DESTRUIÇÃO — Profecia se Cumpre HOJE'
+[2026-04-10 20:32] SIBILA — metadata.txt gerado → 8-publicacao/metadata.txt
+[2026-04-10 20:32] MEDUSA — thumb_prompt.txt gerado → 8-publicacao/thumb_prompt.txt (sem texto, multilíngue)
+[2026-04-10 20:32] CHECKPOINT 4 — Aguardando: 1) thumbnail final no Banana 2.0  2) aprovação para upload
+[2026-04-10 21:10] MEDUSA — Thumbnail aprovada por Snayder: Banana v1 (rosto + pomba em chamas + cidade)
+[2026-04-10 21:10] MEDUSA — Nota: risco de likeness reconhecido e aceito por Snayder
+[2026-04-10 21:10] CHECKPOINT 4 APROVADO — Título + Thumbnail + Metadata prontos. Próximo: Caronte (upload)
+[2026-04-11 00:33:25] CARONTE — video-007-falsa-paz upload OK (PRIVATE) -> djzD7YFysoU
+[2026-04-11 00:33:25] CHECKPOINT — Aguardando aprovacao de Snayder para tornar publico
+[2026-04-11 00:45] CARONTE — Chapters atualizados via Whisper no vídeo djzD7YFysoU
+[2026-04-11 00:45] CARONTE —   0:00 - O anúncio que o mundo celebrou
+[2026-04-11 00:45] CARONTE —   1:31 - O padrão histórico das falsas pazes
+[2026-04-11 00:45] CARONTE —   3:21 - O que a Bíblia diz: 1 Tessalonicenses 5:3
+[2026-04-11 00:45] CARONTE —   4:59 - O sinal que ninguém quer ver
+[2026-04-11 00:45] CARONTE —   10:13 - O que fazer agora
+[2026-04-11 01:16] ARGOS — 2 transcricoes coletadas para video-008-sinais-fisicos
+[2026-04-11 01:16] ARGOS — Base do roteiro salva: 1-pesquisa/base_roteiro_concorrentes.md
+[2026-04-11 11:00] CHECKPOINT ✅ — video-008-sinais-fisicos
+[2026-04-11 11:00] TÍTULO APROVADO: "SINAIS FÍSICOS DO APOCALIPSE? Céu Vermelho, Corvos e Chuva de Sangue"
+[2026-04-11 11:00] CTR score: 9.2 | Layers: L1·L3·L5 (Urgência + Atual + Medo+Esperança)
+[2026-04-11 11:00] Avançando para FASE 2 — Morrigan (roteiro)
+
+[2026-04-11 23:10] PHANTASMA v2 — Script reescrito: 90 imagens (todas usadas), 7s/clip, batch rendering (5 partes), grades em float32
+[2026-04-11 23:14] PHANTASMA — Batch 1/5 concluido: batch_00.mp4 (62 MB, 146s) — sem erros de memoria
+[2026-04-11 23:10] ARGOS/HERMES — topics_banco.md criado: 9 temas Nota A, 10 Nota B, 12 Nota C (analise YouTube Studio)
+[2026-04-11 23:20] MEDUSA — 3 variacoes de thumbnail geradas: A (profeta+corvos), B (close rosto), C (swarm corvos)
+[2026-04-11 23:20] MEDUSA — Outputs: thumb_prompt.txt + thumb_specs.md em 8-publicacao/
+[2026-04-12 18:22] [SIBILA] video-008: metadata.txt gerado em 8-publicacao/ | título, descrição, chapters, tags, cards, end screen
+[2026-04-12 18:41:39] CARONTE -- Video upload OK (PRIVATE) -> ZfFV0TBIGcE
+[2026-04-12 18:41:39] CHECKPOINT -- Aguardando aprovacao de Snayder para tornar publico
+[2026-04-12 18:45:49] CARONTE -- Video upload OK (PRIVATE) -> ffYg-wp08sw
+[2026-04-12 18:45:49] CHECKPOINT -- Aguardando aprovacao de Snayder para tornar publico
+[2026-04-12 18:45] CARONTE — video-008 uploaded: ffYg-wp08sw | unlisted | thumb OK | metadata+chapters OK
+[2026-04-12 18:48] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-12.json
+[2026-04-12 20:07] ARGOS — video-009-anticristo: 5 transcricoes coletadas + PDF Kushner_Anticristo_Analise.pdf processado | base_roteiro_fonte_pdf.md gerado
+[2026-04-12 20:15] ARGOS — video-010-biblia-etiope: 5 transcricoes coletadas | tema: Biblia Etiope 88 livros + livros proibidos + Apocalipse
+[2026-04-12 20:16] HERMES — video-009: 5 titulos gerados, top score 94 | video-010: 5 titulos gerados, top score 94
+[2026-04-12 20:19] CHECKPOINT 1 APROVADO — video-009: titulo 'O Anticristo JA ESTA AQUI: Kushner, Musk e Daniel 9:27' | video-010: titulo 'A Biblia Proibida por 1.700 Anos: 22 Livros Ocultados' (pesquisa adicional solicitada: Apocalipse + Mel Gibson)
+[2026-04-12 20:27] MORRIGAN — video-009: roteiro_v1.md gerado (~11.400 chars, 10-12min) | CHECKPOINT 2 aguardando Snayder
+[2026-04-12 20:27] ARGOS — video-010: pesquisa_profunda.md gerado | Mel Gibson + Apocalipse + Timeline ocultamento | Viral Score 87
+[2026-04-12 20:32] CHECKPOINT 2 APROVADO — video-009: roteiro_v1.md aprovado | Avancando para Nyx (storyboard) + Orfeu (audio Suno)
+[2026-04-12 20:36] CHECKPOINT 1 APROVADO — video-011: angulo Nefilim+CRISPR aprovado | Avancando Hermes + Morrigan em paralelo
+[2026-04-12 20:36] CHECKPOINT 2 APROVADO — video-010: roteiro liberado para Morrigan (rodando)
+[2026-04-12 00:00] PIPELINE INICIADO — sinais-do-fim/video-010-biblia-etiope
+[2026-04-12 00:00] TITULO APROVADO — "A Bíblia Proibida por 1.700 Anos: 22 Livros Ocultados"
+[2026-04-12 00:00] MORRIGAN — Roteiro v1 gerado (~11.400 chars, 11-12 min estimados, 6 atos + gancho)
+[2026-04-12 00:00] MORRIGAN — Estrutura: Gancho (10s) + Ato1 (Bíblia Etíope) + Ato2 (Jesus citou Enoque) + Ato3 (5 paralelos Enoque↔Apocalipse) + Ato4 (timeline ocultamento) + Ato5 (Mel Gibson) + Ato6 (Nefilim+fim dos tempos) + Encerramento
+[2026-04-12 00:00] MORRIGAN — Output: roteiro_v1.md salvo em canais/sinais-do-fim/videos/video-010-biblia-etiope/3-roteiro/
+[2026-04-12 00:00] CHECKPOINT 2 — Roteiro aguardando aprovacao de Snayder antes de passar para Nyx (Storyboard)
+[2026-04-12 20:40] CHECKPOINT 2 APROVADO — video-010: roteiro_v1.md aprovado | Avancando Orfeu + Nyx
+[2026-04-12 20:40] CHECKPOINT 1+2 APROVADO — video-011: titulo 'Nefilim: o DNA que Deus apagou foi recriado em 2018' + roteiro_v1.md aprovados | Avancando Orfeu + Nyx
+[2026-04-13 00:00] PIPELINE INICIADO — sinais-do-fim/video-012-ia-apocalipse
+[2026-04-13 00:20] TITULO APROVADO — "A IA JÁ FALA: Ap 13:15 Está se Cumprindo AGORA"
+[2026-04-13 00:25] MORRIGAN — Roteiro completo gerado (~10.850 chars narração, estimativa 11-12 min)
+[2026-04-13 00:25] MORRIGAN — Estrutura: Gancho + 5 Atos + Encerramento com CTA
+[2026-04-13 00:25] MORRIGAN — Cobertura: Apc 13:15 destrinchado (Ato 1), IA que fala — GPT-4o + Optimus + Figure 02 + Neuralink ALS (Ato 2), Deepfakes + Harari citação 2023 (Ato 3), Elo Nefilim video-011 → Singularidade Kurzweil (Ato 4), Crédito Social China + CBDC + Biometria convergência (Ato 5)
+[2026-04-13 00:25] MORRIGAN — Versículos: Apc 13:15, 13:14, 13:16-17, 9:6, Mt 24:42
+[2026-04-13 00:25] MORRIGAN — Dados verificáveis: 13 eventos reais citados, zero invenção de estatísticas
+[2026-04-13 00:25] MORRIGAN — Gancho: sem saudação, sem bem-vindos, evento real + impacto nos primeiros 10s
+[2026-04-13 00:25] MORRIGAN — Números por extenso: confirmado em todo o texto
+[2026-04-13 00:25] MORRIGAN — Output: roteiro_v1.md salvo em canais/sinais-do-fim/videos/video-012-ia-apocalipse/3-roteiro/
+[2026-04-13 00:25] CHECKPOINT 2 — Roteiro aguardando aprovacao de Snayder antes de passar para Nyx (Storyboard)
+[2026-04-14 16:35] FASE 4 INICIADA — Medusa (thumb) + Sibila (metadata) gerados
+[2026-04-14 17:18:55] CARONTE -- Upload OK (PRIVATE) -> wEJELnPzP-I
+[2026-04-14 17:18:55] CHECKPOINT -- Aguardando Snayder para publicar
+[2026-04-14 18:49:47] CARONTE -- video-010 Upload OK (PRIVATE) -> tlQMToRLywU
+[2026-04-14 18:49:47] CHECKPOINT -- Aguardando Snayder para publicar

@@ -25,9 +25,11 @@ Você é **Nyx**, a Diretora Visual da Abismo Criativo.
 
 ### Passo 2: Criar storyboard
 Seguir TODAS as instruções em `.claude/agents/nyx.md`:
-- 1 quadro a cada 30 segundos de vídeo
-- Formato: QUADRO, BLOCO, CENA, NARRAÇÃO, TIPO, MOOD, TRANSIÇÃO, NOTA EDIÇÃO
-- Decidir tipo por quadro: Banana 2.0 (~70%), Veo 3 (~15%), CapCut (~10%), Web (~5%)
+- **10 imagens Midjourney por parte Suno** (padrão fixo)
+- Storyboard organizado por parte Suno (não por tempo)
+- Formato por quadro: QUADRO, PARTE SUNO, BLOCO, CENA, NARRAÇÃO, PHANTASMA (duração/grade/transição), SEED MJ
+- Todos os quadros = Imagem estática (Midjourney) — Phantasma anima via MoviePy
+- +3-5 telas de texto/logo para Phantasma (TextClip)
 - Seguir assinatura visual do canal
 
 ### Passo 3: Salvar output
@@ -35,6 +37,8 @@ Seguir TODAS as instruções em `.claude/agents/nyx.md`:
 - Registrar em `canais/{canal}/_config/pipeline.log`
 
 ## Regras
-- Sincronizar timestamps com o roteiro
+- 10 imagens MJ por parte Suno — padrão fixo
 - Nunca repetir composição em quadros consecutivos
 - Variar entre close-ups, wide shots e planos médios
+- Todo quadro inclui parâmetros Phantasma: duração (s) + color grade + transição
+- Ao final: instruções completas para Phantasma (sequência, overlays, mixagem de áudio)

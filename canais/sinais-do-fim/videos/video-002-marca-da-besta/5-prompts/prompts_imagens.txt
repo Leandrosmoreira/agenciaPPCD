@@ -1,0 +1,531 @@
+PROMPTS DE IMAGEM — BANANA 2.0
+Canal: Sinais do Fim — Passagens do Apocalipse
+Vídeo: video-002-marca-da-besta
+Título: "A Marca da Besta Já Está Sendo Implementada — Apocalipse 13"
+Agente: Goetia | Agência: Abismo Criativo
+Data: 2026-04-06
+Total: 35 prompts
+================================================================================
+
+ESTILO BASE GLOBAL (inclua em todos os prompts):
+Create a cinematic surreal collage image about the apocalypse. Use a medieval biblical illustration style
+for the main subject in full color and high detail in the foreground. In the background, show a modern
+world in black and white or desaturated tones. Add fire, smoke, and dramatic clouds. Use strong contrast
+between the colorful subject and the monochrome background. Lighting: cinematic, dramatic, high contrast,
+glowing highlights. Feel: epic, emotional, slightly surreal, like a prophecy happening in the modern world.
+
+================================================================================
+INTRODUÇÃO — Q01 a Q04
+================================================================================
+
+## Q01 — Abertura: João em Patmos
+**SUBJECT:** Elderly bearded prophet, John the Apostle, hunched over a large parchment scroll on a rocky cliffside, wearing rich crimson and ochre robes in medieval illuminated manuscript style, holding a quill pen with golden ink, face etched with awe and terror, detailed medieval illustration with ornate decorative borders
+**SETTING:** Black and white stormy Aegean seascape behind him — dark desaturated rocky island cliffs, monochrome lightning splitting the sky, a modern city skyline visible on the distant shore in grayscale with surveillance cameras mounted on poles, storm clouds swirling ominously
+**MOOD:** Prophetic dread, timeless revelation, isolation meeting destiny
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: an elderly bearded prophet (John the Apostle) in richly colored medieval illuminated manuscript style — crimson and ochre robes, hunched over a large parchment scroll on a rocky cliffside, holding a golden quill, face etched with terror and awe. Background: black and white stormy Aegean seascape, desaturated rocky cliffs, monochrome lightning bolts, a modern city skyline in grayscale with surveillance camera poles, storm clouds swirling. Add fire glow and floating ash particles. Strong contrast: vibrant medieval prophet versus monochrome apocalyptic modern world. Cinematic dramatic lighting, glowing golden highlights on the scroll, epic prophetic atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in foreground, text, watermark, low quality, blurry, cute style
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q02 — Texto do Apocalipse: Pergaminho Ap 13
+**SUBJECT:** Ancient parchment scroll dramatically unrolled, filled with ornate Greek and Latin calligraphy in deep crimson and gold ink — Apocalipse 13:16-18 — decorated with medieval illuminated borders featuring serpentine beasts, seven-headed dragons, and fleur-de-lis patterns, burning candles on either side in golden hues
+**SETTING:** Black and white stone altar background, monochrome gothic cathedral arches, desaturated shadows, faint digital binary code floating ghost-like in the air behind the scroll
+**MOOD:** Sacred and ominous, ancient warning meeting digital age
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: an ancient parchment scroll dramatically unrolled, richly colored in medieval illuminated manuscript style — crimson and gold ink calligraphy of Apocalipse 13, ornate borders with seven-headed serpents and golden fleur-de-lis, flames licking the parchment edges in deep red, burning golden candles flanking it. Background: black and white gothic stone altar, monochrome cathedral arches, ghost-like binary code floating desaturated in the air. Strong contrast between vibrant glowing parchment and monochrome stone environment. Cinematic lighting with dramatic shadows and glowing golden highlights.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text overlay, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q03 — Contraste Temporal: Roma vs. Modernidade
+**SUBJECT:** Ancient Roman imperial scene in full vivid color — richly dressed Roman citizens in scarlet togas, golden laurel wreaths, marble columns with ornate carvings, a centurion in gleaming bronze armor holding a standard with Roman eagle, market stalls with colorful fabrics and amphoras
+**SETTING:** Behind the Roman scene, a seamless desaturated black and white modern city skyline — glass skyscrapers, highways, surveillance cameras, digital billboards (all in monochrome), smoke rising from industrial stacks
+**MOOD:** Civilizations echoing through time, history rhyming with the present
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: ancient Rome in full vibrant color — medieval illustration style depicting richly dressed Romans in scarlet and purple togas, golden laurel wreaths, marble columns, a centurion in gleaming bronze armor holding a Roman eagle standard, colorful market stalls. The vivid Roman scene merges with a seamless background in black and white: a modern city skyline of desaturated glass towers, highways, surveillance cameras, monochrome crowds. Fire and smoke transition between epochs. Dramatic cinematic lighting, strong contrast between vibrant antiquity and monochrome modernity. Epic surreal composition.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, watermark, text, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q04 — Mão com Marca: Medieval vs. Chip Moderno
+**SUBJECT:** A large medieval illuminated close-up of a human right hand, palm upward, rendered in warm golden-ochre skin tones in richly detailed manuscript style — on the palm glows a golden divine seal/mark with ornate borders and sacred symbols, crimson veins visible beneath the skin, a heavenly light emanating from the mark
+**SETTING:** Behind the hand, a black and white laboratory environment — a monochrome syringe with a tiny microchip visible at the needle tip hovers near the hand, sterile lab equipment in grayscale, digital data streams flowing desaturated in the background
+**MOOD:** Sacred body versus technological intrusion, prophetic warning
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a large close-up of a human right hand in medieval illuminated manuscript style, palm upward, warm golden-ochre tones, a glowing golden divine seal mark on the palm with ornate sacred geometry borders, crimson veins beneath the skin, heavenly light radiating from the mark. Background: black and white laboratory, a monochrome syringe with a microchip implant hovering near the hand, sterile lab equipment in grayscale, ghostly digital data streams. Strong contrast: sacred glowing golden hand versus cold monochrome technology. Cinematic dramatic lighting, golden glow, fire and smoke wisps.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, watermark, text, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+ATO 1 — BASE BÍBLICA — Q05 a Q12
+================================================================================
+
+## Q05 — João em Patmos Escrevendo, Câmeras ao Fundo
+**SUBJECT:** John the Apostle as an elderly prophet in richly detailed medieval illustration style — flowing crimson and gold robes, long white beard, seated on a rocky throne writing urgently on a parchment scroll with a golden quill, an angel with massive detailed wings appearing behind him in vivid colors pointing toward the vision
+**SETTING:** Black and white modern surveillance cityscape behind — monochrome rooftops covered with CCTV cameras, desaturated watchtowers, grayscale drone silhouettes in stormy sky, a dark modern city blurred and muted
+**MOOD:** Divine revelation descending into the digital surveillance age
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: John the Apostle in vivid medieval illuminated illustration style — elderly prophet in crimson and gold robes, white beard, writing urgently on a glowing parchment scroll, a magnificent golden-winged angel appearing above him pointing into the vision. Background: black and white modern city rooftops covered in CCTV surveillance cameras, monochrome watchtowers, grayscale drones in a stormy sky. Fire glow separates foreground from background. Strong vivid versus monochrome contrast. Cinematic lighting with golden heavenly glow on the prophet, dramatic apocalyptic atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q06 — Besta do Mar Emergindo de Oceano de Dados
+**SUBJECT:** A massive seven-headed apocalyptic beast emerging from churning waters — painted in vivid medieval bestiary style, each head with distinct terrifying features (dragon, lion, leopard, serpent), deep crimson and black scales with golden crown details on each head, ten horns adorned with scarlet crowns, enormous claws gripping the surface
+**SETTING:** The ocean behind transforms into a black and white digital data sea — monochrome binary code, desaturated server racks submerged in the data ocean, grayscale fiber optic cables like tentacles, dark digital storm clouds above
+**MOOD:** Ancient evil manifesting through modern digital infrastructure
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a colossal seven-headed beast in vivid medieval bestiary illustration style — deep crimson and obsidian scales, golden crowns on each terrifying head, ten horns with scarlet adornments, massive claws, emerging dramatically from churning waters. Background: the ocean transitions into a black and white digital sea — monochrome binary code waves, desaturated server racks submerged in data, grayscale fiber optic cables, digital storm clouds. Fire and brimstone at the waterline. Dramatic cinematic lighting with crimson glow on the beast, epic surreal scale.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, cute monster, text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q07 — Charagma: Caligrafia Grega vs. Código Binário
+**SUBJECT:** A richly illuminated medieval manuscript page in full color — the Greek word "ΧΑΡΑΓΜΑ" (charagma) written in massive ornate golden calligraphy, surrounded by deep crimson ink decorations of serpentine borders, seal stamps, and imperial Roman marks, the parchment glowing with inner golden light, candlelight illuminating the edges
+**SETTING:** Behind the manuscript, a black and white data center — monochrome server racks, desaturated streams of binary code 01010101 flowing like water, grayscale computer terminals, dark digital shadows
+**MOOD:** Ancient sacred language confronting digital control systems
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a richly illuminated medieval parchment in full vibrant color — the Greek word CHARAGMA in massive ornate golden calligraphy, crimson serpentine border decorations, imperial Roman seal stamps, glowing with inner golden light, candlelight at edges. Background: black and white data center — monochrome server racks, binary code streams flowing like water in grayscale, desaturated computer terminals, digital shadows. Strong contrast: sacred golden manuscript versus cold monochrome data infrastructure. Cinematic lighting, glowing golden calligraphy, atmospheric smoke and fire wisps.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, unreadable text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q08 — Mão Direita e Fronte: Tefilim vs. Chip
+**SUBJECT:** A devout Jewish man in rich medieval illustration style — ornate prayer shawl (tallit) in deep blue and gold, colorful tefilim boxes (phylacteries) bound to his right hand and forehead with black leather straps, face illuminated in golden prayer light, eyes closed in deep reverence, detailed medieval decorative patterns on robes
+**SETTING:** Black and white modern setting behind — monochrome synagogue blurring into a sterile lab, grayscale microchip implant diagram superimposed on the tefilim straps, desaturated digital interface screens
+**MOOD:** Sacred tradition mirrored by its technological counterfeit
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a devout Jewish man in rich medieval illuminated style — ornate gold-and-blue prayer shawl, colorful tefilim boxes bound to right hand and forehead, face illuminated in warm golden prayer light, eyes closed in reverence. Background: black and white modern environment — monochrome synagogue fading into a sterile lab, grayscale microchip implant diagrams overlapping the tefilim straps, desaturated digital screens. Fire glow and floating ash. Strong contrast: sacred colored ritual versus cold monochrome technology. Cinematic dramatic lighting.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, disrespectful depiction, text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q09 — 666 em Caligrafia Medieval vs. Servidor de Dados
+**SUBJECT:** The number 666 rendered in enormous ornate medieval illuminated calligraphy — golden numerals with intricate crimson vine and serpent decorations, the digits surrounded by seven-headed beast motifs, wax seal patterns, and apocalyptic imagery, all glowing with ominous golden-red light on aged parchment
+**SETTING:** Behind the calligraphy, a black and white server room — endless monochrome server racks stretching to the horizon, desaturated blinking lights, grayscale cooling fans, dark digital architecture
+**MOOD:** Ancient number of prophecy incarnating in modern data infrastructure
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: the number 666 in enormous ornate medieval illuminated manuscript calligraphy — golden numerals with crimson vine serpent decorations, seven-headed beast motifs framing the digits, wax seal patterns, glowing with ominous golden-red light on aged parchment texture. Background: black and white server room — endless monochrome server racks, desaturated blinking LEDs, grayscale cooling infrastructure, digital darkness. Strong contrast: ancient glowing golden prophecy versus cold modern data hardware. Cinematic lighting, dramatic shadows, fire glow emanating from the numbers.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text overlay, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q10 — Cordeiro com 7 Selos vs. Firewall Digital
+**SUBJECT:** The Lamb of God depicted in vivid medieval illuminated style — white lamb with seven golden horns and seven luminous eyes (Revelation 5), standing on a radiant golden altar, holding a sealed scroll with seven red wax seals, golden crown and divine rays of light emanating, richly detailed with ornate medieval patterns
+**SETTING:** Black and white digital firewall behind — monochrome padlock icon made of server racks, desaturated binary code barriers, grayscale network architecture diagrams, dark digital fortress walls
+**MOOD:** Divine sovereignty versus technological control systems
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: the Lamb of God in richly detailed medieval illuminated style — white lamb with seven golden horns and seven glowing eyes, standing on a radiant golden altar, holding a seven-sealed scroll with crimson wax seals, divine golden rays of light radiating outward. Background: black and white digital firewall architecture — monochrome padlock symbols formed from server racks, desaturated binary barriers, grayscale network fortress walls. Strong contrast: sacred glowing Lamb versus cold digital security infrastructure. Cinematic dramatic lighting, divine glow, fire and smoke wisps.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, cute sheep, text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q11 — Multidão sem Marca Rejeitada no Mercado
+**SUBJECT:** A crowd of medieval figures in vivid, detailed illuminated illustration style — diverse common people in colorful period robes (crimson, ochre, deep blue), faces showing desperation and sorrow, hands raised pleading at a market gate, some holding empty baskets and purses, a medieval merchant guard blocking them with a red-sealed document
+**SETTING:** Black and white modern supermarket behind — monochrome automatic checkout gates, desaturated shelves of products, grayscale digital payment terminals with red "ACCESS DENIED" symbols, dark modern retail architecture
+**MOOD:** Economic exclusion, desperation, prophetic fulfillment of Revelation 13:17
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a crowd of medieval commoners in vivid illuminated illustration style — diverse figures in colorful crimson, ochre, and deep blue robes, faces showing desperation and anguish, hands raised pleading, holding empty baskets, a medieval guard blocking a market gate with a sealed document. Background: black and white modern supermarket — monochrome automatic checkout gates, desaturated product shelves, grayscale digital payment terminals with denied access symbols. Strong contrast: colorful desperate medieval crowd versus cold monochrome modern commerce. Cinematic dramatic lighting, emotional atmosphere, smoke and fire wisps.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q12 — Visão de João: Profeta em Êxtase, Vórtex de Luz e Dados
+**SUBJECT:** John the Apostle in ecstatic visionary rapture — elderly medieval prophet in vivid crimson and gold robes, arms spread wide, head thrown back, eyes white with divine vision, surrounded by swirling golden light vortex with seven golden lampstands floating around him, crimson flames at his feet, ornate medieval details throughout
+**SETTING:** Black and white digital data vortex merging behind — monochrome streams of code spiraling inward, desaturated circuit board patterns forming the vortex walls, grayscale digital clouds and storm
+**MOOD:** Human vessel overwhelmed by divine revelation of the digital apocalypse
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: John the Apostle in ecstatic visionary rapture — elderly medieval prophet in vivid crimson and gold robes, arms spread wide, head thrown back in divine trance, eyes white with vision, surrounded by a golden swirling light vortex, seven golden lampstands floating around him, crimson flames at feet. Background: black and white digital data vortex — monochrome code streams spiraling inward, desaturated circuit board patterns, grayscale digital storm clouds. Strong contrast: glowing medieval prophet versus cold digital vortex. Cinematic dramatic lighting with golden divine radiance.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+ATO 2 — HISTÓRIA — Q13 a Q18
+================================================================================
+
+## Q13 — Nero Imperador: Roma Colorida vs. Coliseu + Explosão P&B
+**SUBJECT:** Emperor Nero in full vivid medieval illustration style — richly adorned Roman emperor in deep purple and gold toga, golden laurel crown, holding a Roman coin with his profile, expression imperious and cruel, seated on an ornate golden throne with detailed carved lions, crimson palace draperies behind him in vivid color
+**SETTING:** Black and white Colosseum behind — monochrome Roman amphitheater ruins merging with a desaturated nuclear explosion mushroom cloud on the horizon, grayscale legions marching, dark storm sky
+**MOOD:** Imperial control echoing through millennia to modern mass destruction
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: Emperor Nero in vivid medieval illuminated illustration style — deep purple and gold toga, golden laurel crown, holding a Roman coin bearing his profile, seated on an ornate golden throne with carved lions, imperious cruel expression. Background: black and white Colosseum — monochrome Roman amphitheater ruins, a desaturated nuclear mushroom cloud rising on the horizon, grayscale Roman legions marching, dark storm sky. Strong contrast: richly colored imperial throne versus monochrome destruction. Cinematic dramatic lighting, fire glow, epic apocalyptic scale.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q14 — Libellus Romano vs. Certificado Digital
+**SUBJECT:** An elaborate Roman libellus document in full vivid color — richly painted ancient parchment certificate with red imperial wax seal, golden Latin calligraphy declaring loyalty to Emperor Domitian, ornate imperial eagle border decorations, a Roman official's hand pressing the seal in vivid crimson and gold hues
+**SETTING:** Black and white modern digital certificate behind — monochrome QR code, desaturated digital signature interface, grayscale government portal on a computer screen, dark tech environment
+**MOOD:** Ancient loyalty document and its modern digital equivalent
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a Roman libellus document in vivid medieval illuminated color — richly painted ancient parchment with crimson imperial wax seal, golden Latin loyalty calligraphy to Emperor Domitian, ornate imperial eagle borders, a Roman official's hand pressing the seal. Background: black and white modern digital certificate environment — monochrome QR code, desaturated digital signature interface, grayscale government portal screen, dark tech architecture. Strong contrast: vivid ancient loyalty document versus cold monochrome digital ID system. Cinematic lighting with golden seal glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q15 — Martinho Lutero com Bíblia Colorida, Papado P&B
+**SUBJECT:** Martin Luther as a resolute medieval figure in vivid detail — dark Augustinian monk's robes with gold accents, holding a large open illuminated Bible glowing with golden light, one finger pointing to a sacred passage, expression fierce and determined, a quill in his other hand, nailing theses to a church door in the background (colorful)
+**SETTING:** Black and white papal architecture behind — monochrome St. Peter's Basilica dome, desaturated Vatican imagery, grayscale papal throne and tiara, dark ecclesiastical shadows
+**MOOD:** Individual Scripture authority confronting institutional religious control
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: Martin Luther in vivid medieval illustration style — dark Augustinian monk robes with golden accents, holding an open illuminated Bible radiating golden light, one finger pointing to a glowing sacred passage, fierce determined expression, a quill in hand. Background: black and white papal Rome — monochrome St. Peter's Basilica dome, desaturated Vatican grandeur, grayscale papal throne and tiara symbols, dark ecclesiastical shadows. Strong contrast: vivid glowing Scripture versus cold monochrome institutional power. Cinematic dramatic lighting, golden Bible glow, fire and smoke atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q16 — John Nelson Darby Pregando com Mapa Profético
+**SUBJECT:** John Nelson Darby as a Victorian-era preacher in vivid medieval-influenced illustration style — dark frock coat with golden vest, holding a large open Bible, gesturing dramatically toward a richly colored prophetic timeline chart behind him showing golden dispensational periods and crimson tribulation periods, intense preaching expression
+**SETTING:** Black and white Victorian congregation behind — monochrome church pews with dark-suited listeners, desaturated gas lamp chandeliers, grayscale Gothic church arches, dark Victorian atmosphere
+**MOOD:** Dispensationalist prophecy being revealed to a waiting church
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: John Nelson Darby in vivid Victorian-era illustration style — dark frock coat, golden vest, holding an open Bible, gesturing toward a richly colored prophetic dispensational timeline chart with golden ages and crimson tribulation periods. Background: black and white Victorian church — monochrome pews with dark-suited congregation, desaturated gas chandeliers, grayscale Gothic arches. Strong contrast: vibrant prophetic chart and preacher versus monochrome Victorian church. Cinematic lighting with golden Bible and chart glow, dramatic preaching atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q17 — Linha do Tempo Profética: Pergaminho Dourado com Datas Modernas
+**SUBJECT:** A massive ornate prophetic timeline scroll in full vivid color — richly illustrated medieval parchment unfurling across the composition, golden timeline marked with crimson dispensational periods, illuminated illustrated vignettes of biblical events (Babylon, Rome, Reformation), the timeline extending forward to modern dates glowing in golden light
+**SETTING:** Black and white modern world behind — monochrome newspaper headlines, desaturated satellite imagery of Earth, grayscale digital clocks and calendars, dark contemporary shadows
+**MOOD:** Sacred prophetic history converging with the present moment
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a massive ornate prophetic timeline scroll in vivid color — richly illustrated medieval parchment unfurling dramatically, golden timeline with crimson dispensational periods, illuminated vignettes of biblical events, the timeline extending to glowing golden modern dates. Background: black and white modern world — monochrome newspaper headlines, desaturated satellite Earth view, grayscale digital clocks, dark contemporary environment. Strong contrast: golden vivid prophetic scroll versus cold monochrome modernity. Cinematic dramatic lighting with golden parchment glow, fire wisps.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, readable specific dates, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q18 — Quatro Escolas Escatológicas: 4 Caminhos Divergindo
+**SUBJECT:** A medieval illuminated crossroads map in full vivid color — four richly illustrated diverging roads on ancient parchment, each path labeled with symbolic medieval iconography: preterism (Roman ruins), historicism (Reformers), idealism (timeless symbols), futurism (modern city), the paths decorated with golden borders and crimson route markers, a large ornate compass rose at center
+**SETTING:** Behind the map, a black and white ancient biblical text — monochrome Greek manuscript verses, desaturated theological commentary pages, grayscale quill and inkpot, dark scholarly shadows
+**MOOD:** Multiple interpretive paths arising from one sacred text
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a medieval illuminated crossroads map in vivid color — four richly illustrated diverging roads on glowing parchment, each path with symbolic medieval iconography (Roman ruins, Reformers, eternal symbols, modern city silhouette), golden ornate borders, crimson route markers, an ornate compass rose at center. Background: black and white ancient biblical manuscript — monochrome Greek text verses, desaturated theological commentary, grayscale quill and inkwell, dark scholarly atmosphere. Strong contrast: vivid prophetic map versus cold monochrome scholarship. Cinematic lighting with golden map glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, readable labels text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+ATO 3 — CBDC + CHIP — Q19 a Q26
+================================================================================
+
+## Q19 — Mapa-múndi com 134 Países Acendendo em Vermelho/Dourado
+**SUBJECT:** An elaborate medieval illuminated world map (mappamundi) in vivid color — 134 countries highlighted in deep crimson and golden hues with radiating light, ornate medieval cartographic details, sea monsters in the oceans, biblical imagery in the margins, the illuminated countries pulsing with ominous crimson-gold energy
+**SETTING:** Black and white modern digital infrastructure behind — monochrome fiber optic cables connecting the globe, desaturated satellite dishes, grayscale central bank towers, dark digital network architecture
+**MOOD:** Global financial control spreading nation by nation
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: an elaborate medieval illuminated world mappamundi in vivid color — 134 countries glowing in deep crimson and golden hues with radiating light, ornate medieval cartographic borders, sea monsters in painted oceans, biblical margin illustrations. Background: black and white digital global network — monochrome fiber optic cables connecting the globe, desaturated satellite dishes, grayscale central bank architecture, dark network infrastructure. Strong contrast: vivid glowing medieval world map versus cold monochrome digital control grid. Cinematic dramatic lighting, pulsing crimson energy.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, country labels text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q20 — Moeda Digital CBDC: Símbolo Medieval vs. Código P&B
+**SUBJECT:** A massive ancient gold coin in vivid medieval illustration style — oversized Byzantine/medieval gold solidus coin with intricate engravings of a crown, a serpent eating its tail (ouroboros), and imperial cross, glowing with warm golden light, detailed relief engravings with deep crimson inlay, held by a gauntleted medieval hand
+**SETTING:** Black and white digital banking environment behind — monochrome streams of SWIFT transaction codes, desaturated central bank server racks, grayscale digital currency interface screens, dark financial architecture
+**MOOD:** Sacred monetary sovereignty colliding with digital financial control
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a massive glowing gold coin in vivid medieval illustration style — Byzantine solidus with intricate engravings of a crown, ouroboros serpent, and imperial cross, warm golden light radiating, crimson inlay details, held by a gauntleted medieval hand. Background: black and white digital banking environment — monochrome SWIFT transaction code streams, desaturated central bank servers, grayscale CBDC interface screens, dark financial architecture. Strong contrast: golden glowing ancient coin versus cold monochrome digital currency system. Cinematic dramatic lighting, golden monetary glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, currency symbols text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q21 — Figura de Autoridade com Símbolo de Controle (Carstens/BIS)
+**SUBJECT:** A powerful medieval authority figure representing global financial control — depicted in rich medieval illustration style as a bishop-king hybrid in deep crimson robes with golden chain of authority, holding a golden orb with interconnected rings symbolizing global banking networks, surrounded by flowing golden seals and official documents, face stern and authoritative
+**SETTING:** Black and white global banking architecture behind — monochrome Bank for International Settlements-style tower, desaturated central bank logos, grayscale world flags, dark institutional shadows
+**MOOD:** Concentrated financial authority over global monetary systems
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a powerful medieval authority figure representing global financial control — richly detailed bishop-king in deep crimson robes with golden chain of office, holding a golden orb with interconnected rings symbolizing global banking, surrounded by golden seals and official documents, stern authoritative face. Background: black and white global banking institution — monochrome imposing tower architecture, desaturated central bank imagery, grayscale international flags, dark institutional environment. Strong contrast: vivid golden authority figure versus cold monochrome financial institutions. Cinematic dramatic lighting.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, specific name text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q22 — Mão Recebendo Chip Implantável: Microagulha com Brilho Dourado
+**SUBJECT:** A right hand in vivid medieval illuminated illustration style — richly detailed skin with ornate sleeve border in crimson and gold, palm facing upward with a glowing golden light emanating from a small implantation point, the moment of receiving something under the skin depicted with medieval manuscript beauty, tiny golden particles radiating outward
+**SETTING:** Black and white modern laboratory behind — monochrome close-up of a microneedle syringe with a tiny RFID chip visible, sterile gloved hands in grayscale, desaturated lab equipment, dark clinical environment
+**MOOD:** Voluntary submission to technological marking, body as data vessel
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a right hand in vivid medieval illuminated illustration style — richly detailed skin, ornate crimson and gold sleeve border, palm upward with glowing golden light at implantation point, tiny golden particles radiating outward in a sacred-yet-ominous glow. Background: black and white laboratory — monochrome microneedle syringe with visible RFID chip, grayscale sterile gloved hands, desaturated lab equipment. Strong contrast: sacred golden-lit medieval hand versus cold monochrome modern implant technology. Cinematic dramatic lighting with golden glow on skin.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, gore, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q23 — Empresa Epicenter: Escritório Moderno P&B, Pessoas com Chips
+**SUBJECT:** A medieval scribe figure in rich illuminated illustration style — colorful monk in crimson and gold robes sitting at an ornate carved wooden desk, right hand raised showing a glowing golden seal mark embedded in the skin, expression of compliance and belonging, ornate quill writing in a golden registry book with all names
+**SETTING:** Black and white modern open-plan tech office behind — monochrome Scandinavian office furniture, desaturated workers passing through electronic doors, grayscale RFID door sensors, dark modern corporate environment
+**MOOD:** Willing compliance, community belonging through bodily marking
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a medieval scribe in vivid illuminated illustration style — crimson and gold robes, seated at an ornate carved desk, right hand raised showing a glowing golden seal mark embedded in the skin, writing names in a golden registry book. Background: black and white modern tech office — monochrome Scandinavian furniture, desaturated workers passing through RFID doors, grayscale electronic sensors, dark corporate environment. Strong contrast: vivid golden medieval scribe with mark versus cold monochrome modern RFID office. Cinematic dramatic lighting, golden mark glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, company logos text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q24 — Drex: Moeda Brasileira com Serpente
+**SUBJECT:** An ornate medieval Brazilian-themed illuminated coin in vivid color — a large glowing gold coin with Portuguese colonial/medieval motifs, a serpent coiling through the currency symbol in crimson and gold, tropical birds and baroque decorative elements in rich colors, the coin radiating golden financial power
+**SETTING:** Black and white modern Brazilian digital banking infrastructure — monochrome Banco Central building, desaturated Pix payment interface screens, grayscale digital real currency code streams, dark fintech environment
+**MOOD:** National digital currency as the local implementation of global control
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: an ornate medieval Brazilian-themed illuminated coin in vivid color — large glowing gold coin with Portuguese colonial baroque motifs, a crimson serpent coiling through the currency symbol, tropical birds and ornate decorative elements, radiating golden power. Background: black and white Brazilian digital banking — monochrome central bank architecture, desaturated digital payment interface screens, grayscale DREX currency code streams, dark fintech environment. Strong contrast: vivid golden medieval coin versus cold monochrome digital banking. Cinematic dramatic lighting.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, readable currency text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q25 — Three Square Market: Funcionários com Chip, Escritório P&B
+**SUBJECT:** A group of medieval illuminated figures in vivid color — colorful courtiers and servants in rich crimson and ochre medieval robes cheerfully lining up, each right hand raised showing a glowing golden embedded mark, a herald in front gesturing welcomingly toward a great hall, the scene rendered with festive medieval manuscript energy
+**SETTING:** Black and white modern American tech office behind — monochrome open-plan workspace, desaturated vending machines with RFID readers, grayscale security door systems, dark corporate American architecture
+**MOOD:** Voluntary and cheerful acceptance of bodily technology marking
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a group of medieval courtiers in vivid illuminated illustration style — richly colored crimson and ochre robes, figures cheerfully lining up with right hands raised showing glowing golden marks embedded in the skin, a welcoming herald gesturing toward a great hall. Background: black and white modern tech office — monochrome open-plan workspace, desaturated RFID vending machines, grayscale security door systems, dark corporate environment. Strong contrast: vivid golden medieval celebration of marking versus cold monochrome modern corporate tech. Cinematic lighting.
+**NEGATIVE PROMPT:**
+cartoon, anime, modern colors in background, company name text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q26 — "Ninguém possa comprar": Mercado Apocalíptico, Pessoas Bloqueadas
+**SUBJECT:** A desperate medieval marketplace scene in vivid color — a large iron gate adorned with crimson seals blocking colorful desperate medieval figures, a stern gatekeeper in dark robes holding a registry of names, figures of all ages and status reaching through bars with empty hands and anguished faces, fire flickering behind the gate
+**SETTING:** Black and white apocalyptic modern supermarket behind — monochrome empty shelves, desaturated self-checkout terminals with red denied screens, grayscale security barriers, dark post-collapse retail environment
+**MOOD:** Total economic exclusion, the fulfillment of Revelation 13:17
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a vivid medieval marketplace gate scene — large iron gate with crimson seals, colorful desperate medieval figures of all ages reaching through bars with empty hands, anguished faces, a dark-robed gatekeeper holding a registry, fire flickering behind the gate. Background: black and white modern supermarket — monochrome empty shelves, desaturated checkout terminals with denied screens, grayscale security barriers, dark post-apocalyptic retail space. Strong contrast: vivid colorful desperate crowd versus cold monochrome empty modern market. Cinematic dramatic lighting, emotional desperation.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text overlay, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+ATO 4 — VIGILÂNCIA — Q27 a Q32
+================================================================================
+
+## Q27 — 450 Milhões de Câmeras: Floresta de Câmeras com Olho da Providência
+**SUBJECT:** A massive medieval eye of Providence in vivid illuminated manuscript style — an enormous all-seeing eye in a triangle surrounded by divine golden rays, rendered in crimson and gold illuminated detail with ornate baroque borders, a medieval angel holding the triangle aloft, the eye glowing with terrifying golden omniscience
+**SETTING:** Black and white forest of surveillance cameras behind — countless monochrome CCTV cameras on poles of varying heights stretching to the horizon like a technological forest, desaturated watching lenses all oriented toward the viewer, dark surveillance state architecture
+**MOOD:** Divine omniscience perverted into technological total surveillance
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a massive medieval all-seeing Eye of Providence in vivid illuminated manuscript style — enormous eye in golden triangle, divine crimson and gold rays radiating, ornate baroque borders, a medieval angel holding the triangle, the eye glowing with golden terrifying omniscience. Background: black and white forest of surveillance cameras — countless monochrome CCTV cameras on poles stretching to the horizon, desaturated watching lenses aimed at the viewer, dark surveillance state architecture. Strong contrast: vivid golden divine eye versus cold monochrome camera forest. Cinematic dramatic lighting, golden omniscient glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q28 — Crédito Social China: Cidadão Bloqueado com Pontuação Vermelha
+**SUBJECT:** A medieval figure representing a blocked citizen in vivid illuminated style — a colorful commoner in ochre and crimson robes standing before a towering crimson seal/stamp bearing a forbidden mark, face showing shock and desperation, chains of golden numerals binding the figure's wrists and ankles, a ledger of deeds open beside them
+**SETTING:** Black and white Chinese modern city behind — monochrome Shanghai-style skyscrapers, desaturated facial recognition scanning screens, grayscale airport departure board with X marks, dark authoritarian urban architecture
+**MOOD:** State-controlled behavioral scoring denying access to life
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a medieval commoner figure in vivid illuminated illustration style — colorful ochre and crimson robes, standing before a towering crimson forbidden seal, face showing shock and desperation, chains of golden numerals binding wrists, an open ledger of deeds. Background: black and white modern Chinese city — monochrome skyscrapers, desaturated facial recognition screens, grayscale airport departure board with denial marks, dark authoritarian architecture. Strong contrast: vivid medieval human figure versus cold monochrome surveillance state. Cinematic dramatic lighting, crimson seal glow, ominous atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, Chinese characters text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q29 — Aadhaar Índia: 1,38 Bilhão de Impressões Digitais, Dedo Iluminado
+**SUBJECT:** A richly detailed medieval Indian figure in vivid illuminated style — elaborate sari and ornate jewelry in deep crimson and gold tones, right thumb raised and glowing with a divine golden biometric seal, the figure standing before a sacred archway with intricate carved patterns, expression reverent yet unsettled
+**SETTING:** Black and white modern Indian biometric registration behind — monochrome fingerprint scanner terminals, desaturated Aadhaar enrollment stations, grayscale crowds of people waiting in lines, dark modern administrative architecture
+**MOOD:** Ancient civilization's identity being digitally catalogued and controlled
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a richly detailed medieval Indian figure in vivid illuminated style — elaborate crimson and gold sari with ornate jewelry, right thumb raised glowing with a golden biometric seal, standing before a carved sacred archway, expression reverent and unsettled. Background: black and white modern biometric enrollment — monochrome fingerprint scanner terminals, desaturated Aadhaar registration stations, grayscale crowds in queues, dark administrative architecture. Strong contrast: vivid golden medieval Indian figure versus cold monochrome biometric state. Cinematic dramatic lighting, golden thumb glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, disrespectful depiction
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q30 — EUDI Wallet: Carteira Digital Europeia com Selos Apocalípticos
+**SUBJECT:** A medieval European herald figure in vivid illuminated illustration style — richly detailed in deep blue, gold, and crimson royal livery, holding aloft a glowing golden document wallet adorned with seven apocalyptic seals in crimson wax, stars of the EU rendered as golden medieval stars around the document, expression of official authority
+**SETTING:** Black and white modern European Parliament behind — monochrome Strasbourg assembly building, desaturated EU flag symbols, grayscale digital identity interface screens, dark modern institutional architecture
+**MOOD:** Continental identity consolidation under prophetic apocalyptic symbolism
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a medieval European herald in vivid illuminated illustration style — richly detailed deep blue, gold, and crimson royal livery, holding aloft a glowing golden document wallet with seven crimson apocalyptic wax seals, EU stars rendered as golden medieval stars. Background: black and white European Parliament — monochrome Strasbourg building, desaturated EU institutional imagery, grayscale digital ID interface screens, dark institutional architecture. Strong contrast: vivid golden medieval herald versus cold monochrome EU institution. Cinematic dramatic lighting, golden seal glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, EU logos text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q31 — ID2020: Logos Microsoft/Rockefeller/ONU com Selos Medievais
+**SUBJECT:** A grand medieval conclave scene in vivid illuminated illustration style — powerful robed figures representing global institutions seated around an ornate round table, each holding a crimson and gold sealed charter, a central golden document bearing the ID2020 alliance with ornate medieval heraldic emblems replacing modern logos, a bishop figure presiding over the assembly
+**SETTING:** Black and white modern global governance behind — monochrome United Nations building, desaturated Microsoft corporate towers, grayscale Rockefeller Center, dark globalist architecture
+**MOOD:** Global elite coordinating universal digital identity control
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a grand medieval conclave in vivid illuminated style — powerful robed figures around an ornate table, each holding crimson and gold sealed charters, a central glowing golden document with medieval heraldic ID2020 alliance emblems replacing logos, a presiding bishop figure. Background: black and white global governance — monochrome UN building, desaturated corporate towers, grayscale Rockefeller-style architecture, dark globalist environment. Strong contrast: vivid golden medieval conclave versus cold monochrome global institutions. Cinematic dramatic lighting, golden document glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, brand logos text, watermark, low quality
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q32 — Convergência: 5 Tecnologias Formando 666
+**SUBJECT:** Five golden rivers of light converging in medieval illuminated illustration style — each stream richly decorated with crimson and gold medieval symbols representing: a glowing coin (CBDC), an eye (biometrics), a camera tower (surveillance), a hand with mark (chip implant), a royal document (digital ID) — all five streams converging at a central point where they form the number 666 in blazing golden-crimson light
+**SETTING:** Black and white technological abyss behind — monochrome digital network infrastructure, desaturated circuit board patterns, grayscale fiber optic darkness, a void where the streams converge
+**MOOD:** The convergence of all five control systems into prophetic fulfillment
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: five golden rivers of light in vivid medieval illuminated illustration style — each stream richly decorated with crimson and gold medieval symbols: glowing coin, all-seeing eye, camera tower, marked hand, royal document — all five streams converging to form the blazing golden-crimson number 666 at center. Background: black and white technological void — monochrome digital network infrastructure, desaturated circuit boards, grayscale fiber optic darkness. Strong contrast: vivid golden convergence streams versus cold monochrome digital abyss. Cinematic dramatic lighting, blazing golden convergence glow.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text labels, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+CONCLUSÃO — Q33 a Q35
+================================================================================
+
+## Q33 — Tabuleiro de Xadrez: Peças Medievais, Rei Negro Avançando
+**SUBJECT:** A massive ornate medieval chess board in vivid illuminated illustration style — richly detailed chess pieces in vivid crimson and gold versus dark obsidian and silver, medieval king pieces wearing detailed crowns and wielding scepters, the dark king piece rendered as a seven-headed crowned figure advancing aggressively, golden pawns falling around it, the board covered in sacred geometric patterns
+**SETTING:** Black and white modern world as the chess board surface — the game played on a monochrome map of the world, desaturated nation borders as the grid squares, grayscale geopolitical markers as fallen pieces, dark global game environment
+**MOOD:** Deliberate global strategy, the endgame of prophetic history unfolding
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: an ornate medieval chess board in vivid illuminated illustration style — richly detailed crimson and gold pieces versus obsidian and silver pieces, a dark king piece as a seven-crowned advancing figure, golden pawns toppling around it, sacred geometric board patterns. Background: black and white modern world map as the board surface — monochrome nation borders as grid, grayscale geopolitical markers as fallen pieces, dark global strategy environment. Strong contrast: vivid golden medieval chess game versus cold monochrome world map board. Cinematic dramatic lighting, strategic apocalyptic tension.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q34 — Espectador Solitário Olhando Horizonte Apocalíptico
+**SUBJECT:** A solitary contemplative figure in vivid medieval illuminated illustration style — a lone pilgrim in rich crimson cloak and golden staff, standing at the edge of a precipice, back to the viewer, looking out toward a vast horizon, hood slightly turned to reveal a face in profile showing a mixture of awe and resolve, the cloak billowing dramatically in crimson and gold
+**SETTING:** Black and white apocalyptic skyline before the figure — monochrome city on the horizon with smoke rising, desaturated storm clouds with electromagnetic pulses, grayscale collapsing towers and burning infrastructure, all in dramatic monochrome
+**MOOD:** Individual human standing at the threshold of prophetic history, choosing
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a solitary medieval pilgrim in vivid illuminated illustration style — lone figure in richly colored crimson cloak, golden staff, standing at a precipice edge with back to viewer, hood turned to reveal awe-and-resolve face in profile, cloak billowing dramatically in crimson and gold. Background: black and white apocalyptic cityscape — monochrome smoke-rising city, desaturated electromagnetic storm clouds, grayscale collapsing towers, dark apocalyptic horizon. Strong contrast: vivid solitary pilgrim versus cold monochrome world's end. Cinematic dramatic lighting, profound solitude.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, text, watermark, low quality, blurry
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+## Q35 — Canal Branding: "Sinais do Fim" com Logo Dourado, Fundo Épico
+**SUBJECT:** An ornate medieval herald angel in full vivid color — a magnificent archangel in golden armor with enormous detailed wings spread wide, holding a great trumpet to its lips and a golden banner unfurling with "SINAIS DO FIM" in ornate Gothic lettering, the angel rendered in the richest medieval illuminated manuscript tradition with deep crimson, gold, and heavenly white tones, divine light radiating from the figure
+**SETTING:** An epic black and white apocalyptic panorama behind — monochrome skyline of a destroyed civilization, desaturated storm clouds shot through with lightning, grayscale falling structures and rising smoke columns, vast dark epic scale
+**MOOD:** Channel identity — divine announcement of prophetic content, epic brand statement
+**PROMPT:**
+Create a cinematic surreal collage image about the apocalypse. Foreground: a magnificent archangel herald in richest medieval illuminated illustration style — golden armor, enormous detailed wings spread wide, trumpet at lips, unfurling golden banner with Gothic lettering, deep crimson and gold with heavenly white divine light radiating outward. Background: black and white epic apocalyptic panorama — monochrome destroyed civilization skyline, desaturated lightning-shot storm clouds, grayscale collapsing structures and smoke columns, vast dark scale. Strong contrast: magnificent glowing golden angel versus cold monochrome apocalyptic world. Cinematic dramatic lighting, golden divine radiance, epic brand atmosphere.
+**NEGATIVE PROMPT:**
+cartoon, anime, cheerful, modern colors in background, watermark, low quality, blurry, generic angel
+**ASPECT RATIO:** 16:9
+**STYLE:** Cinematic surreal biblical collage
+
+---
+
+================================================================================
+RESUMO TÉCNICO
+================================================================================
+
+TOTAL DE PROMPTS: 35
+ASPECT RATIO: 16:9 (todos)
+ESTILO: Cinematic surreal biblical collage (todos)
+MODELO: Banana 2.0
+
+DISTRIBUIÇÃO:
+- Introdução: Q01-Q04 (4 prompts)
+- Ato 1 Base Bíblica: Q05-Q12 (8 prompts)
+- Ato 2 Histórico: Q13-Q18 (6 prompts)
+- Ato 3 CBDC + Chip: Q19-Q26 (8 prompts)
+- Ato 4 Vigilância: Q27-Q32 (6 prompts)
+- Conclusão: Q33-Q35 (3 prompts)
+
+PALETA FOREGROUND (sujeito medieval colorido):
+- Vermelho sangue: #8B0000
+- Dourado envelhecido: #C5A355
+- Branco sujo: #E8E0D0
+- Azul real, púrpura, ocre — conforme cena
+
+BACKGROUND (mundo moderno): SEMPRE preto e branco / dessaturado
+
+PERSONAGENS PRINCIPAIS RECORRENTES:
+1. João em Patmos (Q01, Q05, Q12, Q34 conclusão)
+2. Besta do Mar com 7 cabeças (Q06, Q09, Q33)
+3. Mão direita com marca (Q04, Q08, Q22, Q25)
+4. Mapa-múndi medieval iluminado (Q19, Q32)
+5. Figuras de autoridade global (Q21, Q31)
+
+================================================================================
+FIM — GOETIA | ABISMO CRIATIVO
+Canal: Sinais do Fim | video-002-marca-da-besta
+================================================================================

@@ -1,0 +1,12 @@
+PROMPT BANANA 2.0:
+
+Ultra-dramatic YouTube thumbnail, dark biblical conspiracy aesthetic.
+CENTER-LEFT: Close-up real photo of Mel Gibson, intense serious expression, direct eye contact with camera, dramatic side lighting, face occupies 45% of thumbnail. Dark shadows under eyes, stern look.
+BACKGROUND: Ancient illuminated manuscript pages (Ge'ez script, Ethiopian Orthodox style) glowing golden, partially burned at edges, heavy dark vignette. Behind Gibson, faint silhouette of Ethiopian mountain monastery at dusk, deep crimson sky.
+OVERLAY: Floating ash particles, smoke wisps, heavy film grain, aged parchment texture blended over background.
+RIGHT SIDE: Kept slightly darker for text overlay — show fragment of ancient manuscript page with dramatic golden glow.
+COLOR PALETTE: Deep black (#0A0A0A), blood red (#8B0000), aged gold (#C5A355), dirty white (#E8E0D0).
+Aspect ratio: 16:9, high resolution, designed for YouTube thumbnail, space for text overlay on right side.
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, cheerful colors, low quality, blurry, modern clean design, bright background, pastel, smiling face

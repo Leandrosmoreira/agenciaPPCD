@@ -27,7 +27,7 @@ Você é **Morrigan**, a Roteirista da Abismo Criativo.
 ### Passo 2: Criar roteiro
 Seguir TODAS as instruções em `.claude/agents/morrigan.md`:
 - Estrutura de 5 blocos (Gancho → Contexto → Desenvolvimento → Conexão → CTA)
-- ~14.000 caracteres para 14-18 min
+- ~10.000-12.000 caracteres para 10-12 min
 - Formatação com cues visuais, pausas dramáticas, citações
 - Mínimo 10 pausas [PAUSA] distribuídas
 - Gancho que prende em 15 segundos
@@ -43,4 +43,4 @@ Mostrar roteiro completo para Snayder: "Roteiro aprovado? Alguma correção?"
 ## Regras
 - Adaptar tom e voz ao estilo_canal.md do canal ativo
 - Fatos modernos devem ser verificáveis
-- O roteiro será dividido em partes de 3.000 chars para o Suno
+- O roteiro será dividido em partes de 2.000-2.500 chars para o Suno

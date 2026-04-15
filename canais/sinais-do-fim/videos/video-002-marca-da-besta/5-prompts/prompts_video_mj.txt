@@ -1,0 +1,429 @@
+================================================================================
+PROMPTS MIDJOURNEY ANIMATE — video-002-marca-da-besta
+Canal: Sinais do Fim | Agencia: Abismo Criativo
+Gerado: 2026-04-06 15:12
+Agente: PHANTASMA
+Total: 14 quadros x 2 clips = 28 instrucoes
+================================================================================
+
+INSTRUCOES GERAIS:
+1. Para cada quadro, gere o End Frame via /imagine no Midjourney
+2. Acesse Midjourney Web > Create > Animate
+3. Carregue Start Frame + End Frame gerado
+4. Configure Motion e Animation Prompt conforme indicado
+5. Clip A e Clip B se encadeiam: End Frame de A vira Start Frame de B
+
+SREF aprovado: https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png
+Parametros fixos: --ar 16:9 --style raw --v 7 --q 2 --stylize 750
+SEED BASE: 847300 (incremento +1 por clip)
+
+================================================================================
+QUADRO V01 -- [00:00-00:10] -- PATMOS / JOAO ESCREVENDO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q01 -- "Abertura: Joao em Patmos"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q01 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid elderly apostle in crimson and gold robe writing on parchment scroll on rocky clifftop foreground, black and white stormy sea of Patmos island in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847301 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide camera slowly pulling back from elderly apostle, revealing rocky island coastline, robe fabric rippling in wind, feather quill scratching parchment, dark storm waves crashing in background
+MOOD: Solitude and divine calling
+CAMERA: Slow pull back wide reveal
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid golden light pulsing on open parchment scroll with ancient Greek text in extreme foreground, black and white rocky cliff and apostle silhouette in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847302 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Camera slowly zooming in toward scroll resting on rock, golden light emanating from the written words, letters glowing with divine energy, sea wind causing scroll edges to flutter
+MOOD: Sacred revelation
+CAMERA: Slow zoom in toward scroll
+
+================================================================================
+QUADRO V02 -- [00:24-00:34] -- PERGAMINHO APOCALIPTICO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q02 -- "Pergaminho com caligrafia de Ap 13"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q02 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid illuminated parchment scroll unfurling slowly in foreground, ancient apocalyptic calligraphy glowing gold, black and white gothic altar with candelabras in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847303 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Parchment scroll slowly unfurling downward revealing ancient text, multiple candle flames flickering in synchrony, melted wax dripping in slow motion, candlelight casting warm shadows on gothic stonework
+MOOD: Solemn prophecy
+CAMERA: Static
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid close-up of ancient apocalyptic text glowing crimson on parchment in extreme foreground, black and white binary code matrix cascading in background, candle flames growing taller, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847304 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera slowly zooming into the parchment text, candle flames growing taller and brighter, binary code digits materializing like rain in the dark background, golden letters on scroll pulsing with red energy
+MOOD: Apocalyptic revelation connecting ancient and modern
+CAMERA: Slow zoom in
+
+================================================================================
+QUADRO V03 -- [00:48-00:58] -- BESTA DO MAR
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q08 -- "Besta de 7 cabecas emergindo do mar"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q08 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid seven-headed sea beast with golden and crimson scales rising from crashing ocean waves in foreground, black and white stormy tempestuous sky with lightning in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847305 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Wide camera revealing massive seven-headed beast rising from ocean, enormous waves breaking and spraying, thunderbolts illuminating black and white storm clouds in background, golden scales gleaming with crimson fire glow
+MOOD: Terrifying cosmic revelation
+CAMERA: Wide slow pull back revealing full beast scale
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid seven-headed beast at full height dominating foreground, all seven heads roaring open-mouthed, golden and crimson scales blazing, black and white apocalyptic sky raining embers in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847306 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera craning upward slowly to show full vertical scale of the beast, all seven heads roaring simultaneously, burning embers falling from stormy sky, ocean churning violently below, beast casting shadow over entire scene
+MOOD: Overwhelming supernatural terror
+CAMERA: Crane up slowly
+
+================================================================================
+QUADRO V04 -- [01:12-01:22] -- MAO RECEBENDO A MARCA
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q19 -- "Mao com marca — secao CBDC"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q19 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid human right hand palm up in extreme foreground, modern microsyringe descending in slow motion toward skin, black and white sterile laboratory with medical equipment in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847307 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Static macro close-up of hand with syringe descending in extreme slow motion, air droplets on needle tip catching light, hand skin texture revealed, background laboratory completely desaturated and blurred
+MOOD: Dread and inevitability
+CAMERA: Static close-up macro
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme macro of needle touching human skin in foreground, crimson bioluminescent pulse spreading under translucent skin, microscopic RFID chip circuit pattern visible beneath skin surface, black and white sterile lab in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847308 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Extreme static macro of needle tip touching skin, crimson red bioluminescent pulse radiating outward under skin like veins of light, microchip circuit pattern illuminating beneath translucent skin tissue
+MOOD: Horror and violation
+CAMERA: Extreme close-up static
+
+================================================================================
+QUADRO V05 -- [01:36-01:46] -- ROMA IMPERIAL
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q03 -- "Roma vs Modernidade"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q03 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid Roman imperial procession in crimson and gold togas marching in foreground, black and white Colosseum ruins and Roman forum in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847309 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: High angle wide shot of Roman procession advancing toward viewer, camera slowly descending from bird's eye view to eye level, golden standards catching light, togas billowing, sandals striking stone pavement
+MOOD: Imperial authority and ancient power
+CAMERA: Slow descend from high angle
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid Roman merchant presenting libellus document to armored soldier in medium foreground, golden sunlight casting dramatic diagonal shadow of authority, black and white forum and crowd in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847310 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Static medium shot of merchant handing compliance document to soldier, golden afternoon light creating long dramatic shadows across stone tiles, crowd frozen in watchful silence in background
+MOOD: Submission to earthly authority
+CAMERA: Static medium
+
+================================================================================
+QUADRO V06 -- [02:00-02:10] -- LUTERO E REFORMADORES
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q13 -- "Lutero — contexto da Reforma"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q13 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid Martin Luther in black Augustinian habit preaching from cathedral steps holding Bible aloft in foreground, black and white crowd of medieval townspeople in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847311 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly pushing in toward Luther preaching, papers and pamphlets swirling in wind around his feet, dramatic sidelight on his raised Bible, crowd shifting and murmuring in desaturated background
+MOOD: Defiant spiritual courage
+CAMERA: Slow push in wide to medium
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme macro of Luther's hand holding iron nail against wooden cathedral door in foreground, hammer descending in slow motion, 95 Theses parchment visible at edge of frame, black and white stone cathedral facade in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847312 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Extreme macro static shot of nail being driven into cathedral door in slow motion, wood grain fibers splitting under iron nail tip, parchment document pinned beneath, splinters catching golden light
+MOOD: Historic turning point
+CAMERA: Extreme macro static
+
+================================================================================
+QUADRO V07 -- [02:24-02:34] -- MAPA CBDC / 134 PAISES
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q21 -- "Mapa CBDC global"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q21 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid holographic 3D world map floating in dark digital void in foreground, countries beginning to illuminate in crimson red progressively, data streams flowing between nations, black and white server infrastructure in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847313 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly pulling back from holographic world map, countries activating in red one by one like spreading fire, golden data lines connecting central banking nodes, entire map pulsing with ominous energy
+MOOD: Global surveillance and control spreading
+CAMERA: Slow pull back
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid holographic world map nearly fully crimson red pulsing like living heart in foreground, red data streams and financial control lines connecting all continents, black and white earth sphere below, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847314 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera slowly pushing through the holographic map surface, crimson red pulse spreading to final remaining nations, map breathing like a living organism, golden financial data streams accelerating to maximum speed
+MOOD: Total global financial control achieved
+CAMERA: Slow push in through map
+
+================================================================================
+QUADRO V08 -- [02:48-02:58] -- CHIP IMPLANTAVEL
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q24 -- "Chip e microagulha"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q24 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid surgical steel tray with microsyringe and RFID microchip in foreground, gloved hand positioning needle with clinical precision, black and white sterile operating room in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847315 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Overhead camera slowly descending toward surgical tray revealing instruments one by one, gloved hand picking up microsyringe with deliberate precision, harsh surgical light creating deep shadows around tools
+MOOD: Clinical inevitability and surveillance
+CAMERA: Overhead descend
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme macro of RFID microchip suspended in clear liquid inside syringe tube in foreground, chip circuits glowing like miniature golden city grid, black and white sterile background dissolved in bokeh, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847316 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Extreme macro zoom through liquid medium toward chip surface, microscopic circuit pathways illuminating gold and red, liquid refracting light into prismatic patterns, chip circuits pulsing like a tiny heartbeat
+MOOD: Technology as spiritual threat
+CAMERA: Extreme macro zoom through liquid
+
+================================================================================
+QUADRO V09 -- [03:12-03:22] -- TRANSACAO BLOQUEADA
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q28 -- "Vigilancia e exclusao economica"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q28 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid person at supermarket checkout counter attempting payment in foreground, payment terminal screen flashing ACCESS DENIED in crimson red, person's face just beginning to register shock, black and white supermarket aisles with other shoppers in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847317 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Static wide surveillance-style shot of checkout lane, person sliding card through terminal, machine suddenly emitting red denial light that bathes the person's face, other shoppers in black and white background turning to stare
+MOOD: Social exclusion and economic exile
+CAMERA: Static wide surveillance aesthetic
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme close-up of person's face illuminated entirely by crimson red denial screen light in foreground, expression of realization and horror, tears forming, black and white supermarket crowd blurred in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847318 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Camera slowly zooming in from medium to extreme close-up of person's face, red terminal light painting their features in crimson, micro-expressions of disbelief and terror, background crowd slowly turning in judgment
+MOOD: Existential horror of exclusion
+CAMERA: Slow zoom in to face
+
+================================================================================
+QUADRO V10 -- [03:36-03:46] -- CAMERA DE VIGILANCIA
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q29 -- "Cameras de vigilancia"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q29 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid matte black security camera in extreme foreground slowly rotating on its mount, red recording LED pulsing, black and white city street with tiny monitored citizens below in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847319 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Camera slowly orbiting around the security camera dome, surveillance device tracking smoothly on its gimbal, red LED blinking rhythmically, city below rendered in black and white scale showing full scope of monitoring
+MOOD: Omniscient surveillance state
+CAMERA: Slow orbit around surveillance camera
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid fisheye POV from inside security camera lens looking down at street in foreground, wide-angle distorted view of pedestrians, crimson red digital crosshair reticle and biometric scan lines overlaid, black and white city in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847320 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Fisheye lens POV of surveillance camera rotating field of view, crimson targeting reticles locking on to individual pedestrians, biometric data readouts flickering alongside each person, all citizens reduced to data points
+MOOD: Loss of anonymity and freedom
+CAMERA: Fisheye lens POV
+
+================================================================================
+QUADRO V11 -- [04:00-04:10] -- REDE NEURAL / IA CONTROLANDO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q30 -- "IA e rede neural de controle"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q30 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid vast holographic neural network expanding through digital space in foreground, crimson red pulsing nodes connected by golden data streams, surveillance camera icons and financial institution symbols at each node, black and white globe in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847321 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Wide shot slowly pulling back to reveal full scale of AI neural network spanning globe, data pulses traveling along golden connection lines at light speed, new nodes continuously activating, network growing exponentially
+MOOD: Incomprehensible scale of AI control
+CAMERA: Slow pull back revealing scale
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme close-up of central pulsing crimson node at heart of neural network in foreground, millions of data streams flowing inward like rivers of light, node beating like a heart, black and white network branches extending to infinity in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847322 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera zooming slowly into central control node, data rivers accelerating inward, node pulsing with increasing intensity like a digital heart, the weight of all global surveillance compressed into this single point
+MOOD: Total control centralized in one system
+CAMERA: Slow zoom into central node
+
+================================================================================
+QUADRO V12 -- [04:24-04:34] -- CLAMOR / TESTEMUNHO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q33 -- "Profeta e testemunho final"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q33 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid prophet in crimson robe with arms raised holding apocalyptic scroll toward sky in foreground, black and white storm clouds gathering and swirling rapidly in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847323 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot craning upward slowly as prophet raises arms higher, storm clouds in background accelerating their rotation, scroll text illuminating gold in the wind, robe fabric whipping dramatically
+MOOD: Prophetic urgency and divine calling
+CAMERA: Slow crane up
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme close-up of prophet's face illuminated by golden divine light streaming from above in foreground, eyes closed in prayer and surrender, single tear catching golden light on cheek, black and white burning sky in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847324 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Camera slowly dollying in toward prophet's face, divine golden light intensifying from above, eyelashes trembling in wind, tear slowly forming and rolling down cheek catching warm light, expression of complete surrender
+MOOD: Sacred surrender and divine peace
+CAMERA: Slow dolly in to face
+
+================================================================================
+QUADRO V13 -- [04:48-04:58] -- SELOS ABERTOS / JULGAMENTO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q11 -- "Cordeiro com 7 Selos"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q11 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid golden white Lamb of God standing on celestial altar with seven wax seals in foreground, first seal cracking and golden light exploding outward, black and white apocalyptic celestial throne room in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847325 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Camera slowly pushing in toward the Lamb on the altar, first seal dramatically cracking apart in slow motion, golden light burst emanating from broken seal, heavenly choir of light rays radiating outward
+MOOD: Divine judgment unleashed
+CAMERA: Slow push in
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid extreme macro of apocalyptic wax seal exploding apart in slow motion in foreground, crimson red wax fragments flying outward, golden divine light pouring through the breach, Lamb silhouette visible through golden light, black and white celestial background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847326 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: High
+ANIMATION PROMPT: Extreme macro static shot of wax seal breaking in ultra slow motion, individual wax crystals tumbling in zero gravity, golden light spilling through crack and expanding, divine energy materializing as the seal falls away
+MOOD: The moment of cosmic judgment
+CAMERA: Extreme macro static
+
+================================================================================
+QUADRO V14 -- [05:12-05:22] -- CONCLUSAO / CHAMADO
+TOTAL: 10s | Clip A (5s) + Clip B (5s)
+Referencia Goetia: Q35 -- "Conclusao e chamado final"
+================================================================================
+
+--- CLIP A (00:00 - 00:05) ---
+START FRAME -> Q35 da Goetia
+Upload no Midjourney Web > Create > Start Frame
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid golden divine light breaking through parting storm clouds and descending in radiant beams in foreground, silhouette of kneeling figure in crimson robe at center, black and white city skyline below in background, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847327 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Wide shot slowly tilting upward from black and white city below to golden sky above, divine light beams breaking through clouds and intensifying, kneeling figure's crimson robe glowing warmer as light descends
+MOOD: Hope and divine invitation
+CAMERA: Slow tilt up from city to sky
+
+--- CLIP B (00:05 - 00:10) ---
+START FRAME -> End Frame do Clip A (a imagem gerada acima)
+
+END FRAME -- Gerar este /imagine e usar como End Frame:
+/imagine prompt: colorful vivid dramatic crane shot revealing full panorama — golden divine light from above meeting black and white city below, solitary crimson-robed figure kneeling at center as axis between heaven and earth, chiaroscuro dramatic lighting from above, fire glow and floating orange ash embers, 35mm film grain, anamorphic lens flares --ar 16:9 --style raw --v 7 --q 2 --stylize 750 --sref https://cdn.midjourney.com/bf50970e-30dd-47f1-8b2e-7d1f40c180da/0_0.png --sw 750 --seed 847328 --no text, watermark, logo, anime, cartoon, blurry, low quality
+
+MOTION: Low
+ANIMATION PROMPT: Dramatic crane rising upward revealing full scale composition — divine light descending from above, city extending to horizon below, lone figure in crimson at the axis point, everything converging toward this moment of decision
+MOOD: Final invitation and eternal consequence
+CAMERA: Dramatic crane up
+
+================================================================================
+FIM DO ARQUIVO — PHANTASMA | ABISMO CRIATIVO
+Seeds utilizados: 847301 a 847328
+================================================================================

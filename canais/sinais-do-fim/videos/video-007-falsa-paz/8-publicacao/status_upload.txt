@@ -1,0 +1,7 @@
+VIDEO_ID: djzD7YFysoU
+URL: https://youtube.com/watch?v=djzD7YFysoU
+STATUS: private (aguardando aprovacao de Snayder para publicar)
+UPLOAD_TIME: 2026-04-11 00:33:25
+THUMBNAIL: OK
+CHAPTERS: OK
+PRIVACY_STATUS: private

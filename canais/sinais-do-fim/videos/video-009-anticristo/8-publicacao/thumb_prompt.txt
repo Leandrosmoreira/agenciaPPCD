@@ -1,0 +1,12 @@
+PROMPT BANANA 2.0:
+
+Ultra-dramatic YouTube thumbnail, dark biblical horror aesthetic.
+CENTER: Close-up real human face (55-65 year old male preacher/narrator), expression of absolute shock and terror, eyes wide open staring directly at camera, mouth slightly open, deep shadows on face, dramatic side lighting. Face occupies 45% of thumbnail, positioned center-left.
+BACKGROUND: Three silhouettes of suited political figures (blurred, ominous) standing in dark fog, red blood sky, apocalyptic burning city in extreme distance, all desaturated black and white. Behind the face, faint glowing number "666" in deep crimson, semi-transparent.
+OVERLAY: Dark vignette on all edges, heavy film grain, smoke particles floating.
+COLOR PALETTE: Deep black (#0A0A0A), blood red (#8B0000), aged gold (#C5A355), dirty white (#E8E0D0).
+Text space: right third of image kept slightly darker for text overlay.
+Aspect ratio: 16:9, high resolution, designed for YouTube thumbnail, space for text overlay on right side.
+
+NEGATIVE PROMPT:
+cartoon, anime, watermark, text, cheerful colors, low quality, blurry, illustration only, no face, bright background, pastel colors, modern clean design

@@ -1,6 +1,17 @@
-# Preencha com os 15 canais concorrentes do nicho escatológico
-# Um canal por linha (nome ou URL)
-# Exemplo:
-# @CanalProfecia
-# @SinaisDosTempo
-# @ApocalipseHoje
+# CANAIS CONCORRENTES — SINAIS DO FIM
+# Nicho: escatologia bíblica, profecias, fim dos tempos
+# Atualizado: 2026-04-12
+# Formato: @handle | ID | Nome | Subs | Notas
+
+# TIER 1 — Grandes (>1M subs) — referência de formato e CTR
+@FatosDesconhecidos | UCbAiIkPobUFy71zlmwVw3jw | Fatos Desconhecidos | 22.8M | Nicho geral; vídeo anticristo Kushner 179k views
+@CortesInteligencia | UCd5qbAL7aV3SF1nhvlZVStg | Cortes do Inteligência | - | Clipes virais; ANTICRISTO DANIEL MASTRAL 1.2M views
+
+# TIER 2 — Médios (100k-1M subs) — concorrência direta
+@Doutoreden | UCuWsf-qGxpMnaibrN-XUHmA | Dr Éden | 216k | FOCO PRINCIPAL — nicho idêntico; 98 vídeos; 3.9M views totais
+@OsGrandesEnigmas-p7r | - | Os Grandes Enigmas | - | REFERÊNCIA DE THUMBNAIL CTR — rosto real + texto emocional caps; Mel Gibson recorrente; padrão "ISTO É ATERRORIZANTE"
+
+# TIER 3 — Canais internacionais (referência de roteiro)
+# Grace Digital Network | sOGgn_agABk 1.2M views — "He Has Arrived: Kushner Fulfill Daniel"
+# AoC Network | 3cPisScbEJs 793k views — "We Dug Deeper Kushner Something Terrifying"
+# sabiduria (ES) | ilAXJLcCcE8 270k views — "Kushner Profecia Daniel Pacto de Paz"

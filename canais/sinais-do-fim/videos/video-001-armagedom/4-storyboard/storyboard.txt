@@ -1,0 +1,268 @@
+STORYBOARD — VIDEO-001-ARMAGEDOM
+Canal: Sinais do Fim — Passagens do Apocalipse
+Diretora Visual: Nyx
+Duracao: 12 minutos | 24 quadros (1 a cada 30s)
+Distribuicao: 75% Veo 3 | 12% CapCut | 13% outros
+
+================================================================================
+BLOCO 1 — GANCHO (0:00 - 0:25)
+================================================================================
+
+QUADRO 01 — [0:00]
+BLOCO: Gancho
+CENA: Tela preta total. Texto branco surge letra a letra: "ARMAGEDOM". Som de vento.
+NARRACAO: (silencio, apenas efeito sonoro)
+TIPO: Texto animado (CapCut)
+MOOD: Ominoso
+TRANSICAO: Fade lento do preto
+NOTA EDICAO: Texto em fonte gotica, cor vermelho #8B0000, tremor sutil
+
+QUADRO 02 — [0:15]
+BLOCO: Gancho
+CENA: Vista aerea de cidade moderna destruida em P&B. No centro, um anjo medieval em cores vibrantes desce do ceu com espada flamejante. Fogo e fumaca ao redor.
+NARRACAO: "Em algum lugar do mundo, neste exato momento, conflitos se multiplicam."
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Epico / Apocaliptico
+TRANSICAO: Corte seco do texto
+NOTA EDICAO: Ken Burns zoom lento para dentro, 8 segundos
+
+================================================================================
+BLOCO 2 — CONTEXTO (0:25 - 2:30)
+================================================================================
+
+QUADRO 03 — [0:30]
+BLOCO: Contexto
+CENA: Montanha de Megiddo real (foto aerea) com sobreposicao de mapa antigo. Texto: "Har Megiddo — Israel"
+NARRACAO: "Armagedom e real. Significa Montanha de Megiddo — um lugar em Israel"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Revelador
+TRANSICAO: Dissolve
+NOTA EDICAO: Split screen: foto real esquerda, mapa antigo direita
+
+QUADRO 04 — [1:00]
+BLOCO: Contexto
+CENA: Pergaminho antigo aberto com selos de cera. Texto do Apocalipse 16:16 aparecendo em dourado. Velas ao redor, fumaca subindo.
+NARRACAO: "segundo o Apocalipse 16:16, ocorrera a ultima grande batalha"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Reverente / Mistico
+TRANSICAO: Fade lento
+NOTA EDICAO: Ken Burns zoom no texto do pergaminho
+
+QUADRO 05 — [1:30]
+BLOCO: Contexto
+CENA: Tela preta. Texto aparece palavra por palavra em branco: "Ouvireis falar de guerras e rumores de guerras" — Mateus 24:6
+NARRACAO: "Mateus 24:6-7: Ouvireis falar de guerras e rumores de guerras"
+TIPO: Texto animado (CapCut)
+MOOD: Dramatico
+TRANSICAO: Flash branco
+NOTA EDICAO: Cada palavra aparece com 0.3s de delay, fonte serif, tamanho grande
+
+QUADRO 06 — [2:00]
+BLOCO: Contexto
+CENA: Quatro cavaleiros do Apocalipse galopando em cores ricas sobre cidade moderna em P&B. Cavalos: branco, vermelho, preto, palido. Ceu dramatico com nuvens vermelhas.
+NARRACAO: "Nacao contra nacao, reino contra reino; havera fomes e terremotos"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Epico
+TRANSICAO: Corte seco
+NOTA EDICAO: Ken Burns panoramica da esquerda para direita, 10s
+
+================================================================================
+BLOCO 3 — DESENVOLVIMENTO: SINAL 1 - GUERRAS (2:30 - 4:30)
+================================================================================
+
+QUADRO 07 — [2:30]
+BLOCO: Desenvolvimento - Sinal 1
+CENA: Mapa do Oriente Medio com marcacoes vermelhas pulsando. Bandeiras de Israel, Ira, EUA, Russia ao redor. Efeito de radar militar.
+NARRACAO: "Primeiro sinal: Conflitos permanentes no Oriente Medio"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Tenso
+TRANSICAO: Dissolve
+NOTA EDICAO: Overlay de particulas vermelhas pulsando nos pontos de conflito
+
+QUADRO 08 — [3:00]
+BLOCO: Desenvolvimento - Sinal 1
+CENA: Timeline visual 1948-presente. Linha do tempo com explosoes marcando cada guerra. Fundo preto, texto dourado.
+NARRACAO: "Desde 1948, Israel esta em ciclo continuo de guerra"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Informativo / Sombrio
+TRANSICAO: Fade
+NOTA EDICAO: Ken Burns scroll horizontal pela timeline
+
+QUADRO 09 — [3:30]
+BLOCO: Desenvolvimento - Sinal 1
+CENA: Globo terrestre visto do espaco. Linhas vermelhas conectam todas as nacoes a Israel no centro. Efeito de rede neural pulsando.
+NARRACAO: "TODAS as nacoes do mundo tem interesse em Israel"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Revelador / Cosmico
+TRANSICAO: Dissolve
+NOTA EDICAO: Movimento de rotacao lenta do globo, linhas surgindo uma a uma
+
+QUADRO 10 — [4:00]
+BLOCO: Desenvolvimento - Sinal 1
+CENA: Profeta Zacarias em vestes medievais coloridas, de pe sobre ruinas de Jerusalem em P&B. Maos erguidas ao ceu. Pergaminho flutuando com texto hebraico.
+NARRACAO: "Zacarias 14:2 predisse: Congregarei todas as nacoes contra Jerusalem"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Profetico / Epico
+TRANSICAO: Fade lento
+NOTA EDICAO: Ken Burns zoom out revelando a cena completa
+
+================================================================================
+BLOCO 4 — DESENVOLVIMENTO: SINAL 2 - TECNOLOGIA (4:30 - 6:30)
+================================================================================
+
+QUADRO 11 — [4:30]
+BLOCO: Desenvolvimento - Sinal 2
+CENA: Besta de 7 cabecas medieval em cores vibrantes. Cada cabeca tem um olho digital/camera. Fundo: cidade com telas e vigilancia em P&B.
+NARRACAO: "Segundo sinal: Sistema de controle tecnologico global"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Ominoso / Perturbador
+TRANSICAO: Corte seco
+NOTA EDICAO: Ken Burns zoom lento nos olhos digitais da besta
+
+QUADRO 12 — [5:00]
+BLOCO: Desenvolvimento - Sinal 2
+CENA: Mao humana com microchip brilhando sob a pele. Fundo: codigo binario caindo (matrix). Selo de cera antigo flutuando ao lado.
+NARRACAO: "Apocalipse 13 descreve uma marca que controla quem compra e vende"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Perturbador
+TRANSICAO: Dissolve
+NOTA EDICAO: Efeito de brilho pulsante no chip
+
+QUADRO 13 — [5:30]
+BLOCO: Desenvolvimento - Sinal 2
+CENA: Montagem rapida: camera CCTV, tela de celular com face ID, cartao de credito digital, satelite no espaco. Tudo em P&B com linhas vermelhas conectando.
+NARRACAO: "Internet conecta bilhoes. Cameras reconhecem faces. CBDCs rastreiam transacoes"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Acelerado / Urgente
+TRANSICAO: Cortes rapidos (0.5s cada)
+NOTA EDICAO: Ritmo acelerado, 4 imagens em 5 segundos, efeito glitch entre cada
+
+QUADRO 14 — [6:00]
+BLOCO: Desenvolvimento - Sinal 2
+CENA: Trono de ouro com telas holograficas ao redor mostrando dados do mundo inteiro. Figura sombria sentada, rosto oculto. Atmosfera vermelha.
+NARRACAO: "A infraestrutura da Marca esta construida"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Ominoso
+TRANSICAO: Fade lento
+NOTA EDICAO: Particulas de fumaca vermelha subindo
+
+================================================================================
+BLOCO 5 — DESENVOLVIMENTO: SINAL 3 - POLARIZACAO (6:30 - 7:30)
+================================================================================
+
+QUADRO 15 — [6:30]
+BLOCO: Desenvolvimento - Sinal 3
+CENA: Mundo partido ao meio. Lado esquerdo: luz dourada, templo, cruz. Lado direito: escuridao, tecnologia, materialismo. Fissura vermelha no centro.
+NARRACAO: "Terceiro sinal: Polarizacao ideologica extrema"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Contrastante
+TRANSICAO: Dissolve
+NOTA EDICAO: Ken Burns zoom na fissura central
+
+QUADRO 16 — [7:00]
+BLOCO: Desenvolvimento - Sinal 3
+CENA: Multidoes se confrontando em P&B. No ceu acima, dois anjos medievais em cores — um de luz, outro de sombra — em combate.
+NARRACAO: "O mundo esta dividido como nunca: democracia versus autoritarismo"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Conflituoso / Epico
+TRANSICAO: Corte seco
+NOTA EDICAO: Efeito de tremor leve na imagem
+
+================================================================================
+BLOCO 6 — DESENVOLVIMENTO: SINAL 4 - DESASTRES (7:30 - 9:00)
+================================================================================
+
+QUADRO 17 — [7:30]
+BLOCO: Desenvolvimento - Sinal 4
+CENA: Vulcao em erupcao com lava vermelha vibrante. Cidades costeiras em P&B sendo engolidas por tsunami. Ceu coberto de cinzas.
+NARRACAO: "Quarto sinal: Desastres naturais crescentes"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Catastrofico
+TRANSICAO: Flash branco
+NOTA EDICAO: Camera shake sutil, som de estrondo
+
+QUADRO 18 — [8:00]
+BLOCO: Desenvolvimento - Sinal 4
+CENA: Anjo com trombeta medieval em cores, flutuando sobre terra rachada em P&B. Fogo saindo das fissuras. Ceu vermelho sangue.
+NARRACAO: "Joel 2:30: Sinais no ceu e na terra"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Apocaliptico
+TRANSICAO: Dissolve
+NOTA EDICAO: Ken Burns zoom out epico, revelar escala da destruicao
+
+QUADRO 19 — [8:30]
+BLOCO: Desenvolvimento - Sinal 4
+CENA: Colagem: terremoto (rachaduras), furacao (espiral), incendio florestal (chamas), seca (terra rachada). 4 paineis em P&B com bordas vermelhas.
+NARRACAO: "terremotos devastadores, tsunamis, furacoes recorde, incendios florestais"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Urgente
+TRANSICAO: Cortes entre paineis
+NOTA EDICAO: Cada painel aparece por 2.5s, transicao wipe
+
+================================================================================
+BLOCO 7 — DESENVOLVIMENTO: SINAL 5 - PERSEGUICAO (9:00 - 10:00)
+================================================================================
+
+QUADRO 20 — [9:00]
+BLOCO: Desenvolvimento - Sinal 5
+CENA: Cristao ajoelhado em oracao, iluminado por luz dourada divina. Ao redor, sombras de soldados e correntes em P&B. Contraste extremo.
+NARRACAO: "Quinto sinal: Perseguicao religiosa massiva"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Intimo / Dramatico
+TRANSICAO: Fade lento
+NOTA EDICAO: Ken Burns zoom no rosto iluminado
+
+QUADRO 21 — [9:30]
+BLOCO: Desenvolvimento - Sinal 5
+CENA: Numero "360 MILHOES" em vermelho grande sobre fundo preto. Abaixo, mapa mundial com pontos vermelhos pulsando onde ha perseguicao.
+NARRACAO: "360 MILHOES de cristaos enfrentam perseguicao severa globalmente"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Impactante
+TRANSICAO: Flash branco
+NOTA EDICAO: Numero aparece com efeito de impacto (scale up + shake)
+
+================================================================================
+BLOCO 8 — CONEXAO (10:00 - 11:15)
+================================================================================
+
+QUADRO 22 — [10:00]
+BLOCO: Conexao
+CENA: Ceu se abrindo com luz dourada intensa. Cavaleiro em cavalo branco descendo entre nuvens. Espada de luz. Multidoes abaixo olhando para cima.
+NARRACAO: "Apocalipse 19:11 descreve o retorno de Cristo"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Epico / Glorioso
+TRANSICAO: Dissolve lento
+NOTA EDICAO: Ken Burns zoom para cima em direcao ao cavaleiro
+
+QUADRO 23 — [10:30]
+BLOCO: Conexao
+CENA: Close no rosto de uma pessoa comum olhando para o ceu. Lagrimas nos olhos. Reflexo do ceu dourado nas pupilas. Fundo desfocado.
+NARRACAO: "A questao e: Voce esta pronto?"
+TIPO: Clipe com movimento (Veo 3)
+MOOD: Intimo / Emocional
+TRANSICAO: Fade lento
+NOTA EDICAO: Leve movimento de camera para frente, foco no olhar
+
+================================================================================
+BLOCO 9 — CTA (11:15 - 12:00)
+================================================================================
+
+QUADRO 24 — [11:15]
+BLOCO: CTA
+CENA: Logo "SINAIS DO FIM" em dourado sobre fundo preto. Abaixo: lista dos proximos videos em branco. Particulas de fogo flutuando. Vinheta da agencia.
+NARRACAO: "Inscreva-se em Sinais do Fim... Voltaremos em breve."
+TIPO: Texto animado (CapCut)
+MOOD: Encerramento / Misterioso
+TRANSICAO: Fade to black
+NOTA EDICAO: Titulos dos proximos videos aparecem um a um com fade, musica diminui
+
+================================================================================
+NOTAS TECNICAS:
+- Total: 24 quadros (12 minutos / 30 segundos cada)
+- Veo 3 novos: 17 quadros (Q02-Q22 exceto CapCut)
+- Veo 3 total: 21 quadros (71% do video)
+- CapCut texto: 3 quadros (12%)
+- Web/referencia: 0 (integrado no quadro 03 como overlay)
+- Assinatura visual: Sujeito biblico em CORES vs mundo moderno em P&B
+- Paleta: Preto #0A0A0A, Vermelho #8B0000, Dourado #C5A355, Branco sujo #E8E0D0
+================================================================================
