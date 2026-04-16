@@ -389,3 +389,12 @@
 [2026-04-14 17:18:55] CHECKPOINT -- Aguardando Snayder para publicar
 [2026-04-14 18:49:47] CARONTE -- video-010 Upload OK (PRIVATE) -> tlQMToRLywU
 [2026-04-14 18:49:47] CHECKPOINT -- Aguardando Snayder para publicar
+[2026-04-15 19:04] QUEUE — 2 tarefas adicionadas com prioridade urgent/high: video-014-arrebatamento (P1) + video-013-segundo-selo (P2). Motivo: CTA do video-015 promete ambos como serie de 3.
+[2026-04-15 19:04] CHECKPOINT 2 APROVADO — video-015: roteiro.txt aprovado pelo Snayder (Opcao 2 CTA mantido) | Proximo: Nyx (storyboard) + Orfeu (audio) em paralelo
+[2026-04-15 20:00] SCHEDULE CONFIRMADO — video-009-anticristo (wEJELnPzP-I) programado no Studio para PUBLICO em 2026-04-15 (hoje)
+[2026-04-15 20:00] SCHEDULE CONFIRMADO — video-010-biblia-etiope (tlQMToRLywU) programado no Studio para PUBLICO em 2026-04-17
+[2026-04-15 20:00] AGENDA 2026-04-16 — Snayder no Banco Safra (trabalho presencial, sem PC). Pipeline prossegue apenas em tarefas de TEXTO via celular. Sem publicacao programada neste dia.
+[2026-04-15 22:45] CARONTE — video-011-nefilim: script de upload gerado (_tools/caronte_upload_011.py)
+[2026-04-15 22:45] CARONTE — Video: 0415 (1).mp4 (3349 MB) em 7-edicao/ | Metadata: OK | Thumb: THUMB_A.png (6-assets/)
+[2026-04-15 22:45] CARONTE — AGUARDANDO: Snayder executar `python _tools/caronte_upload_011.py` para upload PRIVATE no YouTube
+[2026-04-15 22:45] CARONTE — NOTA: Bash bloqueado nesta sessao — upload requer execucao manual pelo Snayder

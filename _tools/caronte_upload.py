@@ -8,6 +8,7 @@ video-002-marca-da-besta | Sinais do Fim
 import os
 import json
 import pickle
+import sys
 import tempfile
 from datetime import datetime
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -16,6 +17,9 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from PIL import Image
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from caronte_sync_guard import validar_sync_adr008  # ADR-008
 
 # ──────────────────────────────────────────────────────────
 # CONFIG
@@ -115,19 +119,13 @@ def parse_metadata():
                     if timestamp and title:
                         metadata['chapters'].append({'timestamp': timestamp, 'title': title})
 
-    # Extrair tags
-    if 'TAGS' in content or 'tags' in content.lower():
-        # Procurar por "TAGS" ou "tags" case-insensitive
-        tags_idx = content.upper().index('TAGS')
-        tags_start = tags_idx + len('TAGS')
-        # Pegar tudo apos TAGS ate a proxima secao ou fim do arquivo
-        rest = content[tags_start:]
-        tags_end = rest.index('\n\n') if '\n\n' in rest else len(rest)
-        tags_text = rest[:tags_end].strip()
-        # Pegar primeira linha nao-vazia (pode ter quebra logo apos "TAGS:")
-        for line in tags_text.split('\n'):
+    # Extrair tags: pula o ":" inicial e hashtags, exige linha com virgulas
+    if 'TAGS:' in content:
+        tags_idx = content.index('TAGS:') + len('TAGS:')
+        rest = content[tags_idx:].lstrip()
+        for line in rest.split('\n'):
             line = line.strip()
-            if line and not line.startswith('#'):
+            if line and not line.startswith('#') and ',' in line:
                 metadata['tags'] = line
                 break
 
@@ -355,6 +353,10 @@ def main():
         return False
     thumb_size_mb = os.path.getsize(THUMB_FILE) / 1024 / 1024
     print(f'[OK] Thumbnail encontrada ({thumb_size_mb:.1f} MB) [sera comprimida para <2 MB]')
+
+    # Validacao ADR-008: sync audio/video (BLOQUEIA se dessincronizado)
+    if not validar_sync_adr008(VIDEO_FILE):
+        return False
 
     # Parse metadata
     metadata = parse_metadata()

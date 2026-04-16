@@ -1,0 +1,62 @@
+{
+  "scene_title": "THUMB C — 6 DEDOS",
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "straight on dramatic",
+    "focal_length_mm": "100",
+    "aperture": "f/1.8",
+    "depth_of_field": "extremely shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme close-up of a massive ancient warrior hand with exactly SIX fingers, each finger thick and powerful with weathered bronze skin and ancient battle scars, gripping a luminous double helix DNA strand that pulses with blood-red and golden light between the fingers",
+    "secondary": "the sixth finger is anatomically correct and prominently visible, positioned naturally next to the pinky, slightly longer than the others, with the same weathered texture",
+    "focal_point": "the sixth finger gripping the DNA strand, tack-sharp with shallow depth of field blurring everything else",
+    "props": ["DNA double helix glowing red-gold", "ancient bronze rings on fingers", "floating ash particles"]
+  },
+  "environment": {
+    "location": "abstract dark void with subtle suggestions of a genetics laboratory in extreme blur behind — test tubes and screens as bokeh shapes",
+    "time_of_day": "complete darkness except for the DNA glow and overhead spotlight",
+    "atmosphere": "uncanny valley horror — something deeply wrong about this hand"
+  },
+  "composition": {
+    "rule": "hand fills 60 percent of frame from left, sixth finger is the visual anchor, right 35 percent is dark negative space for text",
+    "foreground": "massive six-fingered hand in rich warm bronze and crimson skin tones",
+    "midground": "glowing DNA helix between the fingers in blood-red and gold",
+    "background": "pure black void with faint bokeh circles from out-of-focus lab equipment"
+  },
+  "lighting": {
+    "key_light": "the DNA helix itself as primary light source casting red-gold glow upward onto the fingers",
+    "fill_light": "subtle warm amber from below highlighting the skin texture and scars",
+    "rim_light": "razor-thin cold white edge on the top of each finger separating from black background",
+    "shadow_quality": "extreme chiaroscuro, almost entirely shadow with selective illumination",
+    "mood": "visceral body horror meets ancient biblical mystery"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 200T pushed two stops for extreme grain and contrast",
+    "post_processing": "extreme high contrast, crushed blacks, hyper-detailed skin texture, macro photography feel, blood-red color grade",
+    "texture_detail": "every pore and scar visible on the ancient skin, individual DNA base pairs visible in the helix, dust motes in the light beam"
+  },
+  "mood": {
+    "emotion": "primal unease — the uncanny valley of a hand that should not have six fingers",
+    "tension": "10/10"
+  },
+  "symbolism": {
+    "primary": "polydactyly as proof of Nephilim bloodline — 2 Samuel 21:20 the giant of Gath who had six fingers on each hand"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic macro photography",
+    "clean surface without any visible text or watermarks",
+    "tack-sharp focus on the sixth finger and DNA strand",
+    "naturalistic skin tones with dramatic red-gold accent lighting",
+    "anatomically correct six-fingered hand with natural proportions"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail macro shot. The hand MUST have exactly SIX fingers — this is the entire point of the image. The sixth finger must be clearly visible, anatomically correct, and prominently featured. The DNA double helix glows blood-red and gold between the fingers. Background is pure dark. Right 35% is clean dark space for text overlay. This is an extreme close-up — fill the frame with the hand."
+  }
+}

@@ -1,0 +1,18 @@
+PROMPT NANO BANANA:
+{
+  "prompt": "A towering ancient Nephilim giant warrior figure in vivid crimson and gold armor, standing in foreground with glowing eyes and six fingers on each hand clearly visible, holding a broken double helix DNA strand that emits golden divine light, black and white desaturated modern genetics laboratory with CRISPR equipment and petri dishes in background, chiaroscuro dramatic lighting from above, fire glow and floating ash embers throughout the scene, strong contrast vibrant ancient biblical giant versus monochrome modern science lab, dark apocalyptic atmosphere, 35mm film grain, anamorphic lens flares, epic surreal prophetic atmosphere, space for text overlay on right side",
+  "negative_prompt": "cartoon, anime, watermark, text, letters, words, cheerful colors, low quality, blurry, neon colors, pastel colors, white background, clean background, smiling, happy, modern clothing",
+  "aspect_ratio": "16:9",
+  "resolution": "1280x720",
+  "style": "dark cinematic biblical horror"
+}
+
+---
+
+NOTAS DE COMPOSICAO:
+- Elemento central: Nefilim gigante em primeiro plano (70% esquerdo da imagem)
+- 30% direito reservado para texto overlay
+- Dupla helice de DNA como ponte visual entre o biblico e o cientifico
+- Polidactilia (6 dedos) como detalhe sutil que remete a pesquisa
+- Laboratorio CRISPR em P&B no fundo = assinatura visual do canal (sujeito vibrante vs mundo monocromatico)
+- Iluminacao: chiaroscuro de cima, brilho dourado no DNA, brasas flutuantes

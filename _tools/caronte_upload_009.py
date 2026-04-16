@@ -6,6 +6,7 @@ video-009-anticristo | Sinais do Fim
 """
 
 import os
+import sys
 import json
 import pickle
 import tempfile
@@ -16,6 +17,9 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from PIL import Image
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from caronte_sync_guard import validar_sync_adr008  # ADR-008
 
 # ──────────────────────────────────────────────────────────
 # CONFIG
@@ -91,15 +95,14 @@ def parse_metadata():
                     if timestamp and title:
                         metadata['chapters'].append({'timestamp': timestamp, 'title': title})
 
-    if 'TAGS' in content:
-        tags_idx = content.upper().index('TAGS')
-        tags_start = tags_idx + len('TAGS')
-        rest = content[tags_start:]
-        tags_end = rest.index('\n\n') if '\n\n' in rest else len(rest)
-        tags_text = rest[:tags_end].strip()
-        for line in tags_text.split('\n'):
+    # TAGS: pula o ":" inicial e hashtags, pega primeira linha com virgulas
+    if 'TAGS:' in content:
+        tags_idx = content.index('TAGS:') + len('TAGS:')
+        rest = content[tags_idx:].lstrip()
+        for line in rest.split('\n'):
             line = line.strip()
-            if line and not line.startswith('#'):
+            # Linha valida: nao vazia, nao hashtag, contem virgulas (eh lista)
+            if line and not line.startswith('#') and ',' in line:
                 metadata['tags'] = line
                 break
 
@@ -254,6 +257,10 @@ def main():
     if not os.path.exists(THUMB_FILE):
         print(f'[ERRO] Thumbnail nao encontrada em: {THUMB_FILE}')
         print('Salve a thumbnail como thumb.jpg na pasta 8-publicacao/')
+        return
+
+    # ADR-008: validar sync audio/video antes do upload
+    if not validar_sync_adr008(VIDEO_FILE):
         return
 
     metadata = parse_metadata()

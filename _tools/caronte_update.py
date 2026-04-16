@@ -113,16 +113,13 @@ def parse_metadata():
                     if timestamp and title:
                         metadata['chapters'].append({'timestamp': timestamp, 'title': title})
 
-    # Extrair tags
-    if 'TAGS' in content or 'tags' in content.lower():
-        tags_idx = content.upper().index('TAGS')
-        tags_start = tags_idx + len('TAGS')
-        rest = content[tags_start:]
-        tags_end = rest.index('\n\n') if '\n\n' in rest else len(rest)
-        tags_text = rest[:tags_end].strip()
-        for line in tags_text.split('\n'):
+    # Extrair tags: pula o ":" inicial e hashtags, exige linha com virgulas
+    if 'TAGS:' in content:
+        tags_idx = content.index('TAGS:') + len('TAGS:')
+        rest = content[tags_idx:].lstrip()
+        for line in rest.split('\n'):
             line = line.strip()
-            if line and not line.startswith('#'):
+            if line and not line.startswith('#') and ',' in line:
                 metadata['tags'] = line
                 break
 

@@ -276,6 +276,55 @@ O script gerado deve ser **auto-contido e executável** — Snayder roda e obté
 5. **SEMPRE** trilha com fade in/out suave
 6. **SEMPRE** gerar o script Python executável como output principal
 7. **NUNCA** texto em cima de rostos ou elementos visuais centrais
+8. **SEMPRE** (ADR-008) — duração de `7-edicao/partes/video_parteNN.mp4` DEVE SER ≥ duração de `5-audio/PARTEN.mp3`. Zero tolerância: se o video for menor, a última frase da narração é cortada e o CTA se perde.
+
+---
+
+## ⚠️ ADR-008 — SINCRONIZAÇÃO OBRIGATÓRIA ÁUDIO ↔ VÍDEO (crítico)
+
+### O problema resolvido
+O cálculo anterior de `n_slots` no `prometheus_partes.py` não considerava que o `xfade` sobrepõe `td` (0.6s) entre cada par de clips. Resultado: o vídeo ficava mais curto que o áudio, e o `-shortest` cortava a última frase.
+
+### A regra
+```
+video_duration_real = n_slots * dur_each - (n_slots - 1) * td
+video_duration_real >= audio_duration + SAFETY_BUFFER (1.0s)
+```
+
+### Fórmula correta de n_slots
+```python
+import math
+target = audio_dur + SAFETY_BUFFER  # 1.0s margem
+if dur_each > td:
+    n_slots = math.ceil((target - td) / (dur_each - td))
+else:
+    n_slots = math.ceil(target / dur_each)
+n_slots = max(n_slots, len(images))  # nunca menos que imagens disponíveis
+```
+
+### Combine final (sem -shortest)
+Em vez de `-shortest` (que corta pelo menor), usar `-t audio_dur + 0.5`:
+```bash
+ffmpeg -i merged.mp4 -i parte.mp3 \
+  -c:v libx264 -c:a aac \
+  -t {audio_dur + 0.5} \
+  video_parte.mp4
+```
+
+### Validação obrigatória pós-render
+Antes de retornar o vídeo, Phantasma deve rodar:
+```python
+final_video_dur = get_duration(output_path)
+if final_video_dur < audio_dur - 0.1:
+    raise RuntimeError("ADR-008 violado: video < audio")
+```
+
+### Validação pre-upload (separada)
+O Caronte chama `_tools/validar_sync_audio_video.py` antes de qualquer upload:
+```bash
+python _tools/validar_sync_audio_video.py --canal {canal} --video {video}
+```
+Se exit code != 0, o upload é BLOQUEADO.
 
 ---
 

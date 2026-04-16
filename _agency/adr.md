@@ -41,3 +41,17 @@
 **Decisão:** Primeiros 10 segundos = gancho agressivo. Zero saudação, zero introdução.
 **Motivo:** Retenção no YouTube cai drasticamente nos primeiros 10s. Meta: >55%.
 **Impacto:** Morrigan (BLOCO 0 do roteiro).
+
+## ADR-008: Sincronização obrigatória áudio ↔ vídeo por parte (2026-04-15)
+**Contexto:** `prometheus_partes.py` calculava `n_slots` sem considerar o overlap de 0.6s do xfade entre cada par de clips. Resultado: vídeos mais curtos que o áudio correspondente. O `-shortest` do ffmpeg então cortava a última frase da narração — incluindo CTAs no fim de cada parte. Descoberto no video-013 (PARTE6 com narração truncada na timeline do editor).
+**Decisão:** Duração de `7-edicao/partes/video_parteNN.mp4` DEVE SER ≥ duração de `5-audio/PARTEN.mp3` + 0.5s de margem. Fórmula correta:
+```
+n_slots = ceil((audio_dur + SAFETY_BUFFER - td) / (dur_each - td))
+video_dur_real = n_slots * dur_each - (n_slots - 1) * td
+```
+Onde `SAFETY_BUFFER = 1.0s` e `td = 0.6s` (transition duration). O `-shortest` foi removido e substituído por `-t audio_dur + 0.5`.
+**Motivo:** Evita perda de narração e CTAs no final de cada parte. Zero tolerância — qualquer dessincronização bloqueia upload.
+**Impacto:**
+- Phantasma: `_tools/prometheus_partes.py` — fórmula corrigida + validação pós-render (RuntimeError se violar).
+- Caronte: antes de qualquer upload, rodar `python _tools/validar_sync_audio_video.py --canal {canal} --video {video}`. Exit code ≠ 0 BLOQUEIA upload.
+- Regra absoluta #8 adicionada no phantasma.md.

@@ -226,6 +226,284 @@ FIM LOOP
 
 ---
 
+## MODO NANO BANANA (Gemini 2.5 Flash Image) — NOVO
+
+Goetia opera em **2 motores de imagem**, definidos por `motor_imagem` no `estilo_canal.md`:
+
+| Campo | Midjourney v7 | Nano Banana |
+|-------|---------------|-------------|
+| `motor_imagem:` | `midjourney` | `nano_banana` |
+| Output | `.txt` com `/imagine` | `.json` estruturado |
+| Geração | Manual (Discord/Web MJ) | Automática (`_tools/goetia_nano_banana.py`) |
+| Negative prompt | `--no text, cartoon...` | Enquadramento positivo (SEM --no) |
+| Sref/Cref | URLs MJ | Imagem local em `_config/style_refs/` |
+| Custo/imagem | ~$0.016 (MJ Basic) | ~$0.039 (Flash) / ~$0.156 (Pro) |
+
+### Quando usar Nano Banana
+- Canal com JSON pipeline automatizado
+- Texto legível na imagem (Nano Banana > MJ para tipografia)
+- Velocidade (sem fila do Discord)
+- Multimodal com múltiplas refs (até 14)
+
+### Quando usar Midjourney v7
+- Estilo artístico extremo (MJ ainda é superior em composição surreal)
+- Quando já existe biblioteca de `--sref` aprovados
+- Quando a equipe está no Discord e prefere revisão manual
+
+---
+
+## NANO BANANA — Regras Fundamentais
+
+### 1. ENQUADRAMENTO POSITIVO (crítico)
+
+**Nano Banana NÃO TEM `--no`.** Se você escrever "no cars", o modelo pode gerar carros. Reformule tudo em positivo:
+
+| ❌ ERRADO | ✅ CERTO |
+|-----------|----------|
+| "no text, no watermark" | "clean frame, empty surface, photorealistic" |
+| "no people" | "empty room, abandoned location, no human presence visible through deserted composition" |
+| "no cartoon" | "photorealistic, documentary photography, 35mm film" |
+| "no modern objects" | "19th century period piece, antique setting only" |
+| "no bright colors" | "muted palette, desaturated tones, chiaroscuro" |
+
+O campo `negative_prompt` no JSON é serializado como **descrição positiva da ausência** — ex: `"no people"` vira `"completely empty of human figures, deserted"`.
+
+### 2. VERBO FORTE NO INÍCIO
+
+Sempre comece o prompt com ação/operação:
+- **Gerar:** "Render a cinematic close-up of..."
+- **Capturar:** "Capture a photorealistic portrait of..."
+- **Iluminar:** "Illuminate a chiaroscuro scene where..."
+- **Componor:** "Compose a symmetrical wide shot of..."
+
+NÃO comece com adjetivos ("colorful vivid...") — isso funciona no MJ, não no Nano Banana.
+
+### 3. FÓRMULA T2I OFICIAL
+
+Todo prompt Nano Banana segue esta ordem:
+```
+[Ação/Verbo] + [Sujeito] + [Ação do Sujeito] + [Local/Contexto] + [Composição] + [Estilo]
+```
+
+Exemplo:
+```
+Render a photorealistic extreme close-up of            ← [Ação]
+the cover of The Economist magazine "The World Ahead 2026"  ← [Sujeito]
+glowing faintly on a polished mahogany desk            ← [Ação do Sujeito]
+in a 19th century banker's private study at 3 AM       ← [Local]
+centered, 70% of frame, 16:9 aspect ratio              ← [Composição]
+Kodak Portra 800, Caravaggio chiaroscuro, halation, dust particles  ← [Estilo]
+```
+
+### 4. TEXT-FIRST (para texto legível na imagem)
+
+Quando o JSON tem `in_scene_text.enabled: true`, aplicar na ordem:
+
+1. **Definir texto exato** primeiro, dentro de aspas duplas: `"THE WORLD AHEAD 2026"`
+2. **Descrever a fonte** tipograficamente: `"in classical serif engraved font, aged brass"`
+3. **Descrever placement:** `"at top of cover, centered"`
+4. **Reforçar legibilidade:** `"text must be crisp and legible"`
+
+**NUNCA:** "a sign with some text" → o Nano Banana vai chutar.
+
+### 5. MATERIALIDADE ABSOLUTA
+
+Seja específico em texturas. Nada genérico:
+
+| ❌ Genérico | ✅ Específico |
+|-------------|---------------|
+| "wooden table" | "polished mahogany desk with visible grain" |
+| "leather chair" | "oxblood leather wingback chair, cracked patina" |
+| "clothing" | "navy tweed three-piece suit, wool weave visible" |
+| "metal frame" | "tarnished antique brass frame with pitting and scratches" |
+| "lamp" | "green-shade banker's lamp with brass base" |
+
+### 6. VOCABULÁRIO TÉCNICO DE CÂMERA
+
+Incluir no campo `shot` do JSON (serializado no prompt):
+
+**Câmeras (ciência de cores):**
+- `"Fujifilm GFX 100"` — cores autênticas, cinematográfico
+- `"Kodak Portra 800 pushed two stops"` — filme grain amber (padrão Sinais do Fim)
+- `"GoPro Hero"` — distorção de ação, dinâmica
+- `"disposable film camera"` — estética nostálgica/crua com flash direto
+
+**Lentes:**
+- `"50mm f/1.4"` — padrão cinematográfico, razão áurea
+- `"85mm f/1.8"` — retrato com compressão
+- `"24mm wide angle"` — escala épica, ambiente
+- `"100mm macro"` — detalhe extremo
+- `"anamorphic lens with horizontal flares"` — widescreen
+
+**Iluminação:**
+- `"chiaroscuro lighting, single key from upper-left"` (padrão Sinais do Fim)
+- `"three-point softbox setup"` — retrato limpo
+- `"golden hour backlight with long shadows"` — dramático
+- `"practical only — single 2200K bulb"` — minimalista
+
+**Color grading:**
+- `"1980s film color, slightly grainy"` — retrô
+- `"cinematic teal and orange"` — Hollywood moderno
+- `"crushed blacks, amber highlights"` (padrão Sinais do Fim)
+- `"desaturated Kodak Vision3"` — documentário
+
+### 7. ASPECT RATIOS SUPORTADOS
+
+Nano Banana suporta **TODOS estes** no campo `shot.aspect_ratio`:
+- Padrão: `1:1`, `3:2`, `2:3`, `3:4`, `4:3`, `4:5`, `5:4`, `9:16`, `16:9`, `21:9`
+- Extremos (Nano Banana 2): `1:4`, `4:1`, `1:8`, `8:1`
+
+Para YouTube: **SEMPRE `16:9`**. O modelo pode gerar 1:1 por padrão — precisa forçar explicitamente na composição do prompt: `"widescreen 16:9 cinematic framing"`.
+
+### 8. MULTIMODAL — Até 14 imagens de referência
+
+Campo `api_call_hints.multimodal_inputs` aceita múltiplas refs:
+
+```json
+"multimodal_inputs": [
+  {"type": "image", "source": "_config/style_refs/sinais_dark.png", "role": "style_reference",
+   "instruction": "Transfer color, lighting, grain, atmosphere only."},
+  {"type": "image", "source": "_config/char_refs/narrator_face.png", "role": "character_reference",
+   "instruction": "Use this face exactly — preserve features."},
+  {"type": "image", "source": "_config/texture_refs/brass_patina.png", "role": "texture_reference",
+   "instruction": "Apply this texture to all metal surfaces."},
+  {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+]
+```
+
+Máximo 14 imagens. Cada uma deve ter `role` claro e `instruction` explícita sobre O QUE transferir.
+
+---
+
+## Schema JSON Oficial — Nano Banana
+
+Cada quadro gera 1 arquivo `Q{NN}.json` em `6-prompts-imagem/` com este schema:
+
+```json
+{
+  "id": "video-NNN_PARTE{N}_Q{NN}",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Título curto da cena",
+  "narrative_beat": "O que acontece no roteiro naquele momento",
+
+  "canal_context": {"canal": "...", "video": "...", "parte_suno": N, "quadro": "QNN", "ato": "..."},
+
+  "style_reference": {
+    "primary_image_url": "path local ou URL pública",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "Descrição em texto do estilo para fallback"
+  },
+
+  "shot": {
+    "type": "extreme close-up|close-up|medium|medium wide|wide|extreme wide",
+    "camera_angle": "straight-on|low angle|high angle|dutch|overhead",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin|shallow|moderate|deep",
+    "aspect_ratio": "16:9"
+  },
+
+  "subject": {
+    "primary": "O que é o sujeito principal",
+    "focal_point": "Onde está o foco dentro do sujeito",
+    "secondary": "Elementos secundários",
+    "props": ["prop1", "prop2", "prop3"]
+  },
+
+  "environment": {
+    "location": "Onde está acontecendo",
+    "time_of_day": "Hora/luz ambiente",
+    "atmosphere": "Clima emocional do ambiente"
+  },
+
+  "lighting": {
+    "key_light": "warm 2200K from upper-left",
+    "fill_light": "faint amber from below",
+    "rim_light": "gold on edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged"
+  },
+
+  "composition": {
+    "rule": "rule of thirds|centered symmetry|dead-centered|dynamic asymmetric",
+    "foreground": "...",
+    "midground": "...",
+    "background": "...",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+
+  "in_scene_text": {
+    "enabled": true,
+    "content_primary": "TEXTO EXATO ENTRE ASPAS",
+    "content_secondary": "Opcional",
+    "medium": "onde aparece (placa, capa, engraving)",
+    "font_style": "descrição tipográfica exata",
+    "placement": "onde no frame",
+    "legibility": "crisp and readable",
+    "language": "English|Portuguese"
+  },
+
+  "overlay_text": {
+    "enabled": true,
+    "content_line_1": "Texto da legenda linha 1",
+    "content_line_2": "Texto da legenda linha 2",
+    "trigger": {"audio_file": "5-audio/PARTEN.mp3", "trigger_at_seconds": 120.0, "duration_seconds": 5.0, "sync_hint": "..."},
+    "typography": {"font_family": "Times New Roman Bold", "reference_size_px": 54, "alignment": "center", "text_color": "#C5A355", "stroke_color": "#000000", "stroke_width_px": 2},
+    "background_box": {"enabled": true, "color": "rgba(0,0,0,0.6)", "padding_px": 24},
+    "position": {"x": "center", "y": "0.82"},
+    "animation": {"in": "fade_in 0.5s", "hold": "4.0s", "out": "fade_out 0.5s"}
+  },
+
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights",
+    "texture_detail": "texturas específicas"
+  },
+
+  "mood": {"emotion": "...", "tension": "rising|absolute|low|medium|high"},
+
+  "symbolism": {"primary": "...", "secondary": "..."},
+
+  "negative_as_positive": [
+    "completely empty of human figures",
+    "19th century period setting only",
+    "muted palette, no modern saturation",
+    "clean frame without text except as specified in in_scene_text"
+  ],
+
+  "api_call_hints": {
+    "model": "gemini-2.5-flash-image",
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference",
+       "instruction": "Transfer color, lighting, grain, atmosphere only."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ],
+    "critical_note_for_gemini": "Instrução crítica que o modelo DEVE obedecer"
+  }
+}
+```
+
+**Mudança importante:** o campo `negative_prompt` (array de "no X") foi **renomeado** para `negative_as_positive` (array de frases positivas descrevendo a ausência). JSONs antigos com `negative_prompt` são auto-convertidos pelo serializer.
+
+---
+
+## Fluxo Nano Banana
+
+```
+1. Morrigan gera roteiro.txt
+2. Orfeu divide em parteN.txt (5-prompts/)
+3. Goetia-Nano lê cada parteN.txt e gera 10 JSONs por parte em 6-prompts-imagem/ (Q01.json...QNN.json)
+4. Snayder executa: python _tools/goetia_nano_banana.py --canal {canal} --video {video} --all
+5. Imagens salvas em 6-assets/Q01.png...QNN.png
+6. Phantasma lê de 6-assets/ (não de 7-imagens/) e monta o vídeo
+```
+
+**Pasta de assets:** para modo Nano Banana, as imagens ficam em `6-assets/` (não `7-imagens/`).
+
+---
+
 ## ⚠️ PADRÃO OBRIGATÓRIO — Organização das Imagens Pós-Midjourney
 
 Após Snayder gerar as imagens no Midjourney, elas DEVEM seguir este padrão:

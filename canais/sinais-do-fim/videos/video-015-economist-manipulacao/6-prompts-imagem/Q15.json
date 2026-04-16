@@ -1,0 +1,20 @@
+{
+  "id": "video-015_PARTE2_Q15",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tres lideres em afresco",
+  "narrative_beat": "Wide tres figuras arquetipicas em chiaroscuro — ocidental, eslavo, asiatico",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-015-economist-manipulacao", "parte_suno": 2, "quadro": "Q15", "ato": "Historico de Acertos"},
+  "style_reference": {"primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png", "weight": 0.85, "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"], "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"},
+  "shot": {"type": "wide", "camera_angle": "straight-on", "focal_length_mm": 35, "aperture": "f/5.6", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {"primary": "three anonymous archetypal world leaders rendered as a Renaissance fresco: an elderly Western man in dark suit at left, a Slavic man in military uniform at center, and an East Asian man in Mao-style tunic at right, all facing the viewer with tense expressions", "focal_point": "the narrow gap between the three figures where a cracked map is visible", "secondary": "A fragmenting political world map painted on the wall behind them in monochrome.", "props": ["Renaissance fresco technique on aged plaster", "dark Western suit", "Slavic military uniform", "Mao-style dark tunic", "fragmenting world map behind"]},
+  "environment": {"location": "a grand fresco wall in a palazzo", "time_of_day": "warm interior torchlight", "atmosphere": "triple tension, geopolitical standoff"},
+  "composition": {"rule": "centered symmetry", "foreground": "three figures in rich warm Renaissance tones", "background": "desaturated black-and-white fragmenting political map", "safe_zone_for_overlay": "lower 20% of frame"},
+  "lighting": {"key_light": "warm 2200K from upper-left", "fill_light": "faint amber from below", "rim_light": "gold on edges", "mood": "chiaroscuro apocalyptic", "shadow_quality": "deep hard-edged Caravaggio shadows"},
+  "style": {"film_stock": "Kodak Portra 800 pushed two stops", "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares", "texture_detail": "35mm film grain, dust particles, floating orange embers"},
+  "mood": {"emotion": "triple tension, confrontation, standoff", "tension": "high"},
+  "symbolism": {"primary": "three powers that define the world's fate", "secondary": "fresco as permanent historical record"},
+  "negative_as_positive": ["clean frame without visible text or watermarks", "photorealistic documentary cinematography, not illustrated or cartoon", "analog film photography aesthetic, no digital art flatness", "muted desaturated background palette, warm saturated foreground only", "tack-sharp focus on primary subject", "anonymous figure without recognizable facial features", "silhouette or contre-jour lighting hiding identity", "photorealistic anonymous aristocratic figure"],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {"multimodal_inputs": [{"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."}, {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}]}
+}

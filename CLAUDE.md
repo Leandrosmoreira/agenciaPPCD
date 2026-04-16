@@ -53,6 +53,7 @@ FASE 6: EVOLUÇÃO → /post-mortem (7 dias após publicação)
 - Gancho: primeiros 10s agressivos, zero saudação
 - Retenção meta: >55%
 - Phantasma: 100% imagens estáticas animadas via MoviePy
+- **Sync áudio↔vídeo (ADR-008):** `video_parteNN.mp4` DEVE ser ≥ `PARTEN.mp3`. Caronte valida via `_tools/validar_sync_audio_video.py` antes de upload. Exit ≠ 0 = BLOQUEIA.
 
 ## 7. Segurança e Checkpoints
 - 5 checkpoints obrigatórios no pipeline (ver seção 4)

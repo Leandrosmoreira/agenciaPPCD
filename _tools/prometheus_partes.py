@@ -95,19 +95,43 @@ MIN_IMG_DURATION = 3.0  # minimo de segundos por imagem
 
 def gerar_parte(images: list, audio_path: Path, parte_num: int,
                 transition: str, td: float, output_path: Path, tmp_dir: Path):
-    """Gera um único vídeo para uma parte."""
+    """Gera um único vídeo para uma parte.
+
+    REGRA ADR-008: video_duration >= audio_duration + SAFETY_BUFFER
+    Garantia: nenhum áudio é cortado pelo -shortest no final.
+    """
+    SAFETY_BUFFER = 1.0  # 1 segundo de sobra para permitir fade de saida
+
     audio_dur = get_duration(audio_path)
     n = len(images)
 
     # Cap de duracao por imagem: max 6s para manter dinamismo
     dur_each = max(MIN_IMG_DURATION, min(MAX_IMG_DURATION, audio_dur / n))
 
-    # Se dur_each foi cappado, precisamos de mais slots — looping de imagens
+    # ── CALCULO CORRETO DO NUMERO DE SLOTS (ADR-008) ─────────────────────
+    # xfade sobrepõe td segundos entre cada par de clips consecutivos.
+    # Duracao real do merge: total = n_slots * dur_each - (n_slots - 1) * td
+    # Queremos: total >= audio_dur + SAFETY_BUFFER
+    # => n_slots >= (audio_dur + SAFETY_BUFFER - td) / (dur_each - td)
     import math
-    n_slots = math.ceil(audio_dur / dur_each)
+    target = audio_dur + SAFETY_BUFFER
+    if dur_each > td:
+        n_slots = math.ceil((target - td) / (dur_each - td))
+    else:
+        n_slots = math.ceil(target / dur_each)
+    n_slots = max(n_slots, n)  # nunca menos que as imagens disponiveis
+
     images_loop = [images[i % n] for i in range(n_slots)]
 
-    log(f"  Parte {parte_num}: {n} imagens → {n_slots} slots × {dur_each:.1f}s = {audio_dur:.1f}s audio")
+    # Validacao final: calcular duracao real do merge
+    video_dur_real = n_slots * dur_each - (n_slots - 1) * td
+    log(f"  Parte {parte_num}: {n} img → {n_slots} slots × {dur_each:.1f}s "
+        f"= video {video_dur_real:.1f}s / audio {audio_dur:.1f}s "
+        f"(margem {video_dur_real - audio_dur:.1f}s)")
+
+    if video_dur_real < audio_dur:
+        log(f"  [ERRO CRITICO] Video ({video_dur_real:.1f}s) MENOR que audio ({audio_dur:.1f}s)!")
+        raise RuntimeError(f"ADR-008 violado: parte {parte_num} dessincronizada")
 
     # Gerar clips Ken Burns
     kb_paths = []
@@ -126,18 +150,29 @@ def gerar_parte(images: list, audio_path: Path, parte_num: int,
         merged = out_m
 
     # Combinar vídeo + áudio + comprimir
+    # NAO usar -shortest aqui: ja garantimos video >= audio acima (ADR-008).
+    # Usar -t audio_dur + 0.5 para forcar o vídeo a cobrir o audio completo + fade.
+    final_dur = audio_dur + 0.5
     subprocess.run([
         "ffmpeg", "-y",
         "-i", str(merged),
         "-i", str(audio_path),
         "-c:v", "libx264", "-crf", "23", "-preset", "medium", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "192k",
-        "-r", str(FPS), "-shortest",
+        "-r", str(FPS),
+        "-t", f"{final_dur:.3f}",
         str(output_path)
     ], capture_output=True, check=True)
 
+    # Validacao pos-renderizacao (ADR-008)
+    final_video_dur = get_duration(output_path)
+    if final_video_dur < audio_dur - 0.1:  # tolerancia 100ms
+        log(f"  [ERRO CRITICO] Video final ({final_video_dur:.2f}s) < audio ({audio_dur:.2f}s)")
+        raise RuntimeError(f"ADR-008 violado apos render: parte {parte_num}")
+
     size_mb = output_path.stat().st_size / 1024 / 1024
-    log(f"  OK -> {output_path.name} ({size_mb:.0f} MB)")
+    log(f"  OK -> {output_path.name} ({size_mb:.0f} MB) "
+        f"| video {final_video_dur:.2f}s / audio {audio_dur:.2f}s [OK sync]")
 
 
 def main():

@@ -1,0 +1,99 @@
+{
+  "id": "video-015_PARTE4_Q45",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mercadores chorando",
+  "narrative_beat": "Medium mercadores medievais chorando de joelhos sobre fardos em chamas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 4,
+    "quadro": "Q45",
+    "ato": "Grafico Despencando + Bonds"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "medieval merchants in rich robes weeping on their knees over burning bales of silk, spices, and gold, in a harbor marketplace engulfed in flames, painted in hyperdetailed Renaissance style",
+    "focal_point": "a burning parchment scroll at center displaying the Bible verse text",
+    "secondary": "Harbor buildings and ships in monochrome behind. Flames consuming everything.",
+    "props": ["weeping medieval merchants in rich robes", "burning bales of silk and spices", "melting gold ingots", "burning parchment scroll with verse", "harbor in monochrome"]
+  },
+  "environment": {
+    "location": "a medieval Mediterranean harbor marketplace",
+    "time_of_day": "dusk with fire illumination",
+    "atmosphere": "biblical lamentation, commercial apocalypse"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "merchants and burning goods in vivid crimson, ochre and gold",
+    "background": "desaturated black-and-white harbor city and ships",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "fire glow from burning goods as primary light",
+    "fill_light": "warm amber reflected from gold",
+    "rim_light": "crimson edge on weeping figures",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "lamentation, commercial apocalypse, ruin of the rich",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Revelation 18:11 — merchants weeping because no one buys their goods",
+    "secondary": "fire as divine judgement on commerce"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "E sobre ela choram e lamentam os mercadores da terra; porque ninguem compra mais as suas mercadorias.",
+    "content_secondary": "Apocalipse 18:11",
+    "font_style": "ancient gothic calligraphy in aged gold ink",
+    "medium": "inscribed on burning aged parchment scroll",
+    "placement": "center of frame on the scroll",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The text in quotes MUST be rendered exactly as written, letter by letter, in the specified font style. This is a Bible verse and accuracy is sacred."
+  }
+}

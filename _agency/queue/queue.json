@@ -1,5 +1,42 @@
 {
   "version": 1,
-  "lastUpdated": "2026-04-04T20:00:00Z",
-  "tasks": []
+  "lastUpdated": "2026-04-15T00:00:00Z",
+  "tasks": [
+    {
+      "id": "task-001",
+      "canal": "sinais-do-fim",
+      "video": "video-014-arrebatamento",
+      "priority": 1,
+      "priorityLabel": "urgent",
+      "status": "queued",
+      "createdAt": "2026-04-15T00:00:00Z",
+      "reason": "CTA do video-015 (Economist) promete Arrebatamento como proximo video. Obrigatorio publicar 3-4 dias apos video-015 para manter promessa do CTA e retencao da serie.",
+      "blockedBy": [],
+      "blocks": ["task-002"],
+      "nextAgents": ["hermes (titulo)", "morrigan (roteiro)"],
+      "pesquisaStatus": "complete",
+      "pesquisaPath": "canais/sinais-do-fim/videos/video-014-arrebatamento/1-pesquisa/pesquisa.md",
+      "pesquisaLines": 226,
+      "angulo": "RaptureTok + Blood Moon 7-8/set/2025 + Protocolo Arrebatamento 2026 (Pr Joaquim Goncalves) + Doomsday Clock 85s + Joshua Mhlakela (pastor que sumiu apos data falhar)",
+      "seriesPosition": "2 de 3 (hub: video-015 -> escape: video-014 -> punicao: video-013)"
+    },
+    {
+      "id": "task-002",
+      "canal": "sinais-do-fim",
+      "video": "video-013-segundo-selo",
+      "priority": 2,
+      "priorityLabel": "high",
+      "status": "queued",
+      "createdAt": "2026-04-15T00:00:00Z",
+      "reason": "CTA do video-015 (Economist) promete 2o Selo / Cavalo Vermelho como terceiro video da serie. Deve sair 3-4 dias apos video-014.",
+      "blockedBy": ["task-001"],
+      "blocks": [],
+      "nextAgents": ["hermes (titulo)", "morrigan (roteiro)"],
+      "pesquisaStatus": "complete",
+      "pesquisaPath": "canais/sinais-do-fim/videos/video-013-segundo-selo/1-pesquisa/pesquisa.md",
+      "pesquisaLines": 255,
+      "angulo": "Trump x Ira + Operacao Leao Rugido (28 fev 2026) + Apocalipse 6:3-4 + serie 6 selos (1 de 6)",
+      "seriesPosition": "3 de 3 (hub: video-015 -> escape: video-014 -> punicao: video-013)"
+    }
+  ]
 }

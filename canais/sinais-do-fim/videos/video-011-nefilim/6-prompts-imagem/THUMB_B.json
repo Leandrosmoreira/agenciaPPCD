@@ -1,0 +1,62 @@
+{
+  "scene_title": "THUMB B — NEFILIM 2018",
+  "shot": {
+    "type": "medium",
+    "camera_angle": "slightly low angle",
+    "focal_length_mm": "50",
+    "aperture": "f/2.0",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a colossal ancient Nephilim warrior in weathered bronze and crimson armor, face obscured by shadow, towering in foreground with one massive six-fingered hand reaching toward camera holding a glowing test tube filled with luminous red liquid",
+    "secondary": "behind the giant, a fully visible modern CRISPR genetics laboratory with test tubes containing bright red glowing liquid, gene sequencing screens, and petri dishes — all rendered in desaturated black-and-white except the red liquid which glows vividly",
+    "focal_point": "the glowing red test tube in the giant six-fingered hand, bridging ancient and modern",
+    "props": ["CRISPR gene editing equipment", "test tubes with red liquid", "floating embers", "ancient scrolls on lab table"]
+  },
+  "environment": {
+    "location": "a modern genetics laboratory with clinical equipment, monitors showing DNA sequences, all in desaturated monochrome except selective red accents",
+    "time_of_day": "artificial fluorescent lab lighting mixed with supernatural warm glow from the giant",
+    "atmosphere": "collision between ancient biblical horror and sterile modern science"
+  },
+  "composition": {
+    "rule": "giant occupies left 65 percent, laboratory stretches across background, right 30 percent has clean dark space for text",
+    "foreground": "Nephilim hand with test tube in vivid crimson and bronze tones",
+    "midground": "giant torso and armor in warm muted tones",
+    "background": "black-and-white laboratory with selective red glow from test tubes"
+  },
+  "lighting": {
+    "key_light": "harsh overhead fluorescent from the lab mixed with warm supernatural glow from the giant",
+    "fill_light": "red glow from the test tube illuminating the six-fingered hand",
+    "rim_light": "cold white lab light outlining the giant silhouette",
+    "shadow_quality": "stark high-contrast shadows, noir style",
+    "mood": "temporal shock — something ancient should not be in a modern lab"
+  },
+  "style": {
+    "film_stock": "Fujifilm Eterna 500 with clinical cold tones",
+    "post_processing": "high contrast split toning — warm shadows cool highlights, selective color red, heavy film grain",
+    "texture_detail": "weathered ancient armor texture against sterile clinical surfaces, molecular detail on screens"
+  },
+  "mood": {
+    "emotion": "temporal dissonance — ancient forbidden being in modern sterile environment",
+    "tension": "9/10"
+  },
+  "symbolism": {
+    "primary": "CRISPR as the modern Tower of Babel — humanity recreating what God destroyed"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic cinematic photography",
+    "clean surface without any visible text or watermarks",
+    "anonymous figure without recognizable facial features, face hidden in deep shadow",
+    "tack-sharp focus on the test tube in the hand",
+    "naturalistic color grading with selective red accents on monochrome background"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail. The warrior MUST have exactly SIX fingers on the hand holding the test tube. The laboratory must be clearly visible behind the giant with CRISPR equipment. Background lab is desaturated black-and-white, the giant and the red liquid in test tubes are in vivid color. Right 30% must be clean dark negative space for text overlay."
+  }
+}

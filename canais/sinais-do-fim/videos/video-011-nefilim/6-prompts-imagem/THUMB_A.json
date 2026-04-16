@@ -1,0 +1,63 @@
+{
+  "scene_title": "THUMB A — DNA DE DEUS",
+  "shot": {
+    "type": "medium wide",
+    "camera_angle": "low angle heroic",
+    "focal_length_mm": "35",
+    "aperture": "f/2.8",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a towering ancient Nephilim giant warrior in vivid crimson and gold plate armor with glowing amber eyes, standing tall with six fingers clearly visible on each hand, holding a broken double helix DNA strand that emits brilliant golden divine light between his massive hands",
+    "secondary": "the giant emanates ancient power, his armor etched with Sumerian cuneiform patterns, his face partially hidden in dramatic shadow",
+    "focal_point": "the glowing DNA double helix breaking apart in his six-fingered hands",
+    "props": ["floating ash embers", "divine golden particles", "broken DNA fragments falling"]
+  },
+  "environment": {
+    "location": "a dark modern genetics laboratory with CRISPR equipment, petri dishes and microscopes rendered entirely in desaturated black-and-white behind the colorful giant",
+    "time_of_day": "perpetual darkness with overhead divine spotlight",
+    "atmosphere": "apocalyptic tension between ancient biblical power and cold modern science"
+  },
+  "composition": {
+    "rule": "subject occupies left 70 percent of frame, right 30 percent left as clean dark negative space for text overlay",
+    "foreground": "Nephilim giant in rich warm tones — crimson armor, gold trim, amber glow from DNA",
+    "midground": "broken DNA helix emitting golden sparks",
+    "background": "desaturated black-and-white laboratory equipment, cold and clinical"
+  },
+  "lighting": {
+    "key_light": "powerful overhead divine beam illuminating the DNA and the giant face from above",
+    "fill_light": "warm amber bounce from the DNA helix onto the armor",
+    "rim_light": "cold blue-white edge light from the laboratory behind",
+    "shadow_quality": "deep chiaroscuro, Caravaggio-inspired, heavy contrast",
+    "mood": "sacred horror meets scientific transgression"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T with heavy grain",
+    "post_processing": "high contrast, desaturated background, rich saturated foreground, film grain, anamorphic lens flare",
+    "texture_detail": "hyper-detailed armor engravings, visible DNA molecular structure, dust particles in light beams"
+  },
+  "mood": {
+    "emotion": "awe mixed with dread — divine power confronting human hubris",
+    "tension": "9/10"
+  },
+  "symbolism": {
+    "primary": "the forbidden knowledge of Genesis 6 — angelic DNA that God destroyed in the Flood, now recreated by human science"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic documentary photography",
+    "clean surface without any visible text or watermarks",
+    "anonymous figure without recognizable facial features, face hidden in dramatic shadow",
+    "period-accurate ancient warrior aesthetic combined with photorealistic laboratory",
+    "tack-sharp focus on the DNA helix focal point",
+    "naturalistic color grading with warm foreground and cold monochrome background"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail image. The giant MUST have exactly SIX fingers on each visible hand. The right 30% of the frame must be relatively clean dark space for text overlay. The DNA double helix must glow with golden divine light. Laboratory background must be completely desaturated black-and-white while the giant is in rich warm colors."
+  }
+}

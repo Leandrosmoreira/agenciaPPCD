@@ -1,0 +1,20 @@
+{
+  "id": "video-015_PARTE2_Q18",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tel Aviv em chamas",
+  "narrative_beat": "Wide de edificios P&B com ceu em chamas, vela judaica quebrada no chao",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-015-economist-manipulacao", "parte_suno": 2, "quadro": "Q18", "ato": "Historico de Acertos"},
+  "style_reference": {"primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png", "weight": 0.85, "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"], "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"},
+  "shot": {"type": "wide", "camera_angle": "low angle", "focal_length_mm": 24, "aperture": "f/5.6", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {"primary": "a broken Shabbat candle lying on the ground over a Star of David mosaic, in rich warm tones, with a burning cityscape in the background", "focal_point": "the broken candle with its flame still flickering on the ground", "secondary": "City buildings burning in the distance. Fiery sky overhead.", "props": ["broken Shabbat candle with flickering flame", "Star of David floor mosaic", "burning city buildings", "fiery sky"]},
+  "environment": {"location": "a city plaza with modernist architecture", "time_of_day": "night with fire illumination", "atmosphere": "mourning, atrocity, devastation"},
+  "composition": {"rule": "rule of thirds", "foreground": "broken candle and Star of David in warm rich gold and crimson", "background": "desaturated black-and-white burning buildings and fiery sky", "safe_zone_for_overlay": "lower 20% of frame"},
+  "lighting": {"key_light": "fire glow from burning city casting warm light", "fill_light": "amber from candle flame", "rim_light": "gold edge on mosaic tiles", "mood": "devastation firelight", "shadow_quality": "deep hard-edged Caravaggio shadows"},
+  "style": {"film_stock": "Kodak Portra 800 pushed two stops", "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares", "texture_detail": "35mm film grain, dust particles, floating orange embers"},
+  "mood": {"emotion": "mourning, horror, atrocity", "tension": "absolute"},
+  "symbolism": {"primary": "the attack on sacred ground — innocence destroyed", "secondary": "broken candle as extinguished peace"},
+  "negative_as_positive": ["clean frame without visible text or watermarks", "photorealistic documentary cinematography, not illustrated or cartoon", "analog film photography aesthetic, no digital art flatness", "muted desaturated background palette, warm saturated foreground only", "tack-sharp focus on primary subject"],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {"multimodal_inputs": [{"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."}, {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}]}
+}

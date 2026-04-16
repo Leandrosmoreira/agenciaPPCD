@@ -1,0 +1,20 @@
+{
+  "id": "video-015_PARTE2_Q16",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tanque sobre mapa",
+  "narrative_beat": "Medium overhead tanque sobre mapa Europa Oriental com explosoes P&B",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-015-economist-manipulacao", "parte_suno": 2, "quadro": "Q16", "ato": "Historico de Acertos"},
+  "style_reference": {"primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png", "weight": 0.85, "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"], "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"},
+  "shot": {"type": "medium", "camera_angle": "high angle", "focal_length_mm": 50, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {"primary": "a dark steel military tank model positioned on an antique map of Eastern Europe, with small explosion effects painted in oil around it", "focal_point": "the tank barrel pointing toward Ukraine on the map", "secondary": "An ancient Bible parchment scroll in warm tones visible at the lower-right corner.", "props": ["dark steel tank model", "antique Eastern Europe map", "painted oil explosion effects", "Bible parchment scroll in corner"]},
+  "environment": {"location": "a war room table with maps spread", "time_of_day": "overhead military lamp lighting", "atmosphere": "invasion, military aggression"},
+  "composition": {"rule": "rule of thirds", "foreground": "tank and explosions in rich warm tones — amber fire, dark steel with warm reflections", "background": "desaturated black-and-white map paper and table edges", "safe_zone_for_overlay": "lower 20% of frame"},
+  "lighting": {"key_light": "harsh overhead military desk lamp", "fill_light": "amber explosion glow from map surface", "rim_light": "gold on edges", "mood": "chiaroscuro apocalyptic", "shadow_quality": "deep hard-edged Caravaggio shadows"},
+  "style": {"film_stock": "Kodak Portra 800 pushed two stops", "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares", "texture_detail": "35mm film grain, dust particles, floating orange embers"},
+  "mood": {"emotion": "invasion, violation of sovereignty", "tension": "absolute"},
+  "symbolism": {"primary": "war as chess move on the world map", "secondary": "Bible as silent witness to human violence"},
+  "negative_as_positive": ["clean frame without visible text or watermarks", "photorealistic documentary cinematography, not illustrated or cartoon", "analog film photography aesthetic, no digital art flatness", "muted desaturated background palette, warm saturated foreground only", "tack-sharp focus on primary subject"],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {"multimodal_inputs": [{"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."}, {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}]}
+}

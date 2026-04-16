@@ -1,0 +1,20 @@
+{
+  "id": "video-015_PARTE2_Q17",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Caveira nuclear",
+  "narrative_beat": "Close caveira de prata em altar com simbolos nucleares radiais, brasas intensas",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-015-economist-manipulacao", "parte_suno": 2, "quadro": "Q17", "ato": "Historico de Acertos"},
+  "style_reference": {"primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png", "weight": 0.85, "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"], "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"},
+  "shot": {"type": "close-up", "camera_angle": "straight-on", "focal_length_mm": 85, "aperture": "f/2.0", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {"primary": "a polished silver human skull on a black stone altar, surrounded by radial nuclear hazard symbols etched in crimson and gold", "focal_point": "the empty eye sockets of the skull reflecting red light", "secondary": "Intense floating embers and sparks around the skull.", "props": ["polished silver skull", "black stone altar", "radial nuclear symbols in crimson and gold", "intense floating embers"]},
+  "environment": {"location": "a dark ritual chamber", "time_of_day": "pulsing red light from unseen source", "atmosphere": "death, annihilation, nuclear dread"},
+  "composition": {"rule": "centered symmetry", "foreground": "silver skull and nuclear symbols in vivid crimson and gold", "background": "pure black void", "safe_zone_for_overlay": "lower 20% of frame"},
+  "lighting": {"key_light": "pulsing crimson light from below and behind", "fill_light": "faint gold from embers", "rim_light": "silver edge highlights on skull contours", "mood": "crimson nuclear ritual", "shadow_quality": "deep hard-edged Caravaggio shadows"},
+  "style": {"film_stock": "Kodak Portra 800 pushed two stops", "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares", "texture_detail": "35mm film grain, dust particles, floating orange embers"},
+  "mood": {"emotion": "death, extinction-level dread", "tension": "absolute"},
+  "symbolism": {"primary": "nuclear war as the final horseman", "secondary": "skull as humanity's epitaph"},
+  "negative_as_positive": ["clean frame without visible text or watermarks", "photorealistic documentary cinematography, not illustrated or cartoon", "analog film photography aesthetic, no digital art flatness", "muted desaturated background palette, warm saturated foreground only", "tack-sharp focus on primary subject"],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {"multimodal_inputs": [{"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."}, {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}]}
+}

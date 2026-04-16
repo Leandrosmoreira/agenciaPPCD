@@ -71,6 +71,56 @@ Bem-vindo a Sinais do Fim. Hoje falamos sobre Armagedom.
 
 ---
 
+## Tags Dinâmicas Avançadas (inline)
+
+**Uso:** inserir IMEDIATAMENTE ACIMA da linha onde a mudança deve ocorrer. Permitem controlar a entrega de **uma frase específica**, não o bloco inteiro. Suno obedece por linha.
+
+### Estrutura de áudio (abrem/fecham seções)
+| Tag | Uso |
+|-----|-----|
+| `[Intro]` | Abertura do áudio — pode combinar: `[Intro: silencio]`, `[Intro: som de chuva]` |
+| `[Interlude]` | Transição instrumental entre seções de texto |
+| `[Break]` | Pausa seca com trilha segurando — mais cirúrgica que `[pausa Xs]` |
+| `[Outro]` | Marca o fechamento antes da última frase |
+| `[Fade Out]` | Garante encerramento suave — evita corte abrupto do Suno |
+
+### Manipulação vocal por frase
+| Tag | Uso |
+|-----|-----|
+| `[Spoken word]` | Força texto FALADO (não cantado) — reforçar em partes sensíveis |
+| `[Whispered vocals]` | Entrega sussurrada, intimista — usar em versículos, revelações, frases de impacto |
+| `[Soft-spoken]` | Locução suave, gentil — usar em passagens contemplativas |
+| `[Building intensity]` | Voz sobe progressivamente em força e volume — clímax, acusações |
+| `[Fading vocals]` | Voz diminui gradualmente — encerramento de seção, suspense |
+
+### Exemplo de uso combinado (Sinais do Fim)
+```
+[Spoken word]
+[Soft-spoken]
+Há dois mil anos um profeta escreveu sobre este momento exato.
+
+[Break]
+
+[Whispered vocals]
+"E a Besta fala como dragão."
+
+[Building intensity]
+E hoje — AGORA — essa profecia está se cumprindo diante dos seus olhos.
+
+[Outro]
+[Fading vocals]
+O tempo está acabando.
+```
+
+### Regras das tags dinâmicas
+1. **SEMPRE** na linha IMEDIATAMENTE acima do texto alvo (não no meio)
+2. **Máximo 3 palavras** dentro dos colchetes
+3. **Combine livremente:** `[Spoken word]` + `[Whispered vocals]` na mesma frase funciona
+4. **NÃO substituem** o header `[Voice:]/[Background:]/[Style:]` — complementam
+5. Usar com moderação: **3-5 mudanças dinâmicas por parte** (excesso confunde a IA)
+
+---
+
 ## Regras de Formatação
 
 **TODAS as partes (1, 2, 3, N):**
@@ -142,6 +192,27 @@ Background music LOW but present — dark cinematic suspense with pulse. Deep el
 
 middle tempo narration, clipped sentences, forward momentum. Short dramatic pauses. Prophetic urgency. Spoken word, crystal clear diction, full powerful voice. Brazilian Portuguese.
 ```
+
+### Regra de Ouro do Style Prompt (otimização)
+
+Para novos canais ou quando houver degradação de qualidade no Suno, aplicar:
+- **4 a 7 descritores** claros (não mais)
+- **120 a 200 caracteres** no bloco `[Style:]` (não mais)
+- Excesso de detalhes confunde a IA e reduz consistência
+
+**Exemplo compacto (~180 chars):**
+```
+middle-paced documentary thriller, prophetic urgency, sharp dramatic beats, forward momentum, Brazilian Portuguese, spoken word, no singing, no whispering
+```
+
+### Negative Prompt (campo separado — opcional no Suno UI)
+
+Quando o Suno oferecer campo "Exclude Styles" ou "Negative", preencher com:
+```
+singing, whispered ASMR, autotune, chorus, refrain, instrumental only, children voice, robotic voice, reverb overload
+```
+
+Isso evita que o Suno tente cantar, sussurrar como ASMR ou mixar coros inesperados.
 
 ---
 

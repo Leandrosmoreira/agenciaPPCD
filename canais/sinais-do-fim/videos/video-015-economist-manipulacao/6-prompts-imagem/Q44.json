@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE4_Q44",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Biblia aberta no atril",
+  "narrative_beat": "Wide Biblia antiga aberta com feixe celestial dourado descendo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 4,
+    "quadro": "Q44",
+    "ato": "Grafico Despencando + Bonds"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a large ancient leather-bound Bible open on an ornate wooden lectern, illuminated by a descending beam of celestial golden light from a cracked chapel ceiling, pages glowing with warmth",
+    "focal_point": "the open Bible pages catching the divine light beam",
+    "secondary": "Floating embers in the light beam. Chapel in monochrome around.",
+    "props": ["ancient leather Bible", "ornate wooden lectern", "celestial golden light beam", "floating embers", "cracked chapel ceiling"]
+  },
+  "environment": {
+    "location": "a ruined stone chapel",
+    "time_of_day": "divine light from above, no natural time",
+    "atmosphere": "sacred reverence, the Scripture speaks"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "Bible and lectern in warm rich golden and amber tones",
+    "background": "desaturated black-and-white ruined chapel interior",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "celestial golden beam from directly above",
+    "fill_light": "warm amber from glowing pages",
+    "rim_light": "gold edge on Bible spine and lectern carvings",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred reverence, the word of God illuminated",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "the Bible as the original source — Revelation chapter 18",
+    "secondary": "divine light as God speaking through the text"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}
