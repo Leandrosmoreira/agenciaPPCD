@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE9_Q98",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Olho com Cidade em Chamas",
+  "narrative_beat": "Close-up extremo de um unico olho aberto ocupando 80% do frame, pupila refletindo cidade em chamas, foreground cores ricas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q98",
+    "ato": "Fechamento: Testemunha Consciente"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 150,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a single human eye in extreme macro filling 80% of the frame, iris rich amber-gold with crimson veins, the pupil dilated and reflecting a tiny detailed burning city skyline with orange flames and smoke columns visible in the glossy corneal reflection, eyelashes sharp and detailed, skin around the eye lit warm amber",
+    "focal_point": "the burning city reflected in the pupil",
+    "secondary": "visible skin pores and fine wrinkles around the eye, a single tear forming at the lower lid",
+    "props": ["single human eye in macro", "amber-gold iris", "burning city reflection in pupil", "tear forming at lower lid", "detailed eyelashes"]
+  },
+  "environment": {
+    "location": "extreme macro — the eye IS the environment",
+    "time_of_day": "lit by the fire reflected in the eye",
+    "atmosphere": "final witness, you now carry the knowledge"
+  },
+  "composition": {
+    "rule": "dead-centered",
+    "foreground": "the eye filling the frame in warm amber, gold, and crimson tones",
+    "midground": "skin texture and eyelashes",
+    "background": "desaturated black-and-white darkness at the extreme edges of frame",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber fire glow reflecting off the cornea from the burning city",
+    "fill_light": "faint gold illumination on the iris from the flames",
+    "rim_light": "gold highlight along the upper eyelid and lash line",
+    "mood": "chiaroscuro intimate macro",
+    "shadow_quality": "deep shadows in the eye socket and around the orbital bone"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation around the fire reflection, crushed blacks, amber highlights, subtle anamorphic flare in corneal reflection",
+    "texture_detail": "35mm film grain, individual eyelash hairs, iris fiber detail, visible corneal reflection of burning city, skin pore texture"
+  },
+  "mood": {
+    "emotion": "you are now a conscious witness — you cannot unsee this",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "the eye as the final receiver of truth — the burning city is already inside you",
+    "secondary": "the forming tear as the cost of knowledge"
+  },
+  "negative_as_positive": [
+    "anonymous eye with no identifiable facial features beyond the eye itself",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated edges, vivid warm tones concentrated on the iris and reflection",
+    "tack-sharp focus on iris texture and pupil reflection"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

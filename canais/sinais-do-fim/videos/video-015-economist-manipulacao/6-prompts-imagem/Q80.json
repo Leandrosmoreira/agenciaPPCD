@@ -1,0 +1,100 @@
+{
+  "id": "video-015_PARTE7_Q80",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dez reis diante da besta",
+  "narrative_beat": "Medium dez figuras coroadas ajoelhadas diante de besta sombria",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 7,
+    "quadro": "Q80",
+    "ato": "Tese: Horario de Entrega"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "ten crowned figures in crimson and ochre royal robes kneeling in a row before a massive shadowy beast silhouette, its seven heads barely visible in the background darkness, a stone wall behind the beast bearing the verse inscription",
+    "focal_point": "the ten kneeling crowned figures in submission",
+    "secondary": "Massive beast silhouette behind in monochrome. Verse carved in stone wall behind beast.",
+    "props": ["ten crowned figures in crimson and ochre robes", "kneeling poses", "massive seven-headed beast silhouette", "stone wall with carved verse", "dark ceremonial hall"]
+  },
+  "environment": {
+    "location": "a vast dark ceremonial hall",
+    "time_of_day": "dim torchlight from walls",
+    "atmosphere": "prophetic submission, kings surrendering to the Beast"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "ten kings in vivid crimson, ochre and gold",
+    "midground": "shadowy beast silhouette in P&B",
+    "background": "desaturated black-and-white stone wall with verse inscription",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "torchlight from walls illuminating the kneeling kings",
+    "fill_light": "faint crimson from beast's eyes",
+    "rim_light": "gold on crowns",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "prophetic submission, the kings willingly surrender their power",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "Revelation 17:13 — they have one purpose and give their power to the Beast",
+    "secondary": "ten kings as modern power brokers bowing to a greater force"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Estes tem um mesmo intento, e entregarao o seu poder e autoridade a besta.",
+    "content_secondary": "Apocalipse 17:13",
+    "font_style": "carved stone serif, deep relief",
+    "medium": "etched in stone wall behind the kneeling kings",
+    "placement": "upper background behind the beast silhouette",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The text in quotes MUST be rendered exactly as written, letter by letter, in the specified font style. This is a Bible verse and accuracy is sacred."
+  }
+}

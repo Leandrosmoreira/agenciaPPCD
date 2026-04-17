@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE9_Q95",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mesa Familiar Brasileira — Compartilha",
+  "narrative_beat": "Wide de mesa de jantar familiar brasileira com Biblia aberta, celular passando de mao em mao, cores quentes, fundo P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q95",
+    "ato": "CTA: Compartilhamento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/3.5",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a warm Brazilian family dinner table with an open leather-bound Bible at the center, a smartphone being passed from one anonymous hand to another across the table, plates of food half-eaten, a crimson tablecloth with golden embroidery at edges",
+    "focal_point": "the smartphone being passed between two hands over the open Bible",
+    "secondary": "multiple anonymous hands and arms visible around the table edge, warm bread rolls, a clay water pitcher",
+    "props": ["open leather Bible", "smartphone mid-pass between hands", "crimson embroidered tablecloth", "dinner plates", "bread rolls", "clay pitcher", "candlestick"]
+  },
+  "environment": {
+    "location": "a modest Brazilian family dining room",
+    "time_of_day": "evening, warm candlelight and overhead lamp",
+    "atmosphere": "communal mission, sharing the message with your people"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "table surface with Bible, phone, and food in warm crimson, ochre, and amber tones",
+    "midground": "anonymous hands and arms around the table",
+    "background": "desaturated black-and-white simple house walls with a crucifix and family photo (blurred)",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber overhead lamp casting pool of light on table center",
+    "fill_light": "candlestick flame adding golden warmth",
+    "rim_light": "gold highlights on phone screen and Bible page edges",
+    "mood": "chiaroscuro intimate communal",
+    "shadow_quality": "soft warm shadows under table edges, deeper shadows at room walls"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares from candle",
+    "texture_detail": "35mm film grain, tablecloth weave visible, bread texture, leather Bible grain, floating orange embers from candle"
+  },
+  "mood": {
+    "emotion": "communal urgency, share this with your church group and your family",
+    "tension": "low"
+  },
+  "symbolism": {
+    "primary": "the message spreading hand-to-hand through the family unit",
+    "secondary": "open Bible as the foundation truth beneath the modern phone"
+  },
+  "negative_as_positive": [
+    "anonymous hands and arms only, no identifiable faces visible",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background walls, warm saturated table foreground only",
+    "tack-sharp focus on Bible and phone"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

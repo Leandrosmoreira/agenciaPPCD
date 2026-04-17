@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE7_Q81",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cosmograma dos dez simbolos",
+  "narrative_beat": "Overhead circulo perfeito com dez simbolos dourados e besta central",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 7,
+    "quadro": "Q81",
+    "ato": "Tese: Horario de Entrega"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a perfect golden circle viewed from above like a clock face, with ten distinct golden symbols arranged at each hour position: handcuffed cake, fist, brain-joystick, plunging graph, football-globe, tank, missile, syringe, robot, cracked gavel. At the exact center, a seven-headed beast rendered in blood-red crimson against a pure black background",
+    "focal_point": "the seven-headed beast at dead center",
+    "secondary": "Golden connecting lines between each symbol forming a decagon. Pure black background.",
+    "props": ["ten golden symbols in circle", "golden connecting decagon lines", "seven-headed crimson beast at center", "pure black background"]
+  },
+  "environment": {
+    "location": "abstract void — pure symbolic composition",
+    "time_of_day": "no natural light — symbols self-illuminated",
+    "atmosphere": "apocalyptic cosmogram, the complete cipher"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden symbols and crimson beast in vivid warm tones",
+    "background": "pure black void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden self-illumination from each symbol",
+    "fill_light": "crimson glow from the central beast",
+    "rim_light": "gold edge on connecting lines",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "the complete cipher decoded — ten horns, one Beast, one purpose",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "ten magazine symbols arranged like ten horns around the Beast — Revelation decoded",
+    "secondary": "clock arrangement as agenda with timeline"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

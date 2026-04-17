@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q84",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Rosto Brasileiro na Luz Vermelha",
+  "narrative_beat": "Close-up frontal de um homem brasileiro comum, suando, iluminado por luz vermelha lateral, convocacao pessoal",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q84",
+    "ato": "Chamado: Convocacao Pessoal"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/1.8",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a mature anonymous Brazilian man in his forties, sweat beading on his forehead and temples, eyes partially hidden in deep shadow, strong jaw clenched, crimson light casting across the left side of his face revealing pores and stubble",
+    "focal_point": "the sweat droplets on the forehead catching red light",
+    "secondary": "desaturated black-and-white living room furniture blurred behind him",
+    "props": ["sweat droplets", "anonymous male face in shadow", "crimson side light"]
+  },
+  "environment": {
+    "location": "a modest Brazilian living room",
+    "time_of_day": "night, single red lamp as only source",
+    "atmosphere": "personal confrontation, you are being addressed directly"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "face in warm crimson and amber tones filling 70% of frame",
+    "midground": "shoulder and collar barely visible",
+    "background": "desaturated black-and-white living room dissolving into darkness",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh crimson light from left at 90 degrees, raking across face",
+    "fill_light": "faint amber bounce from below chin",
+    "rim_light": "thin gold edge on right ear and jaw",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged, half the face in total darkness"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, visible skin pores and sweat, floating orange embers at edges"
+  },
+  "mood": {
+    "emotion": "personal summons, you cannot look away",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the everyman who must decide — this face is the viewer",
+    "secondary": "red light as warning, sweat as urgency"
+  },
+  "negative_as_positive": [
+    "anonymous silhouette-style face, features partially obscured in shadow, no identifiable real person",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on skin texture"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

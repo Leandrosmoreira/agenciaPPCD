@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q90",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Porta Celestial Fechando",
+  "narrative_beat": "Medium de porta celestial dourada se fechando lentamente, ultima sombra humana passando, feixe de luz reduzindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q90",
+    "ato": "Fechamento: Porta que se Fecha"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "low angle",
+    "focal_length_mm": 40,
+    "aperture": "f/2.8",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a colossal golden celestial gate with ornate filigree and embossed angel wings, slowly closing inward, the narrowing gap revealing blinding white-gold light beyond, a single dark human silhouette slipping through at the last moment",
+    "focal_point": "the silhouette passing through the narrowing gap of light",
+    "secondary": "golden dust cascading from the moving gate, light beam narrowing",
+    "props": ["golden celestial gate with angel filigree", "silhouette figure passing through", "blinding white-gold light beyond", "golden dust cascade"]
+  },
+  "environment": {
+    "location": "threshold between earthly darkness and divine radiance",
+    "time_of_day": "cosmic twilight, light only from beyond the gate",
+    "atmosphere": "final passage, the gate closes for the last time"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden gate surface with warm filigree detail",
+    "midground": "silhouette in the narrowing light gap",
+    "background": "blinding white-gold divine light with desaturated darkness framing it",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "blinding white-gold light from beyond the gate, diminishing",
+    "fill_light": "golden reflection off gate filigree",
+    "rim_light": "gold edge on the silhouette figure",
+    "mood": "chiaroscuro with fading divine light",
+    "shadow_quality": "deep hard shadows growing as gate closes"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "extreme halation, crushed blacks, amber highlights, anamorphic lens flares from diminishing gap",
+    "texture_detail": "35mm film grain, golden dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "final opportunity, the window is closing",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "the narrow gate of Matthew 7:13-14 — few find it, and it is closing",
+    "secondary": "the last silhouette as the remnant who made it through"
+  },
+  "negative_as_positive": [
+    "anonymous silhouette figure only, no identifiable facial features",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated surrounding darkness, warm saturated gate and light only",
+    "tack-sharp focus on silhouette and gate edge"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

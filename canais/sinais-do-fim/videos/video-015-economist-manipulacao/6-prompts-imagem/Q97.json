@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE9_Q97",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Profeta Medieval — Confissao Final",
+  "narrative_beat": "Wide frontal de profeta medieval estilo Joao em Patmos, bracos abertos, manto carmesim, olhos fechados em oracao, fundo P&B tempestuoso",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q97",
+    "ato": "Fechamento: Confissao Profetica"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 28,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medieval prophet figure in the style of John of Patmos, standing with both arms outstretched wide, wearing a flowing crimson and gold embroidered robe with ornate medieval patterns, eyes closed in fervent prayer, long grey beard, head slightly tilted back, occupying 60% of the frame",
+    "focal_point": "the outstretched arms and closed eyes in prayer",
+    "secondary": "golden aureola behind the prophet's head, floating crimson fabric caught in wind",
+    "props": ["crimson and gold medieval robe", "long grey beard", "golden aureola", "outstretched arms", "flowing fabric in wind"]
+  },
+  "environment": {
+    "location": "a rocky cliff edge overlooking the world",
+    "time_of_day": "storm twilight, dark clouds roiling",
+    "atmosphere": "prophetic proclamation, they admitted everything"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "prophet in vivid crimson, gold, and ochre dominating center frame",
+    "midground": "rocky cliff edge with floating embers",
+    "background": "desaturated black-and-white tempestuous sky with lightning and dark clouds",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine light from directly above, illuminating the prophet's face and robes",
+    "fill_light": "lightning flashes from the storm behind",
+    "rim_light": "gold edge on outstretched arms and robe hem",
+    "mood": "chiaroscuro prophetic",
+    "shadow_quality": "deep dramatic shadows beneath the prophet, long shadow on cliff"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation around divine light, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, robe fabric weave visible, beard hair detail, floating orange embers dense around figure"
+  },
+  "mood": {
+    "emotion": "prophetic climax, the confession is complete, the truth proclaimed",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "John of Patmos as the original whistleblower — they admitted everything",
+    "secondary": "outstretched arms as both surrender and proclamation"
+  },
+  "negative_as_positive": [
+    "anonymous prophetic figure with stylized medieval features, no identifiable real person",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated storm background, vivid crimson and gold foreground only",
+    "tack-sharp focus on prophet figure"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

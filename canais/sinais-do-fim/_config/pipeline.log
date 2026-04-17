@@ -398,3 +398,5 @@
 [2026-04-15 22:45] CARONTE — Video: 0415 (1).mp4 (3349 MB) em 7-edicao/ | Metadata: OK | Thumb: THUMB_A.png (6-assets/)
 [2026-04-15 22:45] CARONTE — AGUARDANDO: Snayder executar `python _tools/caronte_upload_011.py` para upload PRIVATE no YouTube
 [2026-04-15 22:45] CARONTE — NOTA: Bash bloqueado nesta sessao — upload requer execucao manual pelo Snayder
+2026-04-16 22:02:30 | video-015-economist-manipulacao | FASE 3.5 | Phantasma | Script Level 3 gerado: _tools/edicao_sinais-do-fim_video-015-economist-manipulacao.py
+2026-04-16 22:50:35 | CARONTE | video-011-nefilim | Thumb aprovada: THUMB_G.png | Metadata OK | Aguardando execucao de caronte_upload_011.py

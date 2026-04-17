@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q87",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tres Pergaminhos — Serie Anunciada",
+  "narrative_beat": "Wide de tres pergaminhos pendurados em varais de ouro com icones diferentes: revista, pomba de arrebatamento, cavalo vermelho",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q87",
+    "ato": "Fechamento: Serie de Tres"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "three large aged parchment scrolls hanging side by side from ornate golden rods suspended by golden chains, each scroll bearing a different ink illustration: the left scroll shows an open magazine with flames, the center scroll shows a white dove ascending through golden clouds, the right scroll shows a crimson warhorse rearing with a rider holding a sword",
+    "focal_point": "the center parchment with the ascending dove",
+    "secondary": "golden chains and rods catching candlelight, faint smoke rising between scrolls",
+    "props": ["three aged parchment scrolls", "golden hanging rods and chains", "ink illustrations of magazine, dove, warhorse", "floating smoke"]
+  },
+  "environment": {
+    "location": "a dark cathedral nave with stone pillars flanking the scrolls",
+    "time_of_day": "candlelit interior, warm glow from below",
+    "atmosphere": "prophetic roadmap revealed, the trilogy announced"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "three hanging scrolls in rich ochre and crimson tones evenly spaced",
+    "midground": "golden chains and rods against darkness",
+    "background": "desaturated black-and-white stone pillars and vaulted ceiling",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber uplighting from below illuminating the three scrolls",
+    "fill_light": "faint gold candlelight from sconces on pillars",
+    "rim_light": "gold edge on chains and rod connections",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged shadows behind each scroll"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, parchment fiber texture visible, floating orange embers between scrolls"
+  },
+  "mood": {
+    "emotion": "trilogy revealed, prophetic roadmap laid out",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "three videos, three prophecies, three stages of revelation",
+    "secondary": "scrolls as divine documentation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus across full depth of field"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

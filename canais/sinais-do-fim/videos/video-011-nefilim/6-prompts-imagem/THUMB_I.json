@@ -1,0 +1,63 @@
+{
+  "scene_title": "THUMB I — HOMEM GRITANDO COM GIGANTE ATRAS",
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "low angle looking up slightly",
+    "focal_length_mm": "50",
+    "aperture": "f/2.0",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a Brazilian man in his 50s, weathered face, intense dark eyes, mouth open in a silent scream of absolute horror and shock, both hands raised on either side of his face in the classic horror gesture, head tilted slightly back, every muscle in his face contracted in primal fear, veins visible on his neck and forehead from the intensity of terror, looking PAST the camera at something above and behind viewer",
+    "secondary": "directly behind the screaming man, towering and monstrous: a colossal ancient Nephilim warrior in weathered crimson and gold armor fills the ENTIRE BACKGROUND — the giant is SO LARGE that only his torso and face are visible, face partially in shadow with glowing amber eyes, his enormous hand with CLEARLY VISIBLE SIX FINGERS is held up beside the man, making the man look like a child by comparison. The giant holds a glowing DNA double helix in his six-fingered hand",
+    "focal_point": "the screaming man's face — tack sharp — with the enormous Nephilim looming directly behind him",
+    "props": ["fire and embers surrounding both figures", "glowing DNA helix in giant six-fingered hand", "ash particles", "ancient stone texture on giant armor"]
+  },
+  "environment": {
+    "location": "dramatic dark void with suggestion of ancient ruins and modern laboratory merged — stone arches mixed with glass and steel in the deep blur",
+    "time_of_day": "supernatural darkness with dramatic fire-orange and crimson illumination",
+    "atmosphere": "scale horror — the overwhelming physical impossibility of a being four times the size of a human being"
+  },
+  "composition": {
+    "rule": "screaming man centered slightly LEFT, fills center frame from shoulders to top of head, giant Nephilim fills entire background making man look tiny, RIGHT 30% is dark background space for text, 16:9 widescreen cinematic framing",
+    "foreground": "man's screaming face in natural warm skin tones, fire-orange light catching sweat",
+    "midground": "the giant's chest and six-fingered hand with DNA helix at same level as man's head — scale comparison",
+    "background": "pure darkness with the giant's face visible high above in shadow, amber glowing eyes looking down"
+  },
+  "lighting": {
+    "key_light": "dramatic fire-orange uplight from below illuminating the man's face from beneath — classic horror lighting",
+    "fill_light": "blood-red glow from the DNA helix held by the giant casting crimson on both figures",
+    "rim_light": "cold white rim separating both figures from the black background",
+    "shadow_quality": "extreme chiaroscuro — deep blacks with selective fire-orange and blood-red illumination",
+    "mood": "Lovecraftian scale horror — confronting something so massive and ancient that sanity breaks"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 200T pushed three stops — extreme grain, high contrast, fire-orange bias",
+    "post_processing": "hyper-detailed dual portrait — man's terror face + giant's ancient texture, fire-orange and blood-red color grade, extreme contrast cinematic grade",
+    "texture_detail": "every pore and wrinkle on the man's screaming face, ancient battle scars and weathered bronze skin on the Nephilim, individual DNA base pairs in the helix"
+  },
+  "mood": {
+    "emotion": "pure Lovecraftian cosmic horror — the scale of something that should not exist confronting a normal human being",
+    "tension": "10/10"
+  },
+  "symbolism": {
+    "primary": "2 Samuel 21:20 — the giant of Gath who had six fingers on each hand — now standing behind the modern man who thought giants were myth"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic cinematic documentary photography",
+    "clean surface without any visible text or watermarks",
+    "anonymous ordinary man without celebrity features",
+    "Nephilim giant with exactly SIX FINGERS clearly visible on the hand holding the DNA helix",
+    "dramatic scale contrast — man looks tiny next to the enormous ancient giant",
+    "tack-sharp focus on the screaming face with shallow depth of field"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail 16:9. DUAL SUBJECT: a Brazilian man in his 50s SCREAMING in absolute horror in the CENTER-LEFT of frame, AND a colossal ancient Nephilim warrior filling the ENTIRE BACKGROUND — so massive the man looks like a child. The giant MUST HAVE SIX FINGERS clearly visible on his hand holding a glowing DNA helix. The scale difference must be overwhelming — the giant's face is at the very top of frame, his hand at chest level of the screaming man. Fire-orange uplight on the man's screaming face. RIGHT 30% dark space for text. PHOTOREALISTIC — maximum emotional intensity, real human terror, ancient biblical giant."
+  }
+}

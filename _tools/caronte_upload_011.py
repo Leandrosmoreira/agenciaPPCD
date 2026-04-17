@@ -24,7 +24,7 @@ from caronte_sync_guard import validar_sync_adr008  # ADR-008
 # ──────────────────────────────────────────────────────────
 
 VIDEO_FILE    = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-011-nefilim\7-edicao\0415 (1).mp4'
-THUMB_FILE    = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-011-nefilim\6-assets\THUMB_A.png'
+THUMB_FILE    = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-011-nefilim\6-assets\THUMB_G.png'
 METADATA_FILE = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-011-nefilim\8-publicacao\metadata.txt'
 STATUS_FILE   = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-011-nefilim\8-publicacao\status_upload.txt'
 LOG_FILE      = r'C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\_config\pipeline.log'

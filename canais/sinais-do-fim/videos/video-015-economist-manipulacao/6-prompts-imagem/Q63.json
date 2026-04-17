@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE5_Q63",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Trono vazio",
+  "narrative_beat": "Wide trono vazio com coroa dourada, robos e seringas gigantes em P&B ao redor",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 5,
+    "quadro": "Q63",
+    "ato": "Cerebro, Robos, Pharmakeia"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an empty ornate golden throne at the center of a dark hall, with a small golden crown resting on the seat, surrounded by oversized robot silhouettes and giant syringe shapes in monochrome flanking both sides",
+    "focal_point": "the golden crown resting on the empty throne seat",
+    "secondary": "Robot silhouettes and giant syringes in P&B flanking the throne.",
+    "props": ["ornate golden throne", "small golden crown on seat", "robot silhouettes in P&B", "giant syringe shapes in P&B", "dark ceremonial hall"]
+  },
+  "environment": {
+    "location": "a dark ceremonial throne hall",
+    "time_of_day": "single overhead spot on throne",
+    "atmosphere": "abdication of humanity, the throne abandoned"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden throne and crown in vivid warm tones",
+    "background": "desaturated black-and-white robots and syringes flanking the throne",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "single warm overhead spot illuminating only the throne",
+    "fill_light": "faint amber from below",
+    "rim_light": "gold reflection on throne armrests",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "abdication, humanity surrenders its throne",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the human no longer works, thinks or decides — machines and pills do it all",
+    "secondary": "empty throne as the place humanity vacated"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q88",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Porta Gotica Entreaberta",
+  "narrative_beat": "Close de porta gotica entreaberta com feixe de luz dourada fortissima escapando, escuridao ao redor",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q88",
+    "ato": "Fechamento: Rota de Fuga"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 50,
+    "aperture": "f/2.0",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a massive gothic arched door of dark aged oak with iron studs, cracked open approximately ten centimeters, an overwhelmingly intense beam of pure golden-white divine light bursting through the gap, dust and embers swirling in the light shaft",
+    "focal_point": "the narrow gap of blinding golden light between door and frame",
+    "secondary": "iron hinges with verdigris patina, stone doorframe with carved crosses",
+    "props": ["gothic oak door with iron studs", "blinding golden light beam", "stone carved doorframe", "swirling dust and embers"]
+  },
+  "environment": {
+    "location": "a pitch-black stone corridor leading to the door",
+    "time_of_day": "absolute darkness except for the door light",
+    "atmosphere": "escape route revealed, hope beyond the threshold"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "the door gap with intense golden-white light in warm tones",
+    "midground": "dark oak door surface with iron details",
+    "background": "pitch black corridor walls, completely desaturated",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "blinding golden-white light from beyond the door, spilling through the gap",
+    "fill_light": "reflected gold bouncing off stone floor near the gap",
+    "rim_light": "gold edge on door edge and iron studs",
+    "mood": "chiaroscuro with divine light breakthrough",
+    "shadow_quality": "absolute darkness everywhere except the light shaft"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "extreme halation around light source, crushed blacks, amber highlights, anamorphic lens flares radiating from gap",
+    "texture_detail": "35mm film grain, dust particles dense in light beam, floating orange embers"
+  },
+  "mood": {
+    "emotion": "hope, escape, the route exists but the door is closing",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "the narrow door of salvation — still open, barely",
+    "secondary": "divine light as the promise beyond judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on the light gap"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

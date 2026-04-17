@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE9_Q93",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Sino Dourado — Alarme Sagrado",
+  "narrative_beat": "Close de sino antigo dourado com badalo balancando, luz dourada pulsante",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q93",
+    "ato": "CTA: Sininho"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "low angle",
+    "focal_length_mm": 60,
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a large antique bronze-gold church bell hanging from a dark oak crossbeam, the clapper swinging and just striking the interior rim, visible vibration ripples in the metal, warm golden light pulsing outward from the point of impact",
+    "focal_point": "the clapper striking the bell rim with golden light pulse",
+    "secondary": "oak crossbeam with iron brackets, rope trailing down",
+    "props": ["antique bronze-gold church bell", "swinging clapper mid-strike", "dark oak crossbeam", "iron mounting brackets", "bell rope"]
+  },
+  "environment": {
+    "location": "a dark bell tower interior with stone walls",
+    "time_of_day": "dim interior, light from the bell glow only",
+    "atmosphere": "sacred alarm, the bell rings for the last time"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden bell dominating center frame in rich warm tones",
+    "midground": "oak beam and iron brackets",
+    "background": "desaturated black-and-white stone tower walls fading upward into darkness",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm golden pulse radiating from the clapper strike point",
+    "fill_light": "amber reflected light bouncing off stone walls",
+    "rim_light": "gold edge on the bell rim and rope",
+    "mood": "chiaroscuro sacred",
+    "shadow_quality": "deep hard-edged shadows behind the bell"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation around bell glow, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, bronze patina and verdigris visible on bell surface, floating orange embers"
+  },
+  "mood": {
+    "emotion": "alarm, urgency, the notification bell as sacred warning",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "the church bell as original notification — activate the alarm before it is too late",
+    "secondary": "vibration ripples as the message spreading outward"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on bell surface and clapper"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

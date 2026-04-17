@@ -1,0 +1,99 @@
+{
+  "id": "video-015_PARTE9_Q94",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Teclado Celular — ARREBATAMENTO",
+  "narrative_beat": "Overhead de teclado de celular com letras formando ARREBATAMENTO em dourado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q94",
+    "ato": "CTA: Comentario"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a pair of hands holding a smartphone seen from directly above, the phone screen glowing warm amber displaying golden ornate serif letters spelling a sacred word, thumbs hovering over the touchscreen keyboard",
+    "focal_point": "the glowing golden letters on the phone screen",
+    "secondary": "the hands illuminated by the phone screen glow, dark surface beneath",
+    "props": ["smartphone with amber-glowing screen", "golden serif letters on screen", "pair of hands with thumbs over keyboard", "dark surface below"]
+  },
+  "environment": {
+    "location": "a dark surface — table or lap — seen from directly overhead",
+    "time_of_day": "night, phone screen as only light source",
+    "atmosphere": "ritual participation, the viewer types their covenant word"
+  },
+  "composition": {
+    "rule": "dead-centered",
+    "foreground": "phone screen in warm amber and gold glow dominating center",
+    "midground": "hands framing the phone",
+    "background": "desaturated black-and-white dark surface surrounding the phone",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber glow from phone screen illuminating hands from below",
+    "fill_light": "faint golden spill on surrounding surface",
+    "rim_light": "gold edge on finger joints and phone edges",
+    "mood": "chiaroscuro intimate digital",
+    "shadow_quality": "deep shadows surrounding the phone glow island"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation around screen glow, crushed blacks, amber highlights, subtle anamorphic flare",
+    "texture_detail": "35mm film grain, skin texture on hands, phone glass reflection, faint floating embers"
+  },
+  "mood": {
+    "emotion": "collective ritual, type the sacred word and become part of the remnant",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the comment as digital covenant — typing the word seals participation",
+    "secondary": "phone screen as modern scroll of testimony"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks except the styled golden letters on screen",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on screen and hands"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content_primary": "ARREBATAMENTO",
+    "content_secondary": "",
+    "medium": "glowing golden text on smartphone screen",
+    "font_style": "ornate classical serif with golden glow effect, engraved appearance",
+    "placement": "centered on phone screen in upper half of frame",
+    "legibility": "crisp and readable, high contrast against dark screen",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "critical_note_for_gemini": "The word ARREBATAMENTO must be spelled exactly and be fully legible on the phone screen. Use golden ornate serif font."
+  }
+}

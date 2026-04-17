@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q86",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cafe e Carta — Tempo Pessoal",
+  "narrative_beat": "Overhead de xicara de cafe fumegante ao lado de carta dobrada, luz dourada lateral, cozinha simples P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q86",
+    "ato": "Chamado: Tempo Pessoal"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "high angle",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a ceramic coffee cup with dark espresso steaming visibly, sitting on a worn wooden kitchen table next to a folded handwritten letter sealed with crimson wax, both items glowing in warm amber light from the left",
+    "focal_point": "the rising steam from the coffee cup catching golden light",
+    "secondary": "a weathered wooden spoon, crumbs of bread, edge of a simple tablecloth",
+    "props": ["ceramic coffee cup with steam", "folded wax-sealed letter", "worn wooden table", "breadcrumbs", "simple tablecloth edge"]
+  },
+  "environment": {
+    "location": "a humble Brazilian kitchen, simple tile counter visible at edge",
+    "time_of_day": "early morning, golden side light from a window",
+    "atmosphere": "intimate, domestic, the weight of decision in an ordinary moment"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "coffee cup and letter in warm amber and ochre tones",
+    "midground": "worn wooden table surface with grain visible",
+    "background": "desaturated black-and-white kitchen tiles and counter blurred at edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm golden side light from left, raking across table surface",
+    "fill_light": "faint amber glow from coffee liquid surface",
+    "rim_light": "gold highlight on cup rim and letter edge",
+    "mood": "chiaroscuro intimate",
+    "shadow_quality": "long soft shadows stretching right across the table"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, visible wood grain, steam wisps, faint floating embers"
+  },
+  "mood": {
+    "emotion": "eighty-five seconds is the time to drink a coffee — or make a decision",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "ordinary life intersecting with cosmic deadline",
+    "secondary": "sealed letter as unread prophecy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subjects"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

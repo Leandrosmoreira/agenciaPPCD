@@ -1,0 +1,99 @@
+{
+  "id": "video-015_PARTE4_Q46",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Babilonia em ruinas",
+  "narrative_beat": "Wide cidade imperial em ruinas, mulheres com vestes de purpura",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 4,
+    "quadro": "Q46",
+    "ato": "Grafico Despencando + Bonds"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a massive imperial Babylon-style city in ruins with flames everywhere, women in foreground wearing fine linen veils with purple and scarlet garments that are crumbling and tearing, molten gold flowing through the rubble",
+    "focal_point": "a crumbling stone wall bearing the Bible verse inscription",
+    "secondary": "Collapsing towers and temples behind in monochrome.",
+    "props": ["Babylon-style city in ruins", "women in purple and scarlet garments", "fine linen veils", "molten gold in rubble", "crumbling stone wall with verse"]
+  },
+  "environment": {
+    "location": "a destroyed imperial capital city",
+    "time_of_day": "apocalyptic dusk with fire illumination",
+    "atmosphere": "apocalyptic destruction, the great city fallen"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "women in vivid purple, scarlet and gold tones",
+    "background": "desaturated black-and-white ruined city skyline",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "fire glow from burning city",
+    "fill_light": "warm amber from molten gold in rubble",
+    "rim_light": "crimson edge on garments",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "apocalyptic, the fall of Babylon",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "Revelation 18:16 — the great city clothed in fine linen, purple and scarlet",
+    "secondary": "ruin of luxury as divine judgement"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Ai, ai daquela grande cidade, que estava vestida de linho fino, de purpura e de escarlata",
+    "content_secondary": "Apocalipse 18:16",
+    "font_style": "carved stone serif, weathered",
+    "medium": "etched into crumbling stone wall of ruins",
+    "placement": "center-left on the wall",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The text in quotes MUST be rendered exactly as written, letter by letter, in the specified font style. This is a Bible verse and accuracy is sacred."
+  }
+}

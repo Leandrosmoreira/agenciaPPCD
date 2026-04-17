@@ -1,0 +1,100 @@
+{
+  "id": "video-015_PARTE5_Q56",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Marca na testa e mao",
+  "narrative_beat": "Wide multidao medieval com marca de ouro na testa ou mao direita",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 5,
+    "quadro": "Q56",
+    "ato": "Cerebro, Robos, Pharmakeia"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 28,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a vast medieval crowd rendered in monochrome, with each figure displaying a glowing mark of golden fire on their forehead or right hand, one central figure in the foreground in rich vivid colors with the mark blazing brightest on their forehead",
+    "focal_point": "the blazing golden mark on the central figure's forehead",
+    "secondary": "A large parchment altar in the background bearing the verse text. Vast crowd stretching to horizon.",
+    "props": ["vast medieval crowd in monochrome", "glowing golden marks on foreheads and hands", "central figure in rich colors", "parchment altar with verse", "blazing forehead mark"]
+  },
+  "environment": {
+    "location": "a medieval city square",
+    "time_of_day": "overcast sky with golden divine light breaking through",
+    "atmosphere": "universal marking, the mark of the Beast"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "central figure in vivid crimson and gold with blazing mark",
+    "midground": "crowd in monochrome with golden marks",
+    "background": "desaturated black-and-white medieval city and parchment altar",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine golden light from above breaking through clouds",
+    "fill_light": "golden glow from marks on the crowd",
+    "rim_light": "gold edge on central figure",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "universal subjugation, the mark applied to all",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "Revelation 13:16 — the mark on forehead or right hand, applied to all",
+    "secondary": "golden fire mark as digital control made flesh"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "E faz que a todos, pequenos e grandes, ricos e pobres, livres e servos, lhes seja posto um sinal na mao direita, ou na testa.",
+    "content_secondary": "Apocalipse 13:16",
+    "font_style": "ancient gothic calligraphy in gold ink on aged parchment",
+    "medium": "inscribed on large parchment scroll on altar behind crowd",
+    "placement": "upper third of frame on the altar",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The text in quotes MUST be rendered exactly as written, letter by letter, in the specified font style. This is a Bible verse and accuracy is sacred."
+  }
+}

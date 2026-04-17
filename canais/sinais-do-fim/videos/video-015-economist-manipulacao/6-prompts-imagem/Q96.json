@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE9_Q96",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Revista Fechada — Ultimo Alerta",
+  "narrative_beat": "Close-up de revista analoga fechada sobre mesa, luz rasante vermelho-sangue, brasas flutuando",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 9,
+    "quadro": "Q96",
+    "ato": "CTA: Ultimo Alerta"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 60,
+    "aperture": "f/2.0",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an unmarked leather-bound magazine lying closed on a dark polished wooden desk, its cover smooth and deep burgundy with no visible title or logo, harsh blood-red light raking across its surface from the right side, dense floating orange embers and ash particles surrounding it",
+    "focal_point": "the glossy burgundy magazine cover catching blood-red light",
+    "secondary": "polished dark wood desk surface with faint scratches, ash settling",
+    "props": ["unmarked burgundy leather magazine", "polished dark wooden desk", "dense floating orange embers and ash", "blood-red side light"]
+  },
+  "environment": {
+    "location": "a dark study desk",
+    "time_of_day": "deep night, single blood-red light from right",
+    "atmosphere": "final warning, the object itself is the evidence"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "burgundy magazine in rich crimson tones occupying center-left",
+    "midground": "desk surface with embers settling",
+    "background": "desaturated black-and-white darkness beyond desk edge",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh blood-red light from right at low angle, raking across magazine surface",
+    "fill_light": "faint amber glow from floating embers",
+    "rim_light": "crimson edge on magazine spine",
+    "mood": "chiaroscuro ominous",
+    "shadow_quality": "deep hard-edged shadow on the left side of the magazine"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, leather texture visible on magazine cover, dense floating orange embers"
+  },
+  "mood": {
+    "emotion": "final accusation, this is not just a magazine",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the closed magazine as sealed evidence — the case is built",
+    "secondary": "blood-red light as the true color of its contents"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text, logos, or brand marks on the magazine",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on magazine surface texture"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

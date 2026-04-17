@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE7_Q74",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Linha do tempo em pedra",
+  "narrative_beat": "Wide linha do tempo gravada em pedra com marcos iluminados",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 7,
+    "quadro": "Q74",
+    "ato": "Tese: Horario de Entrega"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a horizontal timeline carved into a massive stone wall, with four dates marked by golden glowing points: 10NOV, 15NOV, 17MAR, and one future point still dark, connected by an engraved gold line",
+    "focal_point": "the golden glowing date markers along the timeline",
+    "secondary": "City skyline in monochrome behind the stone wall.",
+    "props": ["massive stone wall", "carved timeline with golden date points", "engraved gold connecting line", "dark future point", "city skyline in P&B"]
+  },
+  "environment": {
+    "location": "a monumental stone wall in a city plaza",
+    "time_of_day": "golden hour lateral light",
+    "atmosphere": "fateful chronology, dates that matter"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "golden date points and carved timeline in warm tones",
+    "background": "desaturated black-and-white city skyline",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden hour lateral light illuminating the stone wall",
+    "fill_light": "warm glow from date points",
+    "rim_light": "gold edge on subject contours",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "chronological fatality, dates written in stone",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "the timeline of events — publication, sale, exit — all planned",
+    "secondary": "stone carving as permanence of the plan"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

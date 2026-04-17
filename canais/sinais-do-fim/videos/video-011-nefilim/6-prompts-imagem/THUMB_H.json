@@ -1,0 +1,62 @@
+{
+  "scene_title": "THUMB H — MULHER CHORANDO COM DNA",
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight on intimate",
+    "focal_length_mm": "100",
+    "aperture": "f/1.8",
+    "depth_of_field": "razor-thin shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a Brazilian woman in her 40s, religious and devout looking, wearing dark clothes, face in profound anguished despair and crying — real tears streaming down her cheeks, red swollen eyes, expression of someone who has just received devastating news, hands raised slightly in gesture of disbelief, staring directly into the camera lens with raw desperate grief and terror",
+    "secondary": "surrounding her on BOTH SIDES: a spectacular golden glowing DNA double helix that spirals upward and outward from behind her, the helix pulses with divine light alternating between deep blood-red and brilliant gold — ancient Sumerian cuneiform symbols faintly visible within the helix strands. In the far background, barely visible: enormous ancient stone warrior hands with SIX FINGERS reaching down from darkness above",
+    "focal_point": "the woman's face — tear-streaked, red eyes, absolute despair expression",
+    "props": ["floating golden DNA fragments", "ash and ember particles falling like tears", "divine light beams from above", "ancient cuneiform symbols in the air"]
+  },
+  "environment": {
+    "location": "abstract sacred dark space — a void between the ancient and the modern, suggesting both a cathedral and a laboratory simultaneously",
+    "time_of_day": "eternal darkness split by divine light",
+    "atmosphere": "sacred grief — the horror of discovering that God destroyed something He created, and humanity recreated it in 2018"
+  },
+  "composition": {
+    "rule": "woman face centered slightly RIGHT of center, DNA helix frames both sides, clean dark space on LEFT 30% for text overlay, 16:9 widescreen cinematic framing",
+    "foreground": "crying woman face — warm skin tones, glistening tears, swollen red eyes",
+    "midground": "glowing DNA double helix in blood-red and gold wrapping around the scene",
+    "background": "pure black with enormous six-fingered stone hands descending from top darkness, barely visible"
+  },
+  "lighting": {
+    "key_light": "golden divine light from directly above illuminating the woman's tear-streaked face and the DNA helix",
+    "fill_light": "blood-red glow from the DNA helix reflecting on cheekbones and tears",
+    "rim_light": "cold silver-white edge light from behind separating figure from black background",
+    "shadow_quality": "Rembrandt lighting — deep dramatic shadows with golden teardrop highlights",
+    "mood": "sacred horror and grief — beauty in the terrible truth"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed — rich warm skin tones, elevated grain, romantic yet horrifying",
+    "post_processing": "hyper-detailed skin and tear texture, golden-red split tone color grade, macro-level detail on the tears on her face, cinematic depth",
+    "texture_detail": "individual tears catching golden DNA light, red capillaries in eyes visible, skin pores, DNA strand molecular detail"
+  },
+  "mood": {
+    "emotion": "devastating sacred grief — a believer confronting the forbidden knowledge that God destroyed in the Flood",
+    "tension": "9/10"
+  },
+  "symbolism": {
+    "primary": "Genesis 6 — the Nephilim bloodline that God destroyed is now recreated by CRISPR in 2018 — the mourning of humanity facing this truth"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic cinematic portrait photography",
+    "clean surface without any visible text or watermarks",
+    "anonymous ordinary woman without celebrity recognition",
+    "hyper-detailed facial expression with authentic tears and red swollen eyes",
+    "naturalistic skin tones with dramatic golden-red accent lighting"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail 16:9. The MAIN SUBJECT is a real-looking Brazilian woman in her 40s CRYING with absolute despair and grief — real tears on her face, red swollen eyes, desperate expression looking directly at camera. Surrounding her is a spectacular glowing DNA double helix in blood-red and gold light. In the distant background: enormous ancient SIX-FINGERED stone hands reaching down. LEFT 30% should be relatively clean dark space for text overlay. This is PHOTOREALISTIC portrait — maximum emotional intensity, authentic human grief. Every tear must be visible and catching the golden DNA light."
+  }
+}

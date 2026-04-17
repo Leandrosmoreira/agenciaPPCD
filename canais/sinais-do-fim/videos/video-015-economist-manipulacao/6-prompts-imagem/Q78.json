@@ -1,0 +1,95 @@
+{
+  "id": "video-015_PARTE7_Q78",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Rothschild sai / Smith entra",
+  "narrative_beat": "Split dramatico: silhueta feminina saindo, masculina entrando, mesa central",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 7,
+    "quadro": "Q78",
+    "ato": "Tese: Horario de Entrega"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a dramatic split-frame composition: LEFT half shows a female aristocratic silhouette in a flowing crimson cloak and small golden crown exiting through a Gothic archway to the left; RIGHT half shows a male silhouette in a dark Canadian suit and fedora entering through a Gothic archway on the right, carrying a briefcase with golden clasps. CENTER: an empty council table lit by a golden candelabrum with an open parchment scroll. Black-and-white checkered marble floor. Floating embers throughout.",
+    "focal_point": "the golden candelabrum and open parchment scroll at dead center of the table",
+    "secondary": "Both figures in rich warm silhouette tones against the Gothic archways. Empty council chamber in P&B.",
+    "props": ["female silhouette in crimson cloak with golden crown exiting left", "male silhouette in dark suit with fedora and golden-clasp briefcase entering right", "empty council table at center", "golden candelabrum", "open parchment scroll", "black-and-white checkered marble floor", "floating embers"]
+  },
+  "environment": {
+    "location": "a Gothic council chamber with two opposing archways",
+    "time_of_day": "candlelight from central candelabrum",
+    "atmosphere": "conspiratorial handoff, the changing of the guard"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "both silhouetted figures in rich warm crimson and dark tones",
+    "midground": "empty table with golden candelabrum and parchment",
+    "background": "desaturated black-and-white Gothic chamber architecture",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden candelabrum at center illuminating the table and scroll",
+    "fill_light": "warm amber bounce from checkered floor",
+    "rim_light": "crimson edge on female cloak, dark edge on male suit",
+    "mood": "golden candlelight center with dark contre-jour edges",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "conspiratorial transfer of power, the guard changes",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "Rothschild exits, Smith enters — the transfer of power at the Economist",
+    "secondary": "empty table and parchment as the deal already done"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "anonymous figure without recognizable facial features",
+    "silhouette or contre-jour lighting hiding identity",
+    "photorealistic anonymous aristocratic figure"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

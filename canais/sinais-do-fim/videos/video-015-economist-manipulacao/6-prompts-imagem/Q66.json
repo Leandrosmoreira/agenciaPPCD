@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE6_Q66",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Martelo rachado",
+  "narrative_beat": "Medium martelo de juiz dourado rachado ao meio sobre mesa de tribunal",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 6,
+    "quadro": "Q66",
+    "ato": "Misseis + Bilderberg"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 60,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a golden judge's gavel cracked in half lying on an empty Gothic tribunal desk, the two halves separated with a thin line of golden light between them",
+    "focal_point": "the fracture line between the two gavel halves emitting golden light",
+    "secondary": "Gothic arch above the empty bench. Dust motes in light beam.",
+    "props": ["cracked golden gavel in two halves", "golden light from fracture", "Gothic tribunal desk", "Gothic arch", "dust motes"]
+  },
+  "environment": {
+    "location": "a medieval Gothic courtroom",
+    "time_of_day": "dim torchlight from above",
+    "atmosphere": "justice broken, the law itself failed"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden gavel halves in warm vivid gold tones",
+    "background": "desaturated black-and-white Gothic courtroom architecture",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden light emanating from the gavel fracture",
+    "fill_light": "warm torchlight from above",
+    "rim_light": "gold edge on subject contours",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "justice broken, the system itself cracked",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the cracked gavel on the magazine — justice no longer functions",
+    "secondary": "golden light from the break as truth escaping failed institutions"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

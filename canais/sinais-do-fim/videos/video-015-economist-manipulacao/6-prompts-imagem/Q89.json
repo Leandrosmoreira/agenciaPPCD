@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q89",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Quatro Luas de Sangue",
+  "narrative_beat": "Wide epico de quatro luas cheias em tons de sangue carmesim alinhadas sobre horizonte de cidade em ruinas P&B, estrelas caindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q89",
+    "ato": "Fechamento: Luas de Sangue"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low angle",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "four enormous blood-red full moons aligned in a horizontal row across the sky, each moon a slightly different shade of deep crimson and burgundy, their surfaces textured with craters and veins of molten gold, casting a collective crimson glow downward",
+    "focal_point": "the four blood moons dominating the upper half of the frame",
+    "secondary": "falling stars trailing golden fire streaking diagonally across the sky between the moons",
+    "props": ["four blood-red moons", "falling golden stars", "crimson sky glow", "ruined cityscape silhouette"]
+  },
+  "environment": {
+    "location": "above a destroyed modern city skyline in ruins",
+    "time_of_day": "apocalyptic night, sky lit only by the four moons",
+    "atmosphere": "cosmic judgment, the tetrad is complete"
+  },
+  "composition": {
+    "rule": "dynamic asymmetric",
+    "foreground": "four blood moons in vivid crimson and gold dominating upper 60%",
+    "midground": "falling stars with golden fire trails",
+    "background": "desaturated black-and-white ruined city skyline along the bottom edge",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "crimson moonlight from four sources casting overlapping red shadows",
+    "fill_light": "golden glow from falling stars",
+    "rim_light": "gold and crimson edge light on ruined buildings below",
+    "mood": "chiaroscuro cosmic apocalyptic",
+    "shadow_quality": "deep multiple shadows from four light sources"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation around each moon, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, moon surface craters visible, floating orange embers in the sky"
+  },
+  "mood": {
+    "emotion": "apocalyptic lyric beauty, cosmic terror rendered sublime",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the four blood moons — Joel 2:31, Acts 2:20 — signs before the great and terrible day",
+    "secondary": "falling stars as the heavens declaring judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "desaturated monochrome cityscape below, vivid crimson and gold sky above",
+    "tack-sharp focus on moon surfaces and star trails"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

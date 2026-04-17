@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q85",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Altar das Quatro Provas",
+  "narrative_beat": "Wide composicional de quatro pecas sobre altar: pergaminho Rothschild, microfone Maria Ressa, revista Economist, relogio Doomsday",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q85",
+    "ato": "Chamado: Testemunhos Reunidos"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "four symbolic objects arranged on a long carved stone altar draped in crimson velvet: a rolled parchment sealed with red wax on the left, a vintage brass microphone second from left, an unmarked leather-bound magazine third, and an antique Doomsday clock on the far right showing 23:58:35",
+    "focal_point": "the four objects evenly spaced under individual spotlights",
+    "secondary": "crimson velvet drape with gold fringe, candelabra between objects",
+    "props": ["sealed parchment scroll", "vintage brass microphone", "unmarked leather magazine", "antique Doomsday clock", "crimson velvet altar cloth", "gold-fringed candelabra"]
+  },
+  "environment": {
+    "location": "a stone chapel with gothic arched ceiling",
+    "time_of_day": "candlelit interior, no natural light",
+    "atmosphere": "sacred evidence chamber, the four witnesses assembled"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "four illuminated objects in rich warm tones on crimson altar",
+    "midground": "stone altar surface and candelabra",
+    "background": "desaturated black-and-white gothic arches fading into darkness",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "four individual warm spotlights from above, one per object",
+    "fill_light": "candlelight glow from candelabra between objects",
+    "rim_light": "gold edge highlights on each object",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged shadows between the four pools of light"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers rising from candelabra"
+  },
+  "mood": {
+    "emotion": "solemn assembly, four testimonies converging",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "four independent witnesses all pointing to the same conclusion",
+    "secondary": "altar as sacred judgment table"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus across full depth of field"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

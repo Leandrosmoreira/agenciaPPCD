@@ -1,0 +1,92 @@
+{
+  "id": "video-015_PARTE6_Q73",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Revista como altar",
+  "narrative_beat": "Overhead panoramico da revista analoga em tela cheia iluminada como altar",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 6,
+    "quadro": "Q73",
+    "ato": "Misseis + Bilderberg"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead",
+    "focal_length_mm": 24,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a full-frame overhead view of an unbranded editorial magazine open to its center spread, with all ten symbols visible around its margins, illuminated like a sacred altar by warm golden light from above, occupying the entire frame",
+    "focal_point": "the center spread of the magazine as altar",
+    "secondary": "Ten symbols arrayed around the edges. Incense smoke wisps.",
+    "props": ["unbranded magazine center spread", "ten symbolic icons around margins", "warm golden altar light", "incense smoke wisps"]
+  },
+  "environment": {
+    "location": "viewed from directly above as if a sacred object on display",
+    "time_of_day": "divine golden light from above",
+    "atmosphere": "terminal synthesis, the complete revelation"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "illuminated magazine spread in vivid warm golden tones",
+    "background": "pure dark edges fading to black",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine golden light from directly above",
+    "fill_light": "warm glow from magazine pages",
+    "rim_light": "gold edge on subject contours",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "complete synthesis, everything revealed",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "the magazine as altar — all ten symbols, all five themes, one document",
+    "secondary": "overhead view as God's-eye perspective on human conspiracy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "unbranded publication without visible logo or trademark",
+    "generic editorial magazine without specific masthead"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

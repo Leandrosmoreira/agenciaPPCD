@@ -1,0 +1,91 @@
+{
+  "id": "video-015_PARTE8_Q91",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavalo Vermelho Galopando",
+  "narrative_beat": "Wide de cavalo vermelho apocaliptico galopando, manto carmesim, espada elevada, fundo P&B de batalha",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 8,
+    "quadro": "Q91",
+    "ato": "Fechamento: Segundo Selo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low angle",
+    "focal_length_mm": 28,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a massive crimson warhorse mid-gallop charging from left to right, muscles rippling under blood-red hide, an anonymous armored rider in flowing crimson and gold battle robes raising a great sword overhead with both hands, the blade catching fire-light",
+    "focal_point": "the raised flaming sword and the rider's crimson robes billowing",
+    "secondary": "the horse's hooves kicking up dust and embers, mane flying wild",
+    "props": ["crimson warhorse mid-gallop", "anonymous armored rider", "great sword raised overhead", "flowing crimson and gold battle robes", "dust and embers from hooves"]
+  },
+  "environment": {
+    "location": "a vast scorched battlefield stretching to the horizon",
+    "time_of_day": "blood-orange twilight with smoke-filled sky",
+    "atmosphere": "war unleashed, the second seal broken, violence riding forth"
+  },
+  "composition": {
+    "rule": "dynamic asymmetric",
+    "foreground": "horse and rider in vivid crimson, gold, and blood-red dominating left-center",
+    "midground": "dust cloud and flying embers",
+    "background": "desaturated black-and-white scorched battlefield, distant explosions, smoke columns",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "blood-orange fire glow from upper left illuminating rider and horse",
+    "fill_light": "crimson reflected light from the horse's hide",
+    "rim_light": "gold edge on sword blade and armor edges",
+    "mood": "chiaroscuro apocalyptic warfare",
+    "shadow_quality": "deep hard-edged shadows trailing behind the galloping horse"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares from sword glint",
+    "texture_detail": "35mm film grain, horse muscle texture, fabric weave visible on robes, floating orange embers dense in air"
+  },
+  "mood": {
+    "emotion": "war unleashed, punishment charging toward those who remain",
+    "tension": "absolute"
+  },
+  "symbolism": {
+    "primary": "the Red Horse of Revelation 6:4 — peace taken from the earth, war given",
+    "secondary": "the raised sword as divine mandate for conflict"
+  },
+  "negative_as_positive": [
+    "anonymous rider with face hidden by helmet shadow and motion blur",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated battlefield background, vivid crimson and gold foreground only",
+    "tack-sharp focus on horse and rider"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

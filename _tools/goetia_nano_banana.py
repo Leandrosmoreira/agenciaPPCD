@@ -9,6 +9,7 @@ Uso:
 """
 import argparse
 import base64
+import io
 import json
 import os
 import sys
@@ -16,6 +17,13 @@ import time
 from pathlib import Path
 
 import requests
+
+try:
+    from PIL import Image
+    import numpy as np
+    HAS_PIL = True
+except Exception:
+    HAS_PIL = False
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -35,10 +43,25 @@ def load_env(path: Path):
 load_env(ROOT / ".env")
 
 API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_FLASH = "gemini-2.5-flash-image"
-ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_FLASH}:generateContent"
-PRICE_PER_IMAGE_USD = 0.039  # 1290 tokens * $30/1M
+
+# Flash (padrao) e Pro (para quadros com texto critico / api_call_hints.model_override=pro)
+MODEL_FLASH = os.getenv("NANO_BANANA_FLASH_MODEL", "gemini-2.5-flash-image")
+MODEL_PRO = os.getenv("NANO_BANANA_PRO_MODEL", "gemini-3-pro-image-preview")
+
+ENDPOINT_TEMPLATE = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+# Precos oficiais Google (USD por imagem)
+PRICE_FLASH_USD = 0.039   # Nano Banana Flash: 1290 tokens * $30/1M
+PRICE_PRO_USD = 0.120     # Nano Banana Pro (estimativa conservadora)
+
 COST_LOG = ROOT / "_tools" / "nano_banana_costs.log"
+
+# Auto-crop: linhas com media de luminancia acima deste valor = letterbox branco
+CROP_WHITE_THRESHOLD = 240
+
+# Dimensoes alvo 16:9 (saida final de todos os quadros)
+TARGET_W = 1024
+TARGET_H = 576  # 1024 * 9 / 16 = 576
 
 
 def _shot_to_verb(shot_type: str) -> str:
@@ -270,6 +293,64 @@ def serialize_json_to_prompt(d: dict) -> str:
     return "\n\n".join(sections)
 
 
+def force_16x9(img_bytes: bytes, threshold: int = CROP_WHITE_THRESHOLD) -> tuple:
+    """Pipeline de normalizacao 16:9 em duas etapas:
+
+    1. Remove letterbox branco no topo/base (se existir)
+    2. Crop central para TARGET_W x TARGET_H (1024x576 = 16:9 exato)
+
+    Retorna (novos_bytes, (w, h), descricao_operacao).
+    """
+    if not HAS_PIL:
+        return img_bytes, (0, 0), "PIL indisponivel"
+
+    try:
+        img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+        arr = np.array(img)
+        orig_w, orig_h = img.size
+
+        # --- PASSO 1: remover letterbox branco ---
+        row_lum = arr.mean(axis=(1, 2))
+        top = 0
+        for i in range(orig_h):
+            if row_lum[i] < threshold:
+                top = i
+                break
+        bottom = orig_h
+        for i in range(orig_h - 1, -1, -1):
+            if row_lum[i] < threshold:
+                bottom = i + 1
+                break
+        cropped_px = top + (orig_h - bottom)
+        if cropped_px >= 16:
+            img = img.crop((0, top, orig_w, bottom))
+            op = f"letterbox removido ({cropped_px}px)"
+        else:
+            op = "sem letterbox"
+
+        # --- PASSO 2: crop central para 1024x576 ---
+        w, h = img.size
+        # Se menor que alvo, usa Lanczos para escalar (fallback raro)
+        if w < TARGET_W or h < TARGET_H:
+            scale = max(TARGET_W / w, TARGET_H / h)
+            img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+            w, h = img.size
+            op += f" | escalado para {w}x{h}"
+
+        left = (w - TARGET_W) // 2
+        top2 = (h - TARGET_H) // 2
+        img = img.crop((left, top2, left + TARGET_W, top2 + TARGET_H))
+        op += f" | crop central {TARGET_W}x{TARGET_H}"
+
+        buf = io.BytesIO()
+        img.save(buf, format="PNG", optimize=True)
+        return buf.getvalue(), img.size, op
+
+    except Exception as e:
+        print(f"[WARN] force_16x9 falhou: {e}", flush=True)
+        return img_bytes, (0, 0), f"ERRO: {e}"
+
+
 def download_style_ref(url: str):
     try:
         r = requests.get(url, timeout=30)
@@ -280,7 +361,7 @@ def download_style_ref(url: str):
         return None
 
 
-def call_gemini(prompt_text: str, sref_bytes, out_path: Path) -> bool:
+def call_gemini(prompt_text: str, sref_bytes, out_path: Path, model: str, do_crop: bool = True) -> bool:
     parts = []
     if sref_bytes:
         parts.append({
@@ -301,14 +382,20 @@ def call_gemini(prompt_text: str, sref_bytes, out_path: Path) -> bool:
         "x-goog-api-key": API_KEY,
     }
 
+    endpoint = ENDPOINT_TEMPLATE.format(model=model)
+
     try:
-        r = requests.post(ENDPOINT, headers=headers, json=body, timeout=120)
+        r = requests.post(endpoint, headers=headers, json=body, timeout=180)
     except Exception as e:
         print(f"[ERRO] Request falhou: {e}", flush=True)
         return False
 
     if r.status_code != 200:
-        print(f"[ERRO] HTTP {r.status_code}: {r.text[:500]}", flush=True)
+        print(f"[ERRO] HTTP {r.status_code} ({model}): {r.text[:500]}", flush=True)
+        # Fallback automatico: se Pro nao estiver disponivel, tenta Flash
+        if model != MODEL_FLASH and r.status_code in (400, 404):
+            print(f"[FALLBACK] Tentando {MODEL_FLASH}...", flush=True)
+            return call_gemini(prompt_text, sref_bytes, out_path, MODEL_FLASH, do_crop)
         return False
 
     data = r.json()
@@ -318,9 +405,15 @@ def call_gemini(prompt_text: str, sref_bytes, out_path: Path) -> bool:
             inline = part.get("inline_data") or part.get("inlineData")
             if inline and inline.get("data"):
                 img_bytes = base64.b64decode(inline["data"])
+                orig_size = len(img_bytes)
+
+                if do_crop:
+                    img_bytes, (w, h), op = force_16x9(img_bytes)
+                    print(f"[16:9] {op} -> {w}x{h}", flush=True)
+
                 out_path.parent.mkdir(parents=True, exist_ok=True)
                 out_path.write_bytes(img_bytes)
-                print(f"[OK] Salvo: {out_path} ({len(img_bytes)} bytes)", flush=True)
+                print(f"[OK] Salvo: {out_path} ({len(img_bytes)} bytes, modelo {model})", flush=True)
                 saved = True
                 break
             elif part.get("text"):
@@ -334,33 +427,45 @@ def call_gemini(prompt_text: str, sref_bytes, out_path: Path) -> bool:
     return saved
 
 
-def log_cost(canal: str, video: str, quadro: str, ok: bool):
+def log_cost(canal: str, video: str, quadro: str, model: str, price: float, ok: bool):
     COST_LOG.parent.mkdir(parents=True, exist_ok=True)
     ts = time.strftime("%Y-%m-%d %H:%M:%S")
     status = "OK" if ok else "FAIL"
-    line = f"{ts} | {canal} | {video} | {quadro} | {MODEL_FLASH} | ${PRICE_PER_IMAGE_USD:.4f} | {status}\n"
+    line = f"{ts} | {canal} | {video} | {quadro} | {model} | ${price:.4f} | {status}\n"
     with COST_LOG.open("a", encoding="utf-8") as f:
         f.write(line)
 
 
-def process_quadro(canal: str, video: str, quadro: str, dry_run: bool) -> bool:
+def pick_model(data: dict) -> tuple:
+    """Seleciona modelo baseado em api_call_hints.model_override. Retorna (model_id, price)."""
+    hints = data.get("api_call_hints", {}) or {}
+    override = (hints.get("model_override") or "").lower().strip()
+    if override in ("pro", "nano-banana-pro", "gemini-pro-image"):
+        return MODEL_PRO, PRICE_PRO_USD
+    return MODEL_FLASH, PRICE_FLASH_USD
+
+
+def process_quadro(canal: str, video: str, quadro: str, dry_run: bool, force_flash: bool = False) -> tuple:
+    """Retorna (ok, model, price)."""
     video_dir = ROOT / "canais" / canal / "videos" / video
     json_path = video_dir / "6-prompts-imagem" / f"{quadro}.json"
     if not json_path.exists():
         print(f"[ERRO] JSON nao encontrado: {json_path}", flush=True)
-        return False
+        return False, MODEL_FLASH, 0.0
 
     data = json.loads(json_path.read_text(encoding="utf-8"))
     prompt = serialize_json_to_prompt(data)
 
+    model, price = (MODEL_FLASH, PRICE_FLASH_USD) if force_flash else pick_model(data)
+
     print(f"\n=== {quadro} — {data.get('scene_title','')} ===", flush=True)
-    print(f"Prompt chars: {len(prompt)}", flush=True)
+    print(f"Modelo: {model} (${price:.4f}) | Prompt chars: {len(prompt)}", flush=True)
 
     if dry_run:
         print("--- PROMPT ---", flush=True)
         print(prompt, flush=True)
         print("--- END ---", flush=True)
-        return True
+        return True, model, 0.0
 
     sref_url = data.get("style_reference", {}).get("primary_image_url")
     sref_bytes = download_style_ref(sref_url) if sref_url else None
@@ -368,9 +473,27 @@ def process_quadro(canal: str, video: str, quadro: str, dry_run: bool) -> bool:
         print(f"[OK] style_reference baixado ({len(sref_bytes)} bytes)", flush=True)
 
     out_path = video_dir / "6-assets" / f"{quadro}.png"
-    ok = call_gemini(prompt, sref_bytes, out_path)
-    log_cost(canal, video, quadro, ok)
-    return ok
+    ok = call_gemini(prompt, sref_bytes, out_path, model=model, do_crop=True)
+    log_cost(canal, video, quadro, model, price, ok)
+    return ok, model, price
+
+
+def crop_existing_assets(canal: str, video: str, quadros: list) -> None:
+    """Aplica force_16x9 em PNGs ja geradas, sem chamar API."""
+    video_dir = ROOT / "canais" / canal / "videos" / video
+    assets_dir = video_dir / "6-assets"
+    total_ok = 0
+    for q in quadros:
+        png = assets_dir / f"{q}.png"
+        if not png.exists():
+            print(f"[SKIP] {q}.png nao existe", flush=True)
+            continue
+        orig = png.read_bytes()
+        new_bytes, (w, h), op = force_16x9(orig)
+        png.write_bytes(new_bytes)
+        print(f"[16:9] {q}.png: {op} -> {w}x{h}", flush=True)
+        total_ok += 1
+    print(f"\nTotal processadas: {total_ok}/{len(quadros)}", flush=True)
 
 
 def main():
@@ -379,37 +502,71 @@ def main():
     ap.add_argument("--video", required=True)
     ap.add_argument("--quadro", help="Ex: Q01")
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--range", help="Intervalo de quadros, ex: Q02-Q06")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--force-flash", action="store_true", help="Ignora model_override=pro e usa Flash")
+    ap.add_argument("--crop-existing", action="store_true", help="So aplica auto-crop em PNGs ja geradas, sem API")
+    ap.add_argument("--skip-existing", action="store_true", help="Pula quadros cuja PNG ja existe em 6-assets/")
     args = ap.parse_args()
 
-    if not args.quadro and not args.all:
-        print("[ERRO] informe --quadro QXX ou --all", flush=True)
-        sys.exit(1)
-
-    if not API_KEY and not args.dry_run:
-        print("[ERRO] GEMINI_API_KEY ausente no .env", flush=True)
+    if not (args.quadro or args.all or args.range):
+        print("[ERRO] informe --quadro QXX, --range Q02-Q06 ou --all", flush=True)
         sys.exit(1)
 
     video_dir = ROOT / "canais" / args.canal / "videos" / args.video
     prompts_dir = video_dir / "6-prompts-imagem"
 
+    # Resolve lista de quadros
     if args.all:
         quadros = sorted(p.stem for p in prompts_dir.glob("Q*.json"))
+    elif args.range:
+        try:
+            start, end = args.range.split("-")
+            start_n = int(start.lstrip("Q"))
+            end_n = int(end.lstrip("Q"))
+            quadros = [f"Q{n:02d}" for n in range(start_n, end_n + 1)]
+        except Exception as e:
+            print(f"[ERRO] --range invalido ({e}). Formato esperado: Q02-Q06", flush=True)
+            sys.exit(1)
     else:
         quadros = [args.quadro]
 
+    # Modo crop-only (nao chama API)
+    if args.crop_existing:
+        if not HAS_PIL:
+            print("[ERRO] PIL/numpy nao disponiveis. pip install pillow numpy", flush=True)
+            sys.exit(1)
+        crop_existing_assets(args.canal, args.video, quadros)
+        return
+
+    if not API_KEY and not args.dry_run:
+        print("[ERRO] GEMINI_API_KEY ausente no .env", flush=True)
+        sys.exit(1)
+
+    if not HAS_PIL:
+        print("[WARN] PIL/numpy ausentes — auto-crop 16:9 desabilitado", flush=True)
+
     total_cost = 0.0
     ok_count = 0
+    assets_dir = video_dir / "6-assets"
+    by_model = {MODEL_FLASH: 0, MODEL_PRO: 0}
+
     for q in quadros:
-        ok = process_quadro(args.canal, args.video, q, args.dry_run)
+        if args.skip_existing and (assets_dir / f"{q}.png").exists():
+            print(f"[SKIP] {q}.png ja existe", flush=True)
+            continue
+        ok, model, price = process_quadro(args.canal, args.video, q, args.dry_run, force_flash=args.force_flash)
         if ok and not args.dry_run:
             ok_count += 1
-            total_cost += PRICE_PER_IMAGE_USD
+            total_cost += price
+            by_model[model] = by_model.get(model, 0) + 1
 
     print(f"\n=== RESUMO ===", flush=True)
     print(f"Sucesso: {ok_count}/{len(quadros)}", flush=True)
     if not args.dry_run:
-        print(f"Custo estimado: ${total_cost:.4f}", flush=True)
+        print(f"  Flash: {by_model.get(MODEL_FLASH, 0)} x ${PRICE_FLASH_USD:.3f}", flush=True)
+        print(f"  Pro:   {by_model.get(MODEL_PRO, 0)} x ${PRICE_PRO_USD:.3f}", flush=True)
+        print(f"Custo total: ${total_cost:.4f}", flush=True)
 
 
 if __name__ == "__main__":

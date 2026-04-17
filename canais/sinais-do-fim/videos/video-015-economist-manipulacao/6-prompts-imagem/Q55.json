@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE5_Q55",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mesa com tres objetos sagrados",
+  "narrative_beat": "Medium mesa com cerebro-joystick, pergaminho Ap 13, coroa de espinhos",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 5,
+    "quadro": "Q55",
+    "ato": "Cerebro, Robos, Pharmakeia"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a dark altar table with three sacred objects arranged left to right: a brain connected to a game joystick (left), a parchment scroll open at Apocalypse 13 (center), and a crown of thorns (right), all illuminated by frontal golden light",
+    "focal_point": "the central parchment scroll",
+    "secondary": "Incense smoke rising between objects.",
+    "props": ["brain with joystick cables", "parchment scroll at Revelation 13", "crown of thorns", "frontal golden light", "incense smoke"]
+  },
+  "environment": {
+    "location": "a dark ritual altar",
+    "time_of_day": "golden frontal illumination",
+    "atmosphere": "sacred interpretation, three witnesses on the altar"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "three objects in vivid warm rich tones",
+    "background": "pure black void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "frontal golden light illuminating all three objects equally",
+    "fill_light": "incense smoke diffusing light",
+    "rim_light": "warm gold edge on each object",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred interpretation, connecting symbols to prophecy",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "three witnesses: brain control (tech), the Beast verse (prophecy), and sacrifice (crown)",
+    "secondary": "the altar as place of decoding"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

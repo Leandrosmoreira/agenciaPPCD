@@ -1,0 +1,99 @@
+{
+  "id": "video-015_PARTE5_Q61",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pharmakeia",
+  "narrative_beat": "Close-up pagina de livro grego antigo com a palavra PHARMAKEIA em dourado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 5,
+    "quadro": "Q61",
+    "ato": "Cerebro, Robos, Pharmakeia"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme close-up of an ancient Greek manuscript page in aged parchment, with the Greek word in golden calligraphy at center, illuminated by a single candle from the left side",
+    "focal_point": "the golden Greek word at center of the page",
+    "secondary": "Other faded Greek text surrounding the highlighted word. Candle wax drip on page edge.",
+    "props": ["ancient Greek manuscript page", "golden calligraphy text", "beeswax candle", "wax drip on edge", "aged parchment texture"]
+  },
+  "environment": {
+    "location": "a medieval scholar's reading desk",
+    "time_of_day": "candlelight",
+    "atmosphere": "etymological revelation, the original word revealed"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "golden Greek text on warm parchment tones",
+    "background": "desaturated black-and-white desk and shadows",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "single candle from left illuminating the page",
+    "fill_light": "golden glow from the highlighted text itself",
+    "rim_light": "gold edge on subject contours",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "revelation, the original word that explains everything",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "PHARMAKEIA — the Greek word John used means pharmacy/sorcery",
+    "secondary": "etymology as decoder of prophecy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "PHARMAKEIA",
+    "content_secondary": "pela tua feiticaria foram enganadas todas as nacoes — Apocalipse 18:23",
+    "font_style": "ancient Greek uncial calligraphy in gold leaf",
+    "medium": "handwritten on aged Greek manuscript page",
+    "placement": "center of frame on the manuscript",
+    "legibility": "crisp and readable",
+    "language": "Greek"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The text in quotes MUST be rendered exactly as written, letter by letter, in the specified font style. This is a Bible verse and accuracy is sacred."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "video-015_PARTE4_Q50",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Espelho cronologico",
+  "narrative_beat": "Wide split Joao versus editor moderno conectados por fogo dourado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 4,
+    "quadro": "Q50",
+    "ato": "Grafico Despencando + Bonds"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a split composition: left half shows the apostle John writing in his cave (warm tones), right half shows an anonymous Victorian editor writing at a desk (warm tones), both connected by a diagonal line of golden fire crossing the center of the frame",
+    "focal_point": "the golden fire line connecting the two writers at center",
+    "secondary": "Both figures in rich warm tones. Background behind each in monochrome.",
+    "props": ["apostle John in cave on left", "Victorian editor at desk on right", "diagonal golden fire line connecting them", "monochrome backgrounds behind each"]
+  },
+  "environment": {
+    "location": "split scene: Patmos cave left / Victorian office right",
+    "time_of_day": "candlelight on both sides",
+    "atmosphere": "chronological mirror, ancient meets modern"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "both writers in rich warm tones connected by gold fire",
+    "background": "desaturated black-and-white environments behind each writer",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "candle on each side illuminating respective writer",
+    "fill_light": "golden glow from fire line at center",
+    "rim_light": "gold edge on both figures",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "chronological mirror, the same message across millennia",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "two writers, 2000 years apart, describing the same event",
+    "secondary": "fire as the thread of prophecy connecting eras"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "anonymous figure without recognizable facial features",
+    "silhouette or contre-jour lighting hiding identity",
+    "photorealistic anonymous aristocratic figure"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "video-015_PARTE6_Q67",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Sala Bilderberg",
+  "narrative_beat": "Wide sala de conferencia europeia estilo castelo com cadeiras vazias e auras",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-015-economist-manipulacao",
+    "parte_suno": 6,
+    "quadro": "Q67",
+    "ato": "Misseis + Bilderberg"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a long conference table in a Scandinavian castle hall with tall empty carved chairs, each chair surrounded by a warm golden aura as if its invisible occupant still radiates power, floating embers above the table",
+    "focal_point": "the warm golden auras around each empty chair",
+    "secondary": "Tall Gothic windows in monochrome. Candles in sconces along walls. Floating embers.",
+    "props": ["long conference table", "empty carved wooden chairs with golden auras", "tall Gothic windows in P&B", "wall sconce candles", "floating embers"]
+  },
+  "environment": {
+    "location": "a Scandinavian castle conference hall",
+    "time_of_day": "candlelight evening",
+    "atmosphere": "ghostly meeting, invisible power gathered"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "chairs with golden auras in warm rich tones",
+    "background": "desaturated black-and-white castle hall windows and stone walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "candle sconces along walls casting warm lateral light",
+    "fill_light": "golden aura glow from each chair",
+    "rim_light": "gold edge on chair carvings",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "ghostly meeting, the powerful were just here",
+    "tension": "rising"
+  },
+  "symbolism": {
+    "primary": "Bilderberg 71st meeting — the chairs still warm with power",
+    "secondary": "golden auras as residual influence of the invisible attendees"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

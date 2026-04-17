@@ -1,0 +1,62 @@
+{
+  "scene_title": "THUMB G — ROSTO EM TERROR PURO",
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "slightly low angle dramatic",
+    "focal_length_mm": "85",
+    "aperture": "f/1.4",
+    "depth_of_field": "extremely shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a middle-aged evangelical Brazilian man, late 40s, dark hair, beard, wearing simple dark clothing, face contorted in absolute primal terror and disbelief, eyes wide open with pupils dilated in shock, mouth slightly open in silent horror, tears forming in the corners of his wide eyes, skin pale and sweating, looking directly into camera with expression of someone who has just witnessed the impossible",
+    "secondary": "behind the terrified man on the LEFT side: a colossal ancient Nephilim giant warrior silhouette in crimson and gold armor, enormous and towering, visible from shoulders up, backlit by blood-red divine light. The giant has a massive six-fingered hand reaching forward holding a glowing DNA double helix strand that pulses red and gold",
+    "focal_point": "the terrified man's face — tack sharp, every detail of his horror expression",
+    "props": ["floating ash embers around the figure", "blood-red DNA helix glow reflecting on his face", "divine golden particles"]
+  },
+  "environment": {
+    "location": "liminal dark void — complete darkness with selective illumination, suggesting a modern genetics laboratory in the extreme background blur — petri dishes and monitor screens as bokeh shapes",
+    "time_of_day": "complete darkness except supernatural light",
+    "atmosphere": "biblical revelation horror — a man confronting the proof that giants existed and were recreated"
+  },
+  "composition": {
+    "rule": "terrified face fills RIGHT 55% of frame, face centered vertically, LEFT 40% shows Nephilim silhouette, 16:9 widescreen cinematic framing",
+    "foreground": "terrified man face in rich warm skin tones, sweat glistening, fear tears, pupils dilated",
+    "midground": "glowing DNA helix between man and giant, blood-red and gold light casting on face",
+    "background": "pure black void with Nephilim silhouette backlit in crimson, faint laboratory bokeh"
+  },
+  "lighting": {
+    "key_light": "blood-red and golden glow from the DNA helix reflecting upward on the man's terrified face",
+    "fill_light": "cold blue-white rim from far left separating the dark background",
+    "rim_light": "razor-thin golden edge outlining the man's hair and shoulders",
+    "shadow_quality": "extreme chiaroscuro — Caravaggio-style deep shadows with selective face illumination",
+    "mood": "primal biblical terror — the moment faith meets undeniable physical evidence"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T pushed two stops — heavy grain, crushed blacks, elevated contrast",
+    "post_processing": "hyper-detailed skin texture, every pore and fear-sweat visible, blood-red color grade on shadows, golden highlights, cinematic 2.39:1 anamorphic feel",
+    "texture_detail": "individual hairs, every pore, tears forming in eye corners, skin texture under dramatic red-gold light"
+  },
+  "mood": {
+    "emotion": "absolute primal horror and disbelief — the face of someone who has just had their faith shattered by impossible evidence",
+    "tension": "10/10"
+  },
+  "symbolism": {
+    "primary": "the ordinary believer confronting the Nephilim truth of Genesis 6 — the moment the ancient bloodline becomes undeniable"
+  },
+  "in_scene_text": {
+    "enabled": false
+  },
+  "negative_as_positive": [
+    "photorealistic cinematic documentary photography",
+    "clean surface without any visible text or watermarks",
+    "anonymous ordinary man without recognizable celebrity features",
+    "hyper-detailed facial expression with naturalistic skin texture",
+    "tack-sharp focus on the terrified eyes and face"
+  ],
+  "style_reference": {},
+  "api_call_hints": {
+    "model_override": "pro",
+    "critical_note_for_gemini": "YouTube thumbnail 16:9. The ENTIRE POINT is the terrified man's face on the right side — absolute primal horror, wide eyes, mouth slightly open, tears forming, pale sweating skin. The Nephilim giant silhouette is visible on the LEFT in crimson backlight. The DNA helix glows between them casting red-gold light on the man's face. This is PHOTOREALISTIC — real human face in absolute terror. No cartoon, no illustration. The face must show MAXIMUM emotional intensity — this is the reaction shot of someone seeing proof of Nephilim existence."
+  }
+}
