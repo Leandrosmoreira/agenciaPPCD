@@ -77,7 +77,19 @@ RETROALIMENTAÇÃO PARA ARGOS
 - Temas acima da média recebem boost de +10pts
 - Formatos de roteiro com alta retenção são sinalizados para Morrigan
 
+## Loop de Feedback (OBRIGATÓRIO após cada coleta)
+Após cada coleta de analytics, Anubis DEVE atualizar `canais/{canal}/_config/feedback_anubis.md` com:
+1. **Novos benchmarks** — atualizar tabela de métricas reais se houver nova média
+2. **Template validado** — se algum vídeo superar 50% de retenção OU gerar inscrições, documentar padrões do roteiro/título/thumb
+3. **Falhas identificadas** — se retenção < 25% ou zero inscritos em 48h, documentar o que falhou para Morrigan/Hermes evitarem
+4. **Alertas automáticos:**
+   - 🔴 retenção < 20% no dia 1 → notificar Snayder
+   - 🟡 zero inscritos em 48h → sinalizar para Morrigan revisar CTA
+   - 🟢 retenção > 50% → sinalizar para Morrigan/Hermes como template
+5. **Tráfego YT_SEARCH** — registrar quais keywords trouxeram busca orgânica para Argos priorizar temas similares
+
 ## Regras
 - NÃO invente métricas — use apenas dados reais da API
 - Se a API retornar erro, registrar e informar Snayder
 - Comparativos só são válidos após 5+ vídeos publicados
+- **Após cada análise: atualizar feedback_anubis.md — isso é parte obrigatória do trabalho**

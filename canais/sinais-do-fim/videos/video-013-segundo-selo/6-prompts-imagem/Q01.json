@@ -1,0 +1,101 @@
+{
+  "id": "video-013_PARTE1_Q01",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Vazio pre-apocaliptico",
+  "narrative_beat": "Tela preta com brasa unica e rastro diagonal carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 1,
+    "quadro": "Q01",
+    "ato": "Gancho"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "absolute black frame pierced only by a single orange ember drifting in lower right and a faint crimson diagonal streak above, like a missile trail without the missile itself",
+    "focal_point": "the lone orange ember dissolving mid-fall",
+    "secondary": "The frame is 98 percent black, textured with subtle film grain; the ember emits soft amber glow dissipating into darkness",
+    "props": [
+      "single floating orange ember",
+      "faint crimson diagonal streak",
+      "starless night void"
+    ]
+  },
+  "environment": {
+    "location": "infinite black void representing pre-dawn February 2026",
+    "time_of_day": "pre-dawn before missile impact",
+    "atmosphere": "ominous pre-apocalyptic silence"
+  },
+  "composition": {
+    "rule": "negative space rule, centered minimalism",
+    "foreground": "single floating ember in rich amber",
+    "midground": "pure black void",
+    "background": "imperceptible hint of starless night sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "no visible key light except ember self-glow",
+    "fill_light": "none",
+    "rim_light": "faint amber rim on ember particle",
+    "mood": "near-total darkness",
+    "shadow_quality": "absolute crushed blacks"
+  },
+  "style": {
+    "film_stock": "Kodak Double-X black-and-white pushed",
+    "post_processing": "heavy halation on ember, deep black crush, 35mm grain",
+    "texture_detail": "heavy film grain, minimal particulate"
+  },
+  "mood": {
+    "emotion": "ominous anticipation, suspended dread",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "dark before revelation, void awaiting the apocalyptic horseman",
+    "secondary": "a single ember as herald of what is to come"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "video-017_PARTE5_Q39",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Discordância",
+  "narrative_beat": "Close macro porta de madeira sendo fechada com silhuetas P&B afastando-se",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 5,
+    "quadro": "Q39",
+    "ato": "Claude"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a cinematic close-up of an antique dark wood door closing, with a gleaming gold doorknob in the foreground",
+    "focal_point": "the gleaming gold doorknob",
+    "secondary": "Behind the closing door, silhouettes walk away down a desaturated corridor; orange embers fall.",
+    "props": [
+      "antique dark wood door closing",
+      "gleaming gold doorknob",
+      "silhouettes walking away",
+      "desaturated corridor",
+      "falling orange embers"
+    ]
+  },
+  "environment": {
+    "location": "a corporate corridor threshold",
+    "time_of_day": "interior evening",
+    "atmosphere": "ideological rupture"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "door and knob in rich dark wood and gold",
+    "midground": "door frame and threshold",
+    "background": "desaturated black-and-white corridor with retreating silhouettes",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm doorway glow",
+    "fill_light": "cold corridor light",
+    "rim_light": "gold on doorknob",
+    "mood": "chiaroscuro departure",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "ideological rupture",
+    "tension": "moderate"
+  },
+  "symbolism": {
+    "primary": "parting as ethical stance",
+    "secondary": "doorknob as threshold choice"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

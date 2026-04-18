@@ -1,0 +1,101 @@
+{
+  "id": "video-013_PARTE5_Q60",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tela final com cavalo dissipando em brasas",
+  "narrative_beat": "Silhueta distante em brasas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 5,
+    "quadro": "Q60",
+    "ato": "Parte 5 Tribulacao"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "empty frame",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide nearly-black frame with only the faintest silhouetted contour of a distant red horse dissolving into floating embers in the lower-right corner",
+    "focal_point": "the dissolving ember trail",
+    "secondary": "Frame is 95 percent black, textured grain",
+    "props": [
+      "faint distant red horse silhouette",
+      "floating embers",
+      "nearly-black frame"
+    ]
+  },
+  "environment": {
+    "location": "void of fade-to-black",
+    "time_of_day": "moment of closing",
+    "atmosphere": "prophetic closure"
+  },
+  "composition": {
+    "rule": "negative space composition",
+    "foreground": "distant horse and embers in muted crimson-amber",
+    "midground": "deep void",
+    "background": "near-total black",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "no visible key light",
+    "fill_light": "ember self-glow",
+    "rim_light": "faint amber rim on particles",
+    "mood": "closure",
+    "shadow_quality": "absolute black"
+  },
+  "style": {
+    "film_stock": "Kodak Double-X pushed",
+    "post_processing": "halation on embers, crushed blacks",
+    "texture_detail": "heavy 35mm grain"
+  },
+  "mood": {
+    "emotion": "end of transmission closure",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the horse rides on into the next seal",
+    "secondary": "fade to black as punctuation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE2_Q22",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mapa-mundi com pilhas de moedas nucleares",
+  "narrative_beat": "Moedas de ouro com atomo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 2,
+    "quadro": "Q22",
+    "ato": "Parte 2 Grego"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 75",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead parchment world map on oak table, with small piles of aged gold coins stamped with atomic symbols on each nuclear country",
+    "focal_point": "the tallest piles on Russia and USA",
+    "secondary": "Smaller piles on China, France, UK, India, Pakistan, Israel, North Korea",
+    "props": [
+      "parchment world map",
+      "gold atomic-symbol coins",
+      "pile sizes varying by country",
+      "oak table grain"
+    ]
+  },
+  "environment": {
+    "location": "wartime intelligence chamber",
+    "time_of_day": "night analysis session",
+    "atmosphere": "ledger of doom"
+  },
+  "composition": {
+    "rule": "overhead symmetric composition",
+    "foreground": "map and gold coins in vivid gold-ochre",
+    "midground": "dark oak table surface",
+    "background": "desaturated black-and-white ledgers and quills at edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead lamp",
+    "fill_light": "gold bounce off coins",
+    "rim_light": "amber rim on piles",
+    "mood": "forensic accounting",
+    "shadow_quality": "deep table shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, dust particulate"
+  },
+  "mood": {
+    "emotion": "inventory of human capacity for annihilation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the great sword counted and weighed",
+    "secondary": "gold coins as ledger of nuclear sin"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

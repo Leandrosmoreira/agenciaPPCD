@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE1_Q05",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mundo assiste CNN",
+  "narrative_beat": "Smartphone ilumina face na mesa de jantar",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 1,
+    "quadro": "Q05",
+    "ato": "Gancho"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 75 deg",
+    "focal_length_mm": 35,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead view of a modern dining table in monochrome, with a single smartphone glowing amber-crimson from below lighting a man's shadowed face watching news",
+    "focal_point": "the smartphone screen reflecting distant flames and scrolling headlines",
+    "secondary": "The face is barely visible, cheek and jaw caught in screen glow; a cold coffee cup and bread crumbs sit beside the phone",
+    "props": [
+      "glowing smartphone screen in warm tones",
+      "shadowed male face",
+      "cold coffee cup",
+      "bread crumbs on table"
+    ]
+  },
+  "environment": {
+    "location": "middle-class dining room at night",
+    "time_of_day": "late evening domestic scene",
+    "atmosphere": "apathy and alienation"
+  },
+  "composition": {
+    "rule": "overhead symmetry, phone as center light source",
+    "foreground": "smartphone screen and illuminated face in rich warm amber-crimson",
+    "midground": "black wood dining table with subtle texture",
+    "background": "totally desaturated black-and-white surroundings, vague kitchen shapes",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "phone screen as only light source, warm and harsh",
+    "fill_light": "minimal amber bounce on cheek",
+    "rim_light": "faint gold rim on jawline",
+    "mood": "claustrophobic intimacy",
+    "shadow_quality": "deep enveloping shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "crushed blacks, amber highlights, naturalistic grading",
+    "texture_detail": "35mm grain, dust in air"
+  },
+  "mood": {
+    "emotion": "dull alienated awareness, cosmic apathy",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "modern world consuming catastrophe as content",
+    "secondary": "the smartphone as a one-way window into prophecy fulfilled"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

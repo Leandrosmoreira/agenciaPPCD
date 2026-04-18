@@ -1,0 +1,58 @@
+{
+  "id": "video-016_PARTE3_Q31",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "UAP triangular cromado em ceu noturno",
+  "narrative_beat": "Objeto triangular cromado refletindo luz dourada-carmesim — silhuetas de avioes militares abaixo",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q31", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "wide", "camera_angle": "cinematic horizon", "focal_length_mm": 35, "aperture": "f/5.6", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a chrome metallic triangular craft hovering in the foreground of a black-and-white starry night sky, reflecting golden and crimson light",
+    "focal_point": "the triangular craft with its chrome surface catching warm light",
+    "secondary": "Tiny monochrome silhouettes of military fighter jets are visible far below. No neon or green effects — only amber and crimson reflections.",
+    "props": ["chrome triangular craft", "monochrome starry sky", "tiny fighter jet silhouettes below", "amber light reflections"]
+  },
+  "environment": {"location": "high-altitude night sky", "time_of_day": "deep night", "atmosphere": "anomaly, supernatural technology"},
+  "composition": {
+    "rule": "rule of thirds upper",
+    "foreground": "triangular craft in rich chrome-gold tones",
+    "midground": "empty starry sky",
+    "background": "desaturated black-and-white cloud bank below",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "unknown golden source illuminating craft from above",
+    "fill_light": "faint crimson from atmosphere",
+    "rim_light": "gold on craft edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "anomalia, sobrenatural tecnologico", "tension": "high"},
+  "symbolism": {"primary": "UAP as physical entity defying laws", "secondary": "craft dwarfing human technology"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "warm analog color palette only"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

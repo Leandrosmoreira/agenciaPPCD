@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE1_Q10",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A grande espada moderna",
+  "narrative_beat": "Missil balistico com runas em ouro",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 1,
+    "quadro": "Q10",
+    "ato": "Parte 1 Promessa"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme close-up of a ballistic missile styled as a giant sword-blade, steel body with crimson nose cone, Hebrew and Cyrillic engravings in gold along the flank",
+    "focal_point": "the gold-engraved Hebrew and Cyrillic characters along the missile side",
+    "secondary": "The missile appears dormant in silo, subtle steam rising, no human presence",
+    "props": [
+      "polished steel missile body",
+      "crimson nose cone",
+      "Hebrew and Cyrillic gold engravings",
+      "rising steam vapor"
+    ]
+  },
+  "environment": {
+    "location": "subterranean missile silo",
+    "time_of_day": "night of activation",
+    "atmosphere": "technological terror"
+  },
+  "composition": {
+    "rule": "rule of thirds on engravings",
+    "foreground": "missile and engravings in rich steel-crimson-gold",
+    "midground": "steam and silo shadows",
+    "background": "desaturated black-and-white silo interior walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh overhead industrial light",
+    "fill_light": "cold blue fill on steel",
+    "rim_light": "gold rim on engravings",
+    "mood": "technological chill",
+    "shadow_quality": "hard reflections and deep blacks"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, metallic highlights",
+    "texture_detail": "35mm grain, cold steam, metallic texture"
+  },
+  "mood": {
+    "emotion": "dread of annihilation at human disposal",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the machaira megale renamed as nuclear warhead",
+    "secondary": "engravings as ancient language on modern weapon"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

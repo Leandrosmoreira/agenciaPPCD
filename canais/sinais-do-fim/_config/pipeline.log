@@ -400,3 +400,20 @@
 [2026-04-15 22:45] CARONTE — NOTA: Bash bloqueado nesta sessao — upload requer execucao manual pelo Snayder
 2026-04-16 22:02:30 | video-015-economist-manipulacao | FASE 3.5 | Phantasma | Script Level 3 gerado: _tools/edicao_sinais-do-fim_video-015-economist-manipulacao.py
 2026-04-16 22:50:35 | CARONTE | video-011-nefilim | Thumb aprovada: THUMB_G.png | Metadata OK | Aguardando execucao de caronte_upload_011.py
+[2026-04-16 23:23] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-16.json
+[2026-04-17 00:11:41] CARONTE -- video-011-nefilim Upload OK (PRIVATE) -> slenJkWMzjw
+[2026-04-17 00:11:41] CHECKPOINT -- Aguardando Snayder para publicar
+[2026-04-17 00:00:00] [video-020-1984-daniel] [FASE 2] [Morrigan] roteiro_v1.md gerado — 5 partes, ~11.200 chars | arquivo: canais/sinais-do-fim/videos/video-020-1984-daniel/3-roteiro/roteiro_v1.md | STATUS: aguardando checkpoint Snayder
+
+[2026-04-16T00:55:04] [video-017-claude-skynet] FASE 1 CONCLUÍDA — Argos: pesquisa.md gerado em canais/sinais-do-fim/videos/video-017-claude-skynet/1-pesquisa/pesquisa.md
+[2026-04-16T00:55:04] [video-017-claude-skynet] FASE 2 CONCLUÍDA — Morrigan: roteiro_v1.md gerado em canais/sinais-do-fim/videos/video-017-claude-skynet/3-roteiro/roteiro_v1.md | 5 partes | ~11.200 chars
+[2026-04-16T00:55:04] [video-017-claude-skynet] CHECKPOINT 2 — Aguardando aprovação de Snayder no roteiro
+[2026-04-17 00:30] HERMES — video-016-era-revelacao | titulos_seo.md gerado em 2-titulos/ | Título recomendado: O GRANDE ENGANO COMEÇOU: O Pentágono Revelou e a Bíblia Avisou | Score CTR: 9.4/10 | 30 tags geradas
+[2026-04-17 00:31] MORRIGAN — video-016-era-revelacao | roteiro_v1.md gerado em 3-roteiro/ | 5 partes · ~11.560 chars · 13-14min estimado | Layers L1+L2+L5 ativos | 7 passagens bíblicas | CHECKPOINT 2 — aguardando aprovação de Snayder
+[2026-04-16] HERMES — video-013-segundo-selo | titulos_seo.md gerado em 2-titulos/ | 5 títulos s/ celebridade no título | Título recomendado: "O CAVALO VERMELHO JÁ CAVALGA — 2º Selo Aberto" | Tags: 10 keywords mapeadas | CHECKPOINT 1 — aguardando aprovação de Snayder
+[2026-04-16] MORRIGAN — video-013-segundo-selo | roteiro_v1.md gerado em 3-roteiro/ | 5 partes · ~11.200 chars · 11-12min estimado | Hook: morte Khamenei 28/fev/2026 | Série: Os 6 Selos Ep.1/6 | 18 pausas dramáticas | CHECKPOINT 2 — aguardando aprovação de Snayder
+[2026-04-16] HERMES — video-014-arrebatamento | titulos_seo.md gerado em 2-titulo/ | 5 títulos ângulo "Bíblia REALMENTE diz" vs RaptureTok | Título recomendado: "ARREBATAMENTO: O Que Mateus 24:36 PROÍBE Revelar" | CHECKPOINT 1 — aguardando aprovação de Snayder
+[2026-04-16] MORRIGAN — video-014-arrebatamento | roteiro_v1.md gerado em 3-roteiro/ | 5 partes · ~10.900 chars · 11-12min estimado | Hook: Joshua Mhlakela/RaptureTok set/2025 | Ângulo: valida arrebatamento + proíbe datas + urgência real | 17 pausas dramáticas | CHECKPOINT 2 — aguardando aprovação de Snayder
+2026-04-17 01:18:22 | video-015-economist-manipulacao | FASE 3.5 | Phantasma | 5 partes renderizadas Nível 3 (subprocess) | C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-015-economist-manipulacao\7-edicao
+[2026-04-17 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-17.json
+[2026-04-17] video-013-segundo-selo | Fase 2.5 + prep Fase 3 | Nyx+Orfeu+Goetia | Storyboard 60 quadros (Q01-Q60) gerado em 4-storyboard/ | 5 partes Orfeu geradas em 5-prompts/ (2255+2500+2490+2495+2491 chars, todas <=2500) | Script gerador JSONs em _tools/_gen_video013_jsons.py (60 JSONs prontos, 6 com model_override pro) | BLOQUEIO: Bash sandbox negou python execution — Q01.json gerado manualmente; rodar `python _tools/_gen_video013_jsons.py` + `python _tools/goetia_nano_banana.py --canal sinais-do-fim --video video-013-segundo-selo --all --skip-existing` manualmente

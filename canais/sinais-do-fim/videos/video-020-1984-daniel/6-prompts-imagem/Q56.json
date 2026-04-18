@@ -1,0 +1,108 @@
+{
+  "id": "video-020_PARTE5_Q56",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Quatro pergaminhos em cruz",
+  "narrative_beat": "Overhead symmetric of four scrolls in cross arrangement on stone table, each with a prophetic phrase, central golden hourglass",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q56",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90 degrees",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "four aged parchment scrolls arranged in a cross pattern on a stone altar table",
+    "focal_point": "a central golden ornate hourglass at the crossing point",
+    "secondary": "Each scroll bears one Portuguese prophetic phrase in gothic calligraphy. Background P&B.",
+    "props": [
+      "four aged scrolls in cross",
+      "central golden hourglass",
+      "stone altar surface"
+    ]
+  },
+  "environment": {
+    "location": "a symbolic prophetic altar",
+    "time_of_day": "candlelit night",
+    "atmosphere": "prophetic synthesis"
+  },
+  "composition": {
+    "rule": "strict cross radial symmetry",
+    "foreground": "scrolls and hourglass in rich gold, crimson and ochre",
+    "background": "desaturated black-and-white stone surface",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm vertical overhead candle-like light",
+    "fill_light": "amber bounce from parchments",
+    "rim_light": "gold rim on scrolls and hourglass",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft radial shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "prophetic synthesis",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "three prophetic actions plus one question",
+    "secondary": "hourglass as center of time"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "MUDAR OS TEMPOS\nMUDAR A LEI\nCOMPRAR OU VENDER\nQUEM PODE GUERREAR",
+    "font_style": "ancient gothic Portuguese uppercase calligraphy in aged gold ink",
+    "medium": "inscribed on each of the four scrolls",
+    "placement": "four scrolls radially at cardinal points: top, right, bottom, left",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "Four phrases must each appear on its own scroll, in Portuguese, letter by letter as written. Sacred prophetic text."
+  }
+}

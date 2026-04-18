@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE5_Q47",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "O'Brien e Winston na cela",
+  "narrative_beat": "Medium of elegant middle-aged man in dark suit P&B with emotionless eyes, Winston bound in metal chair in rich crimson worn robe in foreground",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q47",
+    "ato": "O'Brien e Esperança"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "3/4",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an elegant middle-aged man in a tailored dark suit standing tall with cold emotionless eyes, hands clasped behind his back",
+    "focal_point": "in the foreground, a younger gaunt man bound to a metal interrogation chair in worn crimson and ochre robes",
+    "secondary": "Harsh side light from camera-left. Clinical tile chamber P&B.",
+    "props": [
+      "O'Brien in dark suit",
+      "cold emotionless eyes",
+      "bound Winston in metal chair",
+      "worn crimson robe",
+      "P&B clinical chamber"
+    ]
+  },
+  "environment": {
+    "location": "Room 101 in the Ministry of Love",
+    "time_of_day": "clinical interrogation light",
+    "atmosphere": "traitorous revelation"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "Winston's robe in rich crimson and ochre",
+    "background": "desaturated black-and-white O'Brien and chamber",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh cold directional side light",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on Winston's shoulder",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "traitorous revelation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the torturer whom Winston thought was an ally",
+    "secondary": "robe color as last shred of humanity"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

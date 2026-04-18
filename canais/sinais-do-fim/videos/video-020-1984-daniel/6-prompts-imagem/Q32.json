@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE3_Q32",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Transição — anjo sobre cidade vigilada",
+  "narrative_beat": "Wide aerial of contemporary city P&B with red blinking dots on corners, giant crimson-gold angel silhouette floating above with open parchment",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q32",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide aerial",
+    "camera_angle": "high angle",
+    "focal_length_mm": 24,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aerial night view of a contemporary metropolis with hundreds of tiny blinking red surveillance camera dots on every corner",
+    "focal_point": "a colossal angelic silhouette in crimson and gold robes floating above, holding an open parchment",
+    "secondary": "Desaturated night cityscape below. Angel in rich colors above. Floating embers.",
+    "props": [
+      "contemporary aerial cityscape",
+      "blinking red camera dots",
+      "colossal angel silhouette",
+      "open parchment in angel's hand"
+    ]
+  },
+  "environment": {
+    "location": "a surveilled modern city at night",
+    "time_of_day": "night with urban glow",
+    "atmosphere": "transition prophecy to reality"
+  },
+  "composition": {
+    "rule": "rule of thirds with angel at upper third",
+    "foreground": "angel and parchment in rich crimson and gold",
+    "background": "desaturated black-and-white city with red dot accents",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine vertical light from angel downward",
+    "fill_light": "cold urban ambient fill",
+    "rim_light": "gold rim on angel wings",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep long angelic shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "transition prophecy to reality",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "prophecy hovering over surveilled present",
+    "secondary": "angel as bridge between Daniel and today"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE4_Q47",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tigela vazia e mascaras",
+  "narrative_beat": "Overhead de mesa com tigela ceramica com farinha dourada, mascaras cirurgicas P&B ao redor",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q47",
+    "ato": "Sinais reais"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead 90",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead view of a bare wooden table with a ceramic bowl containing only golden flour",
+    "focal_point": "the bowl centered with scattered grayscale surgical masks around it",
+    "secondary": "Earth-tone ceramic bowl, small amount of golden flour, surgical masks in grayscale scattered, cracked breadboard beside.",
+    "props": [
+      "ceramic bowl with golden flour",
+      "scattered surgical masks",
+      "cracked breadboard"
+    ]
+  },
+  "environment": {
+    "location": "empty kitchen table",
+    "time_of_day": "cold morning light",
+    "atmosphere": "scarcity and plague"
+  },
+  "composition": {
+    "rule": "centered bowl composition",
+    "foreground": "bowl and flour in vivid amber and ochre",
+    "midground": "breadboard in warm brown",
+    "background": "desaturated grayscale masks and table edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "overhead cool window light",
+    "fill_light": "none",
+    "rim_light": "gold rim on bowl edge",
+    "mood": "famine and pandemic",
+    "shadow_quality": "soft cold shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "shortage and plague",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "global famine and COVID pandemic",
+    "secondary": "contemporary signs of plague"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "A maior crise alimentar global em decadas. COVID — a maior pandemia em cem anos."
+}

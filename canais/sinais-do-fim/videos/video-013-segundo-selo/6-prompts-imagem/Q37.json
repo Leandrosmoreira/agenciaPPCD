@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q37",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Livro Apocalipse com pena e relogio",
+  "narrative_beat": "Pena preta sobre versiculo 4",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q37",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90",
+    "focal_length_mm": 50,
+    "aperture": "f/2.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead of an open leather Bible showing Apocalypse 6 with a single black feather on verse 4, beside an antique brass pocket clock",
+    "focal_point": "the feather resting on the verse",
+    "secondary": "The clock reads 3:17; warm light from left",
+    "props": [
+      "open Bible Apocalypse 6",
+      "single black feather",
+      "brass pocket clock at 3:17",
+      "worn wooden altar"
+    ]
+  },
+  "environment": {
+    "location": "altar of contemplation",
+    "time_of_day": "dawn of Khameneis death",
+    "atmosphere": "prophetic weight"
+  },
+  "composition": {
+    "rule": "overhead symmetric",
+    "foreground": "feather and clock in vivid crimson-gold",
+    "midground": "dark wooden altar",
+    "background": "desaturated altar cloth and walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead lantern",
+    "fill_light": "amber bounce on pages",
+    "rim_light": "gold rim on clock",
+    "mood": "heavy prophecy",
+    "shadow_quality": "deep altar shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-crimson highlights",
+    "texture_detail": "35mm grain, parchment"
+  },
+  "mood": {
+    "emotion": "Khameneis death as prophetic marker",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the verse and the hour",
+    "secondary": "feather as weight of a falling soul"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

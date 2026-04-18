@@ -1,0 +1,7 @@
+VIDEO_ID: slenJkWMzjw
+URL: https://youtube.com/watch?v=slenJkWMzjw
+STATUS: private
+UPLOAD_TIME: 2026-04-17 00:11:41
+THUMBNAIL: OK
+CHAPTERS: OK
+NOTA: Aguardando aprovacao de Snayder para tornar publico

@@ -1,0 +1,58 @@
+{
+  "id": "video-017_PARTE1_Q01",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "O algoritmo da morte",
+  "narrative_beat": "Tela militar lista alvos enquanto operador humano exausto observa em carmesim dessaturado",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-017-claude-skynet", "parte_suno": 1, "quadro": "Q01", "ato": "Gancho"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "extreme close-up", "camera_angle": "straight-on", "focal_length_mm": 85, "aperture": "f/2.0", "depth_of_field": "razor-thin", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "extreme close-up of a vintage military CRT monitor screen with a vertical scrolling list of phosphor green codenames and numbers looping endlessly",
+    "focal_point": "a digital countdown in the lower right corner ticking from 00:20",
+    "secondary": "Reflected on the curved glass of the screen: the pale exhausted face of a human operator washed in faded crimson, left eye illuminated by gold alert light, gaze lost and vacant.",
+    "props": ["vintage CRT military monitor with phosphor green text", "digital countdown timer at 00:20", "reflected pale human face in crimson tones", "floating ash particles over the screen"]
+  },
+  "environment": {"location": "a subterranean military command bunker", "time_of_day": "permanent artificial night, green phosphor glow", "atmosphere": "industrial, executional, glacial"},
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "CRT screen text in phosphor green with crimson reflected face overlay in warm vivid tones",
+    "midground": "curved glass surface of monitor with reflection blur",
+    "background": "absolute black void of bunker",
+    "safe_zone_for_overlay": "top 10% of frame"
+  },
+  "lighting": {
+    "key_light": "phosphor green glow from screen itself",
+    "fill_light": "faint crimson alert lamp from screen right",
+    "rim_light": "gold thin edge on operator's cheekbone in reflection",
+    "mood": "chiaroscuro industrial",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, scanline artifacts"
+  },
+  "mood": {"emotion": "glacial, industrial, executional", "tension": "maximum"},
+  "symbolism": {"primary": "algorithmic judgment over human life", "secondary": "human reduced to passive reflection observing his own complicity"},
+  "negative_as_positive": [
+    "clean frame without visible readable names or real watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "video-016_PARTE2_Q19",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Secretario de Estado em silhueta oficial",
+  "narrative_beat": "Silhueta masculina sem rosto reconhecivel em paleto escuro — simbolo de aguia no ombro",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q19", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "medium", "camera_angle": "three-quarter lateral", "focal_length_mm": 50, "aperture": "f/2.8", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a generic masculine three-quarter silhouette in dark suit jacket, face turned away so no specific features are recognizable, standing in a State Department salon",
+    "focal_point": "a stylized gold eagle emblem pinned to the shoulder catching warm light",
+    "secondary": "Official flags fade to monochrome behind him.",
+    "props": ["dark suit jacket", "stylized gold eagle shoulder emblem", "official flags in monochrome"]
+  },
+  "environment": {"location": "State Department ceremonial salon", "time_of_day": "interior daylight from tall windows", "atmosphere": "maximum authority, official participation"},
+  "composition": {
+    "rule": "rule of thirds with figure on right",
+    "foreground": "suited shoulder in warm tones and gold eagle",
+    "midground": "empty salon interior",
+    "background": "desaturated black-and-white flag row",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm window light from right",
+    "fill_light": "faint amber from polished floor",
+    "rim_light": "gold on eagle emblem",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "autoridade maxima, envolvimento oficial", "tension": "medium-high"},
+  "symbolism": {"primary": "highest office tied to disclosure", "secondary": "eagle emblem as national stamp"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "faces hidden in shadow or turned away",
+    "no recognizable portrait of any specific public figure"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "video-013_PARTE2_Q20",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "MACHAIRA MEGALE em letras laminas",
+  "narrative_beat": "Duas palavras gregas em ouro",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 2,
+    "quadro": "Q20",
+    "ato": "Parte 2 Grego"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme close-up of the Greek words MACHAIRA MEGALE calligraphed in molten gold on parchment, each letter stroke shaped like a miniature sword-blade",
+    "focal_point": "the blade-shaped letterforms glowing warm",
+    "secondary": "The parchment is dense sepia; background completely desaturated vault walls",
+    "props": [
+      "Greek text MACHAIRA MEGALE",
+      "blade-shaped gold letterforms",
+      "sepia parchment"
+    ]
+  },
+  "environment": {
+    "location": "monastic treasury vault",
+    "time_of_day": "night of revelation",
+    "atmosphere": "terminal terminology"
+  },
+  "composition": {
+    "rule": "centered on word",
+    "foreground": "gold letters in vivid amber",
+    "midground": "parchment fiber",
+    "background": "desaturated black-and-white vault shadows",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "self-glow from gold",
+    "fill_light": "faint amber bounce",
+    "rim_light": "gold rim on blade-letters",
+    "mood": "revelatory terror",
+    "shadow_quality": "deep shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, amber saturation",
+    "texture_detail": "35mm grain, parchment texture"
+  },
+  "mood": {
+    "emotion": "naming the weapon of total peace-removal",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "machaira megale as divinely authorized great sword",
+    "secondary": "letters-as-swords symbolizing word made weapon"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "ΜΑΧΑΙΡΑ ΜΕΓΑΛΗ",
+    "font_style": "blade-shaped Byzantine Greek calligraphy in molten gold leaf",
+    "medium": "hand-illuminated parchment",
+    "placement": "centered across the frame"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

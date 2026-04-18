@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE4_Q41",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Moeda programável cortada por código vermelho",
+  "narrative_beat": "Overhead of dark desk, central golden digital coin being sliced by horizontal red code line, P&B servers behind",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q41",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90 degrees",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a dark obsidian desk with a rich golden digital coin at center",
+    "focal_point": "a horizontal bright red glowing code line slicing the coin in half",
+    "secondary": "Background: blurred data center servers in desaturated black-and-white. Floating digital particles.",
+    "props": [
+      "golden digital coin",
+      "red code line slicing",
+      "dark obsidian desk",
+      "blurred P&B servers"
+    ]
+  },
+  "environment": {
+    "location": "a programmable currency command room",
+    "time_of_day": "sterile eternal",
+    "atmosphere": "total transactional power"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "coin and code in rich gold and crimson-red",
+    "background": "desaturated black-and-white servers and desk edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical cold light plus red code emission",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on coin edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "total transactional power",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "programmable currency with expiry, region, product blocks",
+    "secondary": "code as new law"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

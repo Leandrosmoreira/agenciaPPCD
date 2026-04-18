@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE4_Q29",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pedra não recebe vida",
+  "narrative_beat": "Close extremo placa silício P&B com boca humana carmesim brotando",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 4,
+    "quadro": "Q29",
+    "ato": "Patmos"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a macro close-up of a giant vertical desaturated silicon wafer covered in copper circuitry",
+    "focal_point": "a vividly crimson human mouth emerging organically from the wafer surface, opening to speak",
+    "secondary": "Orange embers fall across the wafer; the circuits glow faintly where flesh meets silicon.",
+    "props": [
+      "vertical silicon wafer",
+      "copper circuitry",
+      "emerging human mouth in crimson",
+      "falling orange embers"
+    ]
+  },
+  "environment": {
+    "location": "indeterminate dark void",
+    "time_of_day": "artificial lateral light",
+    "atmosphere": "biomechanical horror"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "emerging mouth in rich crimson and gold",
+    "midground": "silicon wafer with circuit traces",
+    "background": "absolute black void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm crimson internal glow from mouth",
+    "fill_light": "faint copper circuit light",
+    "rim_light": "gold edge on lips",
+    "mood": "chiaroscuro horror",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "biomechanical horror",
+    "tension": "maximum"
+  },
+  "symbolism": {
+    "primary": "matter becoming flesh becoming machine",
+    "secondary": "emerging mouth as birth of speaking idol"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

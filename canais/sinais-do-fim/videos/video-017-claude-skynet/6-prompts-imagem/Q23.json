@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE3_Q23",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Taxa de erro aceitável",
+  "narrative_beat": "Close balança romana com pena branca vs microchip preto dessaturado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 3,
+    "quadro": "Q23",
+    "ato": "Máquina"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme macro of an antique golden Roman balance scale with a white feather on one pan and a black microchip on the other",
+    "focal_point": "the pan holding the microchip tipping violently downward",
+    "secondary": "The scale tips hard toward the chip; lateral divine light falls from the left; floating orange embers drift.",
+    "props": [
+      "antique golden Roman balance scale",
+      "white feather representing soul",
+      "black desaturated microchip",
+      "floating orange embers"
+    ]
+  },
+  "environment": {
+    "location": "a sacred judgment altar",
+    "time_of_day": "divine light from above",
+    "atmosphere": "inverted judgment"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "Roman scale in rich gold with white feather",
+    "midground": "air with ember particles",
+    "background": "desaturated black-and-white altar surface",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "lateral divine golden light from left",
+    "fill_light": "faint amber from feather",
+    "rim_light": "gold on scale arms",
+    "mood": "chiaroscuro judicial",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "denunciation, inverted judgment",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "soul weighed against circuitry and found lighter",
+    "secondary": "microchip as modern idol outweighing life"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

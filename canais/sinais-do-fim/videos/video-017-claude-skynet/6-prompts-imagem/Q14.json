@@ -1,0 +1,103 @@
+{
+  "id": "video-017_PARTE3_Q14",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Protesto Google",
+  "narrative_beat": "Corredor escritório com 4 mil silhuetas e pergaminho flutuante com rubricas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 3,
+    "quadro": "Q14",
+    "ato": "Máquina"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 28,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide shot of a modern office corridor in desaturated black-and-white filled with small silhouettes of four thousand employees marching with raised protest signs",
+    "focal_point": "the enormous floating parchment ahead of them",
+    "secondary": "At the front of the march, a gigantic parchment hovers in rich gold and crimson hues with hand-signed initials sealed in red wax; orange embers drift.",
+    "props": [
+      "corridor filled with silhouetted employees",
+      "raised protest signs",
+      "gigantic floating parchment",
+      "red wax seal signatures",
+      "drifting orange embers"
+    ]
+  },
+  "environment": {
+    "location": "a modern corporate office corridor",
+    "time_of_day": "artificial lighting",
+    "atmosphere": "contained revolt, historic protest"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "floating parchment in rich gold and crimson",
+    "midground": "front row of marching silhouettes",
+    "background": "desaturated black-and-white endless corridor with tiny silhouettes",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm light on floating parchment",
+    "fill_light": "cold office light on silhouettes",
+    "rim_light": "gold on parchment edges",
+    "mood": "chiaroscuro revolt",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "contained revolt, historic protest",
+    "tension": "moderate"
+  },
+  "symbolism": {
+    "primary": "conscience rising against contract",
+    "secondary": "parchment as moral covenant"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

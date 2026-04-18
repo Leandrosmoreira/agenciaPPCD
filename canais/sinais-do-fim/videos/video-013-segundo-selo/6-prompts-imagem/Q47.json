@@ -1,0 +1,106 @@
+{
+  "id": "video-013_PARTE4_Q47",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Placas Pentagon Knesset White House",
+  "narrative_beat": "Mesa institucional com tres placas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q47",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead of an institutional oak table with three engraved metal plates: PENTAGON, KNESSET, WHITE HOUSE",
+    "focal_point": "the three gold plates in a row",
+    "secondary": "An empty leather chair at center with open leather book",
+    "props": [
+      "three aged brass plaques PENTAGON KNESSET WHITE HOUSE",
+      "empty leather chair",
+      "open leather book"
+    ]
+  },
+  "environment": {
+    "location": "institutional conference table",
+    "time_of_day": "empty evening chamber",
+    "atmosphere": "institutional credibility"
+  },
+  "composition": {
+    "rule": "overhead symmetric",
+    "foreground": "plates and book in vivid gold-brass-crimson",
+    "midground": "oak table",
+    "background": "desaturated chamber edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead lamp",
+    "fill_light": "gold bounce on plates",
+    "rim_light": "amber rim on book",
+    "mood": "institutional",
+    "shadow_quality": "deep table shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-amber highlights",
+    "texture_detail": "35mm grain, brass patina"
+  },
+  "mood": {
+    "emotion": "Rosenberg's institutional access",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the prophetic thesis in seats of power",
+    "secondary": "empty chair as invited witness"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "PENTAGON · KNESSET · WHITE HOUSE",
+    "font_style": "engraved Trajan capitals on aged brass",
+    "medium": "metal institutional plaques",
+    "placement": "centered across the table in a row"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

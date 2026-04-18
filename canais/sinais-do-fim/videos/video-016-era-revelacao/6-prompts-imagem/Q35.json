@@ -1,0 +1,58 @@
+{
+  "id": "video-016_PARTE3_Q35",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Estrada em perspectiva com horizonte ardente",
+  "narrative_beat": "Estrada convergente subindo colina — horizonte carmesim-dourado com figura humana pequena de costas",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q35", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "wide", "camera_angle": "centered contre-jour", "focal_length_mm": 35, "aperture": "f/8.0", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a long road receding in convergent perspective up a hill, terminating at a turbulent crimson-gold burning horizon",
+    "focal_point": "a tiny human figure seen from behind standing at center of the road",
+    "secondary": "Black-and-white dead fields flank the road. Turbulent clouds churn with gold-crimson glow.",
+    "props": ["receding paved road", "tiny human figure from behind", "turbulent crimson-gold horizon", "dead fields in monochrome"]
+  },
+  "environment": {"location": "barren rural road", "time_of_day": "dramatic sunset", "atmosphere": "existential question, open horizon"},
+  "composition": {
+    "rule": "one-point perspective centered",
+    "foreground": "road and figure in warm tones",
+    "midground": "converging road",
+    "background": "desaturated black-and-white fields with burning sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "horizon sky backlighting figure",
+    "fill_light": "faint crimson ground bounce",
+    "rim_light": "gold edge on figure silhouette",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "pergunta existencial, horizonte aberto", "tension": "medium-high"},
+  "symbolism": {"primary": "humanity walking toward unknown revelation", "secondary": "burning horizon as destination"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "faces hidden in shadow or turned away"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

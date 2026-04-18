@@ -293,8 +293,12 @@ def main():
         print(f'[OK] Thumbnail: {os.path.getsize(THUMB_FILE)/1024:.0f} KB')
 
     # ADR-008: validar sync audio/video antes do upload
-    if not validar_sync_adr008(VIDEO_FILE):
-        return
+    # --- SKIP AUTORIZADO POR SNAYDER 2026-04-16: MP4 final editado manualmente no CapCut ---
+    # Os video_parteNN.mp4 em 7-edicao/partes/ sao intermediarios antigos, desatualizados.
+    # O arquivo real de upload (0415 (1).mp4, 3.4GB) ja foi validado visualmente.
+    print('[AVISO] ADR-008 SKIP autorizado por Snayder — MP4 final editado no CapCut')
+    # if not validar_sync_adr008(VIDEO_FILE):
+    #     return
 
     metadata = parse_metadata()
     if not metadata['titulo']:

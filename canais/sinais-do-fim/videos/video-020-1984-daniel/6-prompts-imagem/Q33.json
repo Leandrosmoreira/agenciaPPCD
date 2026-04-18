@@ -1,0 +1,100 @@
+{
+  "id": "video-020_PARTE4_Q33",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Parede-mosaico de câmeras",
+  "narrative_beat": "Wide symmetric wall-mosaic of hundreds of P&B security cameras in grid, central single eye in rich gold with crimson iris",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q33",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on symmetric",
+    "focal_length_mm": 28,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a colossal wall formed by hundreds of identical security surveillance cameras arranged in a perfect grid",
+    "focal_point": "a single organic human eye at the exact center of the grid, with rich gold sclera and crimson iris",
+    "secondary": "All cameras in P&B. Central eye in vivid warm tones. Floating embers.",
+    "props": [
+      "grid of hundreds of cameras",
+      "central organic human eye",
+      "gold sclera crimson iris"
+    ]
+  },
+  "environment": {
+    "location": "a panoptic surveillance wall",
+    "time_of_day": "sterile eternal twilight",
+    "atmosphere": "technological omnipresence"
+  },
+  "composition": {
+    "rule": "strict centered radial symmetry",
+    "foreground": "central eye in rich gold and crimson",
+    "background": "desaturated black-and-white camera grid",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cold overhead clinical light on cameras, warm central spotlight on eye",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on eye and grid edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep symmetric shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "technological omnipresence",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "700 million cameras in China",
+    "secondary": "central eye as divine judgment amid surveillance"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

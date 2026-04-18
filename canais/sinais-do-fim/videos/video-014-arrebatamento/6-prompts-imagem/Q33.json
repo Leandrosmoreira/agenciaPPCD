@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE3_Q33",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Terra com pontos dourados",
+  "narrative_beat": "Overhead cosmico do planeta Terra iluminado com pontos dourados ascendentes",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 3,
+    "quadro": "Q33",
+    "ato": "Biblia realmente diz"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "cosmic overhead",
+    "focal_length_mm": 35,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a cosmic overhead view of planet Earth with golden points of light rising globally",
+    "focal_point": "hundreds of golden ascending light trails emerging from continents",
+    "secondary": "Earth photorealistic with recognizable continents, glowing gold specks leaving atmosphere, faint aurora, deep space beyond.",
+    "props": [
+      "planet Earth from space",
+      "golden ascending light points",
+      "faint aurora halo"
+    ]
+  },
+  "environment": {
+    "location": "low Earth orbit perspective",
+    "time_of_day": "day-night terminator",
+    "atmosphere": "planetary event"
+  },
+  "composition": {
+    "rule": "centered spherical Earth",
+    "foreground": "gold light points in vivid amber",
+    "midground": "atmosphere glow in warm ember",
+    "background": "desaturated grayscale deep space and nebulae",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "sun backlight from edge of frame",
+    "fill_light": "ambient blue from space",
+    "rim_light": "gold rim on cloud tops",
+    "mood": "planetary phenomenon",
+    "shadow_quality": "soft planetary terminator"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "cosmic scale",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "rapture visible from orbit",
+    "secondary": "planetary divine event"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Isso nao e metafora. E a descricao de um evento fisico, audivel, visivel, global."
+}

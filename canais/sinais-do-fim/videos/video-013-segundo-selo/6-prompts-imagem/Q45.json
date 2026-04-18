@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE4_Q45",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Joel Rosenberg silhueta com livro",
+  "narrative_beat": "Mao segurando livro dourado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q45",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "3/4 profile",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium 3/4 profile silhouette of a contemporary male figure at an American library desk, holding a leather book titled with illegible gold lettering",
+    "focal_point": "the gold-lettered book cover",
+    "secondary": "Background desaturated American library shelves",
+    "props": [
+      "silhouetted male figure",
+      "leather book with gold lettering",
+      "mahogany desk",
+      "library shelves"
+    ]
+  },
+  "environment": {
+    "location": "American Christian scholar's library",
+    "time_of_day": "late evening study",
+    "atmosphere": "analytical authority"
+  },
+  "composition": {
+    "rule": "rule of thirds on book",
+    "foreground": "book and hand in vivid gold-crimson",
+    "midground": "dark mahogany desk",
+    "background": "desaturated library shelves",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm desk lamp",
+    "fill_light": "amber bounce on book",
+    "rim_light": "gold rim on fingers",
+    "mood": "scholarly authority",
+    "shadow_quality": "deep library shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, leather texture"
+  },
+  "mood": {
+    "emotion": "Rosenberg mapping the coalition",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "analyst presenting prophetic thesis",
+    "secondary": "gold book as authoritative scholarship"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

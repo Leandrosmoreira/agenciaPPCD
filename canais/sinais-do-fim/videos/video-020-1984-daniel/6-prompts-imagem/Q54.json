@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE5_Q54",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavernas de Qumran sobre o Mar Morto",
+  "narrative_beat": "Wide establisher of Qumran caves at dawn, rich crimson-gold sky, P&B rock and desert, tiny archaeologist figure at cave entrance",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q54",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide establisher",
+    "camera_angle": "eye level",
+    "focal_length_mm": 24,
+    "aperture": "f/11.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide landscape of Qumran caves above the Dead Sea at dawn",
+    "focal_point": "a tiny archaeologist silhouette entering one of the caves at frame-right",
+    "secondary": "Rich crimson and gold dawn sky. Desaturated rock and desert. Wind drifting sand.",
+    "props": [
+      "Qumran cave opening",
+      "Dead Sea below",
+      "tiny archaeologist silhouette",
+      "rich dawn sky"
+    ]
+  },
+  "environment": {
+    "location": "the cliffs of Qumran over the Dead Sea",
+    "time_of_day": "dawn",
+    "atmosphere": "monumental discovery"
+  },
+  "composition": {
+    "rule": "rule of thirds with caves at lower third",
+    "foreground": "sky in rich crimson, gold and ochre",
+    "background": "desaturated black-and-white rock, desert and Dead Sea",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "dawn gold directional light from camera-left",
+    "fill_light": "cold blue ambient shadow fill",
+    "rim_light": "gold rim on cave edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "long soft dawn shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "monumental discovery",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Dead Sea scrolls discovery 1947-1956",
+    "secondary": "caves as prophetic vaults"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

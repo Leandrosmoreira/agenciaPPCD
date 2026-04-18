@@ -1,0 +1,58 @@
+{
+  "id": "video-016_PARTE4_Q44",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mao em juramento sobre Biblia",
+  "narrative_beat": "Mao masculina levantada em juramento sobre Biblia aberta iluminada por candela",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 4, "quadro": "Q44", "ato": "Mateus 24 Grande Engano"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "medium", "camera_angle": "side profile", "focal_length_mm": 60, "aperture": "f/2.8", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a man's hand raised in solemn oath above an open leather-bound Bible on a wooden table, lit by a single candle",
+    "focal_point": "the palm of the raised hand catching warm gold light",
+    "secondary": "Pages of the Bible show faint gold print. Background pews fade to monochrome.",
+    "props": ["raised hand", "open leather Bible", "wooden table", "single lit candle", "monochrome pews"]
+  },
+  "environment": {"location": "interior of old church", "time_of_day": "interior night", "atmosphere": "solemn oath, truth commitment"},
+  "composition": {
+    "rule": "rule of thirds with hand on upper-left, Bible on lower-right",
+    "foreground": "hand and Bible in rich warm tones",
+    "midground": "candle",
+    "background": "desaturated black-and-white pews",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candlelight from below-left",
+    "fill_light": "amber bounce from Bible pages",
+    "rim_light": "gold on hand edge",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "juramento solene, compromisso com a verdade", "tension": "medium"},
+  "symbolism": {"primary": "oath as resistance to deception", "secondary": "Scripture as standard of truth"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject",
+    "face hidden or cropped out of frame"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

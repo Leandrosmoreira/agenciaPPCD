@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE2_Q04",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A velocidade",
+  "narrative_beat": "Cronômetro bronze macro com brasas e silhuetas humanas desfocadas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 2,
+    "quadro": "Q04",
+    "ato": "Julgamento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an antique bronze pocket stopwatch in extreme macro, thin needle racing across seconds, cracked crystal face",
+    "focal_point": "the running second hand and cracked glass center",
+    "secondary": "Orange embers fall over the cracked glass; behind the watch, desaturated ghostly silhouettes of a human crowd blur.",
+    "props": [
+      "aged bronze pocket stopwatch",
+      "cracked crystal face",
+      "falling orange embers",
+      "ghost crowd silhouettes"
+    ]
+  },
+  "environment": {
+    "location": "indeterminate timeless void",
+    "time_of_day": "artificial lateral glow",
+    "atmosphere": "mortal urgency"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "bronze stopwatch in aged gold and crimson",
+    "midground": "cracked glass surface with ember particles",
+    "background": "desaturated black-and-white blurred human silhouettes",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "lateral crimson light on bronze",
+    "fill_light": "faint amber bounce",
+    "rim_light": "gold on needle",
+    "mood": "chiaroscuro urgent",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "mortal urgency, time collapsing",
+    "tension": "maximum"
+  },
+  "symbolism": {
+    "primary": "time as executioner",
+    "secondary": "fractured glass as shattered humanity"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

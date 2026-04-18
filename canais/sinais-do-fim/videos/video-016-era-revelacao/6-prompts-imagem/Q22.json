@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE2_Q22",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Estante de arquivos 2004-2024",
+  "narrative_beat": "Estante com caixas metalicas etiquetadas por ano — uma caixa entreaberta emite luz dourada",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q22", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "90 degrees straight-down", "focal_length_mm": 35, "aperture": "f/4.0", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "top-down view of an archival shelf with metallic file boxes labeled with faint year tags from 2004 to 2024 in aged gold on crimson labels",
+    "focal_point": "a single ajar box emitting internal golden light revealing a folder inside",
+    "secondary": "Boxes are lined in chronological order. Dust covers most labels.",
+    "props": ["metallic file boxes", "gold year labels on crimson tags", "one ajar box emitting internal light", "archival folder inside"]
+  },
+  "environment": {"location": "military archive vault", "time_of_day": "interior night", "atmosphere": "historical archive, chain revelation"},
+  "composition": {
+    "rule": "overhead grid, rule of thirds for ajar box",
+    "foreground": "labeled boxes in rich gold-crimson tones",
+    "midground": "shelf surface",
+    "background": "desaturated black-and-white concrete archive floor",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "internal golden light from ajar box",
+    "fill_light": "faint cold blue from overhead archive lighting",
+    "rim_light": "gold rim on box edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "arquivo historico, revelacao em cadeia", "tension": "high"},
+  "symbolism": {"primary": "two decades of buried evidence emerging", "secondary": "gold light as truth escaping containment"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

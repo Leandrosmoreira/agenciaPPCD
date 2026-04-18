@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE2_Q12",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Quatro impérios em miniatura",
+  "narrative_beat": "Overhead of map table with four miniatures: winged lion, bear, four-headed leopard, iron beast arranged around Middle East parchment",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q12",
+    "ato": "Quarta Besta"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90 degrees",
+    "focal_length_mm": 35,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an ancient cartography table with four small bronze and gold miniature beasts arranged around a Middle East parchment map",
+    "focal_point": "the central rolled map of the ancient Near East with Hebrew annotations",
+    "secondary": "The four miniatures in rich metallic colors. Surrounding table surface desaturated.",
+    "props": [
+      "winged lion miniature",
+      "bear miniature",
+      "four-headed leopard miniature",
+      "iron beast with ten horns",
+      "antique parchment map"
+    ]
+  },
+  "environment": {
+    "location": "a cartographer's war room",
+    "time_of_day": "candlelight",
+    "atmosphere": "taxonomic, prophetic"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "four miniatures in rich bronze, crimson, and gold",
+    "background": "desaturated black-and-white surrounding table",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead candlelight",
+    "fill_light": "amber bounce from parchment",
+    "rim_light": "gold rim on miniatures",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "taxonomic, prophetic",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "four empires preceding the end",
+    "secondary": "the fourth distinct from all others"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

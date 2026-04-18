@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE4_Q42",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Fragmento de Qumran sob luvas brancas",
+  "narrative_beat": "Close-up macro of aged Qumran parchment fragment with Hebrew letters, white-gloved archaeologist hands in P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q42",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "macro",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an ancient aged parchment fragment from the Qumran scrolls with clearly visible Hebrew letters in faded ink",
+    "focal_point": "the central Hebrew characters of Daniel illuminated by museum light",
+    "secondary": "White-gloved archaeologist's hands in P&B carefully holding the fragment.",
+    "props": [
+      "aged Qumran parchment fragment",
+      "faded Hebrew letters",
+      "white-gloved hands",
+      "museum lab"
+    ]
+  },
+  "environment": {
+    "location": "the Israel Antiquities Authority lab",
+    "time_of_day": "museum lab light",
+    "atmosphere": "archaeological evidence"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "parchment in rich ochre and gold",
+    "background": "desaturated black-and-white gloves and lab background",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cold museum lab overhead plus warm directional on parchment",
+    "fill_light": "soft ambient fill",
+    "rim_light": "gold rim on parchment edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "archaeological evidence",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Daniel dated to 2nd century BC before events",
+    "secondary": "parchment as irrefutable witness"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

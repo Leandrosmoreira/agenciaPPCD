@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE2_Q18",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Claquete de cinema e roteiro",
+  "narrative_beat": "Mesa de redacao com claquete dourada, paginas de roteiro em pergaminho, lente 35mm",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q18", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "90 degrees straight-down", "focal_length_mm": 35, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "top-down editorial desk with an ornate gold film clapperboard, aged parchment script pages, and a disassembled classic 35mm lens",
+    "focal_point": "the ornate gold clapperboard catching warm light",
+    "secondary": "Script pages are yellowed and fanned. Lens elements are arrayed neatly.",
+    "props": ["ornate gold clapperboard", "aged parchment script pages", "disassembled 35mm lens", "coffee-stained desk"]
+  },
+  "environment": {"location": "vintage editorial desk", "time_of_day": "interior night", "atmosphere": "industry, impact, production"},
+  "composition": {
+    "rule": "centered overhead, golden ratio layout",
+    "foreground": "clapperboard in rich gold tones",
+    "midground": "parchment script pages",
+    "background": "desaturated black-and-white faded film festival posters",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber lamp from upper-right",
+    "fill_light": "gold bounce from clapperboard",
+    "rim_light": "gold on lens elements",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "industria, impacto", "tension": "medium"},
+  "symbolism": {"primary": "documentary as prophetic instrument", "secondary": "the lens as truth-framing"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

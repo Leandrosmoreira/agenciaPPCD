@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE2_Q25",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Espada sendo entregue a figura militar",
+  "narrative_beat": "Transferencia sinistra da espada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 2,
+    "quadro": "Q25",
+    "ato": "Parte 2 Grego"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "symmetric frontal",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide symmetric frame of a medieval greatsword being passed by two black-gloved hands to a silhouetted figure in contemporary military uniform",
+    "focal_point": "the sword itself crossing between the parties",
+    "secondary": "The modern silhouette is faceless; background shows silhouetted nuclear silo infrastructure",
+    "props": [
+      "medieval greatsword mid-transfer",
+      "black-gloved giving hands",
+      "faceless military silhouette receiving",
+      "nuclear silo structures"
+    ]
+  },
+  "environment": {
+    "location": "symbolic meeting of ages",
+    "time_of_day": "night of transfer",
+    "atmosphere": "sinister covenant"
+  },
+  "composition": {
+    "rule": "centered symmetric handoff",
+    "foreground": "sword in vivid gold-crimson-steel",
+    "midground": "transition zone blurred",
+    "background": "desaturated black-and-white nuclear silo structures",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine overhead beam on sword",
+    "fill_light": "cold blue fill on modern figure",
+    "rim_light": "gold rim on sword",
+    "mood": "sinister solemnity",
+    "shadow_quality": "long diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-steel highlights",
+    "texture_detail": "35mm grain, ember particulate"
+  },
+  "mood": {
+    "emotion": "the great sword delivered to present age",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "machaira megale now held by modern rulers",
+    "secondary": "transfer of divine weapon to human doctrine"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

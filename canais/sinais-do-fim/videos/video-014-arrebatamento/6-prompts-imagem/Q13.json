@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE2_Q13",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Atril gotico Mateus 24",
+  "narrative_beat": "Wide de Biblia monumental em atril gotico dentro de capela, feixe dourado sobre pagina aberta",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 2,
+    "quadro": "Q13",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "frontal symmetric",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a monumental Bible resting open on a gothic wooden lectern inside a vast cathedral",
+    "focal_point": "the Bible pages catching a single vertical shaft of golden divine light",
+    "secondary": "Massive carved oak lectern, cathedral stone pillars in desaturated grayscale, stained glass above dim, the Bible a golden focal point.",
+    "props": [
+      "monumental Bible",
+      "carved gothic lectern",
+      "single golden light shaft",
+      "floating dust motes"
+    ]
+  },
+  "environment": {
+    "location": "abandoned gothic cathedral interior",
+    "time_of_day": "sunrise through stained glass",
+    "atmosphere": "canonical authority"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "Bible and lectern in rich gold and warm amber",
+    "midground": "gothic pillars fading into shadow",
+    "background": "desaturated grayscale cathedral depth",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical golden beam from clerestory",
+    "fill_light": "ambient cool blue from shadows",
+    "rim_light": "gold rim on lectern carvings",
+    "mood": "reverent sacred",
+    "shadow_quality": "deep architectural shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred authority",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Word of God as throne",
+    "secondary": "canonical weight"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Mateus vinte e quatro, versiculo trinta e seis."
+}

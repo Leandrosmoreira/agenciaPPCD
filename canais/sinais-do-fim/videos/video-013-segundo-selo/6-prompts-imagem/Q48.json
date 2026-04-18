@@ -1,0 +1,103 @@
+{
+  "id": "video-013_PARTE4_Q48",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tratado Russia-Ira selos",
+  "narrative_beat": "Maos sobre documento com aguia e leao",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q48",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "overhead 60",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium overhead of two masculine hands shaking over an official document bearing a Russian gold eagle and a Persian ochre lion seal",
+    "focal_point": "the two seals catching warm light",
+    "secondary": "Gold pens lie beside; background Kremlin hall silhouetted",
+    "props": [
+      "Russian gold eagle seal",
+      "Persian ochre lion seal",
+      "two masculine hands shaking",
+      "gold fountain pens",
+      "Kremlin hall silhouettes"
+    ]
+  },
+  "environment": {
+    "location": "Kremlin signing hall",
+    "time_of_day": "January 2025",
+    "atmosphere": "alliance sealed"
+  },
+  "composition": {
+    "rule": "overhead with seals centered",
+    "foreground": "seals and hands in vivid gold-ochre-crimson",
+    "midground": "dark mahogany desk",
+    "background": "desaturated Kremlin hall",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm chandelier overhead",
+    "fill_light": "amber bounce on seals",
+    "rim_light": "gold rim on pens",
+    "mood": "alliance",
+    "shadow_quality": "deep desk shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-amber saturation",
+    "texture_detail": "35mm grain, wax and paper texture"
+  },
+  "mood": {
+    "emotion": "Russia-Iran strategic partnership",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Gog-Persia alliance documented",
+    "secondary": "sealed handshake as historic binding"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

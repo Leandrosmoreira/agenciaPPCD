@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE3_Q34",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mesa de estudo academico com fichas de depoimento",
+  "narrative_beat": "Mesa com fichas empilhadas, caneta-tinteiro dourada, fotografias P&B",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q34", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "80 degrees tilted", "focal_length_mm": 40, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "top-down view of an academic study desk with stacks of handwritten testimony index cards, a gold fountain pen, and faded monochrome photographs",
+    "focal_point": "the central gold fountain pen resting atop the uppermost card",
+    "secondary": "A vintage brass oil lamp casts warm light across the scene. Photographs are subtle, no recognizable faces.",
+    "provs": ["stacks of testimony index cards", "gold fountain pen", "vintage brass oil lamp", "faded monochrome photographs"]
+  },
+  "environment": {"location": "university library study desk", "time_of_day": "night, lamp-lit", "atmosphere": "academia, rigorous research"},
+  "composition": {
+    "rule": "overhead grid with diagonal pen",
+    "foreground": "cards and gold pen in rich warm tones",
+    "midground": "brass lamp and papers",
+    "background": "desaturated black-and-white library shelves",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm brass oil lamp from upper-left",
+    "fill_light": "faint amber bounce off cards",
+    "rim_light": "gold on pen nib",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "academia, pesquisa rigorosa", "tension": "medium"},
+  "symbolism": {"primary": "rigorous academic documentation of the anomalous", "secondary": "gold pen as instrument of record"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

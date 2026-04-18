@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE4_Q43",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Linha do tempo dourada",
+  "narrative_beat": "Wide panoramic timeline fresco: II BC parchment → Rome column → XX century telegraph → today cameras P&B, gold foreground dessaturated background",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q43",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide panoramic",
+    "camera_angle": "eye level",
+    "focal_length_mm": 28,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide horizontal timeline fresco with four symbolic nodes representing II BC parchment, Roman column, 20th century telegraph, contemporary camera",
+    "focal_point": "the central vertical golden axis connecting all four nodes",
+    "secondary": "Foreground nodes in rich gold and crimson. Background timeline band desaturated.",
+    "props": [
+      "parchment node II BC",
+      "Roman column node",
+      "telegraph node 20th century",
+      "modern camera node",
+      "horizontal timeline"
+    ]
+  },
+  "environment": {
+    "location": "a symbolic prophetic chronology",
+    "time_of_day": "eternal twilight",
+    "atmosphere": "prophetic precedence"
+  },
+  "composition": {
+    "rule": "strict horizontal linear composition",
+    "foreground": "timeline nodes in rich gold, crimson and ochre",
+    "background": "desaturated black-and-white background timeline",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "horizontal directional gold axis",
+    "fill_light": "cold ambient edge fill",
+    "rim_light": "gold rim on each node",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep panoramic shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "prophetic precedence",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Daniel preceded every surveillance technology",
+    "secondary": "timeline as divine foresight"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

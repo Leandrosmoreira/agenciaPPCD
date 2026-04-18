@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE5_Q59",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Maos do Cordeiro rachando selo",
+  "narrative_beat": "Dedos com chagas sobre selo vermelho",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 5,
+    "quadro": "Q59",
+    "ato": "Parte 5 Tribulacao"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90",
+    "focal_length_mm": 60,
+    "aperture": "f/2.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a dramatic overhead of the Lamb's hands (gold and crimson stained) gripping a wax seal from the scroll and pulling it apart",
+    "focal_point": "the cracking seal mid-break",
+    "secondary": "Vertical divine beam; no faces visible",
+    "props": [
+      "Lambs golden bloodied hands",
+      "wax seal being broken",
+      "divine overhead beam",
+      "scroll"
+    ]
+  },
+  "environment": {
+    "location": "heavenly altar before the throne",
+    "time_of_day": "eternal moment",
+    "atmosphere": "cosmic act"
+  },
+  "composition": {
+    "rule": "overhead symmetric",
+    "foreground": "hands and seal in vivid gold-crimson",
+    "midground": "scroll surface",
+    "background": "desaturated throne edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical divine beam",
+    "fill_light": "amber bounce on hands",
+    "rim_light": "gold rim on seal",
+    "mood": "cosmic act",
+    "shadow_quality": "deep throne shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-crimson saturation, divine halation",
+    "texture_detail": "35mm grain, dust motes"
+  },
+  "mood": {
+    "emotion": "the Lamb opening the seals one by one",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "authority over the apocalypse",
+    "secondary": "wounded hands cracking seals"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

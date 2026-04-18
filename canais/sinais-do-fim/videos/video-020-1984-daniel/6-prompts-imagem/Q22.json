@@ -1,0 +1,110 @@
+{
+  "id": "video-020_PARTE3_Q22",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Energeia planes — palavras gregas",
+  "narrative_beat": "Extreme close-up of parchment lit by candle, Greek calligraphic text visible, bronze ring finger pointing",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q22",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "slight angle",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aged parchment scroll illuminated by a single candle with elegant Greek calligraphy in gold ink",
+    "focal_point": "the two Greek words ENERGEIAN PLANES at center in ancient script",
+    "secondary": "A masculine hand with a bronze signet ring points to the phrase. Floating embers.",
+    "props": [
+      "aged parchment scroll",
+      "Greek gold-ink calligraphy",
+      "bronze signet ring",
+      "white candle"
+    ]
+  },
+  "environment": {
+    "location": "a scholar's study table",
+    "time_of_day": "night, candlelight",
+    "atmosphere": "textual revelation"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "parchment and ring in rich amber and gold",
+    "background": "desaturated black-and-white blurred surroundings",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candle light from camera-right",
+    "fill_light": "amber bounce from parchment",
+    "rim_light": "gold rim on letters and ring",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "textual revelation",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "energeia planes — active operation of deception",
+    "secondary": "original Greek as key to understanding"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "ΕΝΕΡΓΕΙΑΝ ΠΛΑΝΗΣ",
+    "font_style": "ancient Greek uncial calligraphy in aged gold ink",
+    "medium": "hand-inked on the open parchment",
+    "placement": "center of scroll, one primary line",
+    "legibility": "crisp and readable",
+    "language": "Portuguese",
+    "content_secondary": "2 Tessalonicenses 2:11"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "The Greek letters must be rendered exactly as written in uncial script. This is sacred biblical Greek and accuracy is critical."
+  }
+}

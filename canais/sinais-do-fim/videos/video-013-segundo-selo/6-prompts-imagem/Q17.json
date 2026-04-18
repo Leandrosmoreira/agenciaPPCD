@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE2_Q17",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavalo de fogo em pintura medieval",
+  "narrative_beat": "Cavalo com pelagem de chamas reais",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 2,
+    "quadro": "Q17",
+    "ato": "Parte 2 Grego"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "side-lateral",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium lateral shot of a medieval painted war horse with coat made of real living flames, steam venting from nostrils, mane of flying sparks",
+    "focal_point": "the burning coat textured with real fire licks",
+    "secondary": "A darkened armored rider astride; background plain empty desaturated; embers swirl",
+    "props": [
+      "crimson flame horse coat",
+      "spark-mane",
+      "steam breath",
+      "blackened armor rider"
+    ]
+  },
+  "environment": {
+    "location": "empty battlefield plain",
+    "time_of_day": "twilight of vision",
+    "atmosphere": "prophetic apparition"
+  },
+  "composition": {
+    "rule": "rule of thirds on horse head",
+    "foreground": "horse and flames in vivid crimson-gold",
+    "midground": "scorched earth with embers",
+    "background": "desaturated black-and-white empty plain",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "ambient fire self-glow",
+    "fill_light": "amber bounce on armor",
+    "rim_light": "gold rim on mane sparks",
+    "mood": "prophetic vision",
+    "shadow_quality": "hard dramatic shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, amber saturation, anamorphic flare",
+    "texture_detail": "heavy 35mm grain, live fire particles"
+  },
+  "mood": {
+    "emotion": "Johns apocalyptic vision",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "horse not of parade red but of war-fire",
+    "secondary": "flame-coat as divine red of judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

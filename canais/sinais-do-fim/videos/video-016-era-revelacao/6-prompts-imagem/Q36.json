@@ -1,0 +1,61 @@
+{
+  "id": "video-016_PARTE3_Q36",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pergaminho queimando com Mateus 24",
+  "narrative_beat": "Pergaminho com bordas queimando — centro intacto com caligrafia Mateus 24 em dourado",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q36", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "close-up", "camera_angle": "macro straight-on", "focal_length_mm": 100, "aperture": "f/2.8", "depth_of_field": "razor-thin", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "extreme close-up macro of aged parchment with edges slowly burning, center intact bearing gold gothic calligraphy",
+    "focal_point": "the gold calligraphic words Matthew 24 at the center",
+    "secondary": "Edges smolder with amber embers and curl inward. Faint smoke rises.",
+    "props": ["aged parchment burning at edges", "gold gothic calligraphy at center", "curling smoke", "smoldering embers"]
+  },
+  "environment": {"location": "dark surface with parchment", "time_of_day": "timeless", "atmosphere": "bridge moment, record in flames"},
+  "composition": {
+    "rule": "centered macro with radial burn",
+    "foreground": "parchment and calligraphy in rich gold tones",
+    "midground": "burning edges",
+    "background": "absolute black",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "internal amber glow from parchment",
+    "fill_light": "ember light from edges",
+    "rim_light": "gold on letter contours",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, ash particles, floating orange embers"
+  },
+  "mood": {"emotion": "ponte, registro em chamas", "tension": "medium-high"},
+  "symbolism": {"primary": "prophecy surviving fire", "secondary": "Scripture as unburned center"},
+  "negative_as_positive": [
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Matthew 24",
+    "font_style": "gold gothic calligraphic serif",
+    "medium": "ink on aged parchment",
+    "placement": "centered on unburned area"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

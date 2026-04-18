@@ -1,0 +1,107 @@
+{
+  "id": "video-014_PARTE2_Q16",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A citacao em pergaminho",
+  "narrative_beat": "Close extremo pergaminho com texto 'NINGUEM sabe' em caligrafia dourada iluminada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 2,
+    "quadro": "Q16",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "frontal",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme macro of an aged parchment scroll with calligraphic text in glowing gold",
+    "focal_point": "the word NINGUEM (NO ONE) glowing brighter than surrounding text",
+    "secondary": "Portuguese calligraphy in gothic style, gold ink catching light, parchment fibers visible, quill pen laying beside.",
+    "props": [
+      "aged parchment scroll",
+      "golden calligraphy text",
+      "quill pen laid beside"
+    ]
+  },
+  "environment": {
+    "location": "dark scriptorium desk",
+    "time_of_day": "candlelight",
+    "atmosphere": "textual revelation"
+  },
+  "composition": {
+    "rule": "centered word emphasis",
+    "foreground": "glowing text in vivid gold",
+    "midground": "parchment texture warm cream",
+    "background": "absolute black surrounding void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "candlelight lateral from lower-left",
+    "fill_light": "none",
+    "rim_light": "gold highlights on each letter",
+    "mood": "textual absolute",
+    "shadow_quality": "hard raking candlelight"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "revelation absolute",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the verse that ends all speculation",
+    "secondary": "textual finality"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "NINGUEM SABE",
+    "font": "gothic calligraphy",
+    "medium": "gold ink on parchment",
+    "placement": "center of frame, glowing"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "'Mas acerca daquele dia e hora ninguem sabe, nem os anjos dos ceus, nem o Filho, senao o Pai.'"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "video-020_PARTE5_Q55",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Vitrine do Israel Antiquities Authority",
+  "narrative_beat": "Medium frontal of modern climate-controlled P&B display case with rich ochre and gold illuminated Daniel parchment fragment, golden plaque ISRAEL ANTIQUITIES AUTHORITY",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q55",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a modern climate-controlled museum display case with a small illuminated ancient parchment fragment at its center",
+    "focal_point": "a heavy golden engraved plaque below the case reading ISRAEL ANTIQUITIES AUTHORITY",
+    "secondary": "Museum hall in P&B. Parchment in rich ochre and gold. Soft reverence.",
+    "props": [
+      "climate-controlled display case",
+      "illuminated Daniel fragment",
+      "gold museum plaque",
+      "P&B museum hall"
+    ]
+  },
+  "environment": {
+    "location": "the Israel Antiquities Authority museum hall",
+    "time_of_day": "museum spotlight",
+    "atmosphere": "unquestionable evidence"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "parchment and plaque in rich ochre and gold",
+    "background": "desaturated black-and-white case and hall",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm museum spotlight from above",
+    "fill_light": "cool ambient hall fill",
+    "rim_light": "gold rim on plaque and case",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "unquestionable evidence",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Daniel fragments catalogued and verified",
+    "secondary": "museum as sanctuary of truth"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "ISRAEL ANTIQUITIES AUTHORITY",
+    "font_style": "bold engraved serif uppercase letters in polished warm gold",
+    "medium": "engraved on a heavy rectangular gold plaque",
+    "placement": "centered below the display case",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

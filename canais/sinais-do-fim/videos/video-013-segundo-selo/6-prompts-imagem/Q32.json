@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q32",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Ceu noturno com 300 misseis",
+  "narrative_beat": "Jerusalem com rastros e Tel Aviv P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q32",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low-angle",
+    "focal_length_mm": 24,
+    "aperture": "f/2.8",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide low-angle night sky filled with 300 missile and drone trails crossing diagonally",
+    "focal_point": "the golden Jerusalem dome with orange flame reflections in foreground",
+    "secondary": "Background Tel Aviv skyline in monochrome; trails glow crimson-gold",
+    "props": [
+      "golden Jerusalem dome",
+      "300 missile trails",
+      "monochrome Tel Aviv skyline",
+      "orange reflections"
+    ]
+  },
+  "environment": {
+    "location": "Jerusalem night sky April 13 2024",
+    "time_of_day": "night of first direct Iranian strike",
+    "atmosphere": "historic threshold"
+  },
+  "composition": {
+    "rule": "rule of thirds trails across upper half",
+    "foreground": "dome and trails in vivid gold-crimson",
+    "midground": "rooftop silhouettes",
+    "background": "desaturated Tel Aviv",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "missile trail glow",
+    "fill_light": "amber bounce on dome",
+    "rim_light": "crimson rim on rooftops",
+    "mood": "threshold broken",
+    "shadow_quality": "hard diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, crimson saturation, anamorphic flare",
+    "texture_detail": "35mm grain, ash"
+  },
+  "mood": {
+    "emotion": "first direct Iranian strike on Israel",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "boundary of history transgressed",
+    "secondary": "trails as first blows of peace removal"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

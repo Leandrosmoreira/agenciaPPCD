@@ -1,5 +1,9 @@
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 """
-Phantasma NÍVEL 3 — video-015-economist-manipulacao
+Phantasma NIVEL 3 -- video-015-economist-manipulacao
 "ACHEI QUEM MANIPULA O MERCADO: A CAPA DA ECONOMIST 2026"
 
 Stack: MoviePy 1.0.3 + OpenCV 4.11 + NumPy 2.2
@@ -46,6 +50,14 @@ FPS  = 30
 W, H = 1920, 1080
 random.seed(847200)
 np.random.seed(847200)
+
+# Grids + buffers pré-alocados — apply_parallax usa ZERO alocações por frame
+_Y32, _X32 = np.meshgrid(np.arange(H, dtype=np.float32),
+                          np.arange(W, dtype=np.float32), indexing='ij')
+_CY32, _CX32 = np.float32(H / 2), np.float32(W / 2)
+_MAP_X   = np.empty((H, W), dtype=np.float32)   # buffer reutilizado
+_MAP_Y   = np.empty((H, W), dtype=np.float32)   # buffer reutilizado
+_SCRATCH = np.empty((H, W), dtype=np.float32)   # scratch temporário
 
 # Durações reais por ffprobe (segundos)
 PARTE_DUR = {1:77.880, 2:92.360, 3:99.600, 4:99.960,
@@ -182,9 +194,7 @@ VIGNETTE = make_vignette()
 
 def apply_vignette(img: np.ndarray) -> np.ndarray:
     f = img.astype(np.float32)
-    np.multiply(f, VIGNETTE * 255 / 255 + (1 - VIGNETTE) * 0, out=f)
-    # Simples: multiplica por máscara
-    f = f * (0.30 + 0.70 * VIGNETTE)
+    f = f * (0.30 + 0.70 * VIGNETTE)   # uma só multiplicação
     return np.clip(f, 0, 255).astype(np.uint8)
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -201,10 +211,10 @@ def apply_grain(img: np.ndarray, intensity: int = 10, frame_idx: int = 0) -> np.
 # BURNING EMBERS
 # ═══════════════════════════════════════════════════════════════════════
 _EMBER_PALETTE = [
-    (0, 140, 255),   # laranja claro
-    (0, 80, 220),    # laranja médio
-    (0, 60, 180),    # laranja escuro
-    (0, 30, 140),    # vermelho-brasa
+    (0,   140, 255),  # laranja claro  (OpenCV BGR: B=0, G=140, R=255)
+    (0,   80,  220),  # laranja médio
+    (0,   60,  180),  # laranja escuro
+    (0,   30,  140),  # vermelho-brasa
 ]
 
 def apply_embers(img: np.ndarray, n: int, frame_idx: int) -> np.ndarray:
@@ -237,7 +247,7 @@ def apply_embers(img: np.ndarray, n: int, frame_idx: int) -> np.ndarray:
                     if d <= radius:
                         w_ = (1 - d/radius) * alpha
                         for c, vc in enumerate(color):
-                            patch[py,px,2-c] = min(255, patch[py,px,2-c] + vc * w_)
+                            patch[py,px,c] = min(255, patch[py,px,c] + vc * w_)
             out[y1:y2, x1:x2] = np.clip(patch, 0, 255).astype(np.uint8)
     return out
 
@@ -250,47 +260,58 @@ def apply_parallax(img: np.ndarray, t: float, duration: float,
     Simula parallax: centro da imagem (foreground) se move 70% da velocidade,
     bordas (background) se movem 100%. Implementado como warp óptico suave.
     """
+    global _MAP_X, _MAP_Y, _SCRATCH
     if direction == "none" or direction == "freeze":
         return img
 
-    progress = t / max(duration, 0.001)
-    # Factor de deslocamento máximo: 3% da largura/altura
-    max_shift = 0.03
-
-    h_, w_ = img.shape[:2]
-    # Mapa de deslocamento que varia do centro para as bordas
-    cy_, cx_ = h_/2, w_/2
+    progress = np.float32(t / max(duration, 0.001))
 
     if direction in ("zoom_in", "zoom_out"):
-        # Parallax radial: bordas se afastam mais rápido que o centro
-        scale_center = 1.0 + (0.08 if direction=="zoom_in" else -0.08) * progress
-        scale_border = 1.0 + (0.12 if direction=="zoom_in" else -0.12) * progress
+        sc = np.float32(1.0 + (0.08 if direction == "zoom_in" else -0.08) * progress)
+        sb = np.float32(1.0 + (0.12 if direction == "zoom_in" else -0.12) * progress)
 
-        # Mapa de escala variável (Gaussiana invertida)
-        Y, X = np.meshgrid(np.arange(h_), np.arange(w_), indexing='ij')
-        dist_norm = np.sqrt(((X-cx_)/cx_)**2 + ((Y-cy_)/cy_)**2)
-        scale_map = scale_center + (scale_border - scale_center) * np.clip(dist_norm, 0, 1)
+        # dist_norm → _SCRATCH, zero alocações
+        np.subtract(_X32, _CX32, out=_MAP_X);  np.divide(_MAP_X, _CX32, out=_MAP_X)
+        np.multiply(_MAP_X, _MAP_X, out=_MAP_X)                      # ((X-cx)/cx)^2
+        np.subtract(_Y32, _CY32, out=_MAP_Y);  np.divide(_MAP_Y, _CY32, out=_MAP_Y)
+        np.multiply(_MAP_Y, _MAP_Y, out=_SCRATCH)                     # ((Y-cy)/cy)^2
+        np.add(_MAP_X, _SCRATCH, out=_SCRATCH)
+        np.sqrt(_SCRATCH, out=_SCRATCH);  np.clip(_SCRATCH, 0, 1, out=_SCRATCH)
 
-        map_x = (X - cx_) / scale_map + cx_
-        map_y = (Y - cy_) / scale_map + cy_
+        # scale_map → _MAP_X
+        np.subtract(sb, sc, out=_MAP_X)
+        np.multiply(_MAP_X, _SCRATCH, out=_MAP_X)
+        _MAP_X += sc                                                   # scale_map
+
+        # map_x final → _SCRATCH
+        np.subtract(_X32, _CX32, out=_SCRATCH)
+        np.divide(_SCRATCH, _MAP_X, out=_SCRATCH)
+        _SCRATCH += _CX32                                              # map_x final
+
+        # map_y final → _MAP_Y
+        np.subtract(_Y32, _CY32, out=_MAP_Y)
+        np.divide(_MAP_Y, _MAP_X, out=_MAP_Y)
+        _MAP_Y += _CY32                                                # map_y final
+
+        np.copyto(_MAP_X, _SCRATCH)                                    # map_x → _MAP_X
 
     elif direction in ("pan_left", "pan_right"):
-        sign = -1 if direction == "pan_left" else 1
-        shift_px = int(w_ * max_shift * progress * sign)
+        sign = np.float32(-1 if direction == "pan_left" else 1)
+        shift_px = np.float32(W * 0.03 * progress * sign)
 
-        Y, X = np.meshgrid(np.arange(h_), np.arange(w_), indexing='ij')
-        # Centro se desloca 60%, bordas 100%
-        dist_x = abs(X - cx_) / cx_
-        local_shift = shift_px * (0.60 + 0.40 * dist_x)
-        map_x = (X - local_shift).astype(np.float32)
-        map_y = Y.astype(np.float32)
+        # local_shift → _SCRATCH, zero alocações
+        np.subtract(_X32, _CX32, out=_SCRATCH)
+        np.abs(_SCRATCH, out=_SCRATCH)
+        np.divide(_SCRATCH, _CX32, out=_SCRATCH)                      # dist_x
+        _SCRATCH *= np.float32(0.40);  _SCRATCH += np.float32(0.60)
+        _SCRATCH *= shift_px                                           # local_shift
+        np.subtract(_X32, _SCRATCH, out=_MAP_X)                       # map_x
+        np.copyto(_MAP_Y, _Y32)                                        # map_y
 
     else:
         return img
 
-    map_x = map_x.astype(np.float32)
-    map_y = map_y.astype(np.float32)
-    return cv2.remap(img, map_x, map_y, cv2.INTER_LINEAR,
+    return cv2.remap(img, _MAP_X, _MAP_Y, cv2.INTER_LINEAR,
                      borderMode=cv2.BORDER_REFLECT)
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -491,14 +512,15 @@ def build_clip(q: int, duration: float) -> ImageClip:
         # Ken Burns + Parallax (frame atual)
         kb_frame = ken_burns_frame(base_graded, t, duration, kb)
 
-        if kb != "freeze":
-            kb_frame = apply_parallax(kb_frame, t, duration, kb)
+        # Parallax desabilitado — causava esticamento/distorção
+        # if kb != "freeze":
+        #     kb_frame = apply_parallax(kb_frame, t, duration, kb)
 
         # Vinheta
         kb_frame = apply_vignette(kb_frame)
 
-        # Embers
-        kb_frame = apply_embers(kb_frame, ember_n, frame_idx)
+        # Embers desabilitados — estavam aparecendo como pontos laranja/marrom visíveis
+        # kb_frame = apply_embers(kb_frame, ember_n, frame_idx)
 
         # Flicker dramático
         if flicker:
@@ -517,20 +539,79 @@ def build_clip(q: int, duration: float) -> ImageClip:
 # ═══════════════════════════════════════════════════════════════════════
 # DURAÇÃO POR QUADRO (proporcional à duração total do batch)
 # ═══════════════════════════════════════════════════════════════════════
+# Durações whisper-aligned por quadro (override do calc_durations uniforme)
+# Gerado por _tools/sync_quadros_whisper.py — cada valor = tempo real que narrador leva
+DURATIONS_OVERRIDE = {
+    # Whisper-aligned — gerado por sync_quadros_whisper.py 2026-04-17
+    # Q01 = black frame 2.5s (handled em build_clip, nao precisa aqui)
+    # Batch 1 (parte1+parte2 = 170.24s)
+     2:18.44,  3: 8.14,  4:10.72,  5: 6.80,  6: 4.52,  7:15.56,  8: 6.76,
+     9:15.40, 10: 6.36, 11: 7.40, 12:10.12, 13:11.82, 14: 9.20,
+    15: 9.64, 16: 6.36, 17: 7.04, 18: 7.64,
+    # Batch 2 (parte3+parte4 = 199.56s)
+    19: 7.14, 20: 8.84, 21:11.84, 22: 8.62, 23:13.62, 24: 4.64,
+    25:10.54, 26:15.60, 27: 5.86, 28:23.82, 29: 7.10, 30:13.08,
+    31: 8.44, 32: 7.36, 33: 5.58, 34: 8.40, 35:11.94, 36: 7.66,
+    37: 3.44, 38:12.86,
+    # Batch 3 (parte5+parte6 = 217.04s)
+    39:10.92, 40:14.06, 41:14.16, 42:11.82, 43: 7.08, 44: 6.72,
+    45:10.30, 46:14.16, 47: 4.80, 48: 2.00, 49:17.34, 50: 5.84,
+    51:10.08, 52: 5.94, 53: 4.46, 54:14.02, 55: 5.60, 56:17.28,
+    57: 6.16, 58: 4.70, 59:10.84, 60:15.10,
+    # Batch 4 (parte7+parte8 = 235.76s)
+    61:10.68, 62:13.36, 63:16.04, 64: 7.30, 65: 7.80, 66: 9.82,
+    67:15.92, 68:11.62, 69:10.16, 70: 9.42, 71:24.64, 72: 5.62,
+    73: 2.00, 74:16.24, 75: 9.94, 76:13.00, 77:13.08, 78:10.10,
+    79: 3.58, 80:17.58, 81: 5.74,
+    # Batch 5 (parte9 = 121.92s)
+    82:21.78, 83: 8.10, 84: 8.96, 85:13.56, 86: 7.20, 87: 5.72,
+    88: 4.64, 89: 3.86, 90: 4.12, 91: 9.56, 92: 2.04, 93: 2.00,
+    94: 3.62, 95: 6.16, 96: 4.76, 97: 4.18, 98: 5.68,
+}
+
 def calc_durations(quadros: list, audio_parts: list) -> list:
     """
-    Distribui duração total (soma dos áudios) pelos quadros.
-    Quadros SLOW_QS recebem 1.4× a duração média.
+    Usa DURATIONS_OVERRIDE (whisper-aligned) para cada quadro quando disponivel.
+    Quadros com foto real: subtrai REAL_PHOTO_DUR (2.5s) da duracao da MJ para
+    que o total com photo = valor whisper (photo substitui primeiros 2.5s da narracao).
+    Quadros fora do override: fallback para distribuicao uniforme do tempo restante.
     """
-    total_dur = sum(PARTE_DUR[p] for p in audio_parts)
-    n = len(quadros)
+    total_audio = sum(PARTE_DUR[p] for p in audio_parts)
 
-    # Pesos: quadros bíblicos/bombshell recebem 1.4×
-    weights = [1.4 if q in SLOW_QS else 1.0 for q in quadros]
-    total_weight = sum(weights)
+    # Etapa 1: usa override onde disponivel
+    known = {}
+    unknown = []
+    for q in quadros:
+        if q in DURATIONS_OVERRIDE:
+            d = DURATIONS_OVERRIDE[q]
+            # Se for quadro com foto real, desconta photo_dur (photo substitui inicio da narracao)
+            if q in REAL_PHOTO_MAP:
+                d = max(2.0, d - REAL_PHOTO_DUR)
+            known[q] = d
+        else:
+            unknown.append(q)
 
-    durations = [total_dur * w / total_weight for w in weights]
-    return durations
+    # Etapa 2: Q01 black frame
+    q01_dur = 2.5 if 1 in quadros else 0.0
+
+    # Etapa 3: distribui tempo restante para quadros sem override
+    used = sum(known.values()) + q01_dur
+    # Adiciona tempo das fotos reais ao total esperado
+    photo_total = sum(REAL_PHOTO_DUR for q in quadros if q in REAL_PHOTO_MAP)
+    target = total_audio - photo_total
+    remaining = max(0, target - used)
+
+    if unknown:
+        per_q = remaining / len(unknown)
+        for q in unknown:
+            weight = 1.4 if q in SLOW_QS else 1.0
+            known[q] = max(3.0, per_q * weight)
+
+    if 1 in quadros:
+        known[1] = q01_dur
+
+    # Retorna lista na ordem de quadros
+    return [known.get(q, 5.0) for q in quadros]
 
 # ═══════════════════════════════════════════════════════════════════════
 # MIX DE ÁUDIO (ffmpeg — fora do MoviePy para evitar OOM)
@@ -725,12 +806,33 @@ def render_batch(batch: dict) -> bool:
 # ENTRY POINT
 # ═══════════════════════════════════════════════════════════════════════
 def main():
+    import argparse, time
+
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument('--only-batch', type=int, default=None,
+                        help='Renderizar apenas este batch (1-5) — uso interno')
+    args, _ = parser.parse_known_args()
+
+    # ── Modo subprocesso: apenas 1 batch ────────────────────────────────
+    if args.only_batch is not None:
+        bid = args.only_batch
+        batch = next((b for b in BATCHES if b["id"] == bid), None)
+        if batch is None:
+            print(f"[ERRO] Batch {bid} não encontrado", flush=True)
+            sys.exit(1)
+        print(f"\n{'='*50}", flush=True)
+        print(f"SUBPROCESS — Batch {bid}/5", flush=True)
+        ok = render_batch(batch)
+        sys.exit(0 if ok else 1)
+
+    # ── Modo principal: dispara subprocesso por batch ───────────────────
     print("PHANTASMA NÍVEL 3 — video-015-economist-manipulacao", flush=True)
     print(f"Output: {OUT}", flush=True)
     print(f"Quadros: 98 | Partes áudio: 9 | Batches: 5", flush=True)
     print(f"Resolução: {W}×{H} | FPS: {FPS}", flush=True)
     print(f"Efeitos: KenBurns+Parallax | Grain | Vignette | Grade | Embers | Flicker",
           flush=True)
+    print(f"Estratégia: SUBPROCESS por batch (RAM zerada entre batches)", flush=True)
 
     # Verifica assets
     missing = [q for b in BATCHES for q in b["quadros"]
@@ -739,15 +841,42 @@ def main():
         print(f"\n[AVISO] {len(missing)} quadros não encontrados: {missing[:10]}...",
               flush=True)
 
+    # Limpa arquivos parciais de runs anteriores
+    for f in OUT.glob("*_silent.mp4"):
+        f.unlink()
+        print(f"  [limpeza] {f.name} removido", flush=True)
+    for f in OUT.glob("narr_*.mp3"):
+        f.unlink()
+        print(f"  [limpeza] {f.name} removido", flush=True)
+
+    script = str(Path(__file__).resolve())
     success = 0
     for batch in BATCHES:
-        ok = render_batch(batch)
-        if ok:
+        bid = batch["id"]
+        print(f"\n{'='*60}", flush=True)
+        print(f"Lançando batch {bid}/5 em subprocesso...", flush=True)
+        result = subprocess.run(
+            [sys.executable, script, '--only-batch', str(bid)],
+            # Herda stdout/stderr do pai (vai para render.log)
+        )
+        if result.returncode == 0:
             success += 1
+            print(f"  Batch {bid} CONCLUÍDO (exit 0)", flush=True)
         else:
-            print(f"[ERRO] Batch {batch['id']} falhou — abortando", flush=True)
+            print(f"[ERRO] Batch {bid} falhou (exit {result.returncode}) — abortando",
+                  flush=True)
             sys.exit(1)
+
+        # Forçar Windows a liberar páginas de RAM antes do próximo batch
+        try:
+            import ctypes
+            ctypes.windll.psapi.EmptyWorkingSet(
+                ctypes.windll.kernel32.GetCurrentProcess())
+            print(f"  [RAM] Working set liberado", flush=True)
+        except Exception:
+            pass
         gc.collect()
+        import time as _time; _time.sleep(3)  # pausa para OS liberar páginas
 
     print(f"\n{'='*60}", flush=True)
     print(f"CONCLUÍDO: {success}/5 partes geradas", flush=True)
@@ -757,12 +886,11 @@ def main():
         print(f"  {i}. {OUT / f'parte_{i:02d}.mp4'}", flush=True)
 
     # Registra pipeline.log
-    import time
     log_path = BASE / "canais" / CANAL / "_config" / "pipeline.log"
     with log_path.open("a", encoding="utf-8") as f:
         ts = time.strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"{ts} | {VIDEO} | FASE 3.5 | Phantasma | "
-                f"5 partes renderizadas Nível 3 | {OUT}\n")
+                f"5 partes renderizadas Nível 3 (subprocess) | {OUT}\n")
 
 if __name__ == "__main__":
     main()

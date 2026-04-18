@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE3_Q29",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Arcanjo Miguel",
+  "narrative_beat": "Medium de arcanjo Miguel em armadura dourada, espada flamejante em riste, asas abertas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 3,
+    "quadro": "Q29",
+    "ato": "Biblia realmente diz"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal heroic",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium heroic shot of Archangel Michael in gilded armor with raised flaming sword",
+    "focal_point": "the flaming sword in his right hand with golden fire",
+    "secondary": "Ornate gold breastplate and greaves, feathered wings spread wide, fierce expression, crimson cape behind.",
+    "props": [
+      "Michael in gold armor",
+      "flaming golden sword",
+      "outstretched wings",
+      "crimson cape"
+    ]
+  },
+  "environment": {
+    "location": "cosmic battlefield",
+    "time_of_day": "eternal twilight",
+    "atmosphere": "angelic majesty"
+  },
+  "composition": {
+    "rule": "centered heroic",
+    "foreground": "Michael in vivid gold and crimson",
+    "midground": "wings in warm amber",
+    "background": "desaturated grayscale starfield and distant nebulae",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm backlight from behind wings",
+    "fill_light": "amber fill frontal",
+    "rim_light": "gold rim on armor edges",
+    "mood": "warrior archangel",
+    "shadow_quality": "dramatic heroic chiaroscuro"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "celestial majesty",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the voice of the archangel",
+    "secondary": "heavenly commander"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Voz de arcanjo. Uma voz sobrenatural que todo o universo vai ouvir."
+}

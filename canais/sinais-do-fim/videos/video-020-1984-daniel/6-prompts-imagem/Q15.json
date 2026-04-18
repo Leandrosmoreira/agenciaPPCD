@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE2_Q15",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Olho aterrorizado sob monóculo",
+  "narrative_beat": "Extreme close-up of terrified human eye under dark lens, reflection of austere mustached face in crimson poster",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q15",
+    "ato": "Quarta Besta"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "frontal",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a terrified human eye viewed through a dark round monocle lens",
+    "focal_point": "the reflected image in the lens of an austere mustached dictatorial face in crimson",
+    "secondary": "Deep wrinkles around the eye. Background P&B blurred.",
+    "props": [
+      "terrified human eye",
+      "dark monocle lens",
+      "reflected mustached face in crimson",
+      "deep wrinkles"
+    ]
+  },
+  "environment": {
+    "location": "a paranoid citizen's room",
+    "time_of_day": "night, television-like glow",
+    "atmosphere": "intimate paranoia"
+  },
+  "composition": {
+    "rule": "rule of thirds with eye at center",
+    "foreground": "eye and crimson reflection in rich warm tones",
+    "background": "desaturated black-and-white blurred surroundings",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh cold television glow from camera-left",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on monocle edge",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "intimate paranoia",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "thoughtcrime — the eye betraying inner thought",
+    "secondary": "the Party watches from within the reflection"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

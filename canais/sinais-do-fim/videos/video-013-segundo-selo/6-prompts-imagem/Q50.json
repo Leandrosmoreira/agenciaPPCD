@@ -1,0 +1,107 @@
+{
+  "id": "video-013_PARTE4_Q50",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Coalizao formada em mesa redonda",
+  "narrative_beat": "Cinco figuras silhuetadas ao redor de Israel",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q50",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "symmetric frontal",
+    "focal_length_mm": 28,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide symmetric of five silhouetted figures around a medieval round table, each lit with a distinct rich hue (crimson, ochre, gold, copper, terracotta)",
+    "focal_point": "a parchment at center showing the word Israel in Hebrew and Latin",
+    "secondary": "No faces visible; each figure's shadow falls across the parchment",
+    "props": [
+      "five silhouetted figures",
+      "round medieval table",
+      "central parchment reading Israel",
+      "five colored lights"
+    ]
+  },
+  "environment": {
+    "location": "coalition chamber",
+    "time_of_day": "midnight meeting",
+    "atmosphere": "prophecy fulfilled"
+  },
+  "composition": {
+    "rule": "symmetric circular composition",
+    "foreground": "five hues and parchment in vivid saturated tones",
+    "midground": "round table surface",
+    "background": "desaturated chamber edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "five colored side-lights",
+    "fill_light": "mixed amber bounce",
+    "rim_light": "gold rim on parchment",
+    "mood": "coalition gathered",
+    "shadow_quality": "radial shadows from each figure"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, multi-hue saturation",
+    "texture_detail": "35mm grain, dust"
+  },
+  "mood": {
+    "emotion": "Ezekiels coalition assembled today",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "prophecy of five nations now fulfilled",
+    "secondary": "multi-colored silhouettes around one target"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "ISRAEL",
+    "font_style": "bilingual Hebrew calligraphy in crimson and Latin engraving in gold",
+    "medium": "central parchment",
+    "placement": "centered on round table"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

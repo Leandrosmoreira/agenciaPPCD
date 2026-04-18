@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE2_Q19",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "William Miller 1844",
+  "narrative_beat": "Wide cinematografico de multidao do seculo XIX em colina, pregador central em sobrecasaca carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 2,
+    "quadro": "Q19",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "epic frontal",
+    "focal_length_mm": 35,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a Renaissance-style wide shot of a 19th-century crowd gathered on a hillside at dawn",
+    "focal_point": "the central preacher in a crimson frock coat holding an illuminated Bible skyward",
+    "secondary": "Crowd in black-and-white period dress looking upward at empty sky, central preacher standing on rock with Bible raised in gold light.",
+    "props": [
+      "crowd in Victorian dress",
+      "central preacher in crimson coat",
+      "raised illuminated Bible",
+      "empty sky"
+    ]
+  },
+  "environment": {
+    "location": "American rural hillside 1844",
+    "time_of_day": "dawn",
+    "atmosphere": "historical disappointment"
+  },
+  "composition": {
+    "rule": "rule of thirds with preacher center",
+    "foreground": "preacher and Bible in vivid crimson and gold",
+    "midground": "crowd silhouettes in warm mid-tones",
+    "background": "desaturated black-and-white dawn sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "soft dawn light from horizon",
+    "fill_light": "ambient cool blue from sky",
+    "rim_light": "gold rim on Bible",
+    "mood": "failed expectation",
+    "shadow_quality": "long sunrise shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "collective false hope",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the Great Disappointment of 1844",
+    "secondary": "historical precedent of deception"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "William Miller — Estados Unidos, mil oitocentos e quarenta e quatro. Convenceu cinquenta mil cristaos."
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE4_Q30",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A imagem falou",
+  "narrative_beat": "Medium cabeça escultural de pedra emitindo caracteres binários P&B da boca",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 4,
+    "quadro": "Q30",
+    "ato": "Patmos"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium frontal shot of an ancient colossal sculpted stone head with detailed aged gold inlays",
+    "focal_point": "sound waves of desaturated binary characters escaping from its open mouth",
+    "secondary": "The characters spread visibly through the air; orange embers drift around the sculpture.",
+    "props": [
+      "ancient colossal sculpted stone head",
+      "aged gold inlays",
+      "visible sound waves of desaturated binary characters",
+      "drifting orange embers"
+    ]
+  },
+  "environment": {
+    "location": "a ruined oracular shrine",
+    "time_of_day": "ritual night",
+    "atmosphere": "artificial voice, verbal blasphemy"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "stone head in rich ochre and aged gold",
+    "midground": "spreading binary sound waves in desaturated tones",
+    "background": "desaturated black-and-white ruined shrine walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm ritual light on face",
+    "fill_light": "cold binary glow from mouth",
+    "rim_light": "gold on inlays",
+    "mood": "chiaroscuro oracular",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "artificial voice, blasphemy",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "stone idol granted speech",
+    "secondary": "binary language as new tongue of beast"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

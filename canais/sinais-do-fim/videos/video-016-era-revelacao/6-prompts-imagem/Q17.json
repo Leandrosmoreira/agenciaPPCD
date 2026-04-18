@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE2_Q17",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Amostras de liga metalica nao-humana em laboratorio",
+  "narrative_beat": "Mesa de laboratorio subterraneo com amostras metalicas de forma impossivel em suportes de vidro",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q17", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "medium", "camera_angle": "lateral", "focal_length_mm": 40, "aperture": "f/2.8", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a subterranean laboratory bench with three twisted metallic alloy samples in impossible organic curves, each displayed on glass stands",
+    "focal_point": "the central sample with its chrome surface catching amber light",
+    "secondary": "The samples look like frozen metal melted into impossible shapes. Each one reflects warm side lighting.",
+    "props": ["silver chrome alloy samples with impossible geometry", "glass display stands", "laboratory bench with aged finish", "exposed cabling"]
+  },
+  "environment": {"location": "subterranean military bunker laboratory", "time_of_day": "interior, amber lateral work light", "atmosphere": "subterranean secret, tangible anomaly"},
+  "composition": {
+    "rule": "horizontal alignment of three specimens, rule of thirds",
+    "foreground": "metallic samples in rich chrome-gold tones",
+    "midground": "glass stands and bench surface",
+    "background": "desaturated black-and-white bunker walls with exposed cables",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "hard amber work light from lateral right",
+    "fill_light": "faint cold blue backlight from instruments",
+    "rim_light": "gold rim on each specimen",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "segredo subterraneo, materialidade", "tension": "high"},
+  "symbolism": {"primary": "physical evidence of non-human origin", "secondary": "three samples as triad of confirmation"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

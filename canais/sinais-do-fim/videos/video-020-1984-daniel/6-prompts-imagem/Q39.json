@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE4_Q39",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Caixa rejeitando — maçã caindo",
+  "narrative_beat": "Medium of supermarket checkout P&B, customer's hand extended but scanner pulsing red denial, vivid red apple falling in slow motion",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q39",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "3/4",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a modern supermarket checkout counter with a customer's empty hand extended",
+    "focal_point": "a vivid rich red apple caught mid-fall below the hand, scanner pulsing red above",
+    "secondary": "Customer body in P&B. Scanner and counter desaturated. Red pulse and apple in rich warm tones.",
+    "props": [
+      "customer extended hand",
+      "red pulsing scanner",
+      "falling vivid red apple",
+      "supermarket counter"
+    ]
+  },
+  "environment": {
+    "location": "a supermarket checkout",
+    "time_of_day": "cold store LED",
+    "atmosphere": "divinely anticipated exclusion"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "red apple in rich crimson",
+    "background": "desaturated black-and-white customer and counter",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cold LED overhead plus red scanner pulse",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on apple skin",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft falling shadow"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "divinely anticipated exclusion",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "none shall buy or sell without the mark",
+    "secondary": "apple as lost Edenic commerce"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

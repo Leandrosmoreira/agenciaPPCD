@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE5_Q53",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavalo branco resumo",
+  "narrative_beat": "Cavaleiro coroado com arco",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 5,
+    "quadro": "Q53",
+    "ato": "Parte 5 Tribulacao"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "side-lateral",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium lateral of the white horse of the first seal, coat luminous ivory, rider faceless under crowned helm holding a golden bow",
+    "focal_point": "the crown and bow catching gold light",
+    "secondary": "Background desaturated view of Jerusalem at peace",
+    "props": [
+      "luminous white horse",
+      "faceless crowned rider",
+      "golden bow",
+      "desaturated peaceful Jerusalem"
+    ]
+  },
+  "environment": {
+    "location": "plain of deceptive peace",
+    "time_of_day": "midday ceremonial",
+    "atmosphere": "peace that was"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "horse and crown in vivid ivory-gold",
+    "midground": "ceremonial ground",
+    "background": "desaturated Jerusalem",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "diffuse overhead",
+    "fill_light": "gold bounce on crown",
+    "rim_light": "amber rim on mane",
+    "mood": "remembered peace",
+    "shadow_quality": "soft diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, dust"
+  },
+  "mood": {
+    "emotion": "first seal: the peace that was",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "white horse recap",
+    "secondary": "crown as false peace"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

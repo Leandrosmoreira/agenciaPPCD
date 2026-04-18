@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q30",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tora e menora com fogo distante",
+  "narrative_beat": "Pergaminho sobre mesa com reflexos",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q30",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "frontal",
+    "focal_length_mm": 60,
+    "aperture": "f/2.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a close-up of a Torah scroll on dark wood table with a golden menorah alongside",
+    "focal_point": "distant fire flicker reflecting on the parchment",
+    "secondary": "No human figures; window behind shows bombed buildings in P&B",
+    "props": [
+      "Torah scroll",
+      "golden menorah",
+      "flickering parchment reflection",
+      "bombed window silhouettes"
+    ]
+  },
+  "environment": {
+    "location": "Israeli synagogue study",
+    "time_of_day": "night of war declaration",
+    "atmosphere": "antiquity in modern war"
+  },
+  "composition": {
+    "rule": "rule of thirds on scroll",
+    "foreground": "Torah and menorah in vivid gold-crimson",
+    "midground": "dark wood table",
+    "background": "desaturated bombed cityscape through window",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "flickering distant fire glow",
+    "fill_light": "amber bounce off parchment",
+    "rim_light": "gold rim on menorah",
+    "mood": "ancient war",
+    "shadow_quality": "deep warm shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, parchment texture"
+  },
+  "mood": {
+    "emotion": "Israel's war declared",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "covenant people in ancient modern war",
+    "secondary": "menorah as enduring flame amid bombardment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

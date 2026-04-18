@@ -33,6 +33,7 @@ YouTube Data API v3 (search), Google Trends, Claude API
 2. Ler `_agency/competitive_intel/latest.md` — insights da semana atual
 3. Se competitive_intel não existir: rodar `python _tools/argos_competitive.py` para coletar
 4. Usar os layers dominantes e power words identificados como base
+5. **`canais/{canal}/_config/feedback_anubis.md`** ← OBRIGATÓRIO — lições do próprio canal (o que funcionou e o que falhou em CTR/retenção)
 
 ## Os 6 Layers do Nicho Bíblico (validados com dados reais)
 

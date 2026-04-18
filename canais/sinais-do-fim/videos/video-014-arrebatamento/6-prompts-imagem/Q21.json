@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE2_Q21",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Microfone de radio anos 90",
+  "narrative_beat": "Close lateral de microfone de radio antigo em cores ricas, ondas sonoras vermelhas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 2,
+    "quadro": "Q21",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "3/4 side",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a vintage 1990s broadcast microphone in gold and chrome",
+    "focal_point": "the microphone with visible red sound waves emanating from the grille",
+    "secondary": "Chrome body with amber panel, foam windscreen missing, crimson sound waves radiating outward, dust particles visible.",
+    "props": [
+      "vintage chrome broadcast microphone",
+      "crimson sound wave rings",
+      "floating dust particles"
+    ]
+  },
+  "environment": {
+    "location": "abandoned radio studio",
+    "time_of_day": "dusk",
+    "atmosphere": "obsolete transmission"
+  },
+  "composition": {
+    "rule": "foreground microphone dominance",
+    "foreground": "microphone in vivid gold and chrome",
+    "midground": "sound waves in rich crimson",
+    "background": "desaturated black-and-white empty chair behind",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "single warm key from front",
+    "fill_light": "cool blue ambient from back",
+    "rim_light": "gold rim on chrome",
+    "mood": "obsolete prophecy",
+    "shadow_quality": "hard lateral raking light"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "fallen transmission",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Harold Camping on dead radio waves",
+    "secondary": "voice of false prophecy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Harold Camping — radio Gospel americano. Cravou o fim do mundo para setembro de mil novecentos e noventa e quatro."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE2_Q19",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Multidão P&B com figura iluminada no centro",
+  "narrative_beat": "Wide overhead of P&B silhouetted crowd walking in parallel lines on white marble, single figure at center in ochre robes under golden spotlight",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q19",
+    "ato": "Quarta Besta"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide overhead",
+    "camera_angle": "60 degree tilt",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a vast marble plaza seen from above with hundreds of silhouetted human figures walking in rigid parallel lines",
+    "focal_point": "a single figure at center in vivid ochre and crimson robes looking upward in despair, lit by a vertical golden spotlight",
+    "secondary": "Crowd entirely desaturated. Central figure in vivid color. Ash particles floating.",
+    "props": [
+      "vast marble plaza",
+      "silhouetted parallel-line crowd",
+      "central figure in ochre robe",
+      "vertical golden spotlight"
+    ]
+  },
+  "environment": {
+    "location": "a totalitarian public plaza",
+    "time_of_day": "eternal twilight",
+    "atmosphere": "systemic guilt"
+  },
+  "composition": {
+    "rule": "centered radial composition",
+    "foreground": "central figure in rich ochre and crimson",
+    "background": "desaturated black-and-white marble and crowd",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical golden spotlight from above on central figure",
+    "fill_light": "deep cold ambient fill",
+    "rim_light": "gold rim on figure's shoulders",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "long linear crowd shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "systemic guilt",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "permanent potential criminality under arbitrary law",
+    "secondary": "spotlight as inescapable gaze"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

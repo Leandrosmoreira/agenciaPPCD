@@ -1,0 +1,107 @@
+{
+  "id": "video-020_PARTE4_Q44",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Maquete pirâmide de controle",
+  "narrative_beat": "Medium overhead 60 degrees of architectural maquette pyramid in rich gold and crimson, three levels: commerce base, transactions middle, identity top",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "Q44",
+    "ato": "China e a Marca"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium overhead",
+    "camera_angle": "60 degree tilt",
+    "focal_length_mm": 40,
+    "aperture": "f/5.6",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a detailed architectural maquette of a three-tier control pyramid on an architect's drafting table",
+    "focal_point": "the golden top level labeled IDENTIDADE at apex",
+    "secondary": "The three levels clearly visible: base COMÉRCIO, middle TRANSAÇÕES, top IDENTIDADE. Background: architect's studio P&B.",
+    "props": [
+      "three-tier architectural maquette",
+      "tier labels in gold",
+      "drafting tools beside"
+    ]
+  },
+  "environment": {
+    "location": "an architect's studio",
+    "time_of_day": "desk lamp night",
+    "atmosphere": "eternal project"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "maquette in rich gold, crimson and ochre",
+    "background": "desaturated black-and-white studio background",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm focused desk lamp from camera-right",
+    "fill_light": "amber bounce from model",
+    "rim_light": "gold rim on tier edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "eternal project",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "architecture of total control is ancient",
+    "secondary": "pyramid as model of concentration"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "IDENTIDADE\nTRANSAÇÕES\nCOMÉRCIO",
+    "font_style": "engraved architectural label capital letters in polished gold",
+    "medium": "etched on the three tiers of the maquette",
+    "placement": "three horizontal rows, one per tier, top to bottom",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

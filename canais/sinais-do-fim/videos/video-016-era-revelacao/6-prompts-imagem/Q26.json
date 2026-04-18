@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE3_Q26",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Filhos de Deus e filhas dos homens",
+  "narrative_beat": "Pintura renascentista de figuras angelicais aladas inclinando-se sobre figuras humanas femininas",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q26", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "medium", "camera_angle": "frontal symmetrical", "focal_length_mm": 50, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a Renaissance-style fresco rendering of tall winged angelic figures with great gold wings bending down toward female human figures in white robes in the foreground",
+    "focal_point": "the central angel's face veiled in warm gold shadow leaning down",
+    "secondary": "Figures rendered in classical fresco style. Antediluvian landscape fades to monochrome behind.",
+    "props": ["winged angelic figures with gold feathers", "female human figures in white robes", "crimson-ochre mantles", "antediluvian landscape"]
+  },
+  "environment": {"location": "antediluvian meadow before flood", "time_of_day": "golden pre-dawn", "atmosphere": "cosmic transgression, mythological"},
+  "composition": {
+    "rule": "symmetrical Renaissance composition",
+    "foreground": "angels and humans in rich gold-crimson tones",
+    "midground": "mantles and wings flowing",
+    "background": "desaturated black-and-white primitive landscape",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden pre-dawn light from above-left",
+    "fill_light": "warm amber bounce",
+    "rim_light": "gold on wing edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft Renaissance fresco shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, Renaissance fresco texture, floating orange embers"
+  },
+  "mood": {"emotion": "transgressao cosmica, mitologico", "tension": "high"},
+  "symbolism": {"primary": "forbidden union between angelic and human", "secondary": "descent into humanity"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "classical fresco rendering, reverent depiction",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

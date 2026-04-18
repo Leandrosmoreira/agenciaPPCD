@@ -1,0 +1,108 @@
+{
+  "id": "video-014_PARTE1_Q12",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mateus 24:36 iluminado",
+  "narrative_beat": "Close extremo Biblia aberta em Mateus 24:36, feixe de luz dourada divina sobre o versiculo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 1,
+    "quadro": "Q12",
+    "ato": "Gancho"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "frontal",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme macro of an old leather-bound Bible open to Matthew chapter 24",
+    "focal_point": "a vertical golden beam of divine light striking verse 36 specifically",
+    "secondary": "Aged parchment pages with Portuguese gothic script, verse 36 glowing with warm amber divine light, soft embers floating.",
+    "props": [
+      "open leather Bible",
+      "aged parchment pages",
+      "vertical divine light beam",
+      "floating amber embers"
+    ]
+  },
+  "environment": {
+    "location": "dark sacred interior",
+    "time_of_day": "pre-dawn",
+    "atmosphere": "revelation of the rule"
+  },
+  "composition": {
+    "rule": "centered divine axis",
+    "foreground": "Bible page with glowing verse in vivid gold and cream",
+    "midground": "leather cover edges in warm brown",
+    "background": "absolute black surrounding void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical divine key light from above",
+    "fill_light": "none — only the beam",
+    "rim_light": "gold highlights on page edges",
+    "mood": "sacred revelation",
+    "shadow_quality": "hard-edged divine shadow outside beam"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "reverent revelation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the rule that was broken",
+    "secondary": "divine secrecy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Mt 24:36",
+    "font": "aged serif Bible typeface",
+    "medium": "ink on parchment",
+    "placement": "lower portion of page, highlighted by golden beam"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Essa regra esta em Mateus, capitulo vinte e quatro, versiculo trinta e seis."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE2_Q14",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pilha de jornais UFO queimando",
+  "narrative_beat": "Pilha de jornais velhos de UFO em chamas — brasa dourada consumindo manchetes P&B",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q14", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "80 degrees tilted", "focal_length_mm": 35, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a pile of old tabloid newspapers with black-and-white UFO headlines being consumed by a centered crimson-gold ember flame",
+    "focal_point": "the flame at the heart of the pile spreading outward",
+    "secondary": "Curling smoke rises in a spiral. Paper edges blacken and crinkle.",
+    "props": ["stacked vintage tabloid newspapers", "UFO-headline abstractions", "crimson-gold flame", "spiral smoke"]
+  },
+  "environment": {"location": "dusty attic interior with wooden floorboards", "time_of_day": "night, only firelight", "atmosphere": "sudden turn, new era, ending of silence"},
+  "composition": {
+    "rule": "centered overhead with radial combustion",
+    "foreground": "crimson flame in intense warm tones",
+    "midground": "newspaper stacks curling inward",
+    "background": "desaturated black-and-white attic planks",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "central flame as sole light source",
+    "fill_light": "amber glow on surrounding pages",
+    "rim_light": "gold smoke edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "flickering hard-edged shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, ash particles, floating orange embers"
+  },
+  "mood": {"emotion": "virada brusca, era nova", "tension": "high"},
+  "symbolism": {"primary": "the underground silence consumed", "secondary": "fire as inevitable disclosure"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

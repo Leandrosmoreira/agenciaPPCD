@@ -1,0 +1,104 @@
+{
+  "id": "video-014_PARTE3_Q35",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Banquete inconsciente",
+  "narrative_beat": "Wide de cena de festa renascentista em cores ricas, tsunami gigante P&B ao fundo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 3,
+    "quadro": "Q35",
+    "ato": "Biblia realmente diz"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "symmetric",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide Renaissance-style feast scene with rich warm tones",
+    "focal_point": "the unaware feasters raising goblets in the center foreground",
+    "secondary": "Long banquet table with wine, bread, fruit, revelers in period dress, musicians playing — all oblivious to the massive grayscale tsunami wall behind.",
+    "props": [
+      "feasting revelers",
+      "banquet table with wine and bread",
+      "massive tsunami wall behind",
+      "unnoticed threat"
+    ]
+  },
+  "environment": {
+    "location": "ancient feast hall open to sky",
+    "time_of_day": "golden hour",
+    "atmosphere": "oblivious normalcy"
+  },
+  "composition": {
+    "rule": "horizontal table with rising wave",
+    "foreground": "feast in vivid crimson, gold, amber",
+    "midground": "table linen in warm cream",
+    "background": "desaturated grayscale looming tsunami wall",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm side sunlight on feast",
+    "fill_light": "cold blue ambient from tsunami",
+    "rim_light": "gold rim on goblets and bread",
+    "mood": "oblivious tragedy",
+    "shadow_quality": "dramatic warm-cold contrast"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "tragic obliviousness",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "eating and drinking until the flood",
+    "secondary": "unawareness of impending judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Comiam, bebiam, casavam-se... normalidade ate o ultimo segundo."
+}

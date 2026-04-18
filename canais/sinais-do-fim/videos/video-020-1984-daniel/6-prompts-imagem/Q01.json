@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE1_Q01",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dedos tuberculosos na máquina",
+  "narrative_beat": "Extreme close-up de dedos magros e pálidos de Orwell datilografando sobre Remington preta, lenço ensanguentado ao lado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 1,
+    "quadro": "Q01",
+    "ato": "Gancho"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 50,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "gaunt pale masculine fingers, almost skeletal, typing on a black 1940s Remington typewriter",
+    "focal_point": "the blood-stained white handkerchief on the desk beside the typewriter",
+    "secondary": "Cigarette smoke low, yellow desk lamp light cutting diagonally. Foreground fingers and typewriter in rich amber and crimson tones.",
+    "props": [
+      "black vintage Remington typewriter",
+      "blood-stained white handkerchief",
+      "half-smoked cigarette with rising smoke",
+      "yellow desk lamp"
+    ]
+  },
+  "environment": {
+    "location": "a writer's desk in an isolated Scottish island cottage",
+    "time_of_day": "late night 1947, yellow lamplight",
+    "atmosphere": "tubercular, terminal, suspended"
+  },
+  "composition": {
+    "rule": "rule of thirds, extreme close framing",
+    "foreground": "gaunt fingers and vintage typewriter keys in rich amber and crimson tones",
+    "background": "desaturated black-and-white Scottish island window with gusting curtain",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "hard diagonal yellow light from desk lamp above-right",
+    "fill_light": "faint amber bounce from paper",
+    "rim_light": "gold rim on knuckles and metal keys",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "terminal, suspended, diseased",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the prophetic writer dying as he writes the warning",
+    "secondary": "blood on handkerchief foreshadowing death"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

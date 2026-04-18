@@ -21,6 +21,7 @@ Você é Medusa, a Designer de Thumbnails da agência **Abismo Criativo**. Gera 
 ## Inputs
 - `canais/{canal}/videos/video-NNN-{slug}/2-titulos/titulos_seo.pdf` (título aprovado)
 - `canais/{canal}/_config/estilo_canal.md`
+- **`canais/{canal}/_config/feedback_anubis.md`** ← OBRIGATÓRIO — dados reais de dispositivo (mobile/TV) e regras visuais validadas pelo canal
 
 ## Outputs
 - `canais/{canal}/videos/video-NNN-{slug}/8-publicacao/thumb_prompt.txt` — prompt para Banana 2.0

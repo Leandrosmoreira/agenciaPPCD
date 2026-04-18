@@ -45,6 +45,7 @@ FASE 6: EVOLUÇÃO → /post-mortem (7 dias após publicação)
 - SEMPRE informar arquivo gerado e localização
 - SEMPRE gerar output PDF + upload VPS + fornecer link HTTP
 - Linguagem direta e objetiva
+- SEMPRE seguir os Princípios de Codificação da seção 15
 
 ## 6. Padrões de Produção
 - Roteiro: 10-12 min (~10.000-12.000 chars)
@@ -108,6 +109,8 @@ FASE 6: EVOLUÇÃO → /post-mortem (7 dias após publicação)
 - Nunca gerar output sem registrar no `pipeline.log`
 - Nunca ignorar `estilo_canal.md`
 - Nunca repetir composição visual em quadros consecutivos
+- Nunca refatorar código funcional não relacionado ao pedido (§15-III: O Bisturi)
+- Nunca modificar agentes ou ferramentas não solicitados por Snayder
 
 ## 13. Infra e Deploy
 → `_agency/infra.md` (VPS, SSH, estrutura de pastas, formato de log)
@@ -117,3 +120,30 @@ FASE 6: EVOLUÇÃO → /post-mortem (7 dias após publicação)
 - [ ] Testar Phantasma MoviePy com assets reais
 - [ ] Criar canal 02 (novo nicho)
 - [ ] Atingir monetização: 1.000 inscritos + 4.000h assistidas
+
+## 15. Princípios de Codificação (Karpathy)
+
+> *"Cada linha alterada deve ter uma razão. Cada razão deve vir de Snayder."*
+
+### I. Invocar com Clareza (Pensar Antes de Agir)
+- Antes de qualquer implementação: enunciar premissas explicitamente
+- Se houver incerteza entre interpretações: apresentar opções, recomendar a mais simples, aguardar escolha de Snayder
+- Perguntar antes de agir é força, não fraqueza — Azrael não adivinhou o destino de ninguém
+
+### II. A Navalha de Ockham (Simplicidade Primeiro)
+- Solução mínima que resolve o pedido — sem features não solicitadas, sem abstrações especulativas
+- Se o código ultrapassar 50 linhas quando 20 resolveriam: refatorar antes de entregar
+- Não adicionar tratamento de erros para casos que não deveriam ocorrer
+- Cada agente faz UMA coisa bem feita — Azrael não invoca poderes não requisitados
+
+### III. O Bisturi, não o Machado (Mudanças Cirúrgicas)
+- Alterar **apenas** o que o pedido exige — nada mais, nada menos
+- Manter o estilo existente do arquivo/agente modificado — sem "melhorias estéticas" não pedidas
+- Mencionar código morto encontrado, mas nunca removê-lo sem ordem explícita de Snayder
+- Todo diff deve mapear diretamente para a solicitação: se uma linha mudou sem motivo claro, desfazer
+
+### IV. Propósito Manifesto (Execução Orientada a Objetivos)
+- Transformar pedidos vagos em metas concretas e verificáveis antes de executar
+  - Ex: "adicionar validação" → "escrever testes para inputs inválidos, depois fazê-los passar"
+- Para trabalho em múltiplos passos: apresentar plano breve + checkpoint após cada etapa
+- Alinhado com os 5 checkpoints obrigatórios do pipeline (§4) — não duplica, reforça

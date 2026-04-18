@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE4_Q39",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Bussola dourada",
+  "narrative_beat": "Medium overhead de bussola antiga apontando para horizonte, agulha em chama",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q39",
+    "ato": "Sinais reais"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "overhead 60",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium overhead shot of an antique golden brass compass on an old maritime map",
+    "focal_point": "the compass needle is a living flame pointing toward the map horizon",
+    "secondary": "Ornate brass compass with engraved rose, needle replaced with living flame, aged map in warm sepia.",
+    "props": [
+      "antique brass compass",
+      "flame-shaped needle",
+      "aged maritime map"
+    ]
+  },
+  "environment": {
+    "location": "navigation desk",
+    "time_of_day": "dusk candlelight",
+    "atmosphere": "directional prophecy"
+  },
+  "composition": {
+    "rule": "overhead centered compass",
+    "foreground": "compass and flame in vivid gold and crimson",
+    "midground": "map in warm sepia",
+    "background": "desaturated grayscale wood grain edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead candlelight",
+    "fill_light": "none",
+    "rim_light": "gold rim on compass housing",
+    "mood": "prophetic direction",
+    "shadow_quality": "soft golden diffusion"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "navigational truth",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "signs point to a direction, not a date",
+    "secondary": "biblical orientation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Sinais apontam para uma direcao. Nao marcam uma data."
+}

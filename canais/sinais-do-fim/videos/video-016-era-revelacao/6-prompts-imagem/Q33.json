@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE3_Q33",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Abducao interrompida pelo nome de Jesus",
+  "narrative_beat": "Mulher deitada com mao erguida — luz vertical dourada afastando sombras escuras",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q33", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "wide", "camera_angle": "low-angle contre-jour", "focal_length_mm": 28, "aperture": "f/4.0", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a woman lying on a bed looking upward, left hand raised in supplication, as a vertical white-gold shaft of light descends from above repelling dark silhouettes retreating to the sides",
+    "focal_point": "the vertical white-gold shaft of light striking the raised hand",
+    "secondary": "Dark ominous silhouettes retreating into black shadow at frame edges. Woman in dirty-white cream robe.",
+    "props": ["white-cream robe figure on bed", "raised hand of supplication", "vertical gold-white light shaft", "retreating dark silhouettes"]
+  },
+  "environment": {"location": "modern bedroom in shadow", "time_of_day": "night, supernatural event", "atmosphere": "spiritual deliverance, power of the name"},
+  "composition": {
+    "rule": "centered vertical axis with radial shadows",
+    "foreground": "woman and bed in warm cream tones",
+    "midground": "vertical light shaft",
+    "background": "desaturated black-and-white modern bedroom walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical white-gold shaft from above",
+    "fill_light": "faint amber bounce from sheets",
+    "rim_light": "gold on hand outline",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "libertacao espiritual, poder do nome", "tension": "high"},
+  "symbolism": {"primary": "invocation breaking the spell", "secondary": "light as authority over darkness"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE1_Q09",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Biblia sobreposta a jornal moderno",
+  "narrative_beat": "Biblia aberta em pergaminho com jornal moderno P&B por cima marcando manchete UFO",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 1, "quadro": "Q09", "ato": "Gancho"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "straight-down 90 degrees", "focal_length_mm": 35, "aperture": "f/4.0", "depth_of_field": "moderate", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "top-down view of an antique oratory desk with an open Bible on aged parchment with gold calligraphy, overlaid with a modern black-and-white newspaper showing a UFO headline",
+    "focal_point": "the junction where ancient gold calligraphy meets modern newsprint",
+    "secondary": "A lit candle casts warm light from the corner. Page edges curl and one floats an ember.",
+    "props": ["open Bible with gold Hebrew-style calligraphy on parchment", "monochrome modern newspaper with UFO headline abstraction", "burning candle", "brass candle holder"]
+  },
+  "environment": {"location": "antique oratory desk in private study", "time_of_day": "interior night, warm candlelight", "atmosphere": "sacred-present bridge, temporal connection"},
+  "composition": {
+    "rule": "overhead centered, layered",
+    "foreground": "Bible page in rich gold and warm parchment tones",
+    "midground": "newspaper in desaturated black-and-white",
+    "background": "dark wood desk surface",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candle from upper-right",
+    "fill_light": "faint amber reflection on desk",
+    "rim_light": "gold on page curls",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "conexao sagrada-atual, ponte temporal", "tension": "medium"},
+  "symbolism": {"primary": "ancient Scripture answering modern mystery", "secondary": "two texts collapsing into one timeline"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

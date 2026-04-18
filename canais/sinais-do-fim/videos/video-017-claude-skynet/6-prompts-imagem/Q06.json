@@ -1,0 +1,104 @@
+{
+  "id": "video-017_PARTE2_Q06",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "O mecanismo",
+  "narrative_beat": "Overhead de pergaminho com diagrama de rede neural dourado e carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 2,
+    "quadro": "Q06",
+    "ato": "Julgamento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a top-down view over a dark marble table bearing an aged parchment schematic of a neural network with gold nodes connected by crimson threads",
+    "focal_point": "the central node of the neural network diagram",
+    "secondary": "A scribe quill and ink bottle rest beside the parchment; ash particles drift in the air.",
+    "props": [
+      "aged parchment neural network schematic",
+      "gold nodes",
+      "crimson threads",
+      "scribe quill",
+      "ink bottle",
+      "ash particles"
+    ]
+  },
+  "environment": {
+    "location": "a scholar's chamber with marble table",
+    "time_of_day": "candlelit late night",
+    "atmosphere": "cold analysis, hidden architecture"
+  },
+  "composition": {
+    "rule": "centered overhead",
+    "foreground": "parchment schematic in ochre, gold and crimson",
+    "midground": "marble table with faint candle reflections",
+    "background": "desaturated black-and-white blurred server wall behind",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "candlelight raking across parchment",
+    "fill_light": "amber bounce",
+    "rim_light": "gold on quill",
+    "mood": "chiaroscuro scholarly",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "cold analysis, hidden architecture",
+    "tension": "moderate"
+  },
+  "symbolism": {
+    "primary": "the secret architecture of algorithmic judgment",
+    "secondary": "quill as complicit scribe"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "video-013_PARTE3_Q31",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Oriente Medio aereo em chamas",
+  "narrative_beat": "Circulos concentricos de fogo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q31",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "aerial overhead 75",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aerial stylized overhead of the entire Middle East region on fire, concentric circles of gold-crimson flame marking Israel, Lebanon, Yemen, Iraq, Iran",
+    "focal_point": "the converging flame circles",
+    "secondary": "Desaturated rest of region; smoke curls upward",
+    "props": [
+      "concentric fire circles marking 5 nations",
+      "smoke columns rising",
+      "regional scale"
+    ]
+  },
+  "environment": {
+    "location": "aerial view of Middle East",
+    "time_of_day": "72 hours after Oct 7",
+    "atmosphere": "region in combustion"
+  },
+  "composition": {
+    "rule": "overhead aerial composition",
+    "foreground": "fire circles in vivid gold-crimson",
+    "midground": "regional geography",
+    "background": "desaturated regional terrain",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "diffuse overhead",
+    "fill_light": "amber bounce from fires",
+    "rim_light": "crimson rim on smoke",
+    "mood": "regional apocalypse",
+    "shadow_quality": "drifting shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-amber saturation",
+    "texture_detail": "35mm grain, smoke particulate"
+  },
+  "mood": {
+    "emotion": "Middle East ignited in 72 hours",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Abraham Accords promise incinerated",
+    "secondary": "five fronts as five spokes of burning wheel"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

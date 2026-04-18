@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q36",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Instalacao nuclear iraniana cortada",
+  "narrative_beat": "Cross-section em estilo medieval",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q36",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "lateral",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium lateral cross-section styled as a medieval illuminated illustration of a subterranean Iranian nuclear facility",
+    "focal_point": "crimson-gold reactor cores being struck",
+    "secondary": "Layered structure visible; embers falling from ceiling",
+    "props": [
+      "cross-section nuclear facility",
+      "crimson reactor cores",
+      "falling embers",
+      "labeled chambers with illegible script"
+    ]
+  },
+  "environment": {
+    "location": "underground Iranian facility Fordow",
+    "time_of_day": "June 2025 12-day war",
+    "atmosphere": "surgical destruction"
+  },
+  "composition": {
+    "rule": "layered cross-section",
+    "foreground": "reactor cores in vivid crimson-gold",
+    "midground": "facility walls in stone",
+    "background": "desaturated rest of facility",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "reactor glow from below",
+    "fill_light": "amber bounce off walls",
+    "rim_light": "gold rim on ceiling",
+    "mood": "surgical",
+    "shadow_quality": "dramatic cross-section shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson highlights",
+    "texture_detail": "35mm grain, stone and steel texture"
+  },
+  "mood": {
+    "emotion": "12-day war strikes",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "great sword striking the forge of another great sword",
+    "secondary": "reactor cores as infernal altars"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

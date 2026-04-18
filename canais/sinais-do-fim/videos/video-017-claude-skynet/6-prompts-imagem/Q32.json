@@ -1,0 +1,101 @@
+{
+  "id": "video-017_PARTE4_Q32",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Perfil errado",
+  "narrative_beat": "Close de rosto masculino aterrorizado com grade P&B de reconhecimento facial projetada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 4,
+    "quadro": "Q32",
+    "ato": "Patmos"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a cinematic close-up of an anonymous male face in his forties rendered in vivid crimson tones, eyes wide with fear",
+    "focal_point": "the dilated frightened eyes beneath the face-recognition grid",
+    "secondary": "A desaturated grid of face-recognition squares is projected over his features; lateral embers drift.",
+    "props": [
+      "frightened male face",
+      "desaturated face-recognition grid",
+      "lateral drifting embers"
+    ]
+  },
+  "environment": {
+    "location": "indeterminate surveillance void",
+    "time_of_day": "artificial lateral light",
+    "atmosphere": "absolute vulnerability"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "face in rich crimson and gold",
+    "midground": "projected desaturated face-recognition grid",
+    "background": "absolute black void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "lateral crimson light",
+    "fill_light": "faint cold grid projection",
+    "rim_light": "gold on cheekbone",
+    "mood": "chiaroscuro surveillant",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "absolute vulnerability",
+    "tension": "maximum"
+  },
+  "symbolism": {
+    "primary": "any face reducible to data",
+    "secondary": "grid as sentence projected on flesh"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

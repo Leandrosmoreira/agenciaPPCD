@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q28",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cemiterio militar infinito",
+  "narrative_beat": "Cruzes ortodoxas e estrelas vermelhas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q28",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "panoramic",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a panoramic wide of a military cemetery stretching to the horizon, orthodox crosses and red stars aligned on frozen ground",
+    "focal_point": "a single wooden cross in foreground with helmet hanging",
+    "secondary": "Background infinite rows in P&B; low drifting smoke",
+    "props": [
+      "single wooden cross with helmet",
+      "infinite orthodox crosses and red stars",
+      "frozen ground",
+      "drifting smoke"
+    ]
+  },
+  "environment": {
+    "location": "mass military cemetery in Eastern Europe",
+    "time_of_day": "winter dusk",
+    "atmosphere": "industrial mourning"
+  },
+  "composition": {
+    "rule": "leading lines to vanishing point",
+    "foreground": "foreground cross in vivid ochre-amber",
+    "midground": "frozen earth foreground",
+    "background": "desaturated infinite cross field to horizon",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "raking dusk from left",
+    "fill_light": "amber bounce on helmet",
+    "rim_light": "gold rim on cross",
+    "mood": "silent grief",
+    "shadow_quality": "long diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic flare",
+    "texture_detail": "heavy 35mm grain, winter mist"
+  },
+  "mood": {
+    "emotion": "500000 dead counted in one frame",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "machaira megale in Ukraine",
+    "secondary": "single cross as personalized scale of catastrophe"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

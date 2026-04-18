@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE3_Q35",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "F-35 cruzando por-do-sol carmesim",
+  "narrative_beat": "Jato sobre montanhas aridas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 3,
+    "quadro": "Q35",
+    "ato": "Parte 3 Paz tirada"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "lateral",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide lateral of an F-35 stealth fighter silhouette crossing a blood-crimson sunset over arid Iranian mountains",
+    "focal_point": "the silhouetted jet reflecting faint gold on canopy",
+    "secondary": "No other aircraft visible; monochrome mountain ridges below",
+    "props": [
+      "F-35 silhouette",
+      "crimson sunset sky",
+      "arid mountain ridges",
+      "condensation trail"
+    ]
+  },
+  "environment": {
+    "location": "over Iranian highlands October 26 2024",
+    "time_of_day": "dusk of retaliation",
+    "atmosphere": "precedent crossed"
+  },
+  "composition": {
+    "rule": "rule of thirds jet",
+    "foreground": "sunset sky in vivid crimson-ochre",
+    "midground": "jet silhouette mid-frame",
+    "background": "desaturated mountain ridges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "sunset back glow",
+    "fill_light": "amber bounce on cockpit",
+    "rim_light": "gold rim on wings",
+    "mood": "precedent",
+    "shadow_quality": "long diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-ochre grading, anamorphic flare",
+    "texture_detail": "35mm grain, high altitude haze"
+  },
+  "mood": {
+    "emotion": "Israel strikes Iran directly",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "retaliation precedent",
+    "secondary": "jet as modern arrow of judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

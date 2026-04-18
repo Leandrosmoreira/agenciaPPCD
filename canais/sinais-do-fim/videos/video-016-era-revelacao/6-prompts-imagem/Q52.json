@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE5_Q52",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cruz quebrada na poeira",
+  "narrative_beat": "Close-up de cruz de madeira quebrada jazendo em poeira com brasa carmesim aos pes",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 5, "quadro": "Q52", "ato": "Conclusao e CTA"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "close-up", "camera_angle": "low-angle ground level", "focal_length_mm": 85, "aperture": "f/2.8", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a close-up of a broken wooden cross lying in fine dust with a glowing crimson ember at its base",
+    "focal_point": "the crimson ember at the cross's broken joint",
+    "secondary": "Splinters scatter. Dust particles hang in amber light. Background blurred into darkness.",
+    "props": ["broken wooden cross", "crimson glowing ember", "fine dust", "splinters"]
+  },
+  "environment": {"location": "desolate ground", "time_of_day": "dusk aftermath", "atmosphere": "price of faith, suffering endurance"},
+  "composition": {
+    "rule": "diagonal cross with ember at intersection",
+    "foreground": "cross and ember in rich crimson-gold tones",
+    "midground": "dust particles",
+    "background": "absolute black with faint monochrome ground",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "low amber light from left",
+    "fill_light": "crimson ember glow",
+    "rim_light": "gold on wood grain",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "preco da fe, sofrimento suportado", "tension": "medium-high"},
+  "symbolism": {"primary": "cross endures through destruction", "secondary": "ember as remaining flame of faith"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

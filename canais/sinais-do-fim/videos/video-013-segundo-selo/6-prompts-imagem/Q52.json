@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE5_Q52",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Sete selos em fileira sobre pergaminho",
+  "narrative_beat": "Dois rachados cinco intactos",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 5,
+    "quadro": "Q52",
+    "ato": "Parte 5 Tribulacao"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead of seven wax seals in a row on a long parchment, the first two cracked and glowing crimson, the other five intact in dull gold",
+    "focal_point": "the two cracked glowing seals",
+    "secondary": "Single candle flame left; low drifting smoke",
+    "props": [
+      "seven wax seals in a row",
+      "two cracked crimson seals",
+      "five intact gold seals",
+      "candle flame"
+    ]
+  },
+  "environment": {
+    "location": "altar of prophecy",
+    "time_of_day": "candlelit final exposition",
+    "atmosphere": "apocalyptic accounting"
+  },
+  "composition": {
+    "rule": "overhead horizontal composition",
+    "foreground": "seals in vivid crimson-gold",
+    "midground": "parchment",
+    "background": "desaturated altar cloth",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candlelight left",
+    "fill_light": "amber bounce on seals",
+    "rim_light": "gold rim on cracked ones",
+    "mood": "accounting",
+    "shadow_quality": "deep altar shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson saturation",
+    "texture_detail": "35mm grain, wax and parchment"
+  },
+  "mood": {
+    "emotion": "seals are sequential and trackable",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "two down five to go",
+    "secondary": "seals as clock of end times"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

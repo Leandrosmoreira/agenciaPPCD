@@ -1,0 +1,103 @@
+{
+  "id": "video-017_PARTE3_Q24",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Transição para João",
+  "narrative_beat": "Overhead aéreo sobre mar Egeu com capela iluminada em Patmos",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 3,
+    "quadro": "Q24",
+    "ato": "Máquina"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme aerial plongée over the Aegean sea at twilight with Patmos island in silhouette in desaturated black-and-white",
+    "focal_point": "a tiny stone chapel with intense golden light escaping through an arched window",
+    "secondary": "Ash and embers drift over the dark waves; the sea is desaturated while the chapel glows warm.",
+    "props": [
+      "aerial view of Patmos island",
+      "desaturated Aegean waves",
+      "stone chapel with arched window",
+      "intense golden interior light",
+      "drifting ash and embers"
+    ]
+  },
+  "environment": {
+    "location": "an aerial view of Patmos island at twilight",
+    "time_of_day": "twilight",
+    "atmosphere": "sacred isolation"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "stone chapel glowing in warm gold",
+    "midground": "dark island terrain",
+    "background": "desaturated black-and-white Aegean sea with gentle waves",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "internal golden light from chapel",
+    "fill_light": "twilight blue diffuse",
+    "rim_light": "gold edge on chapel walls",
+    "mood": "chiaroscuro sacred",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred isolation",
+    "tension": "contemplative"
+  },
+  "symbolism": {
+    "primary": "solitude as condition of prophecy",
+    "secondary": "chapel as vessel of vision"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

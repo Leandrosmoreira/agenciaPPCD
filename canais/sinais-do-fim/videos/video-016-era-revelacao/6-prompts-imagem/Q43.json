@@ -1,0 +1,63 @@
+{
+  "id": "video-016_PARTE4_Q43",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Painel de telas com views virais",
+  "narrative_beat": "Parede de monitores exibindo mesmo video viral com contadores dourados de 22 milhoes de views",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 4, "quadro": "Q43", "ato": "Mateus 24 Grande Engano"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "overhead", "camera_angle": "head-on wall", "focal_length_mm": 35, "aperture": "f/4", "depth_of_field": "medium", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a dark control room wall of dozens of monitors all showing the same viral video with glowing gold view-counters",
+    "focal_point": "central monitor displaying a gold '22,000,000' counter",
+    "secondary": "Reflections on monitors in warm amber. Floor and side walls desaturated monochrome.",
+    "props": ["wall of monitors", "gold view-count numerals", "viral video frames", "glowing UI overlays"]
+  },
+  "environment": {"location": "dark control room", "time_of_day": "perpetual night", "atmosphere": "viral saturation, algorithmic deception"},
+  "composition": {
+    "rule": "symmetrical grid with central monitor highlight",
+    "foreground": "monitors in rich gold-amber tones",
+    "midground": "control desk silhouettes",
+    "background": "desaturated black-and-white room",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "monitor glow from front",
+    "fill_light": "amber reflections",
+    "rim_light": "gold on monitor bezels",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "saturacao viral, engano algoritmico", "tension": "high"},
+  "symbolism": {"primary": "repetition as manufactured truth", "secondary": "numbers as false authority"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks except the numeric counter",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "22,000,000",
+    "font_style": "glowing gold digital sans-serif",
+    "medium": "monitor UI overlay",
+    "placement": "central monitor"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

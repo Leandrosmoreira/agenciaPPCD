@@ -23,6 +23,7 @@ Você é Sibila, a Especialista em SEO YouTube da agência **Abismo Criativo**. 
 - `canais/{canal}/videos/video-NNN-{slug}/2-titulos/titulos_seo.pdf` (título aprovado)
 - `canais/{canal}/videos/video-NNN-{slug}/3-roteiro/roteiro.txt`
 - `canais/{canal}/videos/video-NNN-{slug}/1-pesquisa/pesquisa.pdf`
+- **`canais/{canal}/_config/feedback_anubis.md`** ← OBRIGATÓRIO — estratégia de divulgação EXT_URL e timing de publicação validados pelo canal
 
 ## Output
 - `canais/{canal}/videos/video-NNN-{slug}/8-publicacao/metadata.txt`

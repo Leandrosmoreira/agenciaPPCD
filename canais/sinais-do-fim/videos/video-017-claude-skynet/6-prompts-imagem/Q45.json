@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE5_Q45",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Skynet é ficção",
+  "narrative_beat": "Close macro rolo de filme P&B com caveira de bronze em cor rica",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 5,
+    "quadro": "Q45",
+    "ato": "Claude"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a macro close-up of a cinema film reel in desaturated black-and-white",
+    "focal_point": "a bronze skull in vivid crimson tones resting on the reel",
+    "secondary": "An antique film projector is blurred in the background; orange embers drift.",
+    "props": [
+      "cinema film reel",
+      "bronze skull in crimson tones",
+      "antique film projector blurred",
+      "drifting orange embers"
+    ]
+  },
+  "environment": {
+    "location": "an old screening room",
+    "time_of_day": "dim interior",
+    "atmosphere": "modern myth, prophecy-mirror"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "bronze skull in rich crimson and gold",
+    "midground": "film reel surface",
+    "background": "desaturated black-and-white projector blur",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm projector light",
+    "fill_light": "faint crimson bounce",
+    "rim_light": "gold on skull ridges",
+    "mood": "chiaroscuro mythic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "modern myth, prophecy-mirror",
+    "tension": "moderate"
+  },
+  "symbolism": {
+    "primary": "fiction foreseeing reality",
+    "secondary": "skull on reel as ending encoded"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

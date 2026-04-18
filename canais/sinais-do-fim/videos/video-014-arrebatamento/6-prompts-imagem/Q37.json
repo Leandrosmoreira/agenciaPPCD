@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE3_Q37",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Caminho bifurcado",
+  "narrative_beat": "Overhead pergaminho com caminho bifurcado dourado e sombra carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 3,
+    "quadro": "Q37",
+    "ato": "Biblia realmente diz"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead 90",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead view of an aged parchment map with a forked path illustrated",
+    "focal_point": "one branch in glowing gold, the other in crimson shadow",
+    "secondary": "Hand-drawn illustration in calligraphy, path branches at center — left path in gold leaf, right in blood crimson fading to black.",
+    "props": [
+      "aged parchment map",
+      "gold-illuminated path",
+      "crimson shadow path"
+    ]
+  },
+  "environment": {
+    "location": "scriptorium desk",
+    "time_of_day": "candlelight",
+    "atmosphere": "existential choice"
+  },
+  "composition": {
+    "rule": "centered bifurcation",
+    "foreground": "paths in vivid gold and crimson",
+    "midground": "parchment in warm cream",
+    "background": "absolute black void beyond",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "candlelight lateral",
+    "fill_light": "none",
+    "rim_light": "gold edge on illumination",
+    "mood": "choice made or avoided",
+    "shadow_quality": "raking parchment shadow"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "moral fork",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the decision you have or have not made",
+    "secondary": "binary destiny"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Para uma decisao que voce ja tomou — ou nao tomou."
+}

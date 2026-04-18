@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE5_Q47",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Filho da perdição",
+  "narrative_beat": "Medium trono dourado vazio com vitral carmesim-ocre explodindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 5,
+    "quadro": "Q47",
+    "ato": "Claude"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a medium symmetrical shot of an empty golden throne in rich colors on a marble platform",
+    "focal_point": "the empty seat with vertical divine light pouring into it",
+    "secondary": "A stained-glass window behind explodes in crimson and ochre; lateral smoke rises.",
+    "props": [
+      "empty golden throne",
+      "marble platform",
+      "stained-glass window exploding in crimson and ochre",
+      "lateral rising smoke"
+    ]
+  },
+  "environment": {
+    "location": "a ruined temple interior",
+    "time_of_day": "visionary light",
+    "atmosphere": "imminent usurpation"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "throne in rich gold, crimson and ochre",
+    "midground": "marble platform and rising smoke",
+    "background": "desaturated black-and-white ruined temple walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical divine golden beam on throne",
+    "fill_light": "crimson stained-glass bounce",
+    "rim_light": "gold on throne back",
+    "mood": "chiaroscuro sacred",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "imminent usurpation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "seat of God awaiting false occupant",
+    "secondary": "empty throne as prepared scandal"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

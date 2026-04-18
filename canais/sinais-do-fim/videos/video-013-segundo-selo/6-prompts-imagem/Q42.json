@@ -1,0 +1,101 @@
+{
+  "id": "video-013_PARTE4_Q42",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Mapa Russia com cidade medieval",
+  "narrative_beat": "Kremlin em iluminura com linhas de fogo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q42",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "overhead 60",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide overhead medieval illustrated map parchment showing Russian plains, with Moscow drawn as a medieval city with golden cupolas",
+    "focal_point": "lines of crimson fire connecting Moscow to northern Israel",
+    "secondary": "Background desaturated rest of world map",
+    "props": [
+      "medieval Moscow with gold cupolas",
+      "crimson fire connection lines",
+      "parchment world map"
+    ]
+  },
+  "environment": {
+    "location": "scriptorium map chamber",
+    "time_of_day": "study of prophecy",
+    "atmosphere": "geographic revelation"
+  },
+  "composition": {
+    "rule": "overhead with leading fire lines",
+    "foreground": "Moscow and fire lines in vivid gold-crimson",
+    "midground": "parchment texture",
+    "background": "desaturated rest of map",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead lamp",
+    "fill_light": "amber bounce on cupolas",
+    "rim_light": "gold rim on fire lines",
+    "mood": "revelatory",
+    "shadow_quality": "deep map shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-amber saturation",
+    "texture_detail": "35mm grain, parchment fiber"
+  },
+  "mood": {
+    "emotion": "Meseque Tubal identified as Russia",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "ancient names mapped to modern territory",
+    "secondary": "fire lines as prophetic causation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

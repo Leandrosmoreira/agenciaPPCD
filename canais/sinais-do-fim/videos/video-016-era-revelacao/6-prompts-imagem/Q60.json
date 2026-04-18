@@ -1,0 +1,58 @@
+{
+  "id": "video-016_PARTE5_Q60",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Close-up olho humano com reflexo da cruz",
+  "narrative_beat": "Close-up macro de olho humano com iris dourada refletindo cruz de madeira iluminada",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 5, "quadro": "Q60", "ato": "Conclusao e CTA"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "close-up", "camera_angle": "macro straight-on", "focal_length_mm": 100, "aperture": "f/2.8", "depth_of_field": "razor-thin", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "an extreme macro close-up of a human eye with gold-amber iris and a tiny sharp reflection of a glowing wooden cross in the pupil",
+    "focal_point": "the cross reflection in the pupil",
+    "secondary": "Eyelashes in sharp detail. Skin tone warm amber. Background absolute black.",
+    "props": ["human eye", "gold-amber iris", "cross reflection in pupil", "sharp eyelashes"]
+  },
+  "environment": {"location": "abstract dark frame", "time_of_day": "timeless", "atmosphere": "inner revelation, decision moment"},
+  "composition": {
+    "rule": "centered macro eye with cross in pupil",
+    "foreground": "iris and reflection in rich gold tones",
+    "midground": "eyelashes and skin",
+    "background": "absolute black",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm reflective gold from front",
+    "fill_light": "amber bounce from skin",
+    "rim_light": "gold on eyelash tips",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "revelacao interior, momento de decisao", "tension": "medium-high"},
+  "symbolism": {"primary": "truth seen through the cross", "secondary": "eye as lamp of the body"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "tack-sharp focus on primary subject",
+    "only the eye visible, no face features"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

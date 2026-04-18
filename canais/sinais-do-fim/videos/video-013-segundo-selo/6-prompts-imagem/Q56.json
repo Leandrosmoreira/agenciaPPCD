@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE5_Q56",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Balanca com trigo e moedas",
+  "narrative_beat": "Balanca dourada desnivelada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 5,
+    "quadro": "Q56",
+    "ato": "Parte 5 Tribulacao"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme close-up of an antique gold balance unevenly tipped, one side holding a single vibrant wheat grain, the other side spilling gold coins",
+    "focal_point": "the single wheat grain glowing warm",
+    "secondary": "Background desaturated ruined Ukrainian granary",
+    "props": [
+      "gold balance",
+      "single wheat grain",
+      "spilling gold coins",
+      "desaturated granary"
+    ]
+  },
+  "environment": {
+    "location": "granary of scarcity",
+    "time_of_day": "dusk of want",
+    "atmosphere": "imminent scarcity"
+  },
+  "composition": {
+    "rule": "centered symmetric",
+    "foreground": "balance and wheat in vivid gold-ochre",
+    "midground": "balance base",
+    "background": "desaturated granary",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm side light",
+    "fill_light": "amber bounce on wheat",
+    "rim_light": "gold rim on coins",
+    "mood": "want",
+    "shadow_quality": "deep shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-ochre saturation",
+    "texture_detail": "35mm grain, grain dust"
+  },
+  "mood": {
+    "emotion": "wheat and the price of bread",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "third seal economic of hunger",
+    "secondary": "wheat grain as weighed destiny"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

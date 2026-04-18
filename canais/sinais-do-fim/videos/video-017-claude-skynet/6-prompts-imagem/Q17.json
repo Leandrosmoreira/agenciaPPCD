@@ -1,0 +1,104 @@
+{
+  "id": "video-017_PARTE3_Q17",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Simulação 4 minutos",
+  "narrative_beat": "Wide mesa estratégica com holograma dessaturado e ampulheta dourada central",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 3,
+    "quadro": "Q17",
+    "ato": "Máquina"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide strategic military table with a desaturated holographic terrain map bearing red target markers, surrounded by silhouetted officers",
+    "focal_point": "a golden hourglass at the center with crimson sand pouring rapidly",
+    "secondary": "The officers stand motionless around the table; low smoke drifts beneath the holographic glow.",
+    "props": [
+      "strategic military table",
+      "desaturated holographic terrain map",
+      "red target markers",
+      "golden hourglass with crimson sand",
+      "silhouetted officers",
+      "low smoke"
+    ]
+  },
+  "environment": {
+    "location": "a classified war planning chamber",
+    "time_of_day": "dim interior",
+    "atmosphere": "lethal efficiency"
+  },
+  "composition": {
+    "rule": "centered",
+    "foreground": "golden hourglass with crimson sand",
+    "midground": "holographic map surface",
+    "background": "desaturated black-and-white silhouetted officers and walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cold cyan hologram glow from table",
+    "fill_light": "faint gold from hourglass",
+    "rim_light": "gold edge on hourglass",
+    "mood": "chiaroscuro strategic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "lethal efficiency, zero humanity",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "war compressed into four minutes",
+    "secondary": "hourglass as machine judgment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

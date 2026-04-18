@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE3_Q21",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Paulo escreve em cela romana",
+  "narrative_beat": "Medium of apostle Paul in Roman cell, left hand chained, right hand writing with quill on parchment, crimson and ochre robe",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q21",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "3/4 lateral",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "the apostle Paul in his 60s with graying beard and weathered hands, seated in a Roman stone cell",
+    "focal_point": "his right hand holding a quill writing on an open parchment, left wrist bound in heavy iron chain to a stone wall",
+    "secondary": "Crimson and ochre robe in rich tones. Single shaft of golden light through stone slit.",
+    "props": [
+      "aged apostle Paul",
+      "iron wrist chain on stone",
+      "quill and inkwell",
+      "open parchment",
+      "crimson ochre robe"
+    ]
+  },
+  "environment": {
+    "location": "a Roman prison cell",
+    "time_of_day": "symbolic late afternoon, single shaft",
+    "atmosphere": "imprisoned prophetic writer"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "Paul and parchment in rich crimson and ochre",
+    "background": "desaturated black-and-white stone cell walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden shaft of light from stone slit camera-left",
+    "fill_light": "cold ambient blue fill",
+    "rim_light": "gold rim on face and quill",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "imprisoned prophetic writer",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "2 Thessalonians written from chains",
+    "secondary": "quill as prophetic instrument"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

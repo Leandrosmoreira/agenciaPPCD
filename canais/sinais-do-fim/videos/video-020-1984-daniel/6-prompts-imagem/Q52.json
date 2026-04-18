@@ -1,0 +1,108 @@
+{
+  "id": "video-020_PARTE5_Q52",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Calendário 1948 → 1984",
+  "narrative_beat": "Medium overhead 45 of P&B wall calendar with 1948 struck through in rich crimson, golden card beside reading 1984, embers floating",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q52",
+    "ato": "O'Brien e Esperança"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium overhead",
+    "camera_angle": "45 degree tilt",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a 1940s wall calendar page with the year 1948 printed bold at top, struck through by a rich crimson diagonal pen line",
+    "focal_point": "beside the calendar, a golden printed card with 1984 in elegant serif numerals",
+    "secondary": "Desk surface in P&B. Floating embers.",
+    "props": [
+      "1940s wall calendar",
+      "1948 with crimson strike",
+      "golden card 1984",
+      "floating embers"
+    ]
+  },
+  "environment": {
+    "location": "Orwell's working desk",
+    "time_of_day": "overcast daylight",
+    "atmosphere": "symbolic editorial act"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "1948 strike and 1984 card in rich crimson and gold",
+    "background": "desaturated black-and-white calendar and desk",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "soft overcast daylight from above",
+    "fill_light": "cold ambient fill",
+    "rim_light": "gold rim on card edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft focused shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "symbolic editorial act",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "1984 as 1948 inverted",
+    "secondary": "digits as temporal code"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "1948    1984",
+    "font_style": "1948 in printed calendar serif with crimson strike; 1984 in elegant engraved serif gold",
+    "medium": "calendar print for 1948 with pen strike; printed card for 1984",
+    "placement": "left: calendar 1948 with red strike; right: gold card 1984",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

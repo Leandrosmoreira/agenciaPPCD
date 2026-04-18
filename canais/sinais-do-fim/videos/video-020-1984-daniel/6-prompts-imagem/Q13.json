@@ -1,0 +1,108 @@
+{
+  "id": "video-020_PARTE2_Q13",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Altar das três chamas",
+  "narrative_beat": "Medium of stone altar with three vertical flames — red, gold, ochre — each projecting smoke word: PALAVRAS, TEMPOS, LEI",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q13",
+    "ato": "Quarta Besta"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on symmetric",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a rough-hewn stone altar with three tall vertical flames of distinct colors",
+    "focal_point": "the smoke rising from each flame forming three Portuguese words in visible script",
+    "secondary": "Background: broken Roman column in deep P&B. Embers floating.",
+    "props": [
+      "stone altar",
+      "three colored flames (red, gold, ochre)",
+      "smoke forming words",
+      "broken Roman column behind"
+    ]
+  },
+  "environment": {
+    "location": "a ruined prophetic sanctuary",
+    "time_of_day": "twilight",
+    "atmosphere": "triple revelation"
+  },
+  "composition": {
+    "rule": "strict centered symmetry",
+    "foreground": "three flames and smoke words in rich vivid red, gold and ochre",
+    "background": "desaturated black-and-white broken column behind",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm flame light from flames themselves",
+    "fill_light": "deep negative fill",
+    "rim_light": "gold rim on altar edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep flickering shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "triple revelation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "three specific actions of the beast",
+    "secondary": "smoke as prophetic speech"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "PALAVRAS      TEMPOS      LEI",
+    "font_style": "rising smoke forming ancient gothic Portuguese capital letters",
+    "medium": "flame-smoke writing in the air above each flame",
+    "placement": "three words arranged horizontally, one above each flame",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "video-020_PARTE3_Q29",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Isaías ecoa — arranjo em pétalas",
+  "narrative_beat": "Overhead of parchment verse at center with four small gold plaques around: PAZ, ABUNDÂNCIA, AMOR, VERDADE",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q29",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90 degrees",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aged parchment scroll at center reading Ai dos que chamam ao mal bem e ao bem mal in ornate calligraphy",
+    "focal_point": "four small golden plaques arranged like petals around the scroll, each bearing one word: PAZ ABUNDÂNCIA AMOR VERDADE",
+    "secondary": "Stone surface below. Floating embers around edges.",
+    "props": [
+      "central aged parchment",
+      "four small golden plaques",
+      "stone surface",
+      "floating embers"
+    ]
+  },
+  "environment": {
+    "location": "a symbolic prophetic altar",
+    "time_of_day": "candlelit night",
+    "atmosphere": "circular confirmation"
+  },
+  "composition": {
+    "rule": "strict centered radial symmetry",
+    "foreground": "parchment and plaques in rich gold, crimson and ochre",
+    "background": "desaturated black-and-white stone surface edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead vertical candle-like light",
+    "fill_light": "amber bounce from parchment",
+    "rim_light": "gold rim on plaque edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "soft radial shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "circular confirmation",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "Isaiah 5:20 proven by four inverted ministries",
+    "secondary": "radial arrangement as cosmic seal"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Ai dos que chamam ao mal bem e ao bem mal",
+    "font_style": "center: ancient gothic Portuguese calligraphy in aged gold ink. Petals: bold engraved capital letters in polished gold",
+    "medium": "center inscribed on parchment; petals engraved on four small gold plaques",
+    "placement": "center for scroll verse; four plaques radially at cardinal points",
+    "legibility": "crisp and readable",
+    "language": "Portuguese",
+    "content_secondary": "PAZ · ABUNDÂNCIA · AMOR · VERDADE"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

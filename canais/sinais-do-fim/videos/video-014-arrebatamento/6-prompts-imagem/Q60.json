@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE5_Q60",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Fechamento brasa",
+  "narrative_beat": "Tela preta absoluta com unica brasa dourada desaparecendo no centro, eco de Q01",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 5,
+    "quadro": "Q60",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "black frame",
+    "camera_angle": "overhead implicit",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "n/a",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an absolute black frame with a single dying golden ember at the exact center",
+    "focal_point": "the ember shrinking into nothing, final wisp of smoke rising",
+    "secondary": "pure void blackness, one tiny gold ember losing its glow, faint thread of smoke rising vertically.",
+    "props": [
+      "dying single gold ember",
+      "thin vertical smoke wisp"
+    ]
+  },
+  "environment": {
+    "location": "pure black void",
+    "time_of_day": "after the narration ends",
+    "atmosphere": "narrative closure"
+  },
+  "composition": {
+    "rule": "minimalist single-point focus",
+    "foreground": "ember in dying gold",
+    "midground": "smoke in warm gray",
+    "background": "absolute black void",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "ember self-glow fading",
+    "fill_light": "none",
+    "rim_light": "none",
+    "mood": "contemplative closure",
+    "shadow_quality": "pure blackness"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "contemplative finality",
+    "tension": "low"
+  },
+  "symbolism": {
+    "primary": "the final spark",
+    "secondary": "echo of the opening"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "[silencio total — trilha some]"
+}

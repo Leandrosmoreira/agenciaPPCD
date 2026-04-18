@@ -1,0 +1,101 @@
+{
+  "id": "video-020_PARTE3_Q23",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dois cérebros conectados — duplipensar",
+  "narrative_beat": "Wide symmetric of two floating human brains — one crimson, one gold — chained together in inverted Y, over P&B bureaucratic control panel",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q23",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on symmetric",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "two anatomically realistic human brains floating midair",
+    "focal_point": "the left brain glowing crimson red, the right brain glowing warm gold, linked by a heavy golden chain in inverted Y shape",
+    "secondary": "Below and behind: desaturated bureaucratic control panel with buttons and meters.",
+    "props": [
+      "floating crimson brain",
+      "floating gold brain",
+      "heavy golden chain",
+      "bureaucratic control panel"
+    ]
+  },
+  "environment": {
+    "location": "symbolic abstract space",
+    "time_of_day": "symbolic eternal",
+    "atmosphere": "conceptual abstraction, grotesque"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "brains and chain in rich crimson and gold",
+    "background": "desaturated black-and-white control panel",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine light from above between the brains",
+    "fill_light": "cold ambient edge fill",
+    "rim_light": "gold rim on brain surfaces and chain",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "sharp symmetric shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "conceptual abstraction, grotesque",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "doublethink — holding contradictions simultaneously",
+    "secondary": "chains as mental imprisonment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

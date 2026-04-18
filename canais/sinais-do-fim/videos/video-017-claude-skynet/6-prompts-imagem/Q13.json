@@ -1,0 +1,103 @@
+{
+  "id": "video-017_PARTE3_Q13",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Project Maven",
+  "narrative_beat": "Medium de mesa de reunião Pentágono com brasão e logo Google rasgados",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 3,
+    "quadro": "Q13",
+    "ato": "Máquina"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 40,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a framed medium shot of a dark glass conference table with a suspended central cone of golden light from an overhead lamp",
+    "focal_point": "the torn boundary between a vivid DoD crest and a desaturated Google logo on the table surface",
+    "secondary": "A US Department of Defense crest in crimson and gold is painted on the table, half overlapped by a torn desaturated Google logo; thin smoke drifts in the air.",
+    "props": [
+      "dark glass conference table",
+      "overhead cone lamp",
+      "DoD crest in crimson and gold",
+      "torn desaturated Google logo",
+      "thin drifting smoke"
+    ]
+  },
+  "environment": {
+    "location": "a Pentagon conference chamber",
+    "time_of_day": "evening interior",
+    "atmosphere": "hidden pact, technocratic"
+  },
+  "composition": {
+    "rule": "centered symmetry",
+    "foreground": "DoD crest in rich crimson and gold",
+    "midground": "glass table surface with reflections",
+    "background": "desaturated black-and-white Pentagon chamber walls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "overhead cone lamp in warm gold",
+    "fill_light": "faint amber bounce",
+    "rim_light": "gold on crest edges",
+    "mood": "chiaroscuro institutional",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "hidden pact, technocratic",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "military-corporate entanglement",
+    "secondary": "torn logo as broken ethics"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

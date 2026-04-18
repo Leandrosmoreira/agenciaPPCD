@@ -1,0 +1,106 @@
+{
+  "id": "video-014_PARTE4_Q41",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Joel 2:31 iluminado",
+  "narrative_beat": "Close macro Biblia aberta em Joel 2, feixe de luz dourada sobre versiculo 31",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q41",
+    "ato": "Sinais reais"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "frontal",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an extreme macro of a leather Bible open to the book of Joel chapter 2",
+    "focal_point": "a focused vertical golden beam striking verse 31 in highlighted illumination",
+    "secondary": "Aged parchment with Portuguese gothic script, verse 31 glowing amber, floating embers around.",
+    "props": [
+      "open leather Bible at Joel 2",
+      "golden light beam",
+      "floating embers"
+    ]
+  },
+  "environment": {
+    "location": "sacred interior",
+    "time_of_day": "candle hour",
+    "atmosphere": "prophetic confirmation"
+  },
+  "composition": {
+    "rule": "centered divine axis",
+    "foreground": "highlighted verse in vivid gold",
+    "midground": "parchment in warm cream",
+    "background": "absolute black void surrounding",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical divine key from above",
+    "fill_light": "none",
+    "rim_light": "gold rim on page edges",
+    "mood": "textual prophetic confirmation",
+    "shadow_quality": "hard-edged divine shadow"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "biblical prophetic authority",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Joel 2:31 predicting the blood moon",
+    "secondary": "prophecy made text"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "Joel 2:31",
+    "font": "aged serif Bible",
+    "medium": "ink on parchment",
+    "placement": "lower page, golden beam highlighted"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Joel dois e trinta e um: 'O sol se convertera em trevas, e a lua em sangue.'"
+}

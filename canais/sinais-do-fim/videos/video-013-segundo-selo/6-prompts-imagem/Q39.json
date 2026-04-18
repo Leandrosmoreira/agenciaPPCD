@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE4_Q39",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Ezequiel medieval iluminura",
+  "narrative_beat": "Profeta em manto azul-dourado",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q39",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "3/4 frontal",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a close-up 3/4 of a medieval illuminated depiction of prophet Ezekiel, bearded, robed in cobalt-blue and gold, eyes wide",
+    "focal_point": "his wide eyes catching gold leaf reflection",
+    "secondary": "He holds an open scroll; no modern elements",
+    "props": [
+      "Ezekiel bearded face",
+      "cobalt-blue and gold robe",
+      "open scroll in hand",
+      "halo gold leaf"
+    ]
+  },
+  "environment": {
+    "location": "Babylonian exile by the river Chebar",
+    "time_of_day": "vision moment",
+    "atmosphere": "ancient seeing modern"
+  },
+  "composition": {
+    "rule": "rule of thirds on face",
+    "foreground": "robe and halo in vivid cobalt-gold-crimson",
+    "midground": "parchment scroll",
+    "background": "desaturated background mostly black",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine overhead beam",
+    "fill_light": "amber bounce on face",
+    "rim_light": "gold rim on halo",
+    "mood": "prophetic awe",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, cobalt and gold saturation",
+    "texture_detail": "35mm grain, parchment fiber"
+  },
+  "mood": {
+    "emotion": "Ezekiel 38 authored 2600 years ago",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "ancient prophet seeing modern coalition",
+    "secondary": "halo as divine inspiration confirming geopolitical map"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

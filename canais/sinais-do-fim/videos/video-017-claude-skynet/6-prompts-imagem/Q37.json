@@ -1,0 +1,102 @@
+{
+  "id": "video-017_PARTE4_Q37",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Transição Claude",
+  "narrative_beat": "Wide crepúsculo P&B com datacenter e vitral gótico com letra C estilizada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 4,
+    "quadro": "Q37",
+    "ato": "Patmos"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 28,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide twilight establishing shot with a futuristic datacenter silhouette in desaturated black-and-white on the horizon",
+    "focal_point": "a gothic cathedral stained-glass window in the foreground bearing the stylized letter C in gold and crimson as an alchemical sigil",
+    "secondary": "Dense embers and ash drift across the scene; the cathedral frame glows warm.",
+    "props": [
+      "futuristic datacenter silhouette",
+      "gothic cathedral stained-glass window",
+      "stylized letter C sigil",
+      "dense drifting embers and ash"
+    ]
+  },
+  "environment": {
+    "location": "a surreal bridge between cathedral and datacenter",
+    "time_of_day": "twilight",
+    "atmosphere": "bridge to revelation"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "stained-glass C sigil in rich gold and crimson",
+    "midground": "cathedral window frame with faint smoke",
+    "background": "desaturated black-and-white datacenter silhouette on horizon",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "twilight backlight through stained glass",
+    "fill_light": "cold blue from datacenter",
+    "rim_light": "gold on window leading",
+    "mood": "chiaroscuro liminal",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "bridge to revelation",
+    "tension": "moderate"
+  },
+  "symbolism": {
+    "primary": "letter C as sigil of new power",
+    "secondary": "datacenter as new cathedral"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

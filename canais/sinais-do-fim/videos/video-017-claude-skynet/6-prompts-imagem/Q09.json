@@ -1,0 +1,103 @@
+{
+  "id": "video-017_PARTE2_Q09",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A ilha grega",
+  "narrative_beat": "Wide contre-jour do profeta João em Patmos ao pôr-do-sol",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-017-claude-skynet",
+    "parte_suno": 2,
+    "quadro": "Q09",
+    "ato": "Julgamento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide contre-jour of a rocky Aegean seaside cliff at sunset with the silhouette of an elderly bearded prophet in a crimson-ochre robe standing and holding a rolled parchment",
+    "focal_point": "the prophet silhouette against the setting sun",
+    "secondary": "The sun blazes intense gold on the horizon behind him; the sea churns in desaturated black-and-white; distant gulls glide.",
+    "props": [
+      "elderly bearded prophet",
+      "crimson-ochre robe",
+      "rolled parchment scroll",
+      "setting sun golden disk",
+      "desaturated churning sea"
+    ]
+  },
+  "environment": {
+    "location": "a rocky cliff on the Greek island of Patmos",
+    "time_of_day": "sunset",
+    "atmosphere": "sacred solitude, prophetic"
+  },
+  "composition": {
+    "rule": "rule of thirds",
+    "foreground": "prophet silhouette rim-lit in crimson and gold",
+    "midground": "rocky cliff edge with scattered stones",
+    "background": "desaturated black-and-white churning Aegean sea with distant gulls",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "intense golden sun from horizon behind prophet",
+    "fill_light": "faint crimson bounce from robe",
+    "rim_light": "gold outline on robe folds",
+    "mood": "chiaroscuro sacred",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred solitude, prophetic awe",
+    "tension": "contemplative"
+  },
+  "symbolism": {
+    "primary": "exiled prophet receiving impossible vision",
+    "secondary": "scroll as vessel of revelation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

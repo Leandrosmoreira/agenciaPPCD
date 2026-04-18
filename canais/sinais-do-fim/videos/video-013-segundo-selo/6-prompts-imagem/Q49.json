@@ -1,0 +1,103 @@
+{
+  "id": "video-013_PARTE4_Q49",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Bandeira turca rasgada",
+  "narrative_beat": "Metade em cores e metade em po P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 4,
+    "quadro": "Q49",
+    "ato": "Parte 4 Gog"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "lateral",
+    "focal_length_mm": 35,
+    "aperture": "f/2.8",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide lateral of a Turkish flag stylized on parchment being torn down the middle, one half still with vivid crimson-gold crescent emblem, the other dissolving into gray dust",
+    "focal_point": "the dividing tear releasing ash",
+    "secondary": "Background desaturated Ankara cityscape",
+    "props": [
+      "Turkish flag parchment",
+      "torn middle",
+      "vivid crescent half",
+      "gray dust half",
+      "background Ankara"
+    ]
+  },
+  "environment": {
+    "location": "symbolic realignment moment",
+    "time_of_day": "historic pivot",
+    "atmosphere": "tectonic realignment"
+  },
+  "composition": {
+    "rule": "rule of thirds on tear",
+    "foreground": "vivid half in rich crimson-gold",
+    "midground": "torn line",
+    "background": "desaturated Ankara and dust half",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "raking side light",
+    "fill_light": "amber bounce on crescent",
+    "rim_light": "gold rim on tear",
+    "mood": "realignment",
+    "shadow_quality": "long diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-gold saturation",
+    "texture_detail": "35mm grain, ash particulate"
+  },
+  "mood": {
+    "emotion": "Turkey pivots toward Moscow and Teheran",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "Gomer realigns in real time",
+    "secondary": "torn flag as divided allegiance"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

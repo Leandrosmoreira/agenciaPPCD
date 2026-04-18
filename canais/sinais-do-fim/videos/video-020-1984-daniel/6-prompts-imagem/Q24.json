@@ -1,0 +1,108 @@
+{
+  "id": "video-020_PARTE3_Q24",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pirâmide do Ministério da Verdade",
+  "narrative_beat": "Wide establisher of massive brutalist P&B pyramid with three giant engraved slogans on face, tiny crimson-robed figure climbing at base",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q24",
+    "ato": "Operação de Erro"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide establisher",
+    "camera_angle": "low angle",
+    "focal_length_mm": 24,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a colossal brutalist white concrete pyramid with three enormous engraved slogans on its face",
+    "focal_point": "the three slogans WAR IS PEACE / FREEDOM IS SLAVERY / IGNORANCE IS STRENGTH at massive scale",
+    "secondary": "A tiny figure in crimson robe ascending the steps at the base. Stormy desaturated crimson-red sky.",
+    "props": [
+      "massive concrete pyramid",
+      "three engraved slogans",
+      "tiny crimson-robed climbing figure",
+      "stormy desaturated sky"
+    ]
+  },
+  "environment": {
+    "location": "the central plaza of Oceania",
+    "time_of_day": "permanent overcast dusk",
+    "atmosphere": "monumental, oppressive"
+  },
+  "composition": {
+    "rule": "centered symmetry with pyramid at frame center",
+    "foreground": "tiny climbing figure in rich crimson",
+    "background": "desaturated black-and-white pyramid and sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh overhead directional light on pyramid face",
+    "fill_light": "deep cold ambient fill",
+    "rim_light": "gold rim on pyramid edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep geometric shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "monumental, oppressive",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the four Ministries as absolute power",
+    "secondary": "slogans engraved as permanent lie"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "WAR IS PEACE\nFREEDOM IS SLAVERY\nIGNORANCE IS STRENGTH",
+    "font_style": "gigantic carved brutalist English capital letters in weathered concrete",
+    "medium": "engraved into the pyramid face, three stacked monumental lines",
+    "placement": "center of the pyramid face, occupying upper 60 percent",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro"
+  }
+}

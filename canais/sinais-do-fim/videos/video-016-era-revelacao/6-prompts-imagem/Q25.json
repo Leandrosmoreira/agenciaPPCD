@@ -1,0 +1,57 @@
+{
+  "id": "video-016_PARTE3_Q25",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Biblia gigante sobre altar em catedral",
+  "narrative_beat": "Biblia gigantesca aberta sobre altar de marmore com feixe vertical descendo",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 3, "quadro": "Q25", "ato": "Gênesis 6 e Vigilantes"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "wide", "camera_angle": "symmetrical straight-on", "focal_length_mm": 35, "aperture": "f/5.6", "depth_of_field": "deep", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "a gigantic open Bible on aged parchment resting on a dark marble altar, illuminated by a single vertical golden beam descending from above",
+    "focal_point": "the illuminated central page catching the vertical beam",
+    "secondary": "Rows of burning candles flank the altar. Crumbling cathedral ruins surround in monochrome.",
+    "props": ["massive open Bible", "dark marble altar", "vertical golden beam", "rows of burning candles"]
+  },
+  "environment": {"location": "ruined gothic cathedral interior", "time_of_day": "interior, timeless light", "atmosphere": "sacred, reverent, solemn"},
+  "composition": {
+    "rule": "centered vertical symmetry",
+    "foreground": "Bible and altar in rich gold and cream tones",
+    "midground": "candle rows flanking",
+    "background": "desaturated black-and-white gothic arches in ruin",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical golden beam from high ceiling opening",
+    "fill_light": "warm candlelight from candles",
+    "rim_light": "gold on altar edges",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "sagrado, reverente, solene", "tension": "medium"},
+  "symbolism": {"primary": "Scripture as center of all answers", "secondary": "vertical light as divine descent"},
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

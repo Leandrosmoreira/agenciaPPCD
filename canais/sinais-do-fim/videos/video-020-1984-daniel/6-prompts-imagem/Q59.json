@@ -1,0 +1,109 @@
+{
+  "id": "video-020_PARTE5_Q59",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Três portões — Verdade, Paz, Amor",
+  "narrative_beat": "Wide symmetric of three giant arched gates each with golden plaque VERDADE, PAZ, AMOR, P&B crowd with smartphones below",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 5,
+    "quadro": "Q59",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "straight-on symmetric",
+    "focal_length_mm": 24,
+    "aperture": "f/8.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "three colossal arched stone gates arranged in a row",
+    "focal_point": "each gate bearing a golden engraved plaque at its keystone reading VERDADE PAZ AMOR left to right",
+    "secondary": "A vast crowd of silhouetted contemporary people below with raised smartphones glowing cold blue, all in P&B.",
+    "props": [
+      "three arched stone gates",
+      "three golden keystone plaques",
+      "silhouetted crowd",
+      "raised smartphones"
+    ]
+  },
+  "environment": {
+    "location": "a symbolic final public square",
+    "time_of_day": "eternal twilight",
+    "atmosphere": "final interpellation"
+  },
+  "composition": {
+    "rule": "strict symmetric triadic",
+    "foreground": "three plaques and gate edges in rich gold and crimson",
+    "background": "desaturated black-and-white gates, crowd and phones",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine vertical light on three gates",
+    "fill_light": "cold crowd fill from phone glow",
+    "rim_light": "gold rim on each plaque",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep symmetric shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "final interpellation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "which ministry do you see operating today",
+    "secondary": "three gates as choice of recognition"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "VERDADE        PAZ        AMOR",
+    "font_style": "bold engraved serif uppercase letters in polished warm gold",
+    "medium": "engraved on keystone plaques of each gate",
+    "placement": "three keystones top center of each gate",
+    "legibility": "crisp and readable",
+    "language": "Portuguese"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ],
+    "model_override": "pro",
+    "critical_note_for_gemini": "Three separate words on three separate plaques in Portuguese. Each plaque on its own gate keystone."
+  }
+}

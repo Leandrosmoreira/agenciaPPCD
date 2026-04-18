@@ -1,0 +1,62 @@
+{
+  "id": "video-016_PARTE2_Q15",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Relatorio 144 incidentes",
+  "narrative_beat": "Relatorio encadernado com selo 144 em dourado — lupa de latao ampliando detalhe",
+  "canal_context": {"canal": "sinais-do-fim", "video": "video-016-era-revelacao", "parte_suno": 2, "quadro": "Q15", "ato": "Contexto"},
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette", "lighting", "texture", "atmosphere", "film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {"type": "close-up", "camera_angle": "straight-on", "focal_length_mm": 85, "aperture": "f/2.8", "depth_of_field": "shallow", "aspect_ratio": "16:9"},
+  "subject": {
+    "primary": "an official bound report with a parchment cover bearing a large gold embossed numeral 144",
+    "focal_point": "the gold numeral 144 embossed massively on the cover",
+    "secondary": "A brass magnifying glass hovers at the corner enlarging a subtle detail. Background shows faint pentagonal geometric pattern.",
+    "props": ["bound parchment-cover report", "large gold embossed 144", "brass magnifying glass", "faint pentagonal background pattern"]
+  },
+  "environment": {"location": "Pentagon archive desk", "time_of_day": "interior night, amber desk lamp", "atmosphere": "institutional evidence, weight"},
+  "composition": {
+    "rule": "centered with magnifier offset",
+    "foreground": "report cover in rich gold and parchment tones",
+    "midground": "brass magnifier catching warm light",
+    "background": "desaturated black-and-white pentagonal engraved surface",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber lamp from above-right",
+    "fill_light": "gold bounce off numeral",
+    "rim_light": "gold on magnifier rim",
+    "mood": "chiaroscuro apocalyptic",
+    "shadow_quality": "deep hard-edged Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {"emotion": "evidencia institucional", "tension": "medium-high"},
+  "symbolism": {"primary": "tangible numeric proof of anomaly", "secondary": "magnification as official scrutiny"},
+  "negative_as_positive": [
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "144",
+    "font_style": "large gold embossed serif numeral",
+    "medium": "embossed cover",
+    "placement": "centered on report cover"
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image", "source": "style_reference.primary_image_url", "role": "style_reference", "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text", "source": "serialized_prompt_from_this_json", "role": "scene_description"}
+    ]
+  }
+}

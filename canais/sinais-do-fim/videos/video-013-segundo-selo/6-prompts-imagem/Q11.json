@@ -1,0 +1,102 @@
+{
+  "id": "video-013_PARTE1_Q11",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Sete selos em vitral gotico",
+  "narrative_beat": "Figura humana contra vitral com sete selos",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 1,
+    "quadro": "Q11",
+    "ato": "Parte 1 Promessa"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "symmetric frontal",
+    "focal_length_mm": 28,
+    "aperture": "f/2.8",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a contemporary human silhouette standing before a massive gothic cathedral stained-glass window depicting seven wax seals, two cracked and glowing crimson, five intact",
+    "focal_point": "the two broken seals at top of the window pulsing with crimson light",
+    "secondary": "The figure is faceless, back to camera, illuminated warmly by the stained-glass reflection",
+    "props": [
+      "seven wax seals in stained glass",
+      "two cracked glowing crimson",
+      "five intact in dim gold",
+      "faceless silhouetted viewer"
+    ]
+  },
+  "environment": {
+    "location": "inside a gothic cathedral",
+    "time_of_day": "twilight hour",
+    "atmosphere": "cosmic confrontation"
+  },
+  "composition": {
+    "rule": "centered symmetry with figure framing",
+    "foreground": "stained glass in rich crimson, gold, cobalt",
+    "midground": "silhouetted figure in warm backlight",
+    "background": "desaturated black-and-white cathedral interior",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine backlight through stained glass",
+    "fill_light": "faint amber fill on figure",
+    "rim_light": "gold rim on cracked seals",
+    "mood": "cosmic awe",
+    "shadow_quality": "long deep cathedral shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, stained-glass color bleed",
+    "texture_detail": "heavy 35mm grain, dust motes in beams"
+  },
+  "mood": {
+    "emotion": "individual confronted with cosmic timeline",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "man standing before the apocalyptic schedule",
+    "secondary": "stained glass as divine calendar"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

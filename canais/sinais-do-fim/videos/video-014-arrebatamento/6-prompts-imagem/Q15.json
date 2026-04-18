@@ -1,0 +1,102 @@
+{
+  "id": "video-014_PARTE2_Q15",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "A Trindade",
+  "narrative_beat": "Overhead de tres velas formando triangulo equilatero sobre altar de marmore",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 2,
+    "quadro": "Q15",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "overhead 90",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "moderate",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead view of three lit candles on a white marble altar forming an equilateral triangle",
+    "focal_point": "the central larger gold candle flame taller than the flanking crimson and white",
+    "secondary": "White Carrara marble altar surface, three beeswax candles of different colors and sizes, vertical light from above.",
+    "props": [
+      "three lit candles (gold/crimson/white)",
+      "white marble altar",
+      "triangular arrangement"
+    ]
+  },
+  "environment": {
+    "location": "sacred abside interior",
+    "time_of_day": "midnight vigil",
+    "atmosphere": "trinitarian sacredness"
+  },
+  "composition": {
+    "rule": "centered triangular composition",
+    "foreground": "three candle flames in vivid gold, crimson, white",
+    "midground": "marble surface in muted ivory",
+    "background": "desaturated black-and-white abside architecture",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "overhead vertical divine beam",
+    "fill_light": "candle flames self-illuminate",
+    "rim_light": "gold rim on wax surfaces",
+    "mood": "trinitarian mystery",
+    "shadow_quality": "soft triangular light pattern"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "sacred mystery",
+    "tension": "medium"
+  },
+  "symbolism": {
+    "primary": "the Trinity where only the Father knows",
+    "secondary": "divine triune secrecy"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Jesus — o proprio filho de Deus, a segunda pessoa da Trindade."
+}

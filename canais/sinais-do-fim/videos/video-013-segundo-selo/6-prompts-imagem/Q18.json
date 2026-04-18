@@ -1,0 +1,107 @@
+{
+  "id": "video-013_PARTE2_Q18",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Pergaminho PAX rasgado ao meio",
+  "narrative_beat": "Maos rasgando pergaminho PAX",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-013-segundo-selo",
+    "parte_suno": 2,
+    "quadro": "Q18",
+    "ato": "Parte 2 Grego"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an overhead shot of two masculine hands, one gloved in black, one bare, tearing an ancient parchment in half that shows the word PAX in gold calligraphy",
+    "focal_point": "the tearing split releasing orange embers from the fiber",
+    "secondary": "The parchment fibers are visible mid-tear; no faces shown, only gloved and bare forearms",
+    "props": [
+      "black gloved hand",
+      "bare masculine hand",
+      "parchment with word PAX in gold",
+      "orange embers escaping tear"
+    ]
+  },
+  "environment": {
+    "location": "council chamber table",
+    "time_of_day": "moment of covenant breach",
+    "atmosphere": "deliberate violation"
+  },
+  "composition": {
+    "rule": "overhead symmetric composition",
+    "foreground": "hands, parchment and PAX word in vivid gold-crimson",
+    "midground": "jacaranda wood council table",
+    "background": "desaturated black-and-white empty council chairs around edges",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh overhead chandelier",
+    "fill_light": "amber bounce off parchment",
+    "rim_light": "gold rim on tearing edge",
+    "mood": "violation",
+    "shadow_quality": "deep chamber shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber highlights",
+    "texture_detail": "35mm grain, ember particulate"
+  },
+  "mood": {
+    "emotion": "the active verb of taking peace away",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "pax being literally torn by powers",
+    "secondary": "gloved hand as hidden authority"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "content": "PAX",
+    "font_style": "ornate Roman calligraphy in molten gold leaf",
+    "medium": "ancient parchment",
+    "placement": "centered across the tear line"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

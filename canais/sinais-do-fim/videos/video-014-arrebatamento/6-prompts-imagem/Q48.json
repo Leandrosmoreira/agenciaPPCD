@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE4_Q48",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Rachadura com magma",
+  "narrative_beat": "Wide de rachadura gigante no solo urbano P&B, magma dourado-carmesim emergindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q48",
+    "ato": "Sinais reais"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low dramatic",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a wide low-angle shot of a massive fissure splitting a modern city street",
+    "focal_point": "molten magma in gold and crimson emerging from the earth fissure",
+    "secondary": "Asphalt street cracked open, magma glowing orange-gold in depths, grayscale skyscrapers crumbling in background, floating embers.",
+    "props": [
+      "massive ground fissure",
+      "glowing magma",
+      "crumbling grayscale skyscrapers",
+      "embers"
+    ]
+  },
+  "environment": {
+    "location": "modern city street",
+    "time_of_day": "twilight quake",
+    "atmosphere": "geological catastrophe"
+  },
+  "composition": {
+    "rule": "diagonal crack composition",
+    "foreground": "magma in vivid gold-crimson",
+    "midground": "asphalt edges in warm ochre",
+    "background": "desaturated grayscale skyscrapers and smoke",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "magma as key light from ground",
+    "fill_light": "cool blue ambient",
+    "rim_light": "gold rim on crack edges",
+    "mood": "earth opening",
+    "shadow_quality": "dramatic upward chiaroscuro"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "telluric catastrophe",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "earthquakes in Morocco Japan Turkey",
+    "secondary": "seismic signs"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Terremotos no Marrocos, no Japao, na Turquia."
+}
