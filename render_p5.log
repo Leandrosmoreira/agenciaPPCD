@@ -1,0 +1,40 @@
+
+============================================================
+MONTAGEM v2 — video-015 — PARTE 5
+Quadros: Q45-Q55 (11 clips)
+Audio: parte5.mp3 = 108.60s
+Duracoes por clip: ['8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '33.60s']
+Total visivel (com xfade): 108.60s
+============================================================
+
+[1/3] Renderizando 11 clips individuais em C:\Users\Leandro\AppData\Local\Temp\montagem_p5_67wdsazg...
+  [1/11] Q45: PNG -> KenBurns(zoom_out) | 8.00s
+  [2/11] Q46: PNG -> KenBurns(pan_left) | 8.00s
+  [3/11] Q47: PNG -> KenBurns(zoom_in) | 8.00s
+  [4/11] Q48: PNG -> KenBurns(pan_right) | 8.00s
+  [5/11] Q49: PNG -> KenBurns(zoom_out) | 8.00s
+  [6/11] Q50: PNG -> KenBurns(zoom_in) | 8.00s
+  [7/11] Q51: PNG -> KenBurns(pan_left) | 8.00s
+  [8/11] Q52: PNG -> KenBurns(zoom_out) | 8.00s
+  [9/11] Q53: PNG -> KenBurns(zoom_in) | 8.00s
+  [10/11] Q54: PNG -> KenBurns(pan_left) | 8.00s
+  [11/11] Q55: PNG -> KenBurns(zoom_in) | 33.60s
+
+[2/3] Concatenando 11 clips com xfade 0.5s...
+  [diag] clip_00: exists=True size=4897KB path=clip_00.mp4
+  [diag] clip_01: exists=True size=4470KB path=clip_01.mp4
+  [diag] clip_02: exists=True size=4856KB path=clip_02.mp4
+  [diag] clip_03: exists=True size=4478KB path=clip_03.mp4
+  [diag] clip_04: exists=True size=4860KB path=clip_04.mp4
+  [diag] clip_05: exists=True size=4825KB path=clip_05.mp4
+  [diag] clip_06: exists=True size=4662KB path=clip_06.mp4
+  [diag] clip_07: exists=True size=4883KB path=clip_07.mp4
+  [diag] clip_08: exists=True size=4804KB path=clip_08.mp4
+  [diag] clip_09: exists=True size=4515KB path=clip_09.mp4
+  [diag] clip_10: exists=True size=20564KB path=clip_10.mp4
+  Duracao total do video: 108.60s | audio: 108.60s
+
+[3/3] Mixando audio (narracao + trilha vol=0.22)...
+
+[OK] parte_05.mp4 (89.4 MB)
+     Caminho: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-015-economist-manipulacao\7-edicao\partes\parte_05.mp4

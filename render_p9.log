@@ -1,0 +1,28 @@
+
+============================================================
+MONTAGEM v2 — video-015 — PARTE 9
+Quadros: Q89-Q98 (10 clips)
+Audio: parte9.mp3 = 121.92s
+Duracoes por clip: ['8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '54.42s']
+Total visivel (com xfade): 121.92s
+============================================================
+
+[1/3] Renderizando 10 clips individuais em C:\Users\Leandro\AppData\Local\Temp\montagem_p9_j5f9e3ha...
+  [1/10] Q89: PNG -> KenBurns(zoom_in) | 8.00s
+  [2/10] Q90: PNG -> KenBurns(pan_left) | 8.00s
+  [3/10] Q91: PNG -> KenBurns(zoom_out) | 8.00s
+  [4/10] Q92: PNG -> KenBurns(zoom_in) | 8.00s
+  [5/10] Q93: PNG -> KenBurns(pan_left) | 8.00s
+  [6/10] Q94: PNG -> KenBurns(zoom_in) | 8.00s
+  [7/10] Q95: PNG -> KenBurns(zoom_in_extreme) | 8.00s
+  [8/10] Q96: PNG -> KenBurns(pan_right) | 8.00s
+  [9/10] Q97: PNG -> KenBurns(zoom_out) | 8.00s
+  [10/10] Q98: PNG -> KenBurns(pan_left) | 54.42s
+
+[2/3] Concatenando 10 clips com xfade 0.5s...
+  Duracao total do video: 121.92s | audio: 121.92s
+
+[3/3] Mixando audio (narracao + trilha vol=0.22)...
+
+[OK] parte_09.mp4 (89.3 MB)
+     Caminho: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-015-economist-manipulacao\7-edicao\partes\parte_09.mp4

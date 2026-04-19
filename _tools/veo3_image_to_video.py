@@ -23,6 +23,7 @@ import argparse
 import base64
 import json
 import os
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -38,9 +39,22 @@ except ImportError:
     pass
 
 API_KEY       = os.getenv("GEMINI_API_KEY", "")
-MODEL         = "veo-3.1-lite-generate-preview"
-BASE_URL      = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:predictLongRunning"
-COST_PER_CLIP = 0.128   # ~$0.016/s × 8s (veo-3.1-lite-generate-preview @ 1080p, estimativa)
+# Modelos image-to-video:
+#   - veo-3.1-generate-preview       → standard (qualidade máxima, usado na parte 1)
+#   - veo-3.1-fast-generate-preview  → fast (mais barato, usado nas partes 2-5)
+MODEL_STANDARD = "veo-3.1-generate-preview"
+MODEL_FAST     = "veo-3.1-fast-generate-preview"
+BASE_URL_TMPL  = "https://generativelanguage.googleapis.com/v1beta/models/{model}:predictLongRunning"
+#   Standard: generateAudio=False → ~50% do preço. Fast: gera áudio, stripamos via ffmpeg.
+COST_STANDARD  = 0.160   # ~$0.020/s × 8s @ 1080p sem áudio (param aceito)
+COST_FAST      = 0.128   # ~$0.016/s × 8s @ 1080p COM áudio (fast não aceita flag, áudio removido depois)
+
+def model_for_parte(parte: int) -> str:
+    """Fast em tudo — Snayder escolheu opção C (mais barata)."""
+    return MODEL_FAST
+
+def cost_for_parte(parte: int) -> float:
+    return COST_FAST
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -167,7 +181,7 @@ def generate_plan(args, video_dir: Path):
     plan_lines = [
         f"# Veo3 Plan — {args.video}",
         f"# Gerado: 2026-04-17",
-        f"# Model: {MODEL} | Resolution: 1080p | Duration: 8s/clip",
+        f"# Model: {MODEL_FAST} (todas as partes) | 1080p/8s | áudio removido via ffmpeg",
         f"# ─────────────────────────────────────────────────────────────",
         f"# INSTRUÇÃO: Revise os prompts, edite se necessário.",
         f"# Depois rode: python _tools/veo3_image_to_video.py --canal {args.canal} --video {args.video} --execute",
@@ -193,7 +207,7 @@ def generate_plan(args, video_dir: Path):
         meta  = load_quadro_meta(video_dir, q)
         title = meta.get("scene_title", f"Quadro Q{q:02d}")
         prompt = build_veo3_prompt(meta)
-        img_path = video_dir / "6-assets" / "imagens" / f"Q{q:02d}.png"
+        img_path = video_dir / "6-assets" / f"Q{q:02d}.png"
 
         plan_lines += [
             f"CLIP_{clip_num:02d} | Q{q:02d} | parte=1 | dur_narr={durations.get(q,7):.1f}s | {title}",
@@ -223,7 +237,7 @@ def generate_plan(args, video_dir: Path):
             meta   = load_quadro_meta(video_dir, q)
             title  = meta.get("scene_title", f"Quadro Q{q:02d}")
             prompt = build_veo3_prompt(meta)
-            img_path = video_dir / "6-assets" / "imagens" / f"Q{q:02d}.png"
+            img_path = video_dir / "6-assets" / f"Q{q:02d}.png"
 
             plan_lines += [
                 f"CLIP_{clip_num:02d} | Q{q:02d} | parte={parte} | dur_narr={durations.get(q,7):.1f}s | {title}",
@@ -242,12 +256,12 @@ def generate_plan(args, video_dir: Path):
 
     # ── Custo estimado ───────────────────────────────────────────────────
     n_clips        = len(all_clips)
-    estimated_cost = n_clips * COST_PER_CLIP
+    estimated_cost = n_clips * COST_FAST
 
     plan_lines += [
         "## CUSTO ESTIMADO",
-        f"  {n_clips} clips × ${COST_PER_CLIP:.3f}/clip (veo-3.1-lite-generate-preview @ 1080p/8s)",
-        f"  Total estimado: ${estimated_cost:.2f}",
+        f"  {n_clips} clips × ${COST_FAST:.3f} ({MODEL_FAST} @ 1080p/8s) = ${estimated_cost:.2f}",
+        f"  Áudio gerado pela API é removido via ffmpeg -an após download.",
         f"  NOTA: Verifique preço atual em ai.google.dev/gemini-api/docs/pricing",
         "",
         "## STATUS",
@@ -276,8 +290,65 @@ def generate_plan(args, video_dir: Path):
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# FILES API — upload imagem → URI (exigido pelo veo-3.1-lite)
+# ═══════════════════════════════════════════════════════════════════════════
+
+def upload_to_files_api(img_path: Path) -> str:
+    """
+    Faz upload da imagem para a Gemini Files API.
+    Retorna o fileUri (ex: 'https://generativelanguage.googleapis.com/v1beta/files/abc123').
+    TTL: 48h — arquivo deletado automaticamente pela Google.
+    """
+    upload_url = f"https://generativelanguage.googleapis.com/upload/v1beta/files?key={API_KEY}"
+    img_bytes  = img_path.read_bytes()
+    metadata   = json.dumps({"file": {"display_name": img_path.name}})
+
+    resp = requests.post(
+        upload_url,
+        headers={"X-Goog-Upload-Protocol": "multipart"},
+        files=[
+            ("metadata", (None, metadata, "application/json")),
+            ("file",     (img_path.name, img_bytes, "image/png")),
+        ],
+        timeout=120,
+    )
+    resp.raise_for_status()
+    data     = resp.json()
+    file_uri = data["file"]["uri"]
+    return file_uri
+
+
+def delete_from_files_api(file_uri: str):
+    """Remove arquivo da Files API após uso (opcional — TTL 48h)."""
+    # URI formato: .../v1beta/files/{file_id}
+    # DELETE endpoint: DELETE .../v1beta/files/{file_id}?key=...
+    try:
+        file_id = file_uri.rstrip("/").split("/files/")[-1]
+        del_url = f"https://generativelanguage.googleapis.com/v1beta/files/{file_id}?key={API_KEY}"
+        requests.delete(del_url, timeout=15)
+    except Exception:
+        pass  # Falha silenciosa — TTL 48h garante limpeza automática
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # POLLING DA OPERAÇÃO VEO3
 # ═══════════════════════════════════════════════════════════════════════════
+
+def strip_audio(mp4_path: Path) -> None:
+    """Remove áudio do MP4 via ffmpeg -an. Sobrescreve o arquivo original."""
+    tmp = mp4_path.with_suffix(".noaudio.mp4")
+    r = subprocess.run(
+        ["ffmpeg", "-y", "-i", str(mp4_path), "-c:v", "copy", "-an", str(tmp)],
+        capture_output=True, text=True
+    )
+    if r.returncode == 0 and tmp.exists() and tmp.stat().st_size > 0:
+        mp4_path.unlink()
+        tmp.rename(mp4_path)
+    else:
+        print(f"  [WARN] ffmpeg -an falhou, mantendo com áudio: {r.stderr[:200]}")
+        if tmp.exists():
+            tmp.unlink()
+
 
 def poll_operation(operation_name: str, max_wait_s: int = 600) -> dict:
     """
@@ -363,7 +434,7 @@ def execute_plan(args, video_dir: Path):
     errors     = []
 
     print(f"\nVEO3 EXECUTE — {args.video}")
-    print(f"Clips: {len(clips)} | Model: {MODEL} | 1080p/8s")
+    print(f"Clips: {len(clips)} | Model: {MODEL_FAST} | 1080p/8s | áudio removido via ffmpeg")
     print(f"Output: {out_dir}")
     print("=" * 60)
 
@@ -390,33 +461,37 @@ def execute_plan(args, video_dir: Path):
             })
             continue
 
-        # Encode imagem em base64
+        # 1. Encode imagem base64
         print(f"  Encoding {img_path.name}...", flush=True)
         img_data = base64.b64encode(img_path.read_bytes()).decode("utf-8")
 
-        # Payload da API
+        # 2. Payload — Gemini Dev API usa bytesBase64Encoded (igual Vertex AI)
+        #    Confirmado via SDK oficial googleapis/python-genai → _Image_to_mldev
+        parameters = {
+            "resolution":      "1080p",
+            "durationSeconds": 8,
+            "aspectRatio":     "16:9",
+        }
+        # Fast não aceita generateAudio — áudio é removido via ffmpeg após download.
+
         payload = {
             "instances": [{
                 "prompt": c["prompt"],
                 "image": {
-                    "inlineData": {
-                        "mimeType": "image/png",
-                        "data": img_data
-                    }
+                    "bytesBase64Encoded": img_data,
+                    "mimeType":           "image/png"
                 }
             }],
-            "parameters": {
-                "resolution":      "1080p",
-                "durationSeconds": "8",
-                "aspectRatio":     "16:9"
-            }
+            "parameters": parameters
         }
 
-        # Chamar API
-        print(f"  Chamando Veo3 API...", flush=True)
+        # 3. Chamar API Veo3 — modelo depende da parte (standard p/ parte 1, fast demais)
+        model    = model_for_parte(c["parte"])
+        base_url = BASE_URL_TMPL.format(model=model)
+        print(f"  Chamando Veo3 API ({model})...", flush=True)
         try:
             resp = requests.post(
-                f"{BASE_URL}?key={API_KEY}",
+                f"{base_url}?key={API_KEY}",
                 json=payload,
                 timeout=60
             )
@@ -478,9 +553,13 @@ def execute_plan(args, video_dir: Path):
             errors.append(f"CLIP_{clip_num:02d} Q{q:02d}: download falhou — {e}")
             continue
 
+        # Remover áudio — Snayder: vídeo mudo, narração vem do Suno/mix
+        print(f"  Removendo áudio via ffmpeg...", flush=True)
+        strip_audio(out_path)
+
         size_mb = out_path.stat().st_size / 1024 / 1024
-        print(f"  [OK] {out_path.name} ({size_mb:.1f} MB)", flush=True)
-        total_cost += COST_PER_CLIP
+        print(f"  [OK] {out_path.name} ({size_mb:.1f} MB, sem áudio)", flush=True)
+        total_cost += cost_for_parte(c["parte"])
         results.append({
             "q": q,
             "file": str(out_path),

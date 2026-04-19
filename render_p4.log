@@ -1,0 +1,29 @@
+
+============================================================
+MONTAGEM v2 — video-015 — PARTE 4
+Quadros: Q34-Q44 (11 clips)
+Audio: parte4.mp3 = 99.96s
+Duracoes por clip: ['8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '24.96s']
+Total visivel (com xfade): 99.96s
+============================================================
+
+[1/3] Renderizando 11 clips individuais em C:\Users\Leandro\AppData\Local\Temp\montagem_p4_ced7g5qd...
+  [1/11] Q34: PNG -> KenBurns(zoom_in) | 8.00s
+  [2/11] Q35: PNG -> KenBurns(pan_right) | 8.00s
+  [3/11] Q36: PNG -> KenBurns(zoom_out) | 8.00s
+  [4/11] Q37: PNG -> KenBurns(zoom_in) | 8.00s
+  [5/11] Q38: PNG -> KenBurns(pan_left) | 8.00s
+  [6/11] Q39: PNG -> KenBurns(zoom_out) | 8.00s
+  [7/11] Q40: VEO3 -> ffmpeg grade+vignette | 8.00s
+  [8/11] Q41: VEO3 -> ffmpeg grade+vignette | 8.00s
+  [9/11] Q42: PNG -> KenBurns(zoom_in) | 8.00s
+  [10/11] Q43: PNG -> KenBurns(zoom_in_extreme) | 8.00s
+  [11/11] Q44: PNG -> KenBurns(pan_right) | 24.96s
+
+[2/3] Concatenando 11 clips com xfade 0.5s...
+  Duracao total do video: 99.96s | audio: 99.96s
+
+[3/3] Mixando audio (narracao + trilha vol=0.22)...
+
+[OK] parte_04.mp4 (71.8 MB)
+     Caminho: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-015-economist-manipulacao\7-edicao\partes\parte_04.mp4

@@ -1,0 +1,29 @@
+
+============================================================
+MONTAGEM v2 — video-015 — PARTE 7
+Quadros: Q67-Q77 (11 clips)
+Audio: parte7.mp3 = 128.04s
+Duracoes por clip: ['8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '8.00s', '53.04s']
+Total visivel (com xfade): 128.04s
+============================================================
+
+[1/3] Renderizando 11 clips individuais em C:\Users\Leandro\AppData\Local\Temp\montagem_p7_x55epjno...
+  [1/11] Q67: PNG -> KenBurns(pan_left) | 8.00s
+  [2/11] Q68: PNG -> KenBurns(zoom_in) | 8.00s
+  [3/11] Q69: PNG -> KenBurns(zoom_in_extreme) | 8.00s
+  [4/11] Q70: PNG -> KenBurns(pan_right) | 8.00s
+  [5/11] Q71: VEO3 -> ffmpeg grade+vignette | 8.00s
+  [6/11] Q72: PNG -> KenBurns(pan_left) | 8.00s
+  [7/11] Q73: PNG -> KenBurns(zoom_in) | 8.00s
+  [8/11] Q74: VEO3 -> ffmpeg grade+vignette | 8.00s
+  [9/11] Q75: PNG -> KenBurns(zoom_out) | 8.00s
+  [10/11] Q76: PNG -> KenBurns(zoom_in) | 8.00s
+  [11/11] Q77: PNG -> KenBurns(pan_left) | 53.04s
+
+[2/3] Concatenando 11 clips com xfade 0.5s...
+  Duracao total do video: 128.04s | audio: 128.04s
+
+[3/3] Mixando audio (narracao + trilha vol=0.22)...
+
+[OK] parte_07.mp4 (91.4 MB)
+     Caminho: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-015-economist-manipulacao\7-edicao\partes\parte_07.mp4

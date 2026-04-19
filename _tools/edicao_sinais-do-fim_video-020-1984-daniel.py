@@ -27,7 +27,7 @@ from moviepy.editor import VideoClip, concatenate_videoclips
 ROOT   = Path(__file__).resolve().parent.parent
 CANAL  = ROOT / "canais/sinais-do-fim"
 VIDEO  = CANAL / "videos/video-020-1984-daniel"
-ASSETS = VIDEO / "6-assets/imagens"
+ASSETS = VIDEO / "6-assets"
 AUDIO  = VIDEO / "5-audio"
 OUT    = VIDEO / "7-edicao"
 OUT.mkdir(parents=True, exist_ok=True)
