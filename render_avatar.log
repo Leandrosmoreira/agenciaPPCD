@@ -1,0 +1,26 @@
+
+VEO3 ONE-SHOT
+  Imagem : canais\sinais-do-fim\videos\video-015-economist-manipulacao\6-assets\veo3\Antichrist – Daniel 927 (4).png (374 KB)
+  Output : canais\sinais-do-fim\videos\video-015-economist-manipulacao\6-assets\veo3\antichrist_avatar_8s.mp4
+  Model  : veo-3.1-fast-generate-preview
+  Duracao: 8s | 1080p | 16:9 | sem audio
+  Prompt : A mysterious hooded figure framed chest-up, medium static shot. Heavily textured dark charcoal-black cloak with deep fab...
+
+Chamando Veo3 API...
+Operation: models/veo-3.1-fast-generate-preview/operations/e991869dpqky
+Aguardando geracao (2-5 min)...
+  Aguardando... 10s
+  Aguardando... 20s
+  Aguardando... 30s
+  Aguardando... 40s
+  Aguardando... 50s
+  Aguardando... 60s
+  Aguardando... 70s
+  Aguardando... 80s
+  Aguardando... 90s
+  URI: https://generativelanguage.googleapis.com/v1beta/files/i9vqfqmm0c79:download?alt...
+  Baixando...
+  Removendo audio...
+
+[OK] canais\sinais-do-fim\videos\video-015-economist-manipulacao\6-assets\veo3\antichrist_avatar_8s.mp4 (4.9 MB)
+[CUSTO ESTIMADO] ~$0.08 (5s Fast)

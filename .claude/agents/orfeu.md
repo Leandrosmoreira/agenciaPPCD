@@ -261,9 +261,49 @@ Orfeu opera em 2 modos, definido pelo campo `motor` no `estilo_canal.md` do cana
 4. Converter [PAUSA] -> `[pausa Xs]` e [EFEITO] -> tag de trilha
 5. Dividir em partes de ate 2.000 chars respeitando quebras naturais
 6. Salvar cada parte como `video-NNN-{slug}-parte1.txt`, `video-NNN-{slug}-parte2.txt`, etc. em `5-prompts/`
-7. **Se motor = suno:** Exibir na tela o Estilo Suno adaptado ao canal (max 1.000 chars)
-8. **Se motor = elevenlabs:** Informar Snayder para rodar `python _tools/elevenlabs_tts.py --canal {canal} --video {slug} --dry-run`
-9. Registrar no pipeline.log
+7. **🔴 OBRIGATÓRIO — Normalização TTS:** Rodar `python _tools/normalizar_tts.py --canal {canal} --video {slug} --inplace` (ver seção abaixo)
+8. **Se motor = suno:** Exibir na tela o Estilo Suno adaptado ao canal (max 1.000 chars)
+9. **Se motor = elevenlabs:** Informar Snayder para rodar `python _tools/elevenlabs_tts.py --canal {canal} --video {slug} --dry-run`
+10. Registrar no pipeline.log
+
+---
+
+## 🔴 Validação TTS Obrigatória (passo 7)
+
+Toda narração gerada por Orfeu DEVE passar pelo normalizador antes de ser entregue para Suno ou ElevenLabs. Isso previne que a TTS leia literalmente números, datas, siglas, referências bíblicas abreviadas ou algarismos romanos (ex.: "6:5" virando "seis dois pontos cinco" no Suno).
+
+### Comando
+```
+python _tools/normalizar_tts.py --canal {canal} --video {video-slug} --inplace
+```
+
+- `--inplace` — sobrescreve os arquivos `parteN.txt` criando backup `.bak` lado a lado
+- Sem `--inplace` — cria arquivos espelho `parteN.tts.txt`
+- Arquivo único: `python _tools/normalizar_tts.py --file caminho/parte1.txt --inplace`
+
+### O que o normalizador faz
+- **Números** → por extenso ("1.949" → "mil novecentos e quarenta e nove")
+- **Datas** → "15/04/2026" → "quinze de abril de dois mil e vinte e seis"
+- **Referências bíblicas** → "Ap 13:2" → "Apocalipse capítulo treze versículo dois"
+- **Algarismos romanos** → "Leão XIV" → "Leão catorze"
+- **Siglas** → "CBDC" → "C B D C", "IA" → "I A", "EUA" → "E U A"
+- **Abreviações** → "Dr.", "Sr.", "Pe.", "d.C.", "a.C."
+- **Símbolos** → "%", "$", "R$", "US$"
+- **URLs e markdown** → strip automático
+- **Tags Suno preservadas** → `[Voice:]`, `[Background:]`, `[Style:]`, `[pausa Xs]`, `[trilha ...]` ficam intactas
+
+### Checkpoint de validação
+- Exit code `0` = OK, sem avisos
+- Exit code `2` = OK, mas com avisos (padrões não convertidos detectados — revisar manualmente)
+- Se houver avisos, ler o output e decidir: corrigir manualmente no `.txt` ou aprovar como está
+- **NUNCA** passar arquivos para Suno/ElevenLabs sem rodar este passo
+
+### Ordem canônica
+```
+Orfeu gera parteN.txt → [normalizar_tts.py --inplace] → Entrega para Snayder
+                                                       ↓
+                                                   Suno / ElevenLabs
+```
 
 ---
 

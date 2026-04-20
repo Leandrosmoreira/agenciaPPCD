@@ -1,6 +1,7 @@
 # Pipeline Log — Sinais do Fim — Passagens do Apocalipse
 # Registre cada ação com timestamp
 [2026-04-04 00:00] CANAL CRIADO — Sinais do Fim — Passagens do Apocalipse
+[2026-04-19] ARGOS — video-021-cavalo-fome | pesquisa.md gerado em 1-pesquisa/ | 35+ fontes verificadas (ONU/WFP, EBC, Oxfam Davos 2026, Ormuz/ureia, Beasley, Bill Gates, CBDC/Drex, Gaza/Sudão, Primavera Árabe 2011, edito Domiciano 92 d.C.) | 3 YouTube concorrentes analisados (JPcFEZfH9ns, iOU3aVW-1K4, ezAeSNIe_io) | Ângulo inédito: "Edito do Imperador" — Domiciano 92 d.C. + Ormuz 2026 + CBDC como libellus digital | 9 blocos × ~90s (~13,5min) | Zero dados inventados | CHECKPOINT 1 — aguardando aprovação de Snayder para Hermes (SEO/Títulos)
 [2026-04-04 00:00] ESTRUTURA — 6 vídeos planejados (video-001 a video-006)
 [2026-04-04 17:50] PIPELINE INICIADO — sinais-do-fim/video-001-armagedom
 [2026-04-04 17:50] ARGOS — Pesquisa de 10 topicos realizada (Viral Score: 87.3)
@@ -418,3 +419,9 @@
 [2026-04-17 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-17.json
 [2026-04-17] video-013-segundo-selo | Fase 2.5 + prep Fase 3 | Nyx+Orfeu+Goetia | Storyboard 60 quadros (Q01-Q60) gerado em 4-storyboard/ | 5 partes Orfeu geradas em 5-prompts/ (2255+2500+2490+2495+2491 chars, todas <=2500) | Script gerador JSONs em _tools/_gen_video013_jsons.py (60 JSONs prontos, 6 com model_override pro) | BLOQUEIO: Bash sandbox negou python execution — Q01.json gerado manualmente; rodar `python _tools/_gen_video013_jsons.py` + `python _tools/goetia_nano_banana.py --canal sinais-do-fim --video video-013-segundo-selo --all --skip-existing` manualmente
 [2026-04-18 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-18.json
+[2026-04-19 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-19.json
+[2026-04-19 20:16:16] CARONTE -- video-015 post-config OK (PRIVATE) -> VwlZ2NLQyFc
+[2026-04-19 20:47] ARGOS — PESQUISA CONCLUIDA — video-022-profecias-2026 — 1-pesquisa/pesquisa.md — AGUARDANDO CHECKPOINT SNAYDER
+[2026-04-19] ORFEU -- normalizar_tts.py aplicado em video-020-1984-daniel (5 partes, 0 avisos) + workflow do Orfeu atualizado com validacao TTS obrigatoria
+[2026-04-19] ORFEU -- 5 audios movidos de 5-prompts/ para 5-audio/ e renomeados para PARTE1-5.mp3 (padrao obrigatorio)
+[2026-04-19] PHANTASMA -- script edicao_sinais-do-fim_video-020-1984-daniel.py atualizado: Veo3 Q03-Q06, Ken Burns zoom_in Q02, trilhas 1-2-3 por batch

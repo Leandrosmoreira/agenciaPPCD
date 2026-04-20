@@ -1,8 +1,62 @@
 {
   "canal": "sinais-do-fim",
-  "videos": [],
-  "media_views": 0,
-  "media_ctr": 0,
-  "media_retencao": 0,
-  "ultima_atualizacao": null
+  "ultima_atualizacao": "2026-04-19",
+  "media_views_dia": 19.0,
+  "media_ctr": 2.6,
+  "media_retencao": 22.1,
+  "insights": {
+    "tema_boost": ["Bíblia Proibida", "Mel Gibson", "Igreja escondeu", "Rosto real famoso"],
+    "formato_melhor": "Personagem real famoso + conspiração bíblica",
+    "horario_publicacao": "00:05 UTC (madrugada BR)",
+    "publico_perfil": "35-55 anos, religioso conservador, compartilha WhatsApp",
+    "duracao_ideal_min": 12
+  },
+  "videos": [
+    {
+      "slug": "video-010-biblia-etiope",
+      "id": "tlQMToRLywU",
+      "titulo": "Mel Gibson: A Bíblia Proibida que Esconderam de Você por 1.700 Anos",
+      "publicado": "2026-04-18",
+      "views_24h": 88, "views_dia": 88.0, "likes": 10, "like_pct": 11.4,
+      "ctr": 2.6, "impressoes": 2500, "retencao_pct": 22.1,
+      "dur_media": "3:55", "dur_video": "17:45", "inscritos_gerados": 2,
+      "trafego_sugerido_pct": 68.2, "trafego_externo_pct": 8.0, "trafego_busca_pct": 0.0,
+      "melhor_video": true
+    },
+    {
+      "slug": "video-009-anticristo", "id": "wEJELnPzP-I",
+      "titulo": "O Anticristo JÁ ESTÁ AQUI: Kushner, Musk e Macron - Daniel 9:27",
+      "publicado": "2026-04-15",
+      "views_total": 11, "views_dia": 2.8, "likes": 6, "like_pct": 54.5,
+      "trafego_sugerido_pct": 36.4
+    },
+    {
+      "slug": "video-008-sinais-fisicos",
+      "titulo": "SINAIS FÍSICOS DO APOCALIPSE? Céu Vermelho, Corvos e Chuva de Sangue",
+      "publicado": "2026-04-15",
+      "views_total": 25, "views_dia": 6.2, "likes": 6, "like_pct": 24.0,
+      "trafego_sugerido_pct": 48.0
+    },
+    {
+      "slug": "video-007-falsa-paz",
+      "titulo": "TRUMP: A PAZ ANTES DA DESTRUIÇÃO — Profecia se Cumpre",
+      "publicado": "2026-04-12",
+      "views_total": 53, "views_dia": 7.6, "likes": 7, "like_pct": 13.2,
+      "trafego_sugerido_pct": 56.6
+    },
+    {
+      "slug": "video-002-marca-da-besta",
+      "titulo": "A Marca da Besta Já Está Sendo Implementada — E Poucos Percebem",
+      "publicado": "2026-04-10",
+      "views_total": 39, "views_dia": 4.3, "likes": 10, "like_pct": 25.6,
+      "trafego_sugerido_pct": 2.6
+    },
+    {
+      "slug": "video-001-armagedom", "id": "M6MKRnoXCE0",
+      "titulo": "ARMAGEDOM É ASSUSTADOR... E Já Está Acontecendo",
+      "publicado": "2026-04-07",
+      "views_total": 61, "views_dia": 5.1, "likes": 11, "like_pct": 18.0,
+      "trafego_sugerido_pct": 52.5
+    }
+  ]
 }

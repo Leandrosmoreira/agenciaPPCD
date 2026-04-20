@@ -1,0 +1,9 @@
+VIDEO_ID: VwlZ2NLQyFc
+URL: https://youtube.com/watch?v=VwlZ2NLQyFc
+STATUS: scheduled -> public
+UPLOAD_TIME: 2026-04-19 20:16:16
+PUBLISH_TIME: 2026-04-26 20:05:00
+THUMBNAIL: OK
+CHAPTERS: OK
+TAGS: adicionadas manualmente no Studio
+PRIVACY: scheduled (26/04/2026 as 20:05)

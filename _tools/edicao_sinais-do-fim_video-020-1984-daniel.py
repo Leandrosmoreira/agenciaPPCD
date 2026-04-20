@@ -22,7 +22,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import cv2
-from moviepy.editor import VideoClip, concatenate_videoclips
+from moviepy.editor import VideoClip, VideoFileClip, concatenate_videoclips
 
 ROOT   = Path(__file__).resolve().parent.parent
 CANAL  = ROOT / "canais/sinais-do-fim"
@@ -44,6 +44,22 @@ PARTE_DUR = {1: 150.0, 2: 150.0, 3: 150.0, 4: 150.0, 5: 150.0}
 
 PARTES_AUDIO = [AUDIO / f"parte{n}.mp3" for n in range(1, 6)]
 TRILHA = AUDIO / "trilha.MP3"
+
+# Clips Veo3 — quadros com vídeo animado em 6-assets/veo3/
+VEO_DIR    = ASSETS / "veo3"
+VEO_QUADROS = {3, 4, 5, 6}   # VEO_Q03–Q06 gerados (Q02 Ken Burns zoom_in)
+
+# Trilhas por batch (Trilha1→partes 1-2, Trilha2→partes 3-4, Trilha3→parte 5)
+TRILHAS_POR_BATCH = {
+    1: AUDIO / "Trilha1.mp3",
+    2: AUDIO / "Trilha1.mp3",
+    3: AUDIO / "Trilha2.mp3",
+    4: AUDIO / "Trilha2.mp3",
+    5: AUDIO / "Trilha3.mp3",
+}
+
+# Override de efeito para Q02 (Snayder: zoom_in)
+EFFECT_OVERRIDE = {2: "zoom_in"}
 
 WRITE_OPTS = dict(
     codec="libx264", audio=False,
@@ -225,6 +241,20 @@ def kb_with_grade(img_path, duration, effect, grade_fn):
         return grade_fn(base.make_frame(t))
 
     c = VideoClip(mf, duration=duration)
+    c.fps = FPS
+    return c
+
+
+def veo_with_grade(veo_path, grade_fn):
+    """Carrega clip Veo3 MP4 e aplica color grading frame a frame."""
+    base = VideoFileClip(str(veo_path), audio=False)
+    base = base.resize((W, H))
+
+    def mf(t):
+        frame = base.get_frame(min(t, base.duration - 1 / FPS))
+        return grade_fn(frame)
+
+    c = VideoClip(mf, duration=base.duration)
     c.fps = FPS
     return c
 
@@ -431,8 +461,15 @@ def render_batch(batch):
 
     for q in quadros:
         img_path = ASSETS / f"Q{q:02d}.png"
-        effect   = effect_for_quadro(q)
+        effect   = EFFECT_OVERRIDE.get(q, effect_for_quadro(q))
         grade_fn = QUADRO_GRADE.get(q, grade_apocalypse)
+
+        # Veo3 clip disponível para este quadro?
+        veo_path = VEO_DIR / f"VEO_Q{q:02d}.mp4"
+        if q in VEO_QUADROS and veo_path.exists():
+            print(f"  [VEO3] Q{q:02d} — clip animado + {grade_fn.__name__}", flush=True)
+            clips.append(veo_with_grade(veo_path, grade_fn))
+            continue
 
         if not img_path.exists():
             print(f"  [FALLBACK] Q{q:02d} — imagem ausente, usando text_screen", flush=True)
@@ -462,12 +499,13 @@ def render_batch(batch):
         silent.unlink(missing_ok=True)
         return True
 
-    if TRILHA.exists():
+    trilha_path = TRILHAS_POR_BATCH.get(bid, TRILHAS_POR_BATCH[1])
+    if trilha_path.exists():
         cmd = [
             "ffmpeg", "-y",
             "-i", str(silent),
             "-i", str(audio_file),
-            "-i", str(TRILHA),
+            "-i", str(trilha_path),
             "-filter_complex",
             "[1:a]volume=1.0[narr];[2:a]volume=0.22[music];[narr][music]amix=inputs=2:duration=first[a]",
             "-map", "0:v",
@@ -478,7 +516,7 @@ def render_batch(batch):
             str(final),
         ]
     else:
-        print("  [INFO] Trilha não encontrada — narração somente", flush=True)
+        print(f"  [INFO] Trilha {trilha_path.name} não encontrada — narração somente", flush=True)
         cmd = [
             "ffmpeg", "-y",
             "-i", str(silent),

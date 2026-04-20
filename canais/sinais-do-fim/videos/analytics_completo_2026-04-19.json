@@ -1,0 +1,1307 @@
+{
+  "data_coleta": "2026-04-19 08:07:04",
+  "canal_id": "UCOqy8du-ijAY9xTN6q1MQDQ",
+  "total_videos": 6,
+  "videos": [
+    {
+      "id": "tlQMToRLywU",
+      "title": "Mel Gibson: A Bíblia Proibida que Esconderam de Você por 1.700 Anos",
+      "published": "2026-04-18T00:05:00Z",
+      "realtime_stats": {
+        "viewCount": 79,
+        "likeCount": 10,
+        "commentCount": 1,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": []
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": []
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": []
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": []
+        }
+      }
+    },
+    {
+      "id": "wEJELnPzP-I",
+      "title": "O Anticristo JÁ ESTÁ AQUI: Kushner, Musk e Macron - Daniel 9:27",
+      "published": "2026-04-15T23:05:01Z",
+      "realtime_stats": {
+        "viewCount": 11,
+        "likeCount": 6,
+        "commentCount": 1,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "2026-04-15",
+              8,
+              60,
+              451,
+              48.35,
+              0,
+              3,
+              1
+            ],
+            [
+              "2026-04-16",
+              3,
+              24,
+              498,
+              53.400000000000006,
+              0,
+              3,
+              0
+            ]
+          ]
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "NO_LINK_OTHER",
+              0,
+              0
+            ],
+            [
+              "SUBSCRIBER",
+              5,
+              55
+            ],
+            [
+              "YT_CHANNEL",
+              1,
+              8
+            ],
+            [
+              "RELATED_VIDEO",
+              4,
+              4
+            ],
+            [
+              "YT_OTHER_PAGE",
+              1,
+              15
+            ]
+          ]
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": []
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "DESKTOP",
+              2,
+              24
+            ],
+            [
+              "TV",
+              2,
+              2
+            ],
+            [
+              "MOBILE",
+              7,
+              58
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ffYg-wp08sw",
+      "title": "SINAIS FÍSICOS DO APOCALIPSE? Céu Vermelho, Corvos e Chuva de Sangue",
+      "published": "2026-04-15T00:05:01Z",
+      "realtime_stats": {
+        "viewCount": 25,
+        "likeCount": 6,
+        "commentCount": 0,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "2026-04-14",
+              14,
+              37,
+              159,
+              26.55,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-15",
+              4,
+              19,
+              294,
+              49.24,
+              0,
+              2,
+              0
+            ],
+            [
+              "2026-04-16",
+              6,
+              7,
+              70,
+              11.8,
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "NO_LINK_OTHER",
+              2,
+              6
+            ],
+            [
+              "SUBSCRIBER",
+              4,
+              14
+            ],
+            [
+              "YT_CHANNEL",
+              2,
+              7
+            ],
+            [
+              "RELATED_VIDEO",
+              12,
+              29
+            ],
+            [
+              "EXT_URL",
+              3,
+              2
+            ],
+            [
+              "NOTIFICATION",
+              1,
+              3
+            ]
+          ]
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "BR",
+              12,
+              29,
+              0
+            ]
+          ]
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "TV",
+              11,
+              43
+            ],
+            [
+              "MOBILE",
+              13,
+              20
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "djzD7YFysoU",
+      "title": "TRUMP: A PAZ ANTES DA DESTRUIÇÃO — Profecia se Cumpre HOJE",
+      "published": "2026-04-12T01:50:00Z",
+      "realtime_stats": {
+        "viewCount": 53,
+        "likeCount": 7,
+        "commentCount": 0,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "2026-04-13",
+              1,
+              0,
+              14,
+              1.9799999999999998,
+              0,
+              0,
+              0
+            ],
+            [
+              "2026-04-14",
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-10",
+              5,
+              17,
+              211,
+              29.39,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-12",
+              35,
+              110,
+              188,
+              26.27,
+              0,
+              2,
+              0
+            ],
+            [
+              "2026-04-11",
+              8,
+              18,
+              137,
+              19.09,
+              0,
+              2,
+              0
+            ]
+          ]
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "NO_LINK_OTHER",
+              2,
+              17
+            ],
+            [
+              "SUBSCRIBER",
+              6,
+              13
+            ],
+            [
+              "YT_CHANNEL",
+              1,
+              4
+            ],
+            [
+              "YT_SEARCH",
+              1,
+              0
+            ],
+            [
+              "RELATED_VIDEO",
+              30,
+              95
+            ],
+            [
+              "YT_OTHER_PAGE",
+              2,
+              6
+            ],
+            [
+              "EXT_URL",
+              5,
+              7
+            ],
+            [
+              "PLAYLIST",
+              1,
+              0
+            ],
+            [
+              "NOTIFICATION",
+              1,
+              1
+            ]
+          ]
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "BR",
+              27,
+              89,
+              0
+            ]
+          ]
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "DESKTOP",
+              4,
+              17
+            ],
+            [
+              "TV",
+              7,
+              33
+            ],
+            [
+              "MOBILE",
+              37,
+              95
+            ],
+            [
+              "TABLET",
+              1,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "2_fCLnB4eIs",
+      "title": "A Marca da Besta Já Está Sendo Implementada — E Poucos Perceberam",
+      "published": "2026-04-10T01:05:00Z",
+      "realtime_stats": {
+        "viewCount": 39,
+        "likeCount": 10,
+        "commentCount": 0,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "2026-04-13",
+              4,
+              20,
+              300,
+              30.34,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-14",
+              1,
+              1,
+              105,
+              10.67,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-10",
+              7,
+              37,
+              319,
+              32.25,
+              0,
+              2,
+              0
+            ],
+            [
+              "2026-04-12",
+              16,
+              13,
+              52,
+              5.25,
+              0,
+              1,
+              0
+            ],
+            [
+              "2026-04-09",
+              5,
+              62,
+              747,
+              75.55,
+              0,
+              3,
+              0
+            ],
+            [
+              "2026-04-11",
+              5,
+              37,
+              455,
+              46.04,
+              0,
+              2,
+              0
+            ]
+          ]
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "NO_LINK_OTHER",
+              0,
+              0
+            ],
+            [
+              "SUBSCRIBER",
+              25,
+              120
+            ],
+            [
+              "YT_CHANNEL",
+              5,
+              6
+            ],
+            [
+              "YT_SEARCH",
+              1,
+              2
+            ],
+            [
+              "RELATED_VIDEO",
+              1,
+              6
+            ],
+            [
+              "YT_OTHER_PAGE",
+              2,
+              2
+            ],
+            [
+              "EXT_URL",
+              4,
+              35
+            ]
+          ]
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "BR",
+              16,
+              13,
+              0
+            ]
+          ]
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "DESKTOP",
+              2,
+              11
+            ],
+            [
+              "TV",
+              3,
+              49
+            ],
+            [
+              "MOBILE",
+              33,
+              112
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "M6MKRnoXCE0",
+      "title": "ARMAGEDOM É ASSUSTADOR... E Já Está Acontecendo",
+      "published": "2026-04-07T01:05:00Z",
+      "realtime_stats": {
+        "viewCount": 61,
+        "likeCount": 11,
+        "commentCount": 1,
+        "favoriteCount": 0
+      },
+      "analytics": {
+        "historico_diario": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "day",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewDuration",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "averageViewPercentage",
+              "columnType": "METRIC",
+              "dataType": "FLOAT"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "likes",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "comments",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "2026-04-14",
+              2,
+              2,
+              64,
+              15.990000000000002,
+              1,
+              1,
+              0
+            ],
+            [
+              "2026-04-07",
+              29,
+              103,
+              213,
+              53.28000000000001,
+              5,
+              6,
+              0
+            ],
+            [
+              "2026-04-16",
+              1,
+              1,
+              86,
+              21.5,
+              0,
+              0,
+              0
+            ],
+            [
+              "2026-04-06",
+              5,
+              11,
+              142,
+              35.48,
+              1,
+              2,
+              0
+            ],
+            [
+              "2026-04-10",
+              1,
+              1,
+              63,
+              15.939999999999998,
+              0,
+              0,
+              1
+            ],
+            [
+              "2026-04-09",
+              3,
+              14,
+              293,
+              73.2,
+              0,
+              0,
+              0
+            ],
+            [
+              "2026-04-08",
+              13,
+              39,
+              183,
+              45.78,
+              0,
+              0,
+              0
+            ],
+            [
+              "2026-04-05",
+              2,
+              6,
+              206,
+              51.46999999999999,
+              0,
+              0,
+              0
+            ],
+            [
+              "2026-04-11",
+              5,
+              16,
+              202,
+              50.44,
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        "trafego": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "insightTrafficSourceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "NO_LINK_OTHER",
+              3,
+              13
+            ],
+            [
+              "SUBSCRIBER",
+              6,
+              17
+            ],
+            [
+              "YT_CHANNEL",
+              9,
+              25
+            ],
+            [
+              "YT_SEARCH",
+              7,
+              30
+            ],
+            [
+              "RELATED_VIDEO",
+              32,
+              91
+            ],
+            [
+              "EXT_URL",
+              4,
+              18
+            ]
+          ]
+        },
+        "paises": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "country",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "subscribersGained",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "BR",
+              38,
+              127,
+              0
+            ]
+          ]
+        },
+        "dispositivos": {
+          "kind": "youtubeAnalytics#resultTable",
+          "columnHeaders": [
+            {
+              "name": "deviceType",
+              "columnType": "DIMENSION",
+              "dataType": "STRING"
+            },
+            {
+              "name": "views",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            },
+            {
+              "name": "estimatedMinutesWatched",
+              "columnType": "METRIC",
+              "dataType": "INTEGER"
+            }
+          ],
+          "rows": [
+            [
+              "DESKTOP",
+              7,
+              34
+            ],
+            [
+              "TV",
+              18,
+              57
+            ],
+            [
+              "MOBILE",
+              35,
+              103
+            ],
+            [
+              "TABLET",
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
