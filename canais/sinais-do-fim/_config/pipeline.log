@@ -425,3 +425,4 @@
 [2026-04-19] ORFEU -- normalizar_tts.py aplicado em video-020-1984-daniel (5 partes, 0 avisos) + workflow do Orfeu atualizado com validacao TTS obrigatoria
 [2026-04-19] ORFEU -- 5 audios movidos de 5-prompts/ para 5-audio/ e renomeados para PARTE1-5.mp3 (padrao obrigatorio)
 [2026-04-19] PHANTASMA -- script edicao_sinais-do-fim_video-020-1984-daniel.py atualizado: Veo3 Q03-Q06, Ken Burns zoom_in Q02, trilhas 1-2-3 por batch
+[2026-04-20 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-20.json
