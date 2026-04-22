@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q59",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Sentinela medieval em torre com tocha ao amanhecer",
+  "narrative_beat": "Armadura dourada e carmesim olhando o horizonte",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q59",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "panoramic",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid solitary medieval sentinel in golden crimson armor at top of tower looking at horizon in active vigilance with lit torch against amber and scarlet dawn sky in vibrant foreground",
+    "focal_point": "the solitary sentinel's vigilant posture with lit torch against the amber scarlet dawn",
+    "secondary": "black and white desaturated modern city horizon with grey skyscrapers in background",
+    "props": [
+      "medieval sentinel in golden crimson armor",
+      "tower top",
+      "lit torch",
+      "amber and scarlet dawn sky",
+      "modern city horizon"
+    ]
+  },
+  "environment": {
+    "location": "watchtower above modern city",
+    "time_of_day": "dawn of vigilance",
+    "atmosphere": "the watcher"
+  },
+  "composition": {
+    "rule": "zoom-out epic composition",
+    "foreground": "sentinel in vivid gold crimson",
+    "midground": "torch light midground",
+    "background": "desaturated modern city horizon",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "amber dawn from right",
+    "fill_light": "torch warm fill",
+    "rim_light": "gold rim on armor",
+    "mood": "vigilant hope",
+    "shadow_quality": "long dawn tower shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-scarlet grading, anamorphic flare",
+    "texture_detail": "35mm grain, dawn mist"
+  },
+  "mood": {
+    "emotion": "to watch is to discern — the sentinel as the viewer who arrived here",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the sentinel as everyone who watched this video to the end",
+    "secondary": "lit torch as the knowledge that cannot be unseen"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

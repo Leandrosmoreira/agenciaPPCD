@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE5_Q47",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Enoque com o Livro de Enoque e luz cosmica",
+  "narrative_beat": "Profeta anciao em branco puro e ouro sobre colina",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q47",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid prophet Enoch as ancient elder in pure white and gold robes with white hair in sacred revelation expression holding leather Book of Enoch with golden seals with cosmic light rays descending on head in vibrant foreground",
+    "focal_point": "the cosmic light rays descending on Enoch's head and the Book of Enoch with golden seals",
+    "secondary": "black and white desaturated solitary hill with lone tree at grey dusk in background",
+    "props": [
+      "prophet Enoch in pure white and gold",
+      "white hair sacred expression",
+      "Book of Enoch with golden seals",
+      "cosmic light rays"
+    ]
+  },
+  "environment": {
+    "location": "solitary hill at dusk",
+    "time_of_day": "eternal moment of first testimony",
+    "atmosphere": "ancient witness"
+  },
+  "composition": {
+    "rule": "zoom-in composition",
+    "foreground": "Enoch in vivid white gold",
+    "midground": "cosmic rays midground",
+    "background": "desaturated solitary hill and tree",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cosmic overhead beam",
+    "fill_light": "ambient dusk fill",
+    "rim_light": "gold rim on Enoch's head",
+    "mood": "sacred ancient",
+    "shadow_quality": "long dusk prophet shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold saturation, divine halation",
+    "texture_detail": "35mm grain, dusk mist"
+  },
+  "mood": {
+    "emotion": "Enoch who named the Watchers — the first whistleblower",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the book Jesus and Jude quoted as warning for the last generation",
+    "secondary": "solitary hill as the platform of the lonely prophetic voice"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

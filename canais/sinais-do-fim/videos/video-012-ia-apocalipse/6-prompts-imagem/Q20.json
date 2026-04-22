@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE2_Q20",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Linha do tempo entre pergaminho e robo",
+  "narrative_beat": "Conexao de fogo entre antigo e moderno",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q20",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "panoramic",
+    "focal_length_mm": 28,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid visual timeline composition with ancient gold ochre parchment scroll on left and crimson humanoid robot on right connected by golden flames and light in vibrant foreground",
+    "focal_point": "the golden flame connection between the ancient scroll and the crimson robot",
+    "secondary": "black and white desaturated modern city bridge at monochrome dusk in background",
+    "props": [
+      "ancient parchment scroll in gold ochre",
+      "crimson humanoid robot",
+      "golden flame connection between them",
+      "city bridge in monochrome"
+    ]
+  },
+  "environment": {
+    "location": "symbolic plain of time",
+    "time_of_day": "dusk of revelation",
+    "atmosphere": "temporal revelation"
+  },
+  "composition": {
+    "rule": "pan left-to-right composition",
+    "foreground": "scroll and robot in vivid gold crimson",
+    "midground": "fire connection midground",
+    "background": "desaturated city bridge",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden flame from center",
+    "fill_light": "amber bounce on scroll",
+    "rim_light": "crimson rim on robot",
+    "mood": "temporal revelation",
+    "shadow_quality": "long diagonal time shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-crimson saturation, anamorphic flare",
+    "texture_detail": "35mm grain, fire particles"
+  },
+  "mood": {
+    "emotion": "two thousand years collapsed into one image",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the prophecy and its fulfillment sharing the same frame",
+    "secondary": "golden flame as the unbroken thread of divine foreknowledge"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

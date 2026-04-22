@@ -1,0 +1,7 @@
+VIDEO_ID: G0IgNzERVZE
+URL: https://youtube.com/watch?v=G0IgNzERVZE
+STATUS: private
+UPLOAD_TIME: 2026-04-21 21:27:02
+THUMBNAIL: ERRO — definir manualmente via caronte_post_upload.py
+CHAPTERS: OK
+NOTA: Aguardando aprovacao de Snayder para tornar publico

@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE4_Q34",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Serpente medieval enrolada em microfone",
+  "narrative_beat": "Escamas douradas e esmeralda com olhos rubis",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q34",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid ornate medieval serpent in gold and emerald green scales with raised head bifurcated tongue and ruby eyes coiled around a modern microphone representing voice synthesis deception in vibrant foreground",
+    "focal_point": "the serpent's ruby eyes and bifurcated tongue coiled around the microphone",
+    "secondary": "black and white desaturated empty podcast studio with grey equipment in background",
+    "props": [
+      "medieval serpent in gold and emerald",
+      "ruby eyes bifurcated tongue",
+      "coiled around modern microphone",
+      "podcast studio"
+    ]
+  },
+  "environment": {
+    "location": "podcast studio",
+    "time_of_day": "moment of voice synthesis",
+    "atmosphere": "synthetic voice deception"
+  },
+  "composition": {
+    "rule": "zoom-in on serpent and microphone composition",
+    "foreground": "serpent in vivid gold emerald",
+    "midground": "microphone midground",
+    "background": "desaturated podcast studio",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh side lamp",
+    "fill_light": "gold bounce on scales",
+    "rim_light": "ruby rim on eyes",
+    "mood": "serpentine deception",
+    "shadow_quality": "dramatic coiled shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, gold-emerald highlights",
+    "texture_detail": "35mm grain, serpent scale texture"
+  },
+  "mood": {
+    "emotion": "voice cloning as the snake's tongue — AI voice synthesis",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the serpent around the microphone — the original deceiver using the newest tool",
+    "secondary": "three seconds of audio sample — the tongue that needs barely a word"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

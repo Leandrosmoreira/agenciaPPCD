@@ -1,0 +1,12 @@
+PROMPT BANANA 2.0:
+Photorealistic close-up portrait of George Orwell (thin British man, 1940s, gaunt face, dark sunken eyes, mustache, expression of absolute terror and despair, mouth slightly open in shock), occupying 45% of frame on the left side. Behind him, black and white surveillance cameras mounted on walls, Big Brother propaganda posters in blurred background, oppressive concrete architecture. Foreground glows with a single amber candle flame casting dramatic chiaroscuro shadows on his face. Rich warm tones on face (amber, gold, crimson shadows) vs desaturated black-and-white background. 35mm film grain, Kodak Portra pushed, halation on highlights, crushed blacks. Space reserved on right side for text overlay. Dark crimson vignette edges. Floating ash embers. Ultra high contrast. Dark prophetic atmosphere.
+Aspect ratio: 16:9, 1280x720px, designed for YouTube thumbnail, text space on right third
+
+NEGATIVE PROMPT:
+cartoon, anime, illustration, painting, cheerful expression, bright colors, clean background, watermark, text, logo, blurry face, low resolution, digital art, flat lighting, smile
+
+---
+ELEMENTO CENTRAL: Rosto real de George Orwell — choque/desespero
+LAYOUT: Rosto esquerda (45%) | Texto direita (35%) | Fundo P&B câmeras
+FUNDO: Câmeras vigilância + cartazes Grande Irmão em preto e branco desfocado
+COR DOMINANTE: Carmesim/âmbar no rosto, P&B no fundo

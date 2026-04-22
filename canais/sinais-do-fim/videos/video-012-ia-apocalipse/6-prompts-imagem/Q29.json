@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE3_Q29",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Maos humana e robotica quase se tocando",
+  "narrative_beat": "Como o fresco de Adao e Deus mas robo substituindo Deus",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q29",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid human hand in warm crimson and ochre tones almost touching humanoid robot hand in cold gold and silver like Michelangelo Creation of Adam with light particles transferring between them in vibrant foreground",
+    "focal_point": "the light particles transferring between the human hand and the robot hand",
+    "secondary": "black and white desaturated cloudy sky with transmission towers in background",
+    "props": [
+      "human hand in warm crimson ochre",
+      "robot hand in cold gold silver",
+      "light particles transferring",
+      "transmission towers"
+    ]
+  },
+  "environment": {
+    "location": "sky above transmission towers",
+    "time_of_day": "twilight of merger",
+    "atmosphere": "the frontier crossed"
+  },
+  "composition": {
+    "rule": "pan left composition",
+    "foreground": "hands in vivid crimson gold",
+    "midground": "light particles midground",
+    "background": "desaturated cloudy sky with towers",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "light particle self-glow",
+    "fill_light": "ambient fill on both hands",
+    "rim_light": "gold rim on robot hand",
+    "mood": "transgression of boundary",
+    "shadow_quality": "soft diagonal shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-gold saturation",
+    "texture_detail": "35mm grain, light particles"
+  },
+  "mood": {
+    "emotion": "the border between human and machine erased",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "Creation of Adam inverted — the machine as the new creator",
+    "secondary": "light particles as soul fragment being copied across"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

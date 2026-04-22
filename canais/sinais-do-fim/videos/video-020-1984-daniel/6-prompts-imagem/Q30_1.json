@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE3_Q30_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cerebro dividido luz sombra",
+  "narrative_beat": "Secao transversal de cerebro humano metade iluminada dourada metade em sombra fria, dualidade duplipensar",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "Q30_1",
+    "ato": "Ato3"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an anatomical cross-section of a human brain, left half bathed in golden warm light, right half in cold blue shadow",
+    "focal_point": "the dividing line exactly through center",
+    "secondary": "neurons firing visible only on illuminated side, dormant on shadow side",
+    "props": [
+      "anatomical brain cross-section",
+      "perfect vertical division",
+      "golden firing synapses left",
+      "frozen grey matter right",
+      "no skull visible"
+    ]
+  },
+  "environment": {
+    "location": "symbolic medical illustration space",
+    "time_of_day": "timeless",
+    "atmosphere": "cognitive dissonance visualized"
+  },
+  "composition": {
+    "rule": "rule of thirds with primary subject at strong point",
+    "foreground": "warm saturated primary subject",
+    "background": "desaturated contextual depth",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "split hard lighting exact center",
+    "fill_light": "none preserving division",
+    "rim_light": "gold on illuminated half",
+    "mood": "doublethink made flesh",
+    "shadow_quality": "absolute half-division"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "doublethink made flesh",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "knowing and not knowing",
+    "secondary": "doublethink literalized"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

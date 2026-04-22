@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q55",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Rede global de controle com olho carmesim no centro",
+  "narrative_beat": "Linhas douradas sobre mapa escuro com olho central",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q55",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "aerial overhead 75",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid aerial view of global control network with golden connecting lines over dark map with incandescent crimson eye at center combining medieval cartographic aesthetics with digital network diagram in vibrant foreground",
+    "focal_point": "the incandescent crimson eye at the center of the global golden network",
+    "secondary": "black and white desaturated world map with grey border lines in background",
+    "props": [
+      "global control network aerial view",
+      "golden connecting lines",
+      "incandescent crimson eye at center",
+      "medieval cartographic style",
+      "world map"
+    ]
+  },
+  "environment": {
+    "location": "global digital infrastructure aerial symbolic view",
+    "time_of_day": "moment of global revelation",
+    "atmosphere": "planetary surveillance"
+  },
+  "composition": {
+    "rule": "zoom-out composition",
+    "foreground": "network in vivid gold with crimson eye",
+    "midground": "connecting lines midground",
+    "background": "desaturated world map",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "crimson eye self-glow key",
+    "fill_light": "ambient dark fill",
+    "rim_light": "gold rim on network lines",
+    "mood": "planetary control",
+    "shadow_quality": "deep global shadow"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-crimson network saturation",
+    "texture_detail": "35mm grain, global haze"
+  },
+  "mood": {
+    "emotion": "one hundred countries piloting CBDC — Revelation scale control approaching",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the all-seeing eye as the convergence point of all digital systems",
+    "secondary": "medieval cartography merged with network diagram — the oldest fear meets the newest infrastructure"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

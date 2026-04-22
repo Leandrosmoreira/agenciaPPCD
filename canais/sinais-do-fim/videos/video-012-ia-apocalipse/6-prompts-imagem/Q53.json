@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE6_Q53",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Moeda digital de banco central com correntes douradas",
+  "narrative_beat": "CBDC como prisao programavel em carmesim e ouro",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q53",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid central bank digital currency coin symbol in crimson and gold with digital control grid overlaid and visible golden chains binding the currency as programmable prison in vibrant foreground",
+    "focal_point": "the golden chains binding the CBDC coin and the digital control grid overlaid",
+    "secondary": "black and white desaturated central bank building with classical columns in grey in background",
+    "props": [
+      "CBDC coin in crimson and gold",
+      "digital control grid overlaid",
+      "golden chains binding currency",
+      "central bank classical columns"
+    ]
+  },
+  "environment": {
+    "location": "central bank context",
+    "time_of_day": "day of monetary control",
+    "atmosphere": "programmable money"
+  },
+  "composition": {
+    "rule": "pan left composition",
+    "foreground": "coin in vivid crimson gold",
+    "midground": "chains midground",
+    "background": "desaturated central bank building",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm overhead light",
+    "fill_light": "gold bounce on coin",
+    "rim_light": "crimson rim on chain links",
+    "mood": "monetary control",
+    "shadow_quality": "deep central bank shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-crimson saturation",
+    "texture_detail": "35mm grain, metal and paper texture"
+  },
+  "mood": {
+    "emotion": "CBDC — money with an expiry date and behavioral conditions",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the currency as leash — without the mark you cannot buy or sell",
+    "secondary": "classical columns as the old financial order converted into a cage"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

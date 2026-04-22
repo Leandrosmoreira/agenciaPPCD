@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE2_Q24_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Calendario sendo apagado",
+  "narrative_beat": "Calendario pergaminho ancestral sendo apagado, meses e leis riscados por mao anonima, tinta sangue escorrendo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q24_1",
+    "ato": "Ato2"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead top-down",
+    "camera_angle": "90 degrees overhead",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an ancient parchment calendar being defaced by an anonymous gloved hand crossing out dates and laws",
+    "focal_point": "red-black ink dripping down the crossed-out Hebrew lunar calendar",
+    "secondary": "snapped feather quill, overturned inkwell, torn edges of parchment",
+    "props": [
+      "ancient Hebrew lunar calendar",
+      "anonymous gloved hand",
+      "black-red bleeding ink",
+      "snapped quill",
+      "torn parchment edges"
+    ]
+  },
+  "environment": {
+    "location": "concealed scribal desk",
+    "time_of_day": "candlelit secret night",
+    "atmosphere": "sacrilegious erasure"
+  },
+  "composition": {
+    "rule": "rule of thirds with primary subject at strong point",
+    "foreground": "warm saturated primary subject",
+    "background": "desaturated contextual depth",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "single warm candle",
+    "fill_light": "deep black",
+    "rim_light": "golden edge on parchment",
+    "mood": "deliberate desecration",
+    "shadow_quality": "intimate sinister"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "deliberate desecration",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "changing times and laws",
+    "secondary": "God's calendar defaced"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

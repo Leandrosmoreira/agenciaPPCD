@@ -1,0 +1,103 @@
+{
+  "id": "video-020_THUMB_v1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-3-pro-image-preview",
+  "scene_title": "Orwell — Rosto Terror Chiaroscuro",
+  "narrative_beat": "Rosto de George Orwell em close-up intenso, expressão de choque absoluto e desespero, 45% esquerda do frame, fundo câmeras vigilância P&B desfocadas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 1,
+    "quadro": "THUMB_v1",
+    "ato": "Thumbnail"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, face in rich warm amber and crimson tones, desaturated black-and-white background, 35mm film grain, candlelight, oppressive atmosphere"
+  },
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "slightly below eye level",
+    "focal_length_mm": 85,
+    "aperture": "f/1.8",
+    "depth_of_field": "sharp face, blurred background",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "photorealistic George Orwell, thin British man 1940s, gaunt face, dark sunken eyes, mustache, expression of absolute terror and shock — mouth slightly open, eyes wide — occupying left 45% of frame",
+    "focal_point": "Orwell's eyes: wide open, terrified, direct camera gaze",
+    "secondary": "amber candle flame in extreme foreground casting dramatic chiaroscuro shadows on his cheek",
+    "props": [
+      "amber candle flame extreme foreground",
+      "floating ash embers in background"
+    ]
+  },
+  "environment": {
+    "location": "dark oppressive room, background filled with blurred black-and-white CCTV surveillance cameras mounted on walls, Big Brother propaganda posters out of focus",
+    "time_of_day": "night, single candle source",
+    "atmosphere": "prophetic dread, surveillance state horror"
+  },
+  "composition": {
+    "rule": "rule of thirds — face anchored left third",
+    "foreground": "Orwell face in warm amber/crimson tones occupying left 45% of frame",
+    "midground": "dark gradient center transitioning to black-and-white",
+    "background": "blurred surveillance cameras and Big Brother posters in black-and-white, right 35% of frame intentionally dark and empty for text overlay",
+    "safe_zone_for_overlay": "right third (35%) of frame — intentionally kept dark and clean for title text"
+  },
+  "lighting": {
+    "key_light": "single amber candle below-left, casting dramatic upward shadows",
+    "fill_light": "none — deep shadows on right side of face",
+    "rim_light": "faint crimson rim from surveillance monitor glow on far edge",
+    "mood": "chiaroscuro apocalyptic — terror and prophecy",
+    "shadow_quality": "deep crushed blacks, Caravaggio-style hard shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on highlights, crushed blacks, amber warm tones on face, desaturated cold tones on background, dark crimson vignette edges",
+    "texture_detail": "35mm film grain, floating ash embers, dust particles"
+  },
+  "mood": {
+    "emotion": "absolute terror, prophetic shock, despair",
+    "tension": "maximum — thumbnail CTR-optimized"
+  },
+  "symbolism": {
+    "primary": "the prophet who saw what would come — and was terrified",
+    "secondary": "surveillance cameras in background = the world Orwell warned about"
+  },
+  "negative_as_positive": [
+    "photorealistic, not illustration, not cartoon, not painting",
+    "real human face with genuine terror expression — not neutral or calm",
+    "face occupies left 45% only — right third must remain dark and empty",
+    "background MUST be desaturated black-and-white — face MUST be warm amber/crimson",
+    "no text, watermarks, or logos anywhere in the image",
+    "high contrast — legible as 120px thumbnail"
+  ],
+  "in_scene_text": {
+    "enabled": false,
+    "note": "Text DANIEL PREVIU / 1984 / 2.500 ANOS ANTES will be added in post-production on right third"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

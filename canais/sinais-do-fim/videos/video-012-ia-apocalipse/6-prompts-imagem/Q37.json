@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE4_Q37",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Profetisa em confronto direto com camera",
+  "narrative_beat": "Manto vermelho-sangue apontando para o espectador",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q37",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid prophetess in blood-red and ochre mantle standing firm with arm extended pointing at camera in direct accusation with serious determined expression and wind-swept hair in vibrant foreground",
+    "focal_point": "the prophetess's extended arm pointing directly at the camera — at us",
+    "secondary": "black and white desaturated modern tech corporation headquarters with dark logo on grey glass building in background",
+    "props": [
+      "prophetess in blood-red and ochre mantle",
+      "arm extended pointing at camera",
+      "determined expression",
+      "wind-swept hair",
+      "tech corporation building"
+    ]
+  },
+  "environment": {
+    "location": "confrontation with the tech industry",
+    "time_of_day": "moment of accusation",
+    "atmosphere": "prophetic confrontation"
+  },
+  "composition": {
+    "rule": "pan right composition",
+    "foreground": "prophetess in vivid blood-red ochre",
+    "midground": "pointing arm midground",
+    "background": "desaturated tech headquarters",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "raking side light",
+    "fill_light": "amber bounce on mantle",
+    "rim_light": "gold rim on pointing finger",
+    "mood": "direct accusation",
+    "shadow_quality": "long dramatic accusation shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-ochre highlights",
+    "texture_detail": "35mm grain, wind hair motion"
+  },
+  "mood": {
+    "emotion": "it is a present capability — the prophetess indicts now",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the pointing finger aimed at the tech companies building the beast system",
+    "secondary": "wind-swept hair as prophetic urgency — no time left for comfort"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

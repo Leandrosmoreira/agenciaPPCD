@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE3_Q23",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Robo em linha de montagem visto de cima",
+  "narrative_beat": "Bracos de robo dourado carmesim em tarefa precisa",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q23",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "aerial overhead 75",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid humanoid robot in gold and crimson seen from aerial angular perspective with arms extended in precise task execution surrounded by mechanical parts in vibrant foreground",
+    "focal_point": "the robot's arms extended in precise task execution from above",
+    "secondary": "black and white desaturated aerial view of industrial warehouse with metal structures in background",
+    "props": [
+      "humanoid robot in gold and crimson from aerial view",
+      "arms in precise task",
+      "mechanical parts surrounding",
+      "industrial warehouse"
+    ]
+  },
+  "environment": {
+    "location": "industrial warehouse aerial",
+    "time_of_day": "day of operation",
+    "atmosphere": "aerial technological witness"
+  },
+  "composition": {
+    "rule": "diagonal pan left composition",
+    "foreground": "robot in vivid gold crimson",
+    "midground": "mechanical parts midground",
+    "background": "desaturated industrial warehouse",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh industrial overhead light",
+    "fill_light": "amber bounce on robot body",
+    "rim_light": "gold rim on extended arms",
+    "mood": "precision labor",
+    "shadow_quality": "long angular shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber highlights",
+    "texture_detail": "35mm grain, metallic dust"
+  },
+  "mood": {
+    "emotion": "robotic labor as fulfillment of delegated authority",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the image executing tasks — given authority over daily human work",
+    "secondary": "top-down perspective as divine vantage seeing the pattern from above"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

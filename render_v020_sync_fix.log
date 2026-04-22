@@ -1,0 +1,62 @@
+============================================================
+PROMETHEUS — video-020-1984-daniel
+Ken Burns dinâmico (cap 6s) + 4 clips Veo3 + xfade
+============================================================
+[07:03:24] Imagens: 60
+[07:03:24] Partes de áudio: 5
+[07:03:24] Distribuição: [12, 12, 12, 12, 12] quadros por parte
+[07:03:24] 
+=== PARTE 1/5: PARTE1.mp3 ===
+[07:03:24]   Quadros: 12 (0 Veo3 + 19 imgs x 5.7s)
+[07:03:24]   Audio: 108.4s | Veo3 total: 0.0s | Imgs: 108.4s
+[07:03:29]     [5/12] clips gerados...
+[07:03:33]     [10/12] clips gerados...
+[07:04:59]   [SYNC] Video 98.0s < audio 108.4s -> pad 10.9s (tpad clone)
+[07:05:04]   [SYNC] Video pos-pad: 108.9s
+[07:05:38]   OK -> video_parte01.mp4 (60 MB)
+[07:05:38] 
+=== PARTE 2/5: PARTE2.mp3 ===
+[07:05:38]   Quadros: 12 (0 Veo3 + 21 imgs x 5.8s)
+[07:05:38]   Audio: 121.7s | Veo3 total: 0.0s | Imgs: 121.7s
+[07:05:42]     [5/12] clips gerados...
+[07:05:47]     [10/12] clips gerados...
+[07:07:34]   [SYNC] Video 111.6s < audio 121.7s -> pad 10.6s (tpad clone)
+[07:07:39]   [SYNC] Video pos-pad: 122.2s
+[07:08:16]   OK -> video_parte02.mp4 (53 MB)
+[07:08:16] 
+=== PARTE 3/5: PARTE3.mp3 ===
+[07:08:17]   Quadros: 12 (0 Veo3 + 22 imgs x 5.8s)
+[07:08:17]   Audio: 128.3s | Veo3 total: 0.0s | Imgs: 128.3s
+[07:08:21]     [5/12] clips gerados...
+[07:08:25]     [10/12] clips gerados...
+[07:10:24]   [SYNC] Video 117.6s < audio 128.3s -> pad 11.2s (tpad clone)
+[07:10:30]   [SYNC] Video pos-pad: 128.8s
+[07:11:11]   OK -> video_parte03.mp4 (64 MB)
+[07:11:11] 
+=== PARTE 4/5: PARTE4.mp3 ===
+[07:11:11]   Quadros: 12 (0 Veo3 + 22 imgs x 5.8s)
+[07:11:11]   Audio: 127.8s | Veo3 total: 0.0s | Imgs: 127.8s
+[07:11:16]     [5/12] clips gerados...
+[07:11:20]     [10/12] clips gerados...
+[07:13:21]   [SYNC] Video 117.0s < audio 127.8s -> pad 11.3s (tpad clone)
+[07:13:27]   [SYNC] Video pos-pad: 128.3s
+[07:14:05]   OK -> video_parte04.mp4 (53 MB)
+[07:14:05] 
+=== PARTE 5/5: PARTE5.mp3 ===
+[07:14:06]   Quadros: 12 (0 Veo3 + 22 imgs x 5.7s)
+[07:14:06]   Audio: 126.2s | Veo3 total: 0.0s | Imgs: 126.2s
+[07:14:10]     [5/12] clips gerados...
+[07:14:15]     [10/12] clips gerados...
+[07:16:14]   [SYNC] Video 116.4s < audio 126.2s -> pad 10.3s (tpad clone)
+[07:16:20]   [SYNC] Video pos-pad: 126.7s
+[07:17:01]   OK -> video_parte05.mp4 (58 MB)
+[07:17:01] 
+============================================================
+[07:17:01] CONCLUÍDO! 5 vídeos em:
+[07:17:01]   C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-020-1984-daniel\7-edicao\partes
+[07:17:01]   video_parte01.mp4 — 60 MB
+[07:17:01]   video_parte02.mp4 — 53 MB
+[07:17:01]   video_parte03.mp4 — 64 MB
+[07:17:01]   video_parte04.mp4 — 53 MB
+[07:17:01]   video_parte05.mp4 — 58 MB
+[07:17:01] ============================================================

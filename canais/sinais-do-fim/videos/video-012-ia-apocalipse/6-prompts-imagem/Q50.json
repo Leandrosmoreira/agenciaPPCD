@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE5_Q50",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavaleiro do Apocalipse no cavalo palido",
+  "narrative_beat": "Armadura branco-osso e carmesim com simbolos de imortalidade artificial",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q50",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "side-angle",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid Pale Horseman of Apocalypse in bone-white and crimson armor with hollow eyes surrounded by golden artificial immortality symbols code circuits and servers in vibrant foreground",
+    "focal_point": "the hollow eyes and the golden artificial immortality symbols surrounding the Pale Horseman",
+    "secondary": "black and white desaturated modern cemetery with grey headstones in background",
+    "props": [
+      "Pale Horseman in bone-white and crimson armor",
+      "hollow eyes",
+      "golden artificial immortality symbols",
+      "code circuits and servers",
+      "modern cemetery"
+    ]
+  },
+  "environment": {
+    "location": "modern cemetery edge",
+    "time_of_day": "dusk of death redefined",
+    "atmosphere": "death that flees"
+  },
+  "composition": {
+    "rule": "zoom-in slow composition",
+    "foreground": "horseman in vivid bone-white crimson",
+    "midground": "immortality symbols midground",
+    "background": "desaturated modern cemetery",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "cold dusk glow",
+    "fill_light": "gold bounce from immortality symbols",
+    "rim_light": "crimson rim on armor",
+    "mood": "existential dread",
+    "shadow_quality": "long dusk cemetery shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, bone-white crimson grading",
+    "texture_detail": "35mm grain, cemetery mist"
+  },
+  "mood": {
+    "emotion": "Revelation 9:6 — men seek death and death flees — digital immortality",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the pale horse as the vehicle of artificial immortality",
+    "secondary": "hollow eyes as the cost — what is lost when death is refused"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

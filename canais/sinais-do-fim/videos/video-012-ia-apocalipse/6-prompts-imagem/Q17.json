@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE2_Q17",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Daniel profeta com pergaminho proibido",
+  "narrative_beat": "Profeta violeta-azul cercado de chamas douradas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q17",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid prophet Daniel in violet-blue tunic with golden sash standing erect with wide eyes of revelation holding forbidden text scroll surrounded by golden flames and smoke in vibrant foreground",
+    "focal_point": "Daniel's wide eyes of revelation and the forbidden text scroll",
+    "secondary": "black and white desaturated technology research center with dark screens and inert equipment in background",
+    "props": [
+      "prophet Daniel in violet-blue tunic",
+      "golden sash",
+      "forbidden text scroll",
+      "golden flames and smoke"
+    ]
+  },
+  "environment": {
+    "location": "intersection of ancient prophecy and modern research",
+    "time_of_day": "eternal revelation moment",
+    "atmosphere": "prophetic crossover"
+  },
+  "composition": {
+    "rule": "pan right composition",
+    "foreground": "prophet in vivid violet gold",
+    "midground": "golden flames midground",
+    "background": "desaturated tech research center",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh fire light from scroll",
+    "fill_light": "amber bounce on tunic",
+    "rim_light": "gold rim on scroll edges",
+    "mood": "prophetic epiphany",
+    "shadow_quality": "dramatic fire shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, amber-violet saturation",
+    "texture_detail": "35mm grain, smoke particles"
+  },
+  "mood": {
+    "emotion": "Daniel seeing the fourth kingdom fulfilled in silicon",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the prophet who named the fourth beast seeing it rise in data centers",
+    "secondary": "forbidden text as knowledge reserved for our generation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q58",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cristo medieval em postura de alerta e aviso",
+  "narrative_beat": "Manto carmesim e azul-ultramar com maos em aviso",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q58",
+    "ato": "CTA"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "frontal symmetric",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid medieval Christ figure in crimson and ultramarine robes in alert vigilant stance with open focused eyes and raised warning hand surrounded by prophetic flames in vibrant foreground",
+    "focal_point": "the raised warning hand and open focused eyes of the vigilant Christ figure",
+    "secondary": "black and white desaturated modern city at dawn in grey with first light ray on horizon in background",
+    "props": [
+      "medieval Christ in crimson and ultramarine robes",
+      "alert vigilant stance",
+      "raised warning hand",
+      "prophetic flames",
+      "modern city at dawn"
+    ]
+  },
+  "environment": {
+    "location": "threshold between sacred warning and modern city dawn",
+    "time_of_day": "dawn of vigilance",
+    "atmosphere": "the warning given"
+  },
+  "composition": {
+    "rule": "pan left composition",
+    "foreground": "Christ in vivid crimson ultramarine",
+    "midground": "prophetic flames midground",
+    "background": "desaturated modern city dawn",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine dawn glow from right",
+    "fill_light": "amber bounce on robes",
+    "rim_light": "gold rim on warning hand",
+    "mood": "urgent vigilance",
+    "shadow_quality": "long dawn shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, crimson-ultramarine highlights",
+    "texture_detail": "35mm grain, dawn mist"
+  },
+  "mood": {
+    "emotion": "Matthew 24:42 — Watch therefore — the command given to our generation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the warning hand as the last gesture before the clock runs out",
+    "secondary": "first light on the city horizon as the dawn of the generation that will not pass"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

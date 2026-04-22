@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE4_Q36",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Olhos de profeta medieval com lagrimas de ouro",
+  "narrative_beat": "Iris carmesim e dourada com chamas internas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q36",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 85,
+    "aperture": "f/1.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid medieval prophet close-up eyes with crimson and gold irises and internal flame pupils with golden tears running down face in expression of lamentation in vibrant foreground",
+    "focal_point": "the golden tears running down the prophet's face from crimson-gold eyes",
+    "secondary": "black and white desaturated busy street with people looking at phones in grey hypnotized by screens in background",
+    "props": [
+      "prophet eyes with crimson gold irises",
+      "internal flame pupils",
+      "golden tears",
+      "phone-hypnotized street crowd"
+    ]
+  },
+  "environment": {
+    "location": "sacred perspective watching modern mass deception",
+    "time_of_day": "eternal lament moment",
+    "atmosphere": "prophetic grief"
+  },
+  "composition": {
+    "rule": "zoom-out composition",
+    "foreground": "eyes and tears in vivid crimson gold",
+    "midground": "tears midground",
+    "background": "desaturated phone-zombie street",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "flame self-glow in eyes",
+    "fill_light": "no fill — deep shadow grief",
+    "rim_light": "gold rim on tear tracks",
+    "mood": "profound lamentation",
+    "shadow_quality": "deep chiaroscuro shadow"
+  },
+  "style": {
+    "film_stock": "Kodak Double-X pushed",
+    "post_processing": "heavy halation on tears, deep black crush",
+    "texture_detail": "heavy 35mm grain"
+  },
+  "mood": {
+    "emotion": "the prophet weeping for a generation that cannot see",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "eyes of fire seeing what billions of blind eyes miss",
+    "secondary": "golden tears as the most expensive currency — prophetic grief"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

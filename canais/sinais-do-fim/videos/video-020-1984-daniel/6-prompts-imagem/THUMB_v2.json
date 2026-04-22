@@ -1,0 +1,104 @@
+{
+  "id": "video-020_THUMB_v2",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-3-pro-image-preview",
+  "scene_title": "Daniel Profeta — Pergaminho e Câmeras",
+  "narrative_beat": "Daniel profeta hebraico segurando pergaminho antigo, olhos arregalados de espanto ao ver câmeras de vigilância modernas surgindo do fundo escuro",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "THUMB_v2",
+    "ato": "Thumbnail"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, divine golden light on face, crimson shadows, 35mm grain, floating embers, biblical oppressive atmosphere"
+  },
+  "shot": {
+    "type": "medium close-up",
+    "camera_angle": "straight-on slightly low",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "sharp face and scroll, blurred surveillance cameras background",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "photorealistic ancient Hebrew prophet Daniel, dark beard, robes, expression of profound shock and awe — eyes wide open staring into camera — holding an unrolled parchment scroll, occupying left 50% of frame",
+    "focal_point": "Daniel's eyes — wide, luminous, filled with shock and revelation",
+    "secondary": "glowing golden light falling from above-left on his face, deep shadows on right side",
+    "props": [
+      "ancient parchment scroll partially unrolled",
+      "golden divine light beam from upper left",
+      "floating embers"
+    ]
+  },
+  "environment": {
+    "location": "ancient Babylonian chamber background transitioning into dark modern space filled with blurred CCTV surveillance cameras, multiple screens showing faces — blurred black-and-white right side",
+    "time_of_day": "timeless — divine light source above, darkness below",
+    "atmosphere": "prophetic revelation, 2500-year time-collapse, divine horror"
+  },
+  "composition": {
+    "rule": "rule of thirds — prophet anchored left half",
+    "foreground": "Daniel's face illuminated by golden light, warm golden and amber tones, left 50% of frame",
+    "midground": "scroll in hands catching the divine light",
+    "background": "right 35% of frame: dark space with blurred modern surveillance cameras in black-and-white — intentionally dark for text overlay",
+    "safe_zone_for_overlay": "right third (35%) of frame — kept dark and empty for title text"
+  },
+  "lighting": {
+    "key_light": "divine golden beam from upper left, creating strong facial illumination on left side",
+    "fill_light": "warm crimson ambient from candles below",
+    "rim_light": "gold rim on beard edge and scroll",
+    "mood": "divine revelation meets dystopian horror",
+    "shadow_quality": "deep Rembrandt shadows, crushed blacks"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "golden divine highlight on face, deep crimson shadows, desaturated black-and-white background cameras, dark vignette edges, halation on divine light",
+    "texture_detail": "35mm film grain, floating embers, parchment texture"
+  },
+  "mood": {
+    "emotion": "divine shock, prophetic revelation, impossible knowledge",
+    "tension": "high — thumbnail CTR-optimized"
+  },
+  "symbolism": {
+    "primary": "ancient prophet holding the scroll that describes the modern surveillance state",
+    "secondary": "2500-year gap between prophecy and fulfillment visualized in background"
+  },
+  "negative_as_positive": [
+    "photorealistic, not illustration, not cartoon, not Renaissance painting style",
+    "prophet face real and expressive — genuine shock — not serene or neutral",
+    "prophet occupies left 50% — right third must remain dark and empty for text",
+    "background cameras MUST be desaturated black-and-white",
+    "face MUST be warm golden and amber tones",
+    "no text or logos in image"
+  ],
+  "in_scene_text": {
+    "enabled": false,
+    "note": "Text DANIEL PREVIU / 1984 / 2.500 ANOS ANTES will be added in post-production on right third"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE3_Q28",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cranio com chip implantado na testa",
+  "narrative_beat": "Chip dourado luminoso com gravuras medievais carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q28",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid human skull with luminous golden implanted chip on forehead with visible connectors and blue-gold emanating light adorned with crimson medieval engravings around the skull in vibrant foreground",
+    "focal_point": "the luminous golden chip on the forehead with blue-gold light and crimson medieval engravings",
+    "secondary": "black and white desaturated modern surgical room with sterilized grey equipment in background",
+    "props": [
+      "human skull with golden forehead chip",
+      "visible connectors",
+      "blue-gold emanating light",
+      "crimson medieval engravings around skull"
+    ]
+  },
+  "environment": {
+    "location": "surgical room",
+    "time_of_day": "day of implantation",
+    "atmosphere": "the mark on the forehead"
+  },
+  "composition": {
+    "rule": "zoom-in slow composition",
+    "foreground": "skull and chip in vivid gold crimson",
+    "midground": "connectors midground",
+    "background": "desaturated surgical room",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "overhead surgical lamp harsh",
+    "fill_light": "cold blue fill on skull",
+    "rim_light": "gold rim on chip connectors",
+    "mood": "clinical terror",
+    "shadow_quality": "hard surgical shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, metallic blue-gold highlights",
+    "texture_detail": "35mm grain, bone and steel texture"
+  },
+  "mood": {
+    "emotion": "Neuralink as literal forehead mark of Revelation 13:16",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the skull wearing the mark — the ultimate convergence",
+    "secondary": "medieval engravings as the ancient text written on the modern technology"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

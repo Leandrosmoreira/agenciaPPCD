@@ -426,3 +426,11 @@
 [2026-04-19] ORFEU -- 5 audios movidos de 5-prompts/ para 5-audio/ e renomeados para PARTE1-5.mp3 (padrao obrigatorio)
 [2026-04-19] PHANTASMA -- script edicao_sinais-do-fim_video-020-1984-daniel.py atualizado: Veo3 Q03-Q06, Ken Burns zoom_in Q02, trilhas 1-2-3 por batch
 [2026-04-20 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-20.json
+[2026-04-20 07:11] CHECKPOINT 1 APROVADO — sinais-do-fim/video-012-ia-apocalipse: 'A IA JA FALA: Apocalipse 13:15 Cumprido'
+[2026-04-21 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-21.json
+[2026-04-21] ANUBIS — video-011-nefilim | metricas_2026-04-21.md gerado em 9-metricas/ | 33 views (+24 D+2) | like rate 18.2% | ALERTA: video ainda PRIVADO — tornar publico urgente para capturar janela algorítmica 48-72h
+[2026-04-21 21:17] MEDUSA — video-020-1984-daniel | thumb_prompt.txt + thumb_specs.md gerados em 8-publicacao/ | Elemento: Orwell rosto terror + câmeras P&B | Texto: DANIEL PREVIU / 1984
+[2026-04-21 21:18] SIBILA — video-020-1984-daniel | metadata.txt gerado em 8-publicacao/ | CHECKPOINT 4 — aguardando aprovação de Snayder
+[2026-04-21 21:20] CARONTE — video-020-1984-daniel | caronte_upload_020.py gerado | aguardando thumb.png para executar upload
+[2026-04-21 21:27:02] CARONTE — video-020-1984-daniel upload OK (PRIVATE) -> G0IgNzERVZE
+[2026-04-21 21:27:02] CHECKPOINT 4 CONCLUIDO — aguardando aprovacao Snayder para public

@@ -1,0 +1,104 @@
+{
+  "id": "video-020_THUMB_v3",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-3-pro-image-preview",
+  "scene_title": "Orwell e Daniel — Face Split Profético",
+  "narrative_beat": "Fusão visual: rosto de Orwell lado esquerdo em tons P&B frios e rosto de Daniel profeta lado direito em tons dourados quentes, olhos de ambos convergindo para o centro em estado de choque",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 1,
+    "quadro": "THUMB_v3",
+    "ato": "Thumbnail"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "split-tone cinematic portrait, left half desaturated cold black-and-white, right half warm golden biblical tones, central dividing glow, 35mm grain, prophetic atmosphere"
+  },
+  "shot": {
+    "type": "tight medium shot — dual portrait",
+    "camera_angle": "straight-on",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "both faces sharp, background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "LEFT HALF: photorealistic George Orwell — gaunt face, sunken eyes, mustache — in cold desaturated black-and-white tones, expression of dread and prophecy — occupying left 40% of frame",
+    "focal_point": "both pairs of eyes converging toward center of frame — communicating shared vision across time",
+    "secondary": "RIGHT HALF: photorealistic ancient Hebrew prophet Daniel — dark beard, robes — in warm golden tones, expression of identical shock and revelation — occupying right 40% of frame",
+    "props": [
+      "thin vertical crimson dividing glow at exact center",
+      "floating ash embers throughout",
+      "surveillance cameras very blurred in far background center"
+    ]
+  },
+  "environment": {
+    "location": "abstract dark void background — left background: 1940s propaganda posters blurred — right background: ancient Babylonian stone walls blurred",
+    "time_of_day": "timeless darkness",
+    "atmosphere": "two men 2500 years apart seeing the same truth"
+  },
+  "composition": {
+    "rule": "bilateral symmetry — two faces mirroring each other across center divide",
+    "foreground": "left: Orwell in cold B&W — right: Daniel in warm gold — both occupying 80% of frame total",
+    "midground": "thin crimson/gold vertical light glow at exact center of frame",
+    "background": "dark and blurred on both sides — center 20% intentionally compressed as dividing space",
+    "safe_zone_for_overlay": "bottom 25% — dark strip for title text overlay"
+  },
+  "lighting": {
+    "key_light": "LEFT: hard cold top-down light on Orwell, gray and silver tones — RIGHT: warm divine golden light from upper right on Daniel",
+    "fill_light": "none — deep shadows both sides",
+    "rim_light": "central crimson glow rim-lighting inner edges of both faces",
+    "mood": "prophetic mirror — two prophets one truth",
+    "shadow_quality": "deep crushed blacks, high contrast"
+  },
+  "style": {
+    "film_stock": "split-tone: Kodak TMax400 (left) + Kodak Portra 800 pushed (right)",
+    "post_processing": "LEFT: desaturated monochrome with slight blue-gray tint — RIGHT: warm amber-gold tones — central glowing dividing line in crimson — dark vignette edges",
+    "texture_detail": "35mm film grain throughout, floating ash embers, dust motes"
+  },
+  "mood": {
+    "emotion": "prophetic convergence, timeless shock, two voices one warning",
+    "tension": "very high — the two men recognize each other across millennia"
+  },
+  "symbolism": {
+    "primary": "Orwell and Daniel saw the same system — separated by 2500 years",
+    "secondary": "the crimson dividing glow = the thread of prophecy connecting them"
+  },
+  "negative_as_positive": [
+    "photorealistic faces — not illustrated, not painted, not cartoon",
+    "both faces must show genuine shock or awe — not neutral or peaceful",
+    "LEFT face MUST be cold desaturated monochrome — RIGHT face MUST be warm golden tones",
+    "no text, no logos, no watermarks in image",
+    "high contrast — legible at 120px thumbnail",
+    "bottom strip must be dark and clean for text overlay"
+  ],
+  "in_scene_text": {
+    "enabled": false,
+    "note": "Title text will be added bottom strip in post-production"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer atmosphere and grain. Apply split-tone: left half cold B&W, right half warm gold."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

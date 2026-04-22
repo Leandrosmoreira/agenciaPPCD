@@ -1,0 +1,57 @@
+============================================================
+PROMETHEUS — video-020-1984-daniel
+Ken Burns dinâmico (cap 6s) + 4 clips Veo3 + xfade
+============================================================
+[08:11:26] Imagens: 60
+[08:11:26] Partes de áudio: 5
+[08:11:26] Distribuição: [12, 12, 12, 12, 12] quadros por parte
+[08:11:26] 
+=== PARTE 1/5: PARTE1.mp3 ===
+[08:11:26]   Quadros: 12 (0 Veo3 + 19 imgs x 5.7s)
+[08:11:26]   Audio: 108.4s | Veo3 total: 0.0s | Imgs: 108.4s
+[08:11:30]     [5/12] clips gerados...
+[08:11:34]     [10/12] clips gerados...
+[08:11:49]   Extras: 8 clips adicionais | eff_dur=114.2s >= target=109.2s
+[08:14:21]   OK -> video_parte01.mp4 (76 MB)
+[08:14:21] 
+=== PARTE 2/5: PARTE2.mp3 ===
+[08:14:21]   Quadros: 12 (0 Veo3 + 21 imgs x 5.8s)
+[08:14:21]   Audio: 121.7s | Veo3 total: 0.0s | Imgs: 121.7s
+[08:14:29]     [5/12] clips gerados...
+[08:14:37]     [10/12] clips gerados...
+[08:15:15]   Extras: 12 clips adicionais | eff_dur=127.8s >= target=122.5s
+[08:18:28]   OK -> video_parte02.mp4 (60 MB)
+[08:18:28] 
+=== PARTE 3/5: PARTE3.mp3 ===
+[08:18:28]   Quadros: 12 (0 Veo3 + 22 imgs x 5.8s)
+[08:18:28]   Audio: 128.3s | Veo3 total: 0.0s | Imgs: 128.3s
+[08:18:36]     [5/12] clips gerados...
+[08:18:44]     [10/12] clips gerados...
+[08:19:18]   Extras: 13 clips adicionais | eff_dur=133.6s >= target=129.1s
+[08:22:14]   OK -> video_parte03.mp4 (72 MB)
+[08:22:14] 
+=== PARTE 4/5: PARTE4.mp3 ===
+[08:22:14]   Quadros: 12 (0 Veo3 + 22 imgs x 5.8s)
+[08:22:14]   Audio: 127.8s | Veo3 total: 0.0s | Imgs: 127.8s
+[08:22:18]     [5/12] clips gerados...
+[08:22:22]     [10/12] clips gerados...
+[08:22:46]   Extras: 13 clips adicionais | eff_dur=133.2s >= target=128.6s
+[08:25:36]   OK -> video_parte04.mp4 (56 MB)
+[08:25:36] 
+=== PARTE 5/5: PARTE5.mp3 ===
+[08:25:36]   Quadros: 12 (0 Veo3 + 22 imgs x 5.7s)
+[08:25:36]   Audio: 126.2s | Veo3 total: 0.0s | Imgs: 126.2s
+[08:25:40]     [5/12] clips gerados...
+[08:25:44]     [10/12] clips gerados...
+[08:26:06]   Extras: 12 clips adicionais | eff_dur=127.0s >= target=127.0s
+[08:28:52]   OK -> video_parte05.mp4 (61 MB)
+[08:28:52] 
+============================================================
+[08:28:52] CONCLUÍDO! 5 vídeos em:
+[08:28:52]   C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-020-1984-daniel\7-edicao\partes
+[08:28:52]   video_parte01.mp4 — 76 MB
+[08:28:52]   video_parte02.mp4 — 60 MB
+[08:28:52]   video_parte03.mp4 — 72 MB
+[08:28:52]   video_parte04.mp4 — 56 MB
+[08:28:52]   video_parte05.mp4 — 61 MB
+[08:28:52] ============================================================

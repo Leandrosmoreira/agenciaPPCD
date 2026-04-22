@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE3_Q30",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavaleiro do Apocalipse no cavalo vermelho sangue",
+  "narrative_beat": "Armadura carmesim com espada erguida sobre megalopole",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q30",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low-angle",
+    "focal_length_mm": 28,
+    "aperture": "f/2.8",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid Apocalypse Horseman on blood-red horse in crimson armor with golden details sword raised high and flames from horse hooves in unstoppable advance in vibrant foreground",
+    "focal_point": "the raised sword and flames from the horse hooves in unstoppable advance",
+    "secondary": "black and white desaturated futuristic megalopolis seen from distance with countless grey skyscrapers in background",
+    "props": [
+      "Apocalypse Horseman in crimson armor",
+      "blood-red horse",
+      "sword raised high",
+      "flames from hooves",
+      "futuristic megalopolis"
+    ]
+  },
+  "environment": {
+    "location": "megalopolis outskirts",
+    "time_of_day": "dusk of technological advance",
+    "atmosphere": "unstoppable advance"
+  },
+  "composition": {
+    "rule": "zoom-out composition",
+    "foreground": "horseman in vivid crimson gold",
+    "midground": "flames midground",
+    "background": "desaturated futuristic megalopolis",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "dusk glow from right",
+    "fill_light": "amber bounce on armor",
+    "rim_light": "gold rim on sword",
+    "mood": "unstoppable advance",
+    "shadow_quality": "long diagonal battle shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, crimson saturation, anamorphic flare",
+    "texture_detail": "heavy 35mm grain, fire particles"
+  },
+  "mood": {
+    "emotion": "the second horseman as AI deployment — unstoppable",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the rider as the acceleration of artificial intelligence",
+    "secondary": "megalopolis scale as humanity dwarfed by its own creation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

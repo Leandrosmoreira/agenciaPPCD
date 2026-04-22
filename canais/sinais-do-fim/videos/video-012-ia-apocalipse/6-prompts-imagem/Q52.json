@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q52",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Camera de reconhecimento facial dourada e carmesim",
+  "narrative_beat": "Olho mecanico iluminado em rua chinesa P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q52",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 85,
+    "aperture": "f/1.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid facial recognition surveillance camera in gold and crimson with illuminated mechanical eye detailed lens and visible circuits with pulsing crimson light in extreme close vibrant foreground",
+    "focal_point": "the illuminated mechanical eye and pulsing crimson light of the surveillance camera",
+    "secondary": "black and white desaturated Chinese city street with dozens of cameras on walls and poles in background",
+    "props": [
+      "surveillance camera in gold and crimson",
+      "illuminated mechanical eye",
+      "visible circuits",
+      "pulsing crimson light",
+      "Chinese city with cameras"
+    ]
+  },
+  "environment": {
+    "location": "Chinese city street",
+    "time_of_day": "day of surveillance",
+    "atmosphere": "the watching eye"
+  },
+  "composition": {
+    "rule": "zoom-out composition",
+    "foreground": "camera in vivid gold crimson",
+    "midground": "crimson light midground",
+    "background": "desaturated Chinese street with cameras",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "camera self-glow crimson warm",
+    "fill_light": "cold street fill",
+    "rim_light": "gold rim on lens ring",
+    "mood": "surveillance dread",
+    "shadow_quality": "deep camera mounting shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, crimson-gold metallic highlights",
+    "texture_detail": "35mm grain, urban dust"
+  },
+  "mood": {
+    "emotion": "Chinese Social Credit System — the mark system already operational",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the mechanical eye as the first iteration of the beast's all-seeing control",
+    "secondary": "dozens of cameras as the proliferation that matches the scale of Revelation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

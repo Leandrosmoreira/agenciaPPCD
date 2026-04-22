@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE2_Q14",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Estatua imperial romana com detalhe dourado",
+  "narrative_beat": "Rosto de imperador em marmore branco e carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q14",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "frontal",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid Roman imperial marble statue with painted gold and crimson details showing emperor face with total authority expression and laurel crown in vibrant foreground",
+    "focal_point": "the emperor's face with total authority expression and laurel crown",
+    "secondary": "black and white desaturated museum hall with other statues and tiny visitors in background",
+    "props": [
+      "Roman imperial marble statue",
+      "gold and crimson painted details",
+      "emperor face with laurel crown",
+      "museum hall statues"
+    ]
+  },
+  "environment": {
+    "location": "classical museum",
+    "time_of_day": "day of confrontation with history",
+    "atmosphere": "archaeological revelation"
+  },
+  "composition": {
+    "rule": "zoom-in on face composition",
+    "foreground": "statue in vivid gold crimson",
+    "midground": "statue base midground",
+    "background": "desaturated museum hall",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "museum overhead light",
+    "fill_light": "gold bounce on crown",
+    "rim_light": "amber rim on marble details",
+    "mood": "imperial authority",
+    "shadow_quality": "hard museum shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, marble texture"
+  },
+  "mood": {
+    "emotion": "Domitian's image as prototype of the beast",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "the emperor-idol as first iteration of Revelation 13:15",
+    "secondary": "laurel crown as prototype of the mark of authority"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q56",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Joao de Patmos diante da Assembleia da ONU",
+  "narrative_beat": "Postura de testemunho em branco e ouro",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q56",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid apostle John in solemn witness stance in white and gold robes with expression of one who saw future being fulfilled wide-eyed yet serene with open hands in revelation gesture in vibrant foreground",
+    "focal_point": "John's wide-eyed yet serene expression and open hands in revelation gesture",
+    "secondary": "black and white desaturated United Nations General Assembly seen from distance with grey podium and screens in background",
+    "props": [
+      "apostle John in white and gold",
+      "solemn witness stance",
+      "wide-eyed serene expression",
+      "open hands in revelation gesture",
+      "UN General Assembly"
+    ]
+  },
+  "environment": {
+    "location": "United Nations General Assembly context",
+    "time_of_day": "moment of prophetic vindication",
+    "atmosphere": "the witness vindicated"
+  },
+  "composition": {
+    "rule": "pan right composition",
+    "foreground": "John in vivid white gold",
+    "midground": "gesture midground",
+    "background": "desaturated UN Assembly",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "divine overhead beam",
+    "fill_light": "ambient fill on assembly",
+    "rim_light": "gold rim on open hands",
+    "mood": "prophetic vindication",
+    "shadow_quality": "long witness shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, assembly dust"
+  },
+  "mood": {
+    "emotion": "nineteen centuries of absurdity resolved in one generation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "John stands before the body that governs the world he described",
+    "secondary": "open hands as testimony — I told you and here it is"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

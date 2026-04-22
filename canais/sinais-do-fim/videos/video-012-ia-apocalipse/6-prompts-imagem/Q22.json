@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE3_Q22",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Rosto de robo conversando com boca aberta",
+  "narrative_beat": "Olhos dourados e luz carmesim em hospital P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q22",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "frontal",
+    "focal_length_mm": 85,
+    "aperture": "f/1.8",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid humanoid robot face in close view with slightly open mechanical mouth and golden camera eyes emitting crimson light in conversation pose with visible metallic textures and joints in vibrant foreground",
+    "focal_point": "the slightly open mechanical mouth and golden camera eyes emitting crimson light",
+    "secondary": "black and white desaturated hospital triage room with empty gurneys in background",
+    "props": [
+      "robot face with open mechanical mouth",
+      "golden camera eyes",
+      "crimson light emitting",
+      "metallic textures and joints"
+    ]
+  },
+  "environment": {
+    "location": "hospital triage context",
+    "time_of_day": "day of artificial diagnosis",
+    "atmosphere": "technological speech"
+  },
+  "composition": {
+    "rule": "zoom-out composition",
+    "foreground": "robot face in vivid gold crimson",
+    "midground": "crimson light midground",
+    "background": "desaturated hospital triage",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "crimson eye self-glow",
+    "fill_light": "cold fill on surrounding metal",
+    "rim_light": "gold rim on eye rings",
+    "mood": "artificial emotion",
+    "shadow_quality": "deep metallic shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, crimson metallic highlights",
+    "texture_detail": "35mm grain, cold steam"
+  },
+  "mood": {
+    "emotion": "machine speaking with emotional simulation",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the image that speaks — Revelation 13:15 in clinical reality",
+    "secondary": "camera eyes as surveillance-empathy — watching while pretending to care"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE2_Q13",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Joao em postura de revelacao diante de ruinas romanas",
+  "narrative_beat": "Profeta com dedo apontado e luz sobrenatural",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q13",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "frontal",
+    "focal_length_mm": 40,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid apostle John standing in revelation pose with raised hand pointing urgently wearing brilliant white and gold robes bathed in supernatural descending light in foreground",
+    "focal_point": "John's raised hand pointing urgently and the supernatural light descending on him",
+    "secondary": "black and white desaturated Roman Colosseum ruins with fallen columns in background",
+    "props": [
+      "apostle John in white and gold robes",
+      "raised hand pointing",
+      "supernatural descending light",
+      "Roman Colosseum ruins"
+    ]
+  },
+  "environment": {
+    "location": "ruins of Rome",
+    "time_of_day": "late evening",
+    "atmosphere": "prophetic confrontation with history"
+  },
+  "composition": {
+    "rule": "pan left composition",
+    "foreground": "prophet in vivid white gold",
+    "midground": "descending light midground",
+    "background": "desaturated Roman ruins",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "supernatural overhead beam",
+    "fill_light": "amber bounce on robes",
+    "rim_light": "gold rim on pointing hand",
+    "mood": "prophetic urgency",
+    "shadow_quality": "long deep shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold highlights",
+    "texture_detail": "35mm grain, stone dust"
+  },
+  "mood": {
+    "emotion": "prophet standing at intersection of ancient and modern",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "John's pointing finger as accusation against every century including ours",
+    "secondary": "Roman ruins as previous fulfillment, modern world as current one"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

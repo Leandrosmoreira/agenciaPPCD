@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """
-PROMETHEUS — video-020-1984-daniel
+PROMETHEUS — video-012-ia-apocalipse
 ffmpeg puro: Ken Burns agressivo + xfade + cap 6s/imagem + loop
-Adaptado de prometheus_010.py para preservar 4 clips Veo3 (Q03-Q06).
-
-Q03, Q04, Q05, Q06 => VideoFileClip direto (Veo3 8s, sem ken burns)
-Q02 => Ken Burns zoom_in forçado (user pediu, sem Veo3)
-Demais Q01, Q07-Q60 => Ken Burns + xfade + cap 6s
+60 quadros estáticos animados, sem Veo3.
 """
 
 import json
@@ -19,7 +15,7 @@ from datetime import datetime
 from pathlib import Path
 
 BASE_DIR   = Path(__file__).resolve().parent.parent
-VIDEO_DIR  = BASE_DIR / "canais/sinais-do-fim/videos/video-020-1984-daniel"
+VIDEO_DIR  = BASE_DIR / "canais/sinais-do-fim/videos/video-012-ia-apocalipse"
 IMG_DIR    = VIDEO_DIR / "6-assets"
 VEO_DIR    = IMG_DIR / "veo3"
 AUDIO_DIR  = VIDEO_DIR / "5-audio"
@@ -35,11 +31,11 @@ KEN_BURNS   = ["zoom_in", "zoom_out", "pan_left", "pan_right", "pan_up", "pan_do
 
 TRILHA_VOLUME = 0.22
 
-# Clips Veo3 que substituem o Ken Burns dos quadros
-VEO_QUADROS = {3, 4, 5, 6}  # Q03-Q06 => VEO_QXX.mp4
+# Sem Veo3 para v012
+VEO_QUADROS = set()
 
-# Forçar Ken Burns específico para quadros-chave
-EFFECT_OVERRIDE = {2: "zoom_in"}
+# Sem overrides específicos
+EFFECT_OVERRIDE = {}
 
 AUDIO_FILES = [
     "PARTE1.mp3", "PARTE2.mp3", "PARTE3.mp3", "PARTE4.mp3", "PARTE5.mp3",

@@ -1,0 +1,103 @@
+{
+  "id": "video-012_PARTE6_Q54",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Palma da mao com sinal carmesim luminoso",
+  "narrative_beat": "Marca permanente com circuitos dourados emanando",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q54",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid human right palm held open with glowing crimson luminous mark engraved in hand surrounded by golden digital circuits emanating from mark with medieval biblical ornaments in vibrant foreground",
+    "focal_point": "the glowing crimson mark engraved in the palm with golden digital circuits emanating",
+    "secondary": "black and white desaturated modern shopping center with grey people making payments in background",
+    "props": [
+      "human right palm held open",
+      "glowing crimson mark engraved",
+      "golden digital circuits emanating",
+      "medieval biblical ornaments",
+      "shopping center"
+    ]
+  },
+  "environment": {
+    "location": "shopping center payment context",
+    "time_of_day": "day of biometric payment",
+    "atmosphere": "the mark in the hand"
+  },
+  "composition": {
+    "rule": "zoom-in slow composition",
+    "foreground": "palm and mark in vivid crimson gold",
+    "midground": "circuits midground",
+    "background": "desaturated shopping center",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "mark self-glow warm crimson",
+    "fill_light": "cold shopping center fill",
+    "rim_light": "gold rim on circuit traces",
+    "mood": "prophetic sign",
+    "shadow_quality": "deep palm shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed",
+    "post_processing": "halation, crushed blacks, crimson-gold highlights",
+    "texture_detail": "35mm grain, skin texture"
+  },
+  "mood": {
+    "emotion": "Amazon Pay by Palm — the mark in the right hand operational",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the right hand biometric as Revelation 13:16 already deployed",
+    "secondary": "medieval biblical ornaments surrounding modern technology — the commentary written in advance"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

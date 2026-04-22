@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE3_Q25",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Chip neural Neuralink em palma envelhecida",
+  "narrative_beat": "Microchip dourado e prata sobre pele humana",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q25",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid Neuralink-style neural microchip in luminous gold and silver with detailed visible circuits and golden connectors resting on aged human palm in vibrant foreground",
+    "focal_point": "the luminous gold and silver chip with detailed visible circuits",
+    "secondary": "black and white desaturated neuroscience laboratory with microscopes and dark screens in background",
+    "props": [
+      "Neuralink neural microchip in gold and silver",
+      "detailed visible circuits",
+      "golden connectors",
+      "aged human palm"
+    ]
+  },
+  "environment": {
+    "location": "neuroscience laboratory",
+    "time_of_day": "day of implantation",
+    "atmosphere": "brain-machine merger"
+  },
+  "composition": {
+    "rule": "zoom-in extreme composition",
+    "foreground": "chip in vivid gold silver",
+    "midground": "palm skin texture midground",
+    "background": "desaturated neuroscience lab",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "harsh overhead lab light",
+    "fill_light": "gold bounce off chip",
+    "rim_light": "silver rim on connectors",
+    "mood": "technological chill",
+    "shadow_quality": "hard reflections deep blacks"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, metallic highlights",
+    "texture_detail": "35mm grain, cold steam, metallic texture"
+  },
+  "mood": {
+    "emotion": "the mark on the forehead — Neuralink as prophetic precedent",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "silicon entering the skull — the mark in literal form",
+    "secondary": "aged palm as human mortality surrendering to artificial permanence"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

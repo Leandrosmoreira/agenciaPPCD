@@ -1,0 +1,102 @@
+{
+  "id": "video-020_PARTE2_Q22_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dentes de ferro devorando",
+  "narrative_beat": "Close-up macro de mandibula mecanica com dentes de ferro corroidos devorando terra e pedras",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 2,
+    "quadro": "Q22_1",
+    "ato": "Ato2"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "low 45 degrees",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a grotesque iron mechanical jaw with rusted serrated teeth clamping down, crushing stone",
+    "focal_point": "one bright spark erupting between iron teeth",
+    "secondary": "pulverized stone dust falling from crushing teeth, blood-like rust staining teeth",
+    "props": [
+      "iron beast jaw mechanism",
+      "rusted serrated teeth",
+      "spark of friction",
+      "pulverized stone dust",
+      "rust bleeding like blood"
+    ]
+  },
+  "environment": {
+    "location": "vision-realm industrial symbol",
+    "time_of_day": "timeless",
+    "atmosphere": "devouring total"
+  },
+  "composition": {
+    "rule": "rule of thirds with primary subject at strong point",
+    "foreground": "warm saturated primary subject",
+    "background": "desaturated contextual depth",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "single harsh overhead",
+    "fill_light": "none deep black",
+    "rim_light": "spark light reflecting",
+    "mood": "mechanical terror",
+    "shadow_quality": "extreme contrast"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "mechanical terror",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "devouring and breaking in pieces",
+    "secondary": "system that crushes all"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

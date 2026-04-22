@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE4_Q38",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Iluminura da Besta enganadora com mascaras",
+  "narrative_beat": "Figura bestial com lingua longa e duas mascaras",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q38",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 100,
+    "aperture": "f/2.0",
+    "depth_of_field": "razor-thin",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid medieval illuminated Revelation manuscript page showing deceptive beast figure with long tongue holding two different masks surrounded by golden crimson flames and believable followers in detailed rich colors in vibrant foreground",
+    "focal_point": "the deceptive beast holding two different masks with long tongue",
+    "secondary": "black and white desaturated corporate meeting room with dark presentation screen in background",
+    "props": [
+      "medieval beast figure with long tongue",
+      "two different masks",
+      "golden crimson flames",
+      "believable followers surrounding"
+    ]
+  },
+  "environment": {
+    "location": "medieval illumination meets corporate meeting room",
+    "time_of_day": "eternal moment of systemic deception",
+    "atmosphere": "the image that deceives"
+  },
+  "composition": {
+    "rule": "zoom-in on masks composition",
+    "foreground": "beast and masks in vivid gold crimson",
+    "midground": "followers midground",
+    "background": "desaturated corporate meeting room",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candlelight illumination",
+    "fill_light": "amber bounce on masks",
+    "rim_light": "gold rim on beast scales",
+    "mood": "systemic deception",
+    "shadow_quality": "medieval shadow depth"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-crimson saturation",
+    "texture_detail": "35mm grain, parchment and scale texture"
+  },
+  "mood": {
+    "emotion": "the image already exists, already operates, already deceives",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "medieval art accurately predicting Silicon Valley's business model",
+    "secondary": "two masks as two faces — empathetic AI and surveillance AI"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

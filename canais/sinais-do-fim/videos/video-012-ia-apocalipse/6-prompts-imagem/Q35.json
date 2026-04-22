@@ -1,0 +1,101 @@
+{
+  "id": "video-012_PARTE4_Q35",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Deus falso de pixels se fragmentando",
+  "narrative_beat": "Figura dourada e branca explodindo em cubos carmesim",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q35",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "aerial overhead 60",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid artificial false god in luminous gold and white at center fragmenting into crimson data cubes revealing artificial nature from above in diagonal aerial perspective in vibrant foreground",
+    "focal_point": "the false god fragmenting into crimson data cubes revealing its artificial nature",
+    "secondary": "black and white desaturated crowd prostrated in worship seen from above with unrecognizable grey faces in background",
+    "props": [
+      "artificial false god in gold and white",
+      "fragmenting into crimson data cubes",
+      "worshipping crowd below in grey"
+    ]
+  },
+  "environment": {
+    "location": "digital worship context aerial view",
+    "time_of_day": "moment of revelation of artifice",
+    "atmosphere": "artificial religion"
+  },
+  "composition": {
+    "rule": "diagonal zoom-out composition",
+    "foreground": "false god in vivid gold crimson",
+    "midground": "data cubes midground",
+    "background": "desaturated worshipping crowd",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "self-glow from gold center",
+    "fill_light": "cold fill on crowd",
+    "rim_light": "crimson rim on data cubes",
+    "mood": "artificial revelation",
+    "shadow_quality": "long aerial shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, amber-crimson saturation",
+    "texture_detail": "35mm grain, digital cube particles"
+  },
+  "mood": {
+    "emotion": "AI-generated religion — sacred texts and gods by algorithm",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the idol that fragments — all AI gods will be revealed as data",
+    "secondary": "the worshipping crowd not knowing what it bows before"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

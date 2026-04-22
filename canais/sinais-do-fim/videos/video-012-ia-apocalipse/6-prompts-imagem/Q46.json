@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE5_Q46",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Figura humana sendo absorvida em estrutura digital",
+  "narrative_beat": "Metade corpo metade dados entre extase e terror",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q46",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "side-angle",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid human figure in gold and crimson robes being absorbed and merged with luminous digital structure half vibrant human body half data architecture with ambiguous expression between ecstasy and terror in vibrant foreground",
+    "focal_point": "the ambiguous expression between ecstasy and terror as the figure merges with data",
+    "secondary": "black and white desaturated mirror corridor with infinitely multiplying reflections in background",
+    "props": [
+      "human figure in gold and crimson robes",
+      "luminous digital structure absorption",
+      "half human half data",
+      "ambiguous ecstasy-terror expression"
+    ]
+  },
+  "environment": {
+    "location": "singularity threshold symbolic space",
+    "time_of_day": "moment of digital death and artificial life",
+    "atmosphere": "the singularity"
+  },
+  "composition": {
+    "rule": "pan right composition",
+    "foreground": "figure in vivid gold crimson",
+    "midground": "absorption midground",
+    "background": "desaturated mirror corridor infinity",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "digital absorption glow",
+    "fill_light": "cold data fill on digital half",
+    "rim_light": "gold rim on human edges dissolving",
+    "mood": "existential threshold",
+    "shadow_quality": "mirror infinity shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800",
+    "post_processing": "halation, crushed blacks, gold-crimson saturation",
+    "texture_detail": "35mm grain, data particles"
+  },
+  "mood": {
+    "emotion": "upload consciousness — death that does not die — Revelation 9:6",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the man becoming the server — the image absorbing its creator",
+    "secondary": "mirrors multiplying to infinity as the recursion of digital copies of the self"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

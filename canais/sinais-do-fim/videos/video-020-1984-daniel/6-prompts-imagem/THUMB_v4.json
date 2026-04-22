@@ -1,0 +1,105 @@
+{
+  "id": "video-020_THUMB_v4",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-3-pro-image-preview",
+  "scene_title": "Livro 1984 Rasgado — Verso Bíblico Revelado",
+  "narrative_beat": "Mão segurando o livro 1984 de Orwell sendo rasgado ao meio, revelando luz dourada e texto bíblico ardendo dentro — fundo câmeras vigilância e olho do Grande Irmão",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 3,
+    "quadro": "THUMB_v4",
+    "ato": "Thumbnail"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic, crimson and gold tones, book being torn revealing inner divine light, oppressive background, 35mm grain, halation, prophetic horror"
+  },
+  "shot": {
+    "type": "close-up — dramatic object shot",
+    "camera_angle": "45 degrees above, looking down at hands holding book",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "book and hands sharp, background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "two hands tearing apart a vintage 1940s hardcover book labeled '1984', ripped open at the spine, revealing blinding golden divine light and glowing text erupting from the torn pages",
+    "focal_point": "the torn opening of the book radiating golden light — the moment of revelation",
+    "secondary": "thin pale fingers with urgency, torn pages flying, ash embers rising from the golden light within",
+    "props": [
+      "vintage hardcover book '1984' spine cracking apart",
+      "golden divine light erupting from inside torn book",
+      "burning/glowing page edges in amber-gold",
+      "floating torn paper fragments and ash embers"
+    ]
+  },
+  "environment": {
+    "location": "dark oppressive space, background filled with blurred surveillance cameras, massive blurred Big Brother eye poster in deep background",
+    "time_of_day": "complete darkness except for the divine golden light from the book",
+    "atmosphere": "apocalyptic revelation — the book contains the prophecy"
+  },
+  "composition": {
+    "rule": "centered composition — book and golden light as focal center",
+    "foreground": "hands holding torn book in center-left of frame, golden light erupting rightward",
+    "midground": "flying torn pages and ash embers filling mid-frame in amber tones",
+    "background": "deep dark: blurred Big Brother eye and surveillance cameras in black-and-white — right edge of frame kept dark for text overlay",
+    "safe_zone_for_overlay": "right 35% of frame and bottom strip — kept dark for title text"
+  },
+  "lighting": {
+    "key_light": "golden divine light erupting from inside the torn book — primary light source of entire scene",
+    "fill_light": "none — total darkness surrounding the book",
+    "rim_light": "amber-gold rim on fingers holding book, crimson edge glow from background",
+    "mood": "revelation erupting from within — prophecy breaking free",
+    "shadow_quality": "near-total darkness surrounding golden core — maximum contrast"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed three stops",
+    "post_processing": "extreme contrast — near-black background vs. blinding golden center, halation on book light, crimson vignette, 35mm grain, glowing edges on torn pages",
+    "texture_detail": "35mm film grain, paper texture, ash embers, dust particles floating in divine light"
+  },
+  "mood": {
+    "emotion": "revelation, discovery, shock — the truth was always inside",
+    "tension": "high — the moment of tearing open the lie"
+  },
+  "symbolism": {
+    "primary": "1984 the book torn open revealing the biblical prophecy within — Orwell unknowingly channeled Daniel",
+    "secondary": "Big Brother eye in background being blinded by the divine light"
+  },
+  "negative_as_positive": [
+    "photorealistic — not illustration, not CGI-looking, not video game aesthetic",
+    "golden light MUST be genuine bright warm divine glow — not blue or white",
+    "hands MUST look real and human — thin, urgent",
+    "background MUST be dark and desaturated — book light is only color source",
+    "no text or logos embedded in image",
+    "right third and bottom strip must remain dark for post-production text overlay"
+  ],
+  "in_scene_text": {
+    "enabled": false,
+    "note": "DANIEL PREVIU / 1984 text overlay will be added post-production on right third"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer atmosphere, grain, crimson-amber palette only. Scene lighting comes from divine golden book light."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

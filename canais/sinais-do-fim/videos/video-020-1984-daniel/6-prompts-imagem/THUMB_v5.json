@@ -1,0 +1,104 @@
+{
+  "id": "video-020_THUMB_v5",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-3-pro-image-preview",
+  "scene_title": "Orwell — Olho Vigilância Carmesim",
+  "narrative_beat": "Rosto Orwell em perfil ¾, olhando para cima em terror, reflexo de um olho de câmera de vigilância gigante vermelho-carmesim no côncavo de seu olho, como se o Grande Irmão habitasse nele",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-020-1984-daniel",
+    "parte_suno": 4,
+    "quadro": "THUMB_v5",
+    "ato": "Thumbnail"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "extreme dark cinematic, crimson surveillance glow, Orwell's terror, reflection in eye, oppressive atmosphere, maximum contrast, 35mm grain"
+  },
+  "shot": {
+    "type": "extreme close-up — face filling left half, eye reflection visible",
+    "camera_angle": "45 degrees side — ¾ profile",
+    "focal_length_mm": 105,
+    "aperture": "f/1.4",
+    "depth_of_field": "eye tack sharp, everything else falls off",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "photorealistic George Orwell face in ¾ profile, gaunt features, mustache, head tilted back slightly looking upward in absolute terror — occupying left 45% of frame — face lit by a pulsing red-crimson surveillance light from above",
+    "focal_point": "Orwell's visible eye — in the glossy surface of his iris/cornea, a blurred crimson reflection of a surveillance camera lens is clearly visible",
+    "secondary": "crimson-red surveillance camera LED glow casting raking light across his gaunt cheekbone and temple",
+    "props": [
+      "crimson-red surveillance camera glow from above",
+      "reflection of camera lens in eye cornea",
+      "floating ash embers in red-tinged air"
+    ]
+  },
+  "environment": {
+    "location": "total darkness surrounding — only the crimson surveillance light source illuminates his face from above-right — background hint of blurred surveillance cameras and Big Brother poster in darkness",
+    "time_of_day": "complete darkness",
+    "atmosphere": "the surveillance state looking back through its prophet"
+  },
+  "composition": {
+    "rule": "dramatic ¾ profile — face left 45% — empty dark right 35% for text overlay",
+    "foreground": "Orwell's face in crimson-lit terror — gaunt cheekbone, sunken eye, mustache",
+    "midground": "thin crimson light beam raking across face from upper right",
+    "background": "total darkness with subtle blurred red-tinged surveillance cameras — right third of frame intentionally dark and empty",
+    "safe_zone_for_overlay": "right third (35%) of frame and bottom strip — kept fully dark for title text"
+  },
+  "lighting": {
+    "key_light": "hard crimson surveillance LED from upper right, casting raking shadows across gaunt face",
+    "fill_light": "none — near-total darkness",
+    "rim_light": "faint amber candle from far left giving slight warm separation from pure black background",
+    "mood": "the watcher being watched — prophecy becoming surveillance",
+    "shadow_quality": "deep crushed blacks, single crimson light source, maximum shadow depth"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 400 pushed four stops — extreme grain",
+    "post_processing": "extreme contrast — near-black background vs crimson face illumination, halation on crimson light, heavy 35mm grain, dark vignette all edges, faint amber separation light on far side of face",
+    "texture_detail": "heavy 35mm film grain, floating ash embers red-tinged, skin texture under extreme contrast"
+  },
+  "mood": {
+    "emotion": "total terror — the surveillance state has already arrived",
+    "tension": "maximum — the eye contains what he feared"
+  },
+  "symbolism": {
+    "primary": "the surveillance camera reflected in Orwell's eye = Big Brother is watching through him",
+    "secondary": "crimson light = danger, blood, the mark of the beast — Apocalipse 13"
+  },
+  "negative_as_positive": [
+    "photorealistic — not illustrated, not CGI, not comic book",
+    "Orwell face MUST show genuine terror — not calm, not neutral, not heroic",
+    "face MUST be lit by crimson/red light — not warm amber or golden",
+    "eye reflection MUST be visible — camera lens ghost in the cornea",
+    "right third MUST be completely dark and empty — for post-production text",
+    "no text, no logos, no watermarks in the generated image"
+  ],
+  "in_scene_text": {
+    "enabled": false,
+    "note": "DANIEL PREVIU / 1984 / 2.500 ANOS ANTES overlay will be added post-production on right third"
+  },
+  "api_call_hints": {
+    "model_override": "pro",
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer grain and atmosphere. Override color palette: primary light must be crimson-red surveillance glow, not amber candle."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "video-012_PARTE4_Q39",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Figura encoberta observando tela de codigo",
+  "narrative_beat": "Arquiteto oculto de negro e carmesim de costas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q39",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "side-angle",
+    "focal_length_mm": 50,
+    "aperture": "f/2.8",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colorful vivid cloaked hooded figure in dark black and crimson mantle standing back to viewer observing golden glowing code screen as hidden architect with crimson flames surrounding in vibrant foreground",
+    "focal_point": "the hooded figure's back and the golden glowing code screen being observed",
+    "secondary": "black and white desaturated server corridor with blinking grey lights in background",
+    "props": [
+      "hooded figure in dark black and crimson",
+      "observing golden code screen",
+      "crimson flames surrounding",
+      "server corridor blinking lights"
+    ]
+  },
+  "environment": {
+    "location": "server corridor of a major tech company",
+    "time_of_day": "midnight architecture",
+    "atmosphere": "hidden systemic construction"
+  },
+  "composition": {
+    "rule": "pan left composition",
+    "foreground": "figure and screen in vivid black crimson gold",
+    "midground": "flames midground",
+    "background": "desaturated server corridor",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "screen self-glow warm gold",
+    "fill_light": "cold server corridor fill",
+    "rim_light": "crimson rim on mantle edges",
+    "mood": "icy hidden authority",
+    "shadow_quality": "deep corridor shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Vision3 500T",
+    "post_processing": "halation, crushed blacks, gold screen highlights",
+    "texture_detail": "35mm grain, cold corridor air"
+  },
+  "mood": {
+    "emotion": "the hidden architect building for nineteen centuries what finally works",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the cloaked figure as anonymous tech leadership",
+    "secondary": "golden code screen as the Revelation text being executed line by line"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography",
+    "analog film photography aesthetic",
+    "muted desaturated background palette warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  }
+}

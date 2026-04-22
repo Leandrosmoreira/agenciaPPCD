@@ -40,7 +40,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # SIGLAS (expansao canal-agnostica)
 # ──────────────────────────────────────────────────────────
 SIGLAS = {
-    'IA':   'inteligencia artificial',
+    'IA':   'Inteligência artificial',
     'CBDC': 'moeda digital de banco central',
     'CBDCs': 'moedas digitais de banco central',
     'ONU':  'O N U',
@@ -57,7 +57,7 @@ SIGLAS = {
     'UFO':  'u f o',
     'UAP':  'u a p',
     'CEO':  'ce o',
-    'AI':   'inteligencia artificial',
+    'AI':   'Inteligência artificial',
     'USB':  'u s bi',
     'DNA':  'de ene a',
     'RNA':  'erre ene a',
