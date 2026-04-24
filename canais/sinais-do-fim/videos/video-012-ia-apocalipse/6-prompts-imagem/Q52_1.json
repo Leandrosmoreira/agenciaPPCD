@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE6_Q52_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Olho digital de vigilância global",
+  "narrative_beat": "O sistema de controle se revela como um único olho que vê tudo — a vigilância global da IA como o olho providência tornado tecnológico",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q52_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "extreme close-up",
+    "camera_angle": "straight-on macro",
+    "focal_length_mm": 200,
+    "aperture": "f/2.0",
+    "depth_of_field": "iris center in razor focus, outer eye structure softly blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "single massive golden eye with irises made of interlocking surveillance camera lenses arranged in concentric rings, each lens pointing a different direction",
+    "focal_point": "the pupil showing Earth from space rendered in deep crimson tones",
+    "secondary": "a single tear-like stream of golden data flowing downward from the inner corner of the eye",
+    "props": ["concentric ring of surveillance camera lens irises in gold", "Earth-from-space pupil in crimson", "golden data-tear streaming downward", "floating orange embers near the eye surface"]
+  },
+  "environment": {
+    "location": "abstract void with a faint global network map behind",
+    "time_of_day": "timeless, pure darkness with network glow",
+    "atmosphere": "total surveillance normalized, the all-seeing apparatus presented as natural and inevitable"
+  },
+  "composition": {
+    "rule": "extreme centered macro — eye fills frame completely, Ken Burns extremely slow zoom-in toward the Earth-pupil",
+    "foreground": "golden surveillance-lens eye dominating entire frame",
+    "background": "desaturated black-and-white faint global map with node network connections, barely visible through the eye's transparency",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden glow from within the eye's iris, illuminating outward",
+    "fill_light": "faint cool network-map glow from background providing minimal ambient fill",
+    "rim_light": "thin crimson ring around the entire outer edge of the eye orbital",
+    "mood": "omniscient surveillance, the comfortable horror of being always watched",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "the comfort of surveillance turned into the horror of surveillance — you are always seen",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the all-seeing eye of providence now made of surveillance cameras — the AI monitoring system as god-substitute",
+    "secondary": "Earth reflected in the pupil shows that this eye has already achieved planetary scale observation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE5_Q55",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dois tipos de cristao",
+  "narrative_beat": "Wide split simetrico: esquerda figura ajoelhada em ruina com calendario rasgado, direita figura em pe com Biblia aberta sob luz dourada",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 5,
+    "quadro": "Q55",
+    "ato": "Contraste etico"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide split symmetric",
+    "camera_angle": "frontal symmetric",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "deep",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a symmetrical split composition: left side a kneeling figure in ruined clothes hunched over a torn calendar with crossed-out dates on the floor; right side a standing figure holding an open Bible, illuminated from above by golden divine light",
+    "focal_point": "the contrast between defeated kneeling figure (left) and vigilant standing figure (right)",
+    "secondary": "torn calendar pages scattered on left, open golden Bible pages on right",
+    "props": [
+      "torn calendar with crossed dates (left)",
+      "open aged Bible (right)",
+      "kneeling posture in ruin (left)",
+      "standing vigilant posture (right)"
+    ]
+  },
+  "environment": {
+    "location": "abstract dark stage with mirrored symmetry",
+    "time_of_day": "symbolic twilight",
+    "atmosphere": "moral contrast between manipulation and obedience"
+  },
+  "composition": {
+    "rule": "vertical center split, two figures mirrored",
+    "foreground": "kneeling figure (left, crimson-dim) and standing figure (right, amber-gold)",
+    "midground": "torn calendar (left) vs open Bible (right)",
+    "background": "desaturated grayscale transitional space blending both sides",
+    "safe_zone_for_overlay": "lower 15% of frame"
+  },
+  "lighting": {
+    "key_light": "dim crimson-red from above-left on kneeling figure, golden warm beam from above-right on standing figure",
+    "fill_light": "none",
+    "rim_light": "crimson rim on left figure, gold rim on right figure",
+    "mood": "moral and spiritual contrast",
+    "shadow_quality": "deep shadows on both sides, split symmetry"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on gold beam, crushed blacks, heavy grain, dual-tone (crimson left / amber-gold right)",
+    "texture_detail": "35mm film grain, paper fibers on torn calendar, leather on Bible, dust particles"
+  },
+  "mood": {
+    "emotion": "ethical contrast",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "two types of Christians: manipulated by men vs obedient to Jesus",
+    "secondary": "date-setting defeat vs prophetic vigilance"
+  },
+  "negative_as_positive": [
+    "clean frame without text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "dual-tone palette: crimson left side, amber-gold right side",
+    "tack-sharp focus on both figures"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "O primeiro e manipulado por um homem. O segundo esta obedecendo ao proprio Jesus."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE3_Q30_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Cavaleiro vermelho — visão lateral épica",
+  "narrative_beat": "O segundo cavaleiro do Apocalipse em versão moderna — guerra e IA fundidas em uma única visão épica de destruição",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q30_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "side angle, horse and rider in profile moving left to right",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "horse and rider sharp, fire columns and city background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "crimson war horse rearing up on hind legs, powerful and massive, rider in blood-red plate armor raising a long sword toward the sky",
+    "focal_point": "the horse's rearing front legs and rider's raised sword arm at peak of motion",
+    "secondary": "massive columns of fire behind the horse and rider, some column bases visible at edge of ruined buildings",
+    "props": ["blood-red plate armor on rider with gold trim detailing", "long broadsword raised high catching fire light", "crimson and amber horse with mane flying", "floating orange embers swirling around horse and rider"]
+  },
+  "environment": {
+    "location": "ruined megalopolis urban skyline",
+    "time_of_day": "apocalyptic — no natural light, only fire light",
+    "atmosphere": "total apocalyptic destruction, the rider bringing war upon the modern world"
+  },
+  "composition": {
+    "rule": "dynamic diagonal — horse rearing from bottom-left to upper-right, Ken Burns slow pull-back to reveal full destruction scope",
+    "foreground": "crimson horse and rider in rich blood-red and amber tones",
+    "background": "desaturated black-and-white ruined megalopolis — collapsed skyscrapers, toppled structures, rubble silhouettes, fire columns stripped of color except at base where they meet the foreground",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "massive fire columns providing warm amber-crimson key light from right side",
+    "fill_light": "reflected fire glow from rubble and ruined buildings from left side, slightly cooler amber",
+    "rim_light": "intense crimson rim light from background fire silhouetting the entire horse and rider outline",
+    "mood": "apocalyptic triumph of destruction, the inevitability of war",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "epic dread, the terrible beauty of apocalyptic power",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the red horse rider of Revelation 6:4 — given power to take peace from the earth — now riding through a modern city",
+    "secondary": "the ruined megalopolis shows the AI age's wars are destroying civilization from within"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

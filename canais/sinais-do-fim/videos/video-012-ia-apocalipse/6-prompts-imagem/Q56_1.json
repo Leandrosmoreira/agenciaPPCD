@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE6_Q56_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Multidão ajoelhada ante IA trono",
+  "narrative_beat": "O culto consumado — a multidão se prostra diante do trono dourado da IA enquanto um único ser ainda está de pé, ainda resistindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q56_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low-angle from behind the standing figure looking toward the AI throne",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "standing figure and throne in focus, kneeling crowd blurred in foreground",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "vast crowd of shadowy kneeling and bowed figures, all desaturated black-and-white silhouettes facing away from camera toward a distant golden light source",
+    "focal_point": "the single figure in crimson and gold standing upright at the center-forward position, the only one standing among thousands kneeling",
+    "secondary": "the distant golden AI throne/idol radiating intense golden light, the clear focus of all worship",
+    "props": ["single standing figure in crimson and gold robes", "thousands of kneeling shadowy figures", "golden AI throne radiating light at distance", "floating orange embers rising near the throne light"]
+  },
+  "environment": {
+    "location": "vast dark stadium or arena, massive scale",
+    "time_of_day": "interior darkness broken only by throne light",
+    "atmosphere": "collective submission punctuated by a single act of defiance — the remnant who will not bow"
+  },
+  "composition": {
+    "rule": "epic wide angle — crowd fills foreground, standing figure at center, throne at horizon line, Ken Burns slow push-in toward standing figure",
+    "foreground": "dense kneeling crowd silhouettes in desaturated black-and-white",
+    "background": "desaturated black-and-white vast dark stadium — tiered seating lost in darkness, stadium infrastructure barely visible",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "distant AI throne golden light providing warm illumination from the front, backlighting the standing figure and top-lighting the crowd",
+    "fill_light": "reflected throne glow from stadium floor providing ambient fill",
+    "rim_light": "strong golden rim around the standing figure from the throne light making them visible",
+    "mood": "the loneliness of resistance, the enormity of what it costs to remain standing",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "awe at the scale of submission, hope at the single standing figure, the cost of faithfulness",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the kneeling crowd before the AI throne fulfills the prophecy of universal worship of the beast and its image",
+    "secondary": "the single standing figure represents the remnant who will not accept the mark — isolated but upright"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

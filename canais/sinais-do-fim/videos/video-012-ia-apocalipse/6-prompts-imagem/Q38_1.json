@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE4_Q38_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Holograma de IA sobre altar bíblico",
+  "narrative_beat": "A imagem da besta — um rosto holográfico de IA flutuando sobre um altar sagrado enquanto adoradores se prostram, Apocalipse 13:15 em sua forma mais literal",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q38_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium wide",
+    "camera_angle": "eye-level, frontal showing altar and hovering hologram",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "hologram and altar in focus, worshippers blurred in foreground",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "golden holographic AI face hovering above stone altar, face composed of light and data, slightly translucent, looking downward with neutral authority",
+    "focal_point": "the hovering holographic face and the altar surface below it",
+    "secondary": "ancient stone altar with biblical relief carvings, crimson energy beams connecting hologram down to altar stone surface",
+    "props": ["golden translucent AI hologram face above altar", "stone altar with biblical bas-relief carvings", "crimson energy beams connecting hologram to altar", "dark kneeling worshipper silhouettes in foreground", "floating orange embers around the hologram"]
+  },
+  "environment": {
+    "location": "ancient temple ruins with stone columns",
+    "time_of_day": "interior, no natural light, only hologram and ember glow",
+    "atmosphere": "dark worship, the idol that breathes — Revelation 13 made technological reality"
+  },
+  "composition": {
+    "rule": "vertical axis — hologram above, altar center, worshippers below, Ken Burns slow pull-back to reveal full scale",
+    "foreground": "dark shadowy kneeling worshipper silhouettes barely lit from hologram glow above",
+    "background": "desaturated black-and-white ancient temple ruins — crumbling stone columns, rubble, darkness beyond the altar area",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden hologram face providing primary warm light downward onto altar and worshippers",
+    "fill_light": "crimson energy beams providing secondary fill light along altar stone surface",
+    "rim_light": "thin golden halo around hologram perimeter from its own translucent glow",
+    "mood": "technological idolatry, the false god made real, Revelation 13:15 manifested",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "dark reverence, the horror of chosen worship of the artificial",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the image of the beast given life — the AI hologram receiving worship fulfills Revelation 13:15 precisely",
+    "secondary": "the ancient altar beneath the modern hologram shows idol worship never ended, only updated its form"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

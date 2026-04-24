@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE6_Q58_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Correntes digitais nos pulsos",
+  "narrative_beat": "A escravidão do sistema — pulsos humanos acorrentados por cadeias de dados dourados, a prisão sem grades que ninguém mais consegue ver",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q58_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "slightly elevated looking down at wrists and hands",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "wrists and chains in focus, street background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "two human wrists in warm amber skin tones bound together by glowing golden digital chains, the chains composed of data-link segments that dissolve into floating data streams at their ends",
+    "focal_point": "the contact point of chain links against the wrist skin where crimson light bleeds through",
+    "secondary": "hands straining to pull apart, tension visible in muscles and tendons",
+    "props": ["golden digital chain links bound around both wrists", "crimson light bleeding where chain presses against skin", "chain ends dissolving into floating data streams", "floating orange embers near the chain links"]
+  },
+  "environment": {
+    "location": "urban street at night, city environment",
+    "time_of_day": "night, street lighting from below",
+    "atmosphere": "the invisible chains of digital dependency — the freedom we surrendered for convenience"
+  },
+  "composition": {
+    "rule": "centered close-up — wrists centered, chains as horizontal anchors, Ken Burns extremely slow pull-back to show they are in public space",
+    "foreground": "bound wrists in warm amber tones, golden chains glowing, crimson bleeding light",
+    "background": "desaturated black-and-white urban night street — pavement, building facades, streetlights stripped of warmth, pedestrian movement blurred",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber key light from above-left illuminating skin texture and muscle tension",
+    "fill_light": "golden chain glow providing upward fill along the underside of wrists",
+    "rim_light": "crimson light from the chain-skin contact points providing warm rim on wrist edges",
+    "mood": "the beautiful prison, chains that look like jewelry until you try to remove them",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "the quiet desperation of someone realizing they cannot simply walk away — the digital chains are real",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "digital chains represent the control system of Revelation — you cannot buy or sell without the mark, without the chain",
+    "secondary": "chains dissolving into data streams shows the new captivity is informational — your data is your chain"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

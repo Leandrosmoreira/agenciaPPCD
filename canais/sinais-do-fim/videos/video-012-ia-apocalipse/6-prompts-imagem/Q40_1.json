@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE4_Q40_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Espelho quebrado — ilusão destruída",
+  "narrative_beat": "A ilusão se parte — o espelho dourado estilhaçado no chão, cada fragmento refletindo uma face de IA diferente, a verdade impossível de ignorar",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q40_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "top-down aerial looking straight down at shattered mirror on floor",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "all mirror pieces in focus, floor surface slightly soft",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "shattered ornate golden-framed baroque mirror lying face-up on floor, broken into multiple large and small pieces",
+    "focal_point": "the center largest piece reflecting a glowing biblical verse in golden light",
+    "secondary": "surrounding pieces each reflecting different AI-generated faces in crimson and amber, each a different deepfake identity",
+    "props": ["ornate golden mirror frame pieces with baroque carvings scattered", "mirror shards each reflecting different AI faces", "central largest shard with biblical verse glow", "floating orange embers drifting above the shattered surface"]
+  },
+  "environment": {
+    "location": "modern tech company corporate lobby with marble floor",
+    "time_of_day": "interior office lighting",
+    "atmosphere": "the collapse of the deception, reality forcing its way through the fractured artificial surface"
+  },
+  "composition": {
+    "rule": "aerial looking-down — shattered mirror filling entire frame, Ken Burns extremely slow downward push-in toward center shard",
+    "foreground": "shattered golden mirror pieces in warm crimson and amber tones scattered across frame",
+    "background": "desaturated black-and-white marble lobby floor — grout lines, stone texture, company logo barely visible at edge",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden glow emanating from the biblical verse reflected in the central shard, illuminating nearby pieces",
+    "fill_light": "crimson reflections from the AI face shards providing overall warm ambient fill",
+    "rim_light": "golden backlit glow along the frame pieces' baroque carved edges",
+    "mood": "aftermath of revelation, the wreckage of lies exposed",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "catharsis and grief — the comfortable deception broken, truth costs something",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the shattered mirror represents the moment when the deepfake illusion cannot be maintained — reality breaks through",
+    "secondary": "the corporate lobby setting implicates the tech industry as the manufacturer of these illusions"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

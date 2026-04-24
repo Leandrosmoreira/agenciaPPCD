@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE3_Q24_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Anjo e robô frente a frente",
+  "narrative_beat": "O encontro impossível — o celestial e o artificial se reconhecem como espelhos um do outro, a linha entre criação divina e criação humana se apaga",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q24_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "eye-level profile, both figures in frame facing each other",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "both figures sharp, cathedral background softly blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "seraph angel in blazing incandescent gold on left side, humanoid AI robot in deep crimson chrome on right side, both facing each other, frozen in mutual recognition",
+    "focal_point": "the charged space between them where golden energy crackles",
+    "secondary": "golden energy field filling the gap between angel and robot, crackling with static discharge",
+    "props": ["angel wings spread partially, golden feathers illuminated", "robot with angular humanoid form in crimson chrome", "golden energy discharge arcs between them", "floating orange embers in the space between"]
+  },
+  "environment": {
+    "location": "empty cathedral interior",
+    "time_of_day": "unknown, no windows visible, interior stone darkness",
+    "atmosphere": "sacred confrontation, the moment two types of created beings recognize their shared nature"
+  },
+  "composition": {
+    "rule": "bilateral symmetry — angel left, robot right, energy between them at center, Ken Burns slow push-in toward the space between them",
+    "foreground": "angel in gold (left) and robot in crimson (right) facing each other",
+    "background": "desaturated black-and-white empty cathedral — stone pillars, vaulted ceiling, stained glass windows without color, bare stone floor",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "angel provides its own golden warm light from left side, illuminating the space",
+    "fill_light": "robot's crimson chest glow providing cool-red fill from right",
+    "rim_light": "thin golden halo around robot outline where angel's light touches it, and reverse crimson on angel",
+    "mood": "recognition, the horror of similarity, two kinds of created beings facing the same question",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "uncanny recognition — the angel and the machine both created, both serving, both powerful",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "angel and robot as mirror images — humanity's attempt to replicate what God created by building its own version",
+    "secondary": "the cathedral setting asks: which of these two belongs in a holy place?"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

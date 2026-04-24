@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE5_Q46_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Transhumanismo — corpo modificado",
+  "narrative_beat": "A promessa transhumanista — o corpo humano redesenhado pela máquina, sereno na aparência mas morto por dentro, o Nefilim do século 21",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q46_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "eye-level, slight 3/4 angle showing spine and arms",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "torso in focus, background laboratory blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "human figure from waist up, back partially visible, spine replaced by glowing golden circuit-board column visible through translucent skin",
+    "focal_point": "the golden circuit-board spine column and the joints where arms meet mechanical shoulders",
+    "secondary": "both arms replaced by articulated golden mechanical limbs with visible servo joints and hydraulic elements",
+    "props": ["golden circuit-board spine column glowing through translucent back skin", "articulated golden mechanical arms from shoulders down", "face half human skin half chrome — neutral serene but empty expression", "floating orange embers around the mechanical joints"]
+  },
+  "environment": {
+    "location": "transhumanist research laboratory with clinical equipment",
+    "time_of_day": "interior laboratory lighting, sterile and cold",
+    "atmosphere": "the promised upgrade that costs your humanity — serene on the surface, hollow within"
+  },
+  "composition": {
+    "rule": "rule of thirds — figure centered, spine column as vertical axis, Ken Burns slow rotation around figure from back toward front",
+    "foreground": "transhumanist figure in warm golden tones, circuit spine and mechanical arms prominent",
+    "background": "desaturated black-and-white laboratory environment — clinical equipment, monitoring stations, sterile white walls stripped of color",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber key light from left side illuminating the human skin portions",
+    "fill_light": "golden glow from circuit-board spine providing interior fill from behind",
+    "rim_light": "thin crimson rim tracing the edges of mechanical arms where they connect to human shoulder tissue",
+    "mood": "the uncanny peace of the post-human, a serenity that costs everything",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "cold serenity masking emptiness — the transhumanist promise as spiritual death",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the circuit-board spine replacing the biological one represents the transhumanist agenda to rewrite human DNA with machine logic",
+    "secondary": "the serene-but-dead expression connects the transhumanist body to the Nephilim — different in nature from true humanity"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

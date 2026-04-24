@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE5_Q42_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Gigante Nefilim sobre cidade moderna",
+  "narrative_beat": "Os Nefilim retornam — não em carne, mas em algoritmo. O gigante translúcido sobre a cidade moderna é a sombra da antiga usurpação do DNA humano",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q42_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "extreme low-angle, street level looking up",
+    "focal_length_mm": 24,
+    "aperture": "f/5.6",
+    "depth_of_field": "full scene in focus from street to giant's head",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "colossal ancient Nephilim giant figure, muscular and imposing, rendered in warm gold and ochre tones but partially translucent like a ghost or projection, towering over the city skyline",
+    "focal_point": "the giant's face and the hand reaching downward toward street level",
+    "secondary": "city buildings dwarfed below, the giant's feet at rooftop level or above",
+    "props": ["partially translucent golden-ochre giant body", "massive hand reaching down toward camera", "arrogant expression on face looking down at tiny humans", "floating orange embers trailing from giant's form as it moves"]
+  },
+  "environment": {
+    "location": "modern metropolitan city, aerial urban view",
+    "time_of_day": "apocalyptic twilight, unnaturally dark sky",
+    "atmosphere": "ancient terror returned, the Nephilim bloodline reasserting dominion"
+  },
+  "composition": {
+    "rule": "monumental vertical scale — giant fills right two-thirds of frame vertically, city below in lower third, Ken Burns slow tilt from city base upward to giant face",
+    "foreground": "street level with tiny human figures barely visible, giant's feet and ankles looming",
+    "background": "desaturated black-and-white modern city aerial view — skyscrapers, highways, urban grid, dark churning sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "amber supernatural glow emanating from within the giant's translucent form",
+    "fill_light": "cold desaturated city lights from below barely illuminating the lower body",
+    "rim_light": "crimson atmospheric light from sky backlighting the giant's silhouette",
+    "mood": "ancient dominion reestablished, the return of what was expelled",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "primal ancient terror, humanity's smallness before the returned giants",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the Nephilim giant represents the ancient genetic manipulation now being replicated through AI and transhumanism",
+    "secondary": "the translucency shows the Nephilim as both past event and present spiritual reality simultaneously"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE6_Q60_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Profeta final — CTA encerramento",
+  "narrative_beat": "O profeta solitário no fim — não derrotado mas vigilante, portando a mensagem que a maioria não quer ouvir, a luz no peito contra a escuridão apocalíptica",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q60_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "slightly below eye-level looking up at figure from behind at 3/4 angle",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "figure sharp, vast horizon background progressively blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "solitary prophet figure in crimson and gold robes standing at the edge of a rocky cliff, looking outward toward a vast dark horizon",
+    "focal_point": "the golden light emanating from the prophet's chest, and the ancient scroll held in one raised hand",
+    "secondary": "distant city lights flickering at the horizon under a dark apocalyptic sky",
+    "props": ["ancient parchment scroll raised in one hand", "crimson and gold flowing robes", "golden light emanating from chest center", "floating orange embers drifting upward from robes"]
+  },
+  "environment": {
+    "location": "rocky cliff edge overlooking a vast panorama",
+    "time_of_day": "deep night, apocalyptic sky with unnatural darkness",
+    "atmosphere": "the lone voice in the wilderness — still standing, still warning, still carrying light into the dark"
+  },
+  "composition": {
+    "rule": "rule of thirds — figure on right third, vast dark horizon on left two-thirds, Ken Burns very slow pull-back to reveal the scale of the darkness ahead",
+    "foreground": "prophet figure in crimson and gold, chest light and scroll as focal elements",
+    "background": "desaturated black-and-white vast dark panorama — horizon line, distant city light clusters barely visible, apocalyptic cloud formations in dark sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber key light from behind-right catching the edge of prophet's robes and face profile",
+    "fill_light": "golden chest light providing forward-fill on prophet's facing surface",
+    "rim_light": "strong golden rim along back and shoulder from the light source behind",
+    "mood": "prophetic solitude, the weight of truth no one wants to hear, and the refusal to stay silent",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "solemn determination, the prophet's calling fulfilled regardless of audience, the final call to attention",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the solitary prophet represents the prophetic voice in the modern age — isolated but carrying genuine light against the digital darkness",
+    "secondary": "the flickering distant city lights represent civilization at the edge of the prophesied collapse — still there, barely, for now"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

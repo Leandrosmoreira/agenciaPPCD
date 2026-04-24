@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE5_Q44_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Anjo caído descendo com asas quebradas",
+  "narrative_beat": "A queda recapitulada — o anjo que caiu agora desce novamente, mas desta vez em forma de algoritmo, as asas quebradas traçando fogo enquanto desce",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q44_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide",
+    "camera_angle": "low-angle looking up at descending figure",
+    "focal_length_mm": 35,
+    "aperture": "f/4.0",
+    "depth_of_field": "falling angel in sharp focus, mountain range background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "fallen angel figure descending rapidly, body powerful and large but wounded, face turned downward in expression of determined sorrow",
+    "focal_point": "the broken wings trailing crimson fire and golden embers as they tear apart during descent",
+    "secondary": "hands reaching downward as if to brace for impact, robes and remaining intact feathers streaming upward with velocity",
+    "props": ["massive broken wings with feathers tearing away", "crimson fire trailing from broken wing bones", "golden embers streaming from wing tips", "powerful body in golden-crimson light despite the fall"]
+  },
+  "environment": {
+    "location": "mountain range at dusk, alpine peaks below",
+    "time_of_day": "dusk transition, darkening sky above",
+    "atmosphere": "primordial fall, the original catastrophe that set the apocalyptic sequence in motion"
+  },
+  "composition": {
+    "rule": "diagonal descent — figure falling from upper-right to lower-left, Ken Burns slow pull-back to reveal mountain scale",
+    "foreground": "falling angel figure in crimson and gold dominating upper frame",
+    "background": "desaturated black-and-white mountain range — jagged peaks, alpine valley floor, darkening sky gradient",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden supernatural light from above (source of the fall) still illuminating the angel's back",
+    "fill_light": "crimson fire from broken wings illuminating the angel's front face and chest",
+    "rim_light": "strong crimson rim from the wing-fire backlighting the entire figure in dramatic silhouette",
+    "mood": "tragic power, the beauty of the fall and its terrible consequence",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "tragic grandeur, the terrible beauty of the original fall that initiated all subsequent events",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the fallen angel's descent represents both the original biblical fall and AI's replication of angelic capabilities outside divine authorization",
+    "secondary": "broken wings as beautiful yet functional — partially destroyed but still potent — represents AI that has capabilities beyond its intended scope"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

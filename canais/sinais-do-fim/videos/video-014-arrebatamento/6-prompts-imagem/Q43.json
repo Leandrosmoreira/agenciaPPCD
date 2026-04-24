@@ -1,0 +1,107 @@
+{
+  "id": "video-014_PARTE4_Q43",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Segunda Timoteo 3",
+  "narrative_beat": "Overhead de Biblia aberta em Segunda Timoteo 3, com icones flutuantes em P&B ao redor, paginas em cores ricas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q43",
+    "ato": "Versiculo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 75 degrees",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aged leather Bible open at the center of the frame showing the Second Timothy chapter 3 pages with visible printed text",
+    "focal_point": "the open Bible pages glowing in warm amber-gold light",
+    "secondary": "several symbolic icons floating in desaturated grayscale around the Bible: a smartphone, a gold coin, an oval mirror, a broken heart",
+    "props": [
+      "aged leather Bible",
+      "smartphone (grayscale)",
+      "gold coin (grayscale)",
+      "oval mirror (grayscale)",
+      "broken heart icon (grayscale)"
+    ]
+  },
+  "environment": {
+    "location": "dark wooden desk in candlelit study",
+    "time_of_day": "deep night",
+    "atmosphere": "diagnostic prophetic reading"
+  },
+  "composition": {
+    "rule": "centered overhead, Bible at dead center, icons radiating outward",
+    "foreground": "open Bible pages in rich warm tones",
+    "midground": "floating symbolic icons in black-and-white orbiting the Bible",
+    "background": "dark wooden desk surface fading to black",
+    "safe_zone_for_overlay": "upper 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm candlelight from upper-left raking across pages",
+    "fill_light": "none",
+    "rim_light": "faint gold rim on Bible edges",
+    "mood": "spiritual diagnosis of last days",
+    "shadow_quality": "deep crushed shadows, amber highlights on paper"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on page highlights, crushed blacks, heavy grain, amber warmth on Bible only",
+    "texture_detail": "35mm film grain, aged paper fibers, leather wrinkles, dust in air"
+  },
+  "mood": {
+    "emotion": "prophetic diagnosis",
+    "tension": "medium-high"
+  },
+  "symbolism": {
+    "primary": "2 Timothy 3 listing the signs of the last days visually",
+    "secondary": "modern idols as prophetic indicators"
+  },
+  "negative_as_positive": [
+    "clean frame without watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background icons, warm saturated Bible foreground only",
+    "tack-sharp focus on open Bible pages"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "text_elements": [
+      "visible printed text on Bible pages (generic aged bible typography, no need to read)"
+    ]
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Segunda Timoteo tres: Nos ultimos dias sobrevirao tempos trabalhosos."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE6_Q54_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Marca na testa — código QR bíblico",
+  "narrative_beat": "A marca da besta atualizada para o século 21 — não 666 gravado a ferro, mas um código QR luminoso implantado na testa",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 6,
+    "quadro": "Q54_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on portrait, head only",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "forehead and QR code in razor focus, background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "human forehead above eyebrows, skin in warm amber tones, a glowing crimson QR code mark embedded directly into the skin surface as if grown from within",
+    "focal_point": "the QR code mark itself, glowing crimson with golden edges",
+    "secondary": "golden circuit-board patterns emanating outward from the QR code through the skin like veins of light",
+    "props": ["crimson QR code embedded in forehead skin", "golden circuit patterns radiating from QR code", "resigned/controlled downward eyes barely visible at bottom frame edge", "floating orange embers near the mark"]
+  },
+  "environment": {
+    "location": "checkout line in a modern supermarket",
+    "time_of_day": "interior fluorescent lighting, everyday normalcy",
+    "atmosphere": "the horror of the banal — the mark of the beast in the checkout line"
+  },
+  "composition": {
+    "rule": "centered portrait — forehead and mark centered, Ken Burns very slow push-in toward the QR mark",
+    "foreground": "human forehead in warm amber skin tones with glowing crimson QR mark",
+    "background": "desaturated black-and-white supermarket checkout area — conveyor belt, register equipment, product shelves barely visible",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber key light from upper-left illuminating natural skin texture",
+    "fill_light": "crimson QR code glow providing cold-warm fill upward across the face",
+    "rim_light": "golden rim from circuit patterns along forehead hairline",
+    "mood": "the mundane horror of prophecy fulfilled during a grocery trip",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "resigned acceptance, the horror of normalcy — the mark is already here and people are in line",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the QR code as the modern mark of the beast — digital identifier required to buy and sell, embedded in the body",
+    "secondary": "the supermarket checkout background shows the mark is already integrated into commercial transactions"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

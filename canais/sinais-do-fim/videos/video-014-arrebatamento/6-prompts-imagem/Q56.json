@@ -1,0 +1,106 @@
+{
+  "id": "video-014_PARTE5_Q56",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Altar dos sinais",
+  "narrative_beat": "Overhead de altar com tres elementos: pergaminho com sinais dourado, relogio parado monocromatico, coroa de espinhos rica. Luz vertical divina",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 5,
+    "quadro": "Q56",
+    "ato": "Sintese doutrinaria"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "overhead",
+    "camera_angle": "top-down 90 degrees",
+    "focal_length_mm": 50,
+    "aperture": "f/4.0",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a dark stone altar viewed from directly above, with three sacred elements arranged in a triangle: an aged parchment inscribed with prophetic signs (foreground left, rich gold), a stopped pocket watch (right, desaturated grayscale), a crown of thorns (center-bottom, rich crimson-brown)",
+    "focal_point": "the parchment with prophetic signs glowing in amber-gold at the foreground",
+    "secondary": "vertical divine light column illuminating the altar center",
+    "props": [
+      "aged parchment with handwritten prophetic signs",
+      "stopped pocket watch (no hands moving)",
+      "crown of thorns with deep crimson tones",
+      "dark stone altar surface"
+    ]
+  },
+  "environment": {
+    "location": "dark sacred chapel space",
+    "time_of_day": "eternal",
+    "atmosphere": "doctrinal synthesis, sacred truth"
+  },
+  "composition": {
+    "rule": "triangular arrangement, divine light vertical centered",
+    "foreground": "parchment with prophetic signs in warm gold",
+    "midground": "crown of thorns in rich crimson-brown",
+    "background": "stopped watch in desaturated grayscale",
+    "safe_zone_for_overlay": "upper 20% of frame"
+  },
+  "lighting": {
+    "key_light": "vertical divine light beam from directly above centered on altar",
+    "fill_light": "none",
+    "rim_light": "gold on parchment edges, crimson on thorns",
+    "mood": "sacred revelation, peace after tension",
+    "shadow_quality": "soft radial shadows emanating from center"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on divine beam, crushed blacks on altar edges, heavy grain, warm saturated triangle center",
+    "texture_detail": "35mm film grain, parchment fibers, metal patina on watch, thorns sharp details"
+  },
+  "mood": {
+    "emotion": "sacred certainty",
+    "tension": "resolved"
+  },
+  "symbolism": {
+    "primary": "the signs are real, the return is certain, the date belongs to God",
+    "secondary": "prophecy + eschatology + sacrifice united"
+  },
+  "negative_as_positive": [
+    "clean frame without modern watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "three-element triangle composition, divine light vertical",
+    "tack-sharp focus on parchment and crown"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "text_elements": [
+      "handwritten aged ink symbols on parchment (illegible, decorative)"
+    ]
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "Os sinais sao reais. A volta e certa. A data e de Deus."
+}

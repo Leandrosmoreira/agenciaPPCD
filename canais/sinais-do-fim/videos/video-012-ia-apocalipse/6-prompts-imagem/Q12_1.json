@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE2_Q12_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Besta emergindo de mar digital",
+  "narrative_beat": "A besta de Apocalipse 13 emerge do mar — mas o mar é de dados digitais, reinterpretando a visão de João para a era da IA",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q12_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide low-angle",
+    "camera_angle": "extreme low-angle, camera at water level looking up",
+    "focal_length_mm": 24,
+    "aperture": "f/4.0",
+    "depth_of_field": "beast in focus, swirling data sea slightly blurred in foreground",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "massive crimson beast with seven heads rising from swirling digital data waves, each head crowned differently, scales textured as circuit boards with golden trace lines, body radiating crimson and amber light",
+    "focal_point": "the central most prominent head, largest and most illuminated, rising highest",
+    "secondary": "swirling data waves made of cascading 0s and 1s in gold, washing around the beast's emerging lower body",
+    "props": ["seven heads with individual crown variants", "circuit-board scaled body in crimson", "golden binary data waves", "floating orange embers rising from each glowing head"]
+  },
+  "environment": {
+    "location": "dark coastline with city silhouette visible at horizon",
+    "time_of_day": "apocalyptic twilight, sky dark and turbulent",
+    "atmosphere": "biblical terror, the ancient prophecy made technological flesh"
+  },
+  "composition": {
+    "rule": "rule of thirds — beast centered rising vertically, data sea in lower third, Ken Burns slow pull-back",
+    "foreground": "swirling golden binary data waves in immediate foreground",
+    "background": "desaturated black-and-white coastline city skyline under dark churning sky",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "internal amber glow from within the beast's chest and throat, illuminating from below",
+    "fill_light": "minimal — dark environment, only beast provides light",
+    "rim_light": "crimson atmospheric backlight from sky silhouetting the beast's upper form",
+    "mood": "apocalyptic emergence, the revelation of Revelation made real",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "primal biblical terror, the shock of prophecy made tangible",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the beast from the sea — Revelation 13:1 — but the sea is the digital information ocean humanity has created",
+    "secondary": "circuit-board scales represent the fusion of the prophetic beast with artificial intelligence"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

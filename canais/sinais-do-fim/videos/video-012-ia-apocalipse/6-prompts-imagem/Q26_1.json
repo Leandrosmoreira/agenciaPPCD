@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE3_Q26_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Scroll antigo abrindo texto digital",
+  "narrative_beat": "O pergaminho profético se abre e dentro dele pulsa código digital vivo — a profecia não era metáfora, era instruções técnicas",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 3,
+    "quadro": "Q26_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on, slight top angle looking down at 10 degrees",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "scroll center in focus, curling edges and background soft",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "ancient parchment scroll unrolling horizontally, outer surface aged brown vellum with visible handwritten text, inner surface revealing living digital code in glowing gold as it opens",
+    "focal_point": "the transition zone where ancient parchment exterior reveals the glowing digital interior",
+    "secondary": "living golden code shimmering and shifting on the interior pages as if breathing",
+    "props": ["aged exterior vellum with crackling texture", "glowing golden digital code on interior pages", "partially unrolled scroll revealing the contrast", "floating orange embers near the glowing digital portion"]
+  },
+  "environment": {
+    "location": "technology laboratory with monitors and equipment",
+    "time_of_day": "artificial interior light",
+    "atmosphere": "revelation of hidden truth — ancient container holding modern content"
+  },
+  "composition": {
+    "rule": "horizontal center — scroll unrolling along horizontal axis, Ken Burns slow pan from left ancient edge to right digital interior",
+    "foreground": "scroll in gold and aged brown, transition zone prominent at center",
+    "background": "desaturated black-and-white technology lab — multiple monitors, circuit boards, laboratory equipment on benches",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden glow from the digital interior pages, illuminating the opening scroll from within",
+    "fill_light": "cold laboratory light from above touching the exterior aged vellum surface",
+    "rim_light": "crimson edge glow tracing the curled edges of the scroll where it's most tightly rolled",
+    "mood": "revelation, the shock of finding modern technology encoded in ancient prophecy",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "wonder and dread — what if the prophets were describing source code they couldn't understand",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the ancient scroll containing digital code represents prophecy as literal technical specification",
+    "secondary": "the transition from aged vellum to living digital interior shows the continuity between ancient and modern revelation"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+
+VEO3 ONE-SHOT
+  Imagem : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q01.png (492 KB)
+  Output : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\veo3\VEO_Q01.mp4
+  Model  : veo-3.1-fast-generate-preview
+  Duracao: 8s | 1080p | 16:9 | sem audio
+  Prompt : Hyper-realistic cinematic. Complete black frame. At the center-bottom, a single orange-crimson ember glowing softly, slo...
+
+Chamando Veo3 API...
+Operation: models/veo-3.1-fast-generate-preview/operations/622xat9e1x1k
+Aguardando geracao (2-5 min)...
+  Aguardando... 10s
+  Aguardando... 20s
+  Aguardando... 30s
+  Aguardando... 40s
+  Aguardando... 50s
+  Aguardando... 60s
+  Aguardando... 70s
+  Aguardando... 80s
+  Aguardando... 90s
+  URI: https://generativelanguage.googleapis.com/v1beta/files/4vqdoe3g158p:download?alt...
+  Baixando...
+  Removendo audio...
+
+[OK] canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\veo3\VEO_Q01.mp4 (4.0 MB)
+[CUSTO ESTIMADO] ~$0.08 (5s Fast)
+
+VEO3 ONE-SHOT
+  Imagem : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q02.png (718 KB)
+  Output : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\veo3\VEO_Q02.mp4
+  Model  : veo-3.1-fast-generate-preview
+  Duracao: 8s | 1080p | 16:9 | sem audio
+  Prompt : Hyper-realistic cinematic 3D animation. Medium shot of a charismatic 50-year-old preacher at a dark wooden pulpit, black...
+
+Chamando Veo3 API...
+Operation: models/veo-3.1-fast-generate-preview/operations/brk48ivjxv3f
+Aguardando geracao (2-5 min)...
+  Aguardando... 10s
+  Aguardando... 20s
+  Aguardando... 30s
+  Aguardando... 40s
+  Aguardando... 50s
+Traceback (most recent call last):
+  File "C:\Users\Leandro\Downloads\agencia\_tools\veo3_oneshot.py", line 191, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Leandro\Downloads\agencia\_tools\veo3_oneshot.py", line 166, in main
+    video_uri = extract_video_uri(result)
+  File "C:\Users\Leandro\Downloads\agencia\_tools\veo3_oneshot.py", line 91, in extract_video_uri
+    raise ValueError(f"URI nao encontrada:\n{json.dumps(result, indent=2)[:800]}")
+ValueError: URI nao encontrada:
+{
+  "name": "models/veo-3.1-fast-generate-preview/operations/brk48ivjxv3f",
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.ai.generativelanguage.v1beta.PredictLongRunningResponse",
+    "generateVideoResponse": {
+      "raiMediaFilteredCount": 1,
+      "raiMediaFilteredReasons": [
+        "We encountered an issue with the audio for your prompt, which means we could not create your video. This can sometimes happen due to our safety filters or other processing issues. Please modify your request and try again. You have not been charged for this attempt."
+      ]
+    }
+  }
+}

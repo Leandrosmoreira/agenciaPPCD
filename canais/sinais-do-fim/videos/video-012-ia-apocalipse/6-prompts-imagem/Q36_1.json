@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE4_Q36_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Dois rostos fundindo deepfake",
+  "narrative_beat": "A fronteira entre real e artificial se apaga — dois rostos morfando em um, a IA criando uma nova identidade composta impossível",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 4,
+    "quadro": "Q36_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on portrait, symmetric",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "face in complete focus, background fully blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a single face in transition, split precisely down the center: left half is real human skin with natural pores and texture in warm amber, right half is a shimmering holographic amber-gold projection with visible scan lines and slight translucency",
+    "focal_point": "the seam down the center of the face where flesh meets projection",
+    "secondary": "the seam line between the two halves glowing crimson, slightly raised as if the skin is being peeled",
+    "props": ["natural human skin texture on left half", "holographic amber-gold projection with scan lines on right half", "crimson glowing seam down center", "floating orange embers drifting near the face"]
+  },
+  "environment": {
+    "location": "empty cinema with projection screen visible in background",
+    "time_of_day": "interior darkness broken only by projection light",
+    "atmosphere": "the unreality of modern identity, the deep fake made visible"
+  },
+  "composition": {
+    "rule": "perfect bilateral symmetry broken by the split — center seam as axis, Ken Burns extremely slow push-in toward the seam",
+    "foreground": "the morphing face, left warm human amber, right shimmering holographic gold",
+    "background": "desaturated black-and-white empty cinema — rows of dark empty seats, projection beam visible from rear, white screen barely lit",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber key light from upper-left illuminating the human half",
+    "fill_light": "holographic projection light from the right half providing cool amber-gold fill across both halves",
+    "rim_light": "crimson rim at the seam glowing upward along the center line of the face",
+    "mood": "uncanny valley horror, the dissolution of authentic identity",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "existential vertigo — which half is real, does it matter anymore",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the deepfake face split represents humanity's inability to distinguish real from AI-generated identity",
+    "secondary": "the cinema background frames this as both performance and spectacle — reality as entertainment"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

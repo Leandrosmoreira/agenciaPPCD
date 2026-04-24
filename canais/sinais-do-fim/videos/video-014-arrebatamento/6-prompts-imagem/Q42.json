@@ -1,0 +1,106 @@
+{
+  "id": "video-014_PARTE4_Q42",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Relogio do Juizo Final",
+  "narrative_beat": "Wide de relogio gigante dourado com ponteiro a 85 segundos da meia-noite, pulsando vermelho, fundo cogumelo atomico P&B",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q42",
+    "ato": "Relogio do Juizo"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "wide centered",
+    "camera_angle": "frontal straight-on",
+    "focal_length_mm": 35,
+    "aperture": "f/5.6",
+    "depth_of_field": "medium",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "a massive classical wall clock with aged gold Roman numerals, ornate bronze frame, hands positioned 85 seconds before midnight",
+    "focal_point": "the minute hand glowing pulsing crimson-red just before the XII",
+    "secondary": "aged patina on bronze, scratched glass dome reflecting faint light, ticking second hand blur",
+    "props": [
+      "aged bronze clock frame",
+      "gold Roman numerals (I-XII)",
+      "crimson-red glowing minute hand",
+      "cracked glass dome"
+    ]
+  },
+  "environment": {
+    "location": "dark void space with distant background horizon",
+    "time_of_day": "symbolic midnight",
+    "atmosphere": "scientific apocalyptic urgency"
+  },
+  "composition": {
+    "rule": "centered symmetric, clock fills 70% of frame",
+    "foreground": "ornate gold clock face with crimson pulsing hand",
+    "midground": "floating ash and embers in amber tones",
+    "background": "desaturated grayscale mushroom cloud rising on distant horizon",
+    "safe_zone_for_overlay": "lower 15% of frame"
+  },
+  "lighting": {
+    "key_light": "warm amber frontal light on clock face",
+    "fill_light": "cool blue ambient on background mushroom cloud",
+    "rim_light": "crimson rim on clock hand and edges",
+    "mood": "countdown to annihilation",
+    "shadow_quality": "deep shadows in clock carvings, sharp contrast"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on crimson hand, crushed blacks on background, heavy grain, amber warmth on foreground only",
+    "texture_detail": "35mm film grain, bronze patina, scratched glass, dust particles in air"
+  },
+  "mood": {
+    "emotion": "scientific urgency",
+    "tension": "maximum"
+  },
+  "symbolism": {
+    "primary": "Doomsday Clock as secular parallel to apocalyptic prophecy",
+    "secondary": "85 seconds to midnight - closest ever"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks except Roman numerals on clock",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on clock face"
+  ],
+  "in_scene_text": {
+    "enabled": true,
+    "text_elements": [
+      "Roman numerals I-XII on clock face (aged gold)"
+    ]
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "O Relogio do Juizo Final esta em oitenta e cinco segundos para a meia-noite."
+}

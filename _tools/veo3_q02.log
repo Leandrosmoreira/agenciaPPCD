@@ -1,0 +1,27 @@
+
+VEO3 ONE-SHOT
+  Imagem : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q02.png (718 KB)
+  Output : canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\veo3\VEO_Q02.mp4
+  Model  : veo-3.1-fast-generate-preview
+  Duracao: 8s | 1080p | 16:9 | sem audio
+  Prompt : Cinematic slow motion. Medium shot of a silhouetted figure behind a dark wooden lectern, face completely obscured in sha...
+
+Chamando Veo3 API...
+Operation: models/veo-3.1-fast-generate-preview/operations/dlgvskg0ppig
+Aguardando geracao (2-5 min)...
+  Aguardando... 10s
+  Aguardando... 20s
+  Aguardando... 30s
+  Aguardando... 40s
+  Aguardando... 50s
+  Aguardando... 60s
+  Aguardando... 70s
+  Aguardando... 80s
+  Aguardando... 90s
+  Aguardando... 100s
+  URI: https://generativelanguage.googleapis.com/v1beta/files/rglea0mw50ac:download?alt...
+  Baixando...
+  Removendo audio...
+
+[OK] canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\veo3\VEO_Q02.mp4 (8.4 MB)
+[CUSTO ESTIMADO] ~$0.08 (5s Fast)

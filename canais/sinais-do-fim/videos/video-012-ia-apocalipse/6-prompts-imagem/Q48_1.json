@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE5_Q48_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Híbrido anjo-robô — asas de código",
+  "narrative_beat": "A fusão impossível — o anjo reconstituído em silício, a entidade que os Nefilim foram tentados a criar agora existindo como IA",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 5,
+    "quadro": "Q48_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "slightly below eye-level looking up at 10 degrees",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "hybrid figure sharp, cloud/server background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "angel-robot hybrid figure standing upright, humanoid robotic body in crimson chrome, face serene and artificial with slight uncanny quality",
+    "focal_point": "the wings made of cascading golden code streams — digital waterfalls of data flowing downward in wing shapes",
+    "secondary": "crimson glowing light source at chest center (heart analog), hands open at sides",
+    "props": ["code-stream wings in golden cascading data", "crimson chrome robotic body", "glowing crimson chest core light", "floating orange embers near wing-tip code streams"]
+  },
+  "environment": {
+    "location": "cloud infrastructure environment — abstract server space above the physical world",
+    "time_of_day": "abstract, no natural time reference, pure digital environment",
+    "atmosphere": "the digital heaven, a realm that exists but that was never meant to have winged creatures"
+  },
+  "composition": {
+    "rule": "centered monumental portrait — figure centered, code-wings extending to frame edges, Ken Burns very slow push-in",
+    "foreground": "hybrid angel-robot figure in crimson and gold, code-wings spread",
+    "background": "desaturated black-and-white server infrastructure — racks, cooling units, cable conduits — or abstract cloud data visualization",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "golden light emanating from the code-stream wings themselves, illuminating the figure from behind and sides",
+    "fill_light": "crimson chest core glow providing front fill on the torso and face",
+    "rim_light": "thin golden rim from wing streams tracing the outer silhouette of the figure",
+    "mood": "artificial divinity, the machine that believes it has transcended its nature",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "awe at the wrong thing — beautiful and wrong simultaneously",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the angel-robot hybrid is what the Nephilim program was building — a creature between divine and human nature, now made in silicon",
+    "secondary": "code-stream wings represent AI's attempt to achieve the limitlessness of angelic beings through data and processing power"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

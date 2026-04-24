@@ -1,0 +1,103 @@
+{
+  "id": "video-014_PARTE4_Q50",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Ampulheta esvaziando",
+  "narrative_beat": "Close macro extremo de ampulheta dourada sobre pergaminho, ultimos graos de areia caindo",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-014-arrebatamento",
+    "parte_suno": 4,
+    "quadro": "Q50",
+    "ato": "Proximidade real"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": [
+      "color_palette",
+      "lighting",
+      "texture",
+      "atmosphere",
+      "film_grain"
+    ],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close macro",
+    "camera_angle": "slightly low angle, 10 degrees",
+    "focal_length_mm": 100,
+    "aperture": "f/2.8",
+    "depth_of_field": "very shallow",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "an aged golden hourglass resting on a weathered parchment, almost all sand collected at the bottom",
+    "focal_point": "the last few grains of sand falling through the narrow center",
+    "secondary": "amber glass reflections, tiny scratches on gold frame, aged parchment fibers",
+    "props": [
+      "aged golden hourglass",
+      "amber sand",
+      "weathered parchment",
+      "final falling grains"
+    ]
+  },
+  "environment": {
+    "location": "pitch black space, single object on parchment",
+    "time_of_day": "timeless",
+    "atmosphere": "final moments"
+  },
+  "composition": {
+    "rule": "centered macro, hourglass fills 80% vertical",
+    "foreground": "falling sand grains in sharp focus, warm amber-gold",
+    "midground": "hourglass and parchment in rich tones",
+    "background": "pitch black void",
+    "safe_zone_for_overlay": "lower 15% of frame"
+  },
+  "lighting": {
+    "key_light": "hard side raking light from left casting dramatic shadow",
+    "fill_light": "none",
+    "rim_light": "gold rim on hourglass glass curvature",
+    "mood": "time running out",
+    "shadow_quality": "hard dramatic shadow extending right"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation on sand highlights, crushed blacks, heavy grain, amber-gold saturation only",
+    "texture_detail": "35mm film grain, glass micro-scratches, sand granularity, parchment texture"
+  },
+  "mood": {
+    "emotion": "urgency, finality",
+    "tension": "maximum"
+  },
+  "symbolism": {
+    "primary": "time running out before the imminent return",
+    "secondary": "the when is uncertain, the if is not"
+  },
+  "negative_as_positive": [
+    "clean frame without text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "pitch black background palette, warm amber saturated object only",
+    "tack-sharp focus on falling sand grains"
+  ],
+  "in_scene_text": {
+    "enabled": false
+  },
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {
+        "type": "image",
+        "source": "style_reference.primary_image_url",
+        "role": "style_reference",
+        "instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."
+      },
+      {
+        "type": "text",
+        "source": "serialized_prompt_from_this_json",
+        "role": "scene_description"
+      }
+    ]
+  },
+  "narration_excerpt": "A proximidade e real. A imprecisao e sobre o quando. Nao sobre o se."
+}

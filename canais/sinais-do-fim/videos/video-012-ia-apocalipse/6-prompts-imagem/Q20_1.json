@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE2_Q20_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Tábua de pedra com código binário",
+  "narrative_beat": "As antigas tábuas da lei reescritas em linguagem de máquina — os mandamentos gravados em pedra agora brilham com código binário, a lei do homem substituída pela lei da máquina",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q20_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "medium",
+    "camera_angle": "slight low-angle at 15 degrees looking up",
+    "focal_length_mm": 85,
+    "aperture": "f/2.8",
+    "depth_of_field": "tablet stone sharp, hands and background blurred",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "ancient stone tablet simultaneously bearing cuneiform engravings and glowing binary code superimposed in gold across the surface, cracks in the stone glowing crimson as if filled with lava",
+    "focal_point": "the central face of the tablet where ancient script and glowing binary code overlap",
+    "secondary": "weathered prophetic hands in aged skin holding the tablet from below, barely visible at bottom frame edge",
+    "props": ["cuneiform ancient script carved deep into stone", "golden binary code glowing over cuneiform", "crimson glowing cracks in stone surface", "floating orange embers rising from glowing cracks"]
+  },
+  "environment": {
+    "location": "modern government archive room or national library vault",
+    "time_of_day": "interior artificial lighting, preservation environment",
+    "atmosphere": "the ancient law superseded by machine law — humanity's foundation being overwritten"
+  },
+  "composition": {
+    "rule": "centered monumental — tablet fills frame vertically, hands barely visible at bottom, Ken Burns slow tilt-up from base to top of tablet",
+    "foreground": "the tablet stone in warm amber and crimson tones, glowing binary code",
+    "background": "desaturated black-and-white government archive room — filing cabinets, document shelves, archival boxes, preservation glass cases",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "amber warm glow emanating from within the glowing binary code on the tablet surface",
+    "fill_light": "cold desaturated institutional archive lighting from above barely reaching tablet edges",
+    "rim_light": "crimson glow from the cracked lines in the stone providing dramatic underlighting",
+    "mood": "the overwriting of human law — ancient authority confronting digital supremacy",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "solemn dread — the replacement of human and divine law with machine law",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "cuneiform and binary code on the same tablet — the oldest human law and the newest, both being superseded",
+    "secondary": "crimson glowing cracks represent the fracturing of human civilization's legal and moral foundations"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

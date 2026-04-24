@@ -434,3 +434,6 @@
 [2026-04-21 21:20] CARONTE — video-020-1984-daniel | caronte_upload_020.py gerado | aguardando thumb.png para executar upload
 [2026-04-21 21:27:02] CARONTE — video-020-1984-daniel upload OK (PRIVATE) -> G0IgNzERVZE
 [2026-04-21 21:27:02] CHECKPOINT 4 CONCLUIDO — aguardando aprovacao Snayder para public
+[2026-04-22 08:07] ANUBIS -- Analytics completo extraído via API -> C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\analytics_completo_2026-04-22.json
+[2026-04-23 20:58] CHECKPOINT 2 aprovado — roteiro v014-arrebatamento. Gerados: 6 JSONs faltantes (Q24,Q42,Q43,Q50,Q55,Q56) + 6 PNGs via goetia_nano_banana. prometheus_014.py criado (copia adaptada do 013). VEO3_PROMPTS.md criado com 4 prompts seguros + runner. Aguardando: narracao Suno parte1-5.mp3 em 5-audio/ + execucao Veo3 runner.
+[2026-04-23 21:40] VEO3 v014 concluido — VEO_Q01-Q04.mp4 (4.0+8.4+10.5+7.4=30.3MB) gerados apos retry com prompts sem audio-cues. Q02 primeira tentativa bloqueada por filtro. Custo: ~$0.48. Normalizador TTS rodado — 5 partes em 5-prompts/*.tts.txt (0 mudancas, Morrigan ja pre-normalizado).

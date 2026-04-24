@@ -1,0 +1,115 @@
+
+=== Q24 — Ladrao de noite ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 1941
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q24.png (862675 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q42 — Relogio do Juizo Final ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2185
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q42.png (918894 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q43 — Segunda Timoteo 3 ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2118
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q43.png (976328 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q50 — Ampulheta esvaziando ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 1908
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q50.png (838117 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q55 — Dois tipos de cristao ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2347
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q55.png (892607 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q56 — Altar dos sinais ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2277
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q56.png (885868 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.03[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q43.png (911545 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q50 — Ampulheta esvaziando ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 1908
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q50.png (829642 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q55 — Dois tipos de cristao ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2347
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q55.png (838735 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390
+
+=== Q56 — Altar dos sinais ===
+Modelo: gemini-2.5-flash-image ($0.0390) | Prompt chars: 2277
+[WARN] Falha ao baixar style_reference: Invalid URL 'canais/sinais-do-fim/_config/style_refs/sinais_dark.png': No scheme supplied. Perhaps you meant https://canais/sinais-do-fim/_config/style_refs/sinais_dark.png?
+[16:9] sem letterbox | crop central 1024x576 -> 1024x576
+[OK] Salvo: C:\Users\Leandro\Downloads\agencia\canais\sinais-do-fim\videos\video-014-arrebatamento\6-assets\Q56.png (906189 bytes, modelo gemini-2.5-flash-image)
+
+=== RESUMO ===
+Sucesso: 1/1
+  Flash: 1 x $0.039
+  Pro:   0 x $0.120
+Custo total: $0.0390

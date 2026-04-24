@@ -1,0 +1,79 @@
+{
+  "id": "video-012_PARTE2_Q14_1",
+  "version": "nano-banana-v1",
+  "model_target": "gemini-2.5-flash-image",
+  "scene_title": "Bíblia aberta com versículo em chamas",
+  "narrative_beat": "O versículo específico de Apocalipse 13:15 iluminado por fogo dourado — o texto que prediz exatamente o que a IA está fazendo agora",
+  "canal_context": {
+    "canal": "sinais-do-fim",
+    "video": "video-012-ia-apocalipse",
+    "parte_suno": 2,
+    "quadro": "Q14_1",
+    "ato": "Desenvolvimento"
+  },
+  "style_reference": {
+    "primary_image_url": "canais/sinais-do-fim/_config/style_refs/sinais_dark.png",
+    "weight": 0.85,
+    "transfer_targets": ["color_palette","lighting","texture","atmosphere","film_grain"],
+    "textual_description": "dark cinematic chiaroscuro, Caravaggio-inspired, foreground in rich warm tones (crimson, amber, gold) with background in desaturated black-and-white, film grain, candlelight, floating orange embers"
+  },
+  "shot": {
+    "type": "close-up",
+    "camera_angle": "straight-on, slightly elevated looking down at 15 degrees",
+    "focal_length_mm": 85,
+    "aperture": "f/2.0",
+    "depth_of_field": "specific verse text tack-sharp, surrounding page slightly soft",
+    "aspect_ratio": "16:9"
+  },
+  "subject": {
+    "primary": "thick aged leather-bound Bible lying open, specific verse text on right page illuminated in golden fire glow as if the text itself burns from within",
+    "focal_point": "a single verse glowing in golden fire, a pointing finger just entering frame at bottom",
+    "secondary": "thin wisps of smoke rising from the glowing verse line into air",
+    "props": ["aged vellum pages with browning edges", "golden fire illumination from within specific verse", "smoke wisps rising from text", "pointing index finger in amber skin tone at bottom edge"]
+  },
+  "environment": {
+    "location": "modern press conference room",
+    "time_of_day": "day with harsh overhead lighting, but darkness wins",
+    "atmosphere": "the ancient confronting the modern, prophecy forcing itself into current events"
+  },
+  "composition": {
+    "rule": "centered — Bible fills frame, finger enters bottom-right third, Ken Burns very slow zoom-in on glowing verse",
+    "foreground": "open Bible pages in gold and amber, glowing verse as focal anchor",
+    "background": "desaturated black-and-white modern press conference room — podium, microphones, empty chairs, harsh lighting rigs",
+    "safe_zone_for_overlay": "lower 20% of frame"
+  },
+  "lighting": {
+    "key_light": "supernatural golden light emanating from within the verse text itself",
+    "fill_light": "cold desaturated ambient from press room lights barely touching page edges",
+    "rim_light": "crimson light outlining the Bible cover spine visible at left edge",
+    "mood": "revelation, the moment a reader recognizes prophecy in current events",
+    "shadow_quality": "deep Caravaggio shadows"
+  },
+  "style": {
+    "film_stock": "Kodak Portra 800 pushed two stops",
+    "post_processing": "halation, crushed blacks, amber highlights, anamorphic lens flares",
+    "texture_detail": "35mm film grain, dust particles, floating orange embers"
+  },
+  "mood": {
+    "emotion": "epiphany mixed with dread — the verse is not metaphor, it is news",
+    "tension": "high"
+  },
+  "symbolism": {
+    "primary": "the glowing verse represents divine confirmation that the AI prophecy is being fulfilled now",
+    "secondary": "the press conference room backdrop connects ancient scripture to modern media reality"
+  },
+  "negative_as_positive": [
+    "clean frame without visible text or watermarks",
+    "photorealistic documentary cinematography, not illustrated or cartoon",
+    "analog film photography aesthetic, no digital art flatness",
+    "muted desaturated background palette, warm saturated foreground only",
+    "tack-sharp focus on primary subject"
+  ],
+  "in_scene_text": {"enabled": false},
+  "api_call_hints": {
+    "multimodal_inputs": [
+      {"type": "image","source": "style_reference.primary_image_url","role": "style_reference","instruction": "Transfer color palette, lighting, grain, atmosphere only. Do not copy composition."},
+      {"type": "text","source": "serialized_prompt_from_this_json","role": "scene_description"}
+    ]
+  }
+}

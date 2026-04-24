@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-PROMETHEUS — video-012-ia-apocalipse
+PROMETHEUS — video-014-arrebatamento
 ffmpeg puro: Ken Burns agressivo + xfade + cap 6s/imagem + loop
-90 quadros (60 orig + 30 variantes). Veo3 em Q01-Q04 (gancho ~32s).
+60 quadros estáticos. Veo3 em Q01-Q04 (gancho ~32s).
 """
 
 import json
@@ -15,7 +15,7 @@ from datetime import datetime
 from pathlib import Path
 
 BASE_DIR   = Path(__file__).resolve().parent.parent
-VIDEO_DIR  = BASE_DIR / "canais/sinais-do-fim/videos/video-012-ia-apocalipse"
+VIDEO_DIR  = BASE_DIR / "canais/sinais-do-fim/videos/video-014-arrebatamento"
 IMG_DIR    = VIDEO_DIR / "6-assets"
 VEO_DIR    = IMG_DIR / "veo3"
 AUDIO_DIR  = VIDEO_DIR / "5-audio"
@@ -31,10 +31,8 @@ KEN_BURNS   = ["zoom_in", "zoom_out", "pan_left", "pan_right", "pan_up", "pan_do
 
 TRILHA_VOLUME = 0.22
 
-# Sem Veo3 para v012
 VEO_QUADROS = {1, 2, 3, 4}  # Clips Veo3 para gancho (primeiros ~32s)
 
-# Sem overrides específicos
 EFFECT_OVERRIDE = {}
 
 AUDIO_FILES = [
@@ -151,7 +149,7 @@ def build_trilha_loop(trilha_file: Path, target_dur: float, out: Path):
 
 
 def parse_q_num(name: str):
-    """Q03.png -> (3, 0); Q02_1.png -> (2, 1). Mantém variante após base."""
+    """Q03.png -> (3, 0); Q02_1.png -> (2, 1)."""
     stem = Path(name).stem.upper()
     if "_" in stem:
         head, _, tail = stem.partition("_")
@@ -167,8 +165,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
     import math
     audio_dur = get_duration(audio_path)
 
-    # Separar Veo3 (duração fixa ~8s) e imagens estáticas (cap 6s)
-    # Calcular duração total dos Veo3 na parte
     veo_q_in_parte = [q for q in quadros if parse_q_num(q.name)[0] in VEO_QUADROS and q.suffix.lower() == ".mp4"]
     img_q_in_parte = [q for q in quadros if q not in veo_q_in_parte]
 
@@ -178,7 +174,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
     n_img = len(img_q_in_parte)
     if n_img > 0:
         dur_each = max(MIN_IMG_DURATION, min(MAX_IMG_DURATION, img_available / n_img))
-        # Loop se sobra muito tempo
         n_slots = math.ceil(img_available / dur_each)
         if n_slots > n_img:
             img_q_in_parte = [img_q_in_parte[i % n_img] for i in range(n_slots)]
@@ -190,8 +185,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
     log(f"  Quadros: {len(quadros)} ({len(veo_q_in_parte)} Veo3 + {len(img_q_in_parte)} imgs x {dur_each:.1f}s)")
     log(f"  Audio: {audio_dur:.1f}s | Veo3 total: {veo_total:.1f}s | Imgs: {img_available:.1f}s")
 
-    # Reconstruir ordem: manter quadros originais, mas com Veo3 substituindo imagens Q03-Q06
-    # Estratégia: iterar sobre quadros originais na ordem; se número está em VEO_QUADROS, usa Veo3
     clips = []
     for i, q in enumerate(quadros):
         qnum_tuple = parse_q_num(q.name)
@@ -212,9 +205,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
         if (i + 1) % 5 == 0:
             log(f"    [{i+1}/{len(quadros)}] clips gerados...")
 
-    # Looping extra com compensacao de xfade (cada transicao encurta TRANSITION_DURATION)
-    # eff_dur_total = sum(clip_durs) - (N_clips - 1) * TRANSITION_DURATION
-    # Objetivo: eff_dur_total >= audio_dur + 0.8 (buffer) para ficar todo em movimento
     def _effective_dur(clip_list):
         total = sum(get_duration(c) for c in clip_list)
         return total - max(0, len(clip_list) - 1) * TRANSITION_DURATION
@@ -223,7 +213,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
     eff = _effective_dur(clips)
     loop_idx = 0
     while eff < target_dur and img_q_in_parte:
-        # Rotacionar imagens fora-de-fase para evitar repetir a mesma no final
         offset = (loop_idx * 3 + len(clips)) % len(img_q_in_parte)
         extra = img_q_in_parte[offset]
         effect = KEN_BURNS[(len(clips) + loop_idx) % len(KEN_BURNS)]
@@ -234,7 +223,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
         eff = _effective_dur(clips)
     log(f"  Extras: {loop_idx} clips adicionais | eff_dur={eff:.1f}s >= target={target_dur:.1f}s")
 
-    # xfade merge
     last_t = None
     merged = clips[0]
     for i in range(1, len(clips)):
@@ -245,10 +233,8 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
         apply_xfade(merged, clips[i], t_type, TRANSITION_DURATION, out_m)
         merged = out_m
 
-    # Trilha + narração
     video_dur = get_duration(merged)
 
-    # Safety-net: se AINDA faltar <1s (arredondamento), pad minimo. Caso contrario, problema de loop.
     if video_dur < audio_dur + 0.2:
         gap = (audio_dur + 0.3) - video_dur
         if gap > 1.0:
@@ -270,7 +256,6 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
     trilha_loop = tmp_dir / f"p{parte_num}_trilha.aac"
     trilha_ok = build_trilha_loop(trilha_file, video_dur + 2, trilha_loop)
 
-    # amix=duration=longest garante narração completa; -t limita ao audio_dur (+pad)
     final_dur = max(audio_dur, video_dur)
 
     if trilha_ok:
@@ -311,26 +296,23 @@ def gerar_parte(quadros, audio_path: Path, parte_num: int, output_path: Path,
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only-parte", type=int, default=None, help="Renderiza apenas parte N (1-5)")
-    ap.add_argument("--from-parte", type=int, default=1, help="Comeca a partir da parte N")
+    ap.add_argument("--only-parte", type=int, default=None)
+    ap.add_argument("--from-parte", type=int, default=1)
     args = ap.parse_args()
 
     print("=" * 60)
-    print("PROMETHEUS — video-020-1984-daniel")
+    print("PROMETHEUS — video-014-arrebatamento")
     print("Ken Burns dinâmico (cap 6s) + 4 clips Veo3 + xfade")
     print("=" * 60)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Imagens Q01-Q60
     images = sorted(IMG_DIR.glob("Q*.png"), key=lambda f: parse_q_num(f.name))
     log(f"Imagens: {len(images)}")
 
-    # Partes de áudio
     partes_audio = [AUDIO_DIR / n for n in AUDIO_FILES if (AUDIO_DIR / n).exists()]
     log(f"Partes de áudio: {len(partes_audio)}")
 
-    # Distribuir 60 quadros em 5 partes = 12 por parte
     n_per_parte = len(images) // len(partes_audio)
     resto = len(images) % len(partes_audio)
     grupos = []
@@ -341,7 +323,7 @@ def main():
         idx += n
     log(f"Distribuição: {[len(g) for g in grupos]} quadros por parte")
 
-    tmp_dir = Path(tempfile.mkdtemp(prefix="prometheus_020_"))
+    tmp_dir = Path(tempfile.mkdtemp(prefix="prometheus_014_"))
     try:
         for i, (audio, quadros) in enumerate(zip(partes_audio, grupos), 1):
             if args.only_parte and i != args.only_parte:
